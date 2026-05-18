@@ -18,8 +18,9 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
             left: 0,
             right: 0,
             child: Container(
-              height: 120,
+              height: 100,
               decoration: ShapeDecoration(
+                color: Colors.white,
                 shape: RoundedSuperellipseBorder(
                   borderRadius: .only(topLeft: .circular(24)),
                 ),
