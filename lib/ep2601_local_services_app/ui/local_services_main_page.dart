@@ -39,11 +39,22 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                     spacing: 4,
                     children: [Icon(Icons.search), Text("Search")],
                   ),
-                  Container(height: 62, width: 62, child: Placeholder()),
+                  Container(
+                    height: 62,
+                    width: 62,
+                    child: Icon(Icons.add),
+                    decoration: BoxDecoration(
+                      shape: .circle,
+                      color: Colors.blue,
+                    ),
+                  ),
                   Column(
                     spacing: 4,
                     mainAxisAlignment: .center,
-                    children: [Icon(Icons.shopping_bag_outlined), Text("For sale")],
+                    children: [
+                      Icon(Icons.shopping_bag_outlined),
+                      Text("For sale"),
+                    ],
                   ),
                   Column(
                     spacing: 4,
