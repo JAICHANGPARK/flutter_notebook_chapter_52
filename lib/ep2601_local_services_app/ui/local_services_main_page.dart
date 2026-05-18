@@ -25,6 +25,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                   borderRadius: .only(topLeft: .circular(24)),
                 ),
               ),
+              padding: .symmetric(horizontal: 16),
               child: Row(
                 children: [
                   Column(
