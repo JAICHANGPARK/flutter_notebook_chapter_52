@@ -17,7 +17,31 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
             bottom: 0,
             left: 0,
             right: 0,
-            child: Container(height: 120),
+            child: Container(height: 120,
+            child: Row(
+              children: [
+                Column(
+                  spacing: 4,
+                  children: [
+                    Icon(Icons.home_filled),
+                    Text("Home")
+                  ],
+                ),
+                Column(
+                  spacing: 4,
+                  children: [
+                    Icon(Icons.home_filled),
+                    Text("Home")
+                  ],
+                ),
+                Container(
+                  height: 62,
+                  width: 62,
+                  child: Placeholder(),
+                ),
+              ],
+            ),
+            ),
           ),
         ],
       ),
