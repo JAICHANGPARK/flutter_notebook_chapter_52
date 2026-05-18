@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class LocalServicesMainPage extends StatefulWidget {
   const LocalServicesMainPage({super.key});
 
@@ -15,14 +14,13 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
       body: Stack(
         children: [
           Positioned(
-
-              bottom: 0,
-              left: 0,
-              right: 0,
-              child: Container(height: 120,))
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: Container(height: 120),
+          ),
         ],
       ),
-
     );
   }
 }
