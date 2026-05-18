@@ -14,9 +14,15 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
     return Scaffold(
       body: Stack(
         children: [
+          Positioned(
 
+              bottom: 0,
+              left: 0,
+              right: 0,
+              child: Container(height: 120,))
         ],
       ),
+
     );
   }
 }
