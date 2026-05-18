@@ -11,6 +11,12 @@ class LocalServicesMainPage extends StatefulWidget {
 class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Stack(
+        children: [
+
+        ],
+      ),
+    );
   }
 }
