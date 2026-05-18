@@ -25,10 +25,12 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                   borderRadius: .only(topLeft: .circular(24)),
                 ),
               ),
-              padding: .symmetric(horizontal: 16),
+              padding: .symmetric(horizontal: 16, vertical: 8),
               child: Row(
+                mainAxisAlignment: .spaceBetween,
                 children: [
                   Column(
+                    mainAxisAlignment: .center,
                     spacing: 4,
                     children: [Icon(Icons.home_filled), Text("Home")],
                   ),
