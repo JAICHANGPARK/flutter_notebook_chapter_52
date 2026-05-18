@@ -35,17 +35,20 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                     children: [Icon(Icons.home_filled), Text("Home")],
                   ),
                   Column(
+                    mainAxisAlignment: .center,
                     spacing: 4,
-                    children: [Icon(Icons.home_filled), Text("Search")],
+                    children: [Icon(Icons.search), Text("Search")],
                   ),
                   Container(height: 62, width: 62, child: Placeholder()),
                   Column(
                     spacing: 4,
-                    children: [Icon(Icons.home_filled), Text("For sale")],
+                    mainAxisAlignment: .center,
+                    children: [Icon(Icons.shopping_bag_outlined), Text("For sale")],
                   ),
                   Column(
                     spacing: 4,
-                    children: [Icon(Icons.home_filled), Text("Saves")],
+                    mainAxisAlignment: .center,
+                    children: [Icon(Icons.favorite_border), Text("Saves")],
                   ),
                 ],
               ),
