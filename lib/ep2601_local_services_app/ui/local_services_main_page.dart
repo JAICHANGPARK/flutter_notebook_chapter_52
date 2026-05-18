@@ -17,30 +17,34 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
             bottom: 0,
             left: 0,
             right: 0,
-            child: Container(height: 120,
-            child: Row(
-              children: [
-                Column(
-                  spacing: 4,
-                  children: [
-                    Icon(Icons.home_filled),
-                    Text("Home")
-                  ],
+            child: Container(
+              height: 120,
+              decoration: ShapeDecoration(
+                shape: RoundedSuperellipseBorder(
+                  borderRadius: .only(topLeft: .circular(24)),
                 ),
-                Column(
-                  spacing: 4,
-                  children: [
-                    Icon(Icons.home_filled),
-                    Text("Home")
-                  ],
-                ),
-                Container(
-                  height: 62,
-                  width: 62,
-                  child: Placeholder(),
-                ),
-              ],
-            ),
+              ),
+              child: Row(
+                children: [
+                  Column(
+                    spacing: 4,
+                    children: [Icon(Icons.home_filled), Text("Home")],
+                  ),
+                  Column(
+                    spacing: 4,
+                    children: [Icon(Icons.home_filled), Text("Search")],
+                  ),
+                  Container(height: 62, width: 62, child: Placeholder()),
+                  Column(
+                    spacing: 4,
+                    children: [Icon(Icons.home_filled), Text("For sale")],
+                  ),
+                  Column(
+                    spacing: 4,
+                    children: [Icon(Icons.home_filled), Text("Saves")],
+                  ),
+                ],
+              ),
             ),
           ),
         ],
