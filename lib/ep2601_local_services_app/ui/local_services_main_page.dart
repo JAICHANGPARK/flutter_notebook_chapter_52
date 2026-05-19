@@ -58,12 +58,17 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
 
                   Text("For you"),
                   Container(height: 42, child: Placeholder()),
-                  Column(
-                    children: List.generate(4, (idx) {
-                      return Container(
-                        decoration: BoxDecoration(color: Colors.white),
-                      );
-                    }),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      children: List.generate(4, (idx) {
+                        return Container(
+                          height: 180,
+                          margin: .only(bottom: 16, ),
+                          decoration: BoxDecoration(color: Colors.white),
+                        );
+                      }),
+                    ),
                   ),
                 ],
               ),
