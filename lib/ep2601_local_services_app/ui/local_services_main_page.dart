@@ -30,7 +30,18 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
             ),
           ),
           Positioned(
-            child: SafeArea(child: Column(children: [])),
+            child: SafeArea(child: Column(children: [
+              Row(
+                children: [
+                  CircleAvatar(),
+                  Text("Dream Walker"),
+                  Icon(Icons.keyboard_arrow_down),
+                  Spacer(),
+                  CircleAvatar(),
+                  CircleAvatar(),
+                ],
+              )
+            ])),
           ),
           Positioned(
             bottom: 0,
