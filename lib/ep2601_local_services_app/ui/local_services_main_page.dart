@@ -32,6 +32,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
           Positioned(
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: .start,
                 children: [
                   Padding(
                     padding: .symmetric(horizontal: 16),
@@ -57,6 +58,13 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
 
                   Text("For you"),
                   Container(height: 42, child: Placeholder()),
+                  Column(
+                    children: List.generate(4, (idx) {
+                      return Container(
+                        decoration: BoxDecoration(color: Colors.white),
+                      );
+                    }),
+                  ),
                 ],
               ),
             ),
