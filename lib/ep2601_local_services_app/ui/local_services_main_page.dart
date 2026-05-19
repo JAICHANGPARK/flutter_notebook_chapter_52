@@ -17,7 +17,10 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
             child: Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Color.fromRGBO(221, 239, 251, 1)],
+                  colors: [
+                    Color.fromRGBO(221, 239, 251, 1),
+                    Color.fromRGBO(249, 249, 249, 1),
+                  ],
                 ),
               ),
             ),
