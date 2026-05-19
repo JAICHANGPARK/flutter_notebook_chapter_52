@@ -20,6 +20,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                   colors: [
                     Color.fromRGBO(221, 239, 251, 1),
                     Color.fromRGBO(249, 249, 249, 1),
+                    Color.fromRGBO(237, 243, 246, 1),
                   ],
                 ),
               ),
