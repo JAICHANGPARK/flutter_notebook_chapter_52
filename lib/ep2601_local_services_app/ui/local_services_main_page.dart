@@ -11,12 +11,12 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Stack(
         children: [
           Positioned.fill(
             child: Container(
               decoration: BoxDecoration(
-
                 gradient: LinearGradient(
                   begin: .topCenter,
                   end: .bottomCenter,
@@ -28,6 +28,9 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                 ),
               ),
             ),
+          ),
+          Positioned(
+            child: SafeArea(child: Column(children: [])),
           ),
           Positioned(
             bottom: 0,
