@@ -46,14 +46,17 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                         CircleAvatar(),
                       ],
                     ),
-
                   ),
                   Row(
                     children: [
                       Text("Get started on nextdoor"),
-                      TextButton(child: Text("See all")),
+                      TextButton(child: Text("See all"), onPressed: () {}),
                     ],
                   ),
+                  Container(height: 230, child: Placeholder()),
+
+                  Text("For you"),
+                  Container(height: 42, child: Placeholder()),
                 ],
               ),
             ),
