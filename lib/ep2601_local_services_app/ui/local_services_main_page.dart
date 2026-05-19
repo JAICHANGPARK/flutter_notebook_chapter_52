@@ -13,6 +13,11 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
     return Scaffold(
       body: Stack(
         children: [
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(gradient: LinearGradient(colors: [])),
+            ),
+          ),
           Positioned(
             bottom: 0,
             left: 0,
