@@ -16,7 +16,10 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
           Positioned.fill(
             child: Container(
               decoration: BoxDecoration(
+
                 gradient: LinearGradient(
+                  begin: .topCenter,
+                  end: .bottomCenter,
                   colors: [
                     Color.fromRGBO(221, 239, 251, 1),
                     Color.fromRGBO(249, 249, 249, 1),
