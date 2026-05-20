@@ -51,6 +51,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Column(
+                      spacing: 12,
                       crossAxisAlignment: .start,
                       children: [
                         Row(
