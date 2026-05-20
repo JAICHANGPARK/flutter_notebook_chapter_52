@@ -72,7 +72,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                           ],
                         ),
                         Container(
-                          height: 260,
+                          height: 240,
                           child: Row(
                             spacing: 12,
                             children: [
@@ -86,16 +86,31 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                   ),
                                 ),
                               ),
-                              Expanded(child: Placeholder()),
+                              Expanded(
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: .circular(25),
+                                    ),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
                             ],
                           ),
                         ),
                       ],
                     ),
                   ),
+                  Column(
+                    crossAxisAlignment: .start,
+                    spacing: 8,
+                    children: [
+                      Text("For you", style: TextStyle(fontWeight: .bold)),
+                      Container(height: 42, child: Placeholder()),
+                    ],
+                  ),
 
-                  Text("For you"),
-                  Container(height: 42, child: Placeholder()),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
