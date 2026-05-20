@@ -37,14 +37,16 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                   Padding(
                     padding: .symmetric(horizontal: 16),
                     child: Row(
-                      spacing: 4,
+                      spacing: 8,
                       children: [
-                        CircleAvatar(),
+                        CircleAvatar(
+                          radius: 24,
+                        ),
                         Text("Dream Walker"),
                         Icon(Icons.keyboard_arrow_down),
                         Spacer(),
-                        CircleAvatar(),
-                        CircleAvatar(),
+                        CircleAvatar(  radius: 24,),
+                        CircleAvatar(  radius: 24,),
                       ],
                     ),
                   ),
