@@ -56,15 +56,21 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                         Row(
                           mainAxisAlignment: .spaceBetween,
                           children: [
-                            Text("Get started on nextdoor"),
-                            TextButton(child: Text("See all"), onPressed: () {}),
+                            Text(
+                              "Get started on nextdoor",
+                              style: TextStyle(fontWeight: .bold,
+                              fontSize: 18,),
+                            ),
+                            TextButton(
+                              child: Text("See all"),
+                              onPressed: () {},
+                            ),
                           ],
                         ),
                         Container(height: 230, child: Placeholder()),
                       ],
                     ),
                   ),
-
 
                   Text("For you"),
                   Container(height: 42, child: Placeholder()),
@@ -74,7 +80,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                       children: List.generate(4, (idx) {
                         return Container(
                           height: 180,
-                          margin: .only(bottom: 16, ),
+                          margin: .only(bottom: 16),
                           decoration: BoxDecoration(color: Colors.white),
                         );
                       }),
