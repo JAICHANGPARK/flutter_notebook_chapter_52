@@ -33,6 +33,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: .start,
+                spacing: 12,
                 children: [
                   Padding(
                     padding: .symmetric(horizontal: 16),
@@ -70,7 +71,12 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                             ),
                           ],
                         ),
-                        Container(height: 230, child: Placeholder()),
+                        Container(height: 260, child: Row(
+                          children: [
+                            Expanded(child: Placeholder()),
+                            Expanded(child: Placeholder()),
+                          ],
+                        )),
                       ],
                     ),
                   ),
