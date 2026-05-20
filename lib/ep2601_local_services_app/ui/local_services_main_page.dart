@@ -52,6 +52,13 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                       ],
                     ),
                   ),
+                  Expanded(child: SingleChildScrollView(
+                    child: Column(
+                      children: [
+                        
+                      ],
+                    ),
+                  ),),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Column(
