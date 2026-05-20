@@ -54,6 +54,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                       crossAxisAlignment: .start,
                       children: [
                         Row(
+                          mainAxisAlignment: .spaceBetween,
                           children: [
                             Text("Get started on nextdoor"),
                             TextButton(child: Text("See all"), onPressed: () {}),
