@@ -30,7 +30,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
             ),
           ),
           Positioned.fill(
-            top: 16,
+            top: 12,
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: .start,
