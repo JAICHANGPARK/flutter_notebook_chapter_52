@@ -112,11 +112,10 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                           "For you",
                           style: TextStyle(fontWeight: .bold, fontSize: 16),
                         ),
-                        Container(height: 42, child: Placeholder()),
+                        Container(height: 48, child: Placeholder()),
                       ],
                     ),
                   ),
-
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
