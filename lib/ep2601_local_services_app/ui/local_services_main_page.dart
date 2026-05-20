@@ -43,7 +43,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                         CircleAvatar(radius: 24),
                         Text(
                           "Dream Walker",
-                          style: TextStyle(fontWeight: .bold,fontSize: 16),
+                          style: TextStyle(fontWeight: .bold, fontSize: 16),
                         ),
                         Icon(Icons.keyboard_arrow_down),
                         Spacer(),
@@ -71,18 +71,25 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                             ),
                           ],
                         ),
-                        Container(height: 260, child: Row(
-                          spacing: 12,
-                          children: [
-                            Expanded(child: Container(
-                              decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
-                                borderRadius: .circular(16),
-
-                              ),),
-                            )),
-                            Expanded(child: Placeholder()),
-                          ],
-                        )),
+                        Container(
+                          height: 260,
+                          child: Row(
+                            spacing: 12,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: .circular(25),
+                                    ),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                              Expanded(child: Placeholder()),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                   ),
