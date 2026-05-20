@@ -39,14 +39,15 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                     child: Row(
                       spacing: 8,
                       children: [
-                        CircleAvatar(
-                          radius: 24,
+                        CircleAvatar(radius: 24),
+                        Text(
+                          "Dream Walker",
+                          style: TextStyle(fontWeight: .bold,fontSize: 16),
                         ),
-                        Text("Dream Walker"),
                         Icon(Icons.keyboard_arrow_down),
                         Spacer(),
-                        CircleAvatar(  radius: 24,),
-                        CircleAvatar(  radius: 24,),
+                        CircleAvatar(radius: 24),
+                        CircleAvatar(radius: 24),
                       ],
                     ),
                   ),
@@ -61,8 +62,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                           children: [
                             Text(
                               "Get started on nextdoor",
-                              style: TextStyle(fontWeight: .bold,
-                              fontSize: 18,),
+                              style: TextStyle(fontWeight: .bold, fontSize: 18),
                             ),
                             TextButton(
                               child: Text("See all"),
