@@ -48,17 +48,21 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                       ],
                     ),
                   ),
-                  Column(
-                    children: [
-                      Row(
-                        children: [
-                          Text("Get started on nextdoor"),
-                          TextButton(child: Text("See all"), onPressed: () {}),
-                        ],
-                      ),
-                      Container(height: 230, child: Placeholder()),
-                    ],
-                  )
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Column(
+                      crossAxisAlignment: .start,
+                      children: [
+                        Row(
+                          children: [
+                            Text("Get started on nextdoor"),
+                            TextButton(child: Text("See all"), onPressed: () {}),
+                          ],
+                        ),
+                        Container(height: 230, child: Placeholder()),
+                      ],
+                    ),
+                  ),
 
 
                   Text("For you"),
