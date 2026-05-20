@@ -102,13 +102,19 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                       ],
                     ),
                   ),
-                  Column(
-                    crossAxisAlignment: .start,
-                    spacing: 8,
-                    children: [
-                      Text("For you", style: TextStyle(fontWeight: .bold)),
-                      Container(height: 42, child: Placeholder()),
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.only(left: 16),
+                    child: Column(
+                      crossAxisAlignment: .start,
+                      spacing: 8,
+                      children: [
+                        Text(
+                          "For you",
+                          style: TextStyle(fontWeight: .bold, fontSize: 16),
+                        ),
+                        Container(height: 42, child: Placeholder()),
+                      ],
+                    ),
                   ),
 
                   Padding(
