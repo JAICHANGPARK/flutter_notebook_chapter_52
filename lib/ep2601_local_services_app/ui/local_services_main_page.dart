@@ -29,7 +29,8 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
               ),
             ),
           ),
-          Positioned(
+          Positioned.fill(
+            top: 16,
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: .start,
@@ -54,87 +55,88 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                   ),
                   Expanded(child: SingleChildScrollView(
                     child: Column(
+                      spacing: 14,
                       children: [
-                        
-                      ],
-                    ),
-                  ),),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
-                    child: Column(
-                      spacing: 12,
-                      crossAxisAlignment: .start,
-                      children: [
-                        Row(
-                          mainAxisAlignment: .spaceBetween,
-                          children: [
-                            Text(
-                              "Get started on nextdoor",
-                              style: TextStyle(fontWeight: .bold, fontSize: 18),
-                            ),
-                            TextButton(
-                              child: Text("See all"),
-                              onPressed: () {},
-                            ),
-                          ],
-                        ),
-                        Container(
-                          height: 240,
-                          child: Row(
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          child: Column(
                             spacing: 12,
+                            crossAxisAlignment: .start,
                             children: [
-                              Expanded(
-                                child: Container(
-                                  decoration: ShapeDecoration(
-                                    shape: RoundedSuperellipseBorder(
-                                      borderRadius: .circular(25),
-                                    ),
-                                    color: Colors.white,
+                              Row(
+                                mainAxisAlignment: .spaceBetween,
+                                children: [
+                                  Text(
+                                    "Get started on nextdoor",
+                                    style: TextStyle(fontWeight: .bold, fontSize: 18),
                                   ),
-                                ),
+                                  TextButton(
+                                    child: Text("See all"),
+                                    onPressed: () {},
+                                  ),
+                                ],
                               ),
-                              Expanded(
-                                child: Container(
-                                  decoration: ShapeDecoration(
-                                    shape: RoundedSuperellipseBorder(
-                                      borderRadius: .circular(25),
+                              Container(
+                                height: 240,
+                                child: Row(
+                                  spacing: 12,
+                                  children: [
+                                    Expanded(
+                                      child: Container(
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(
+                                            borderRadius: .circular(25),
+                                          ),
+                                          color: Colors.white,
+                                        ),
+                                      ),
                                     ),
-                                    color: Colors.white,
-                                  ),
+                                    Expanded(
+                                      child: Container(
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(
+                                            borderRadius: .circular(25),
+                                          ),
+                                          color: Colors.white,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
                                 ),
                               ),
                             ],
                           ),
                         ),
-                      ],
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 16),
-                    child: Column(
-                      crossAxisAlignment: .start,
-                      spacing: 8,
-                      children: [
-                        Text(
-                          "For you",
-                          style: TextStyle(fontWeight: .bold, fontSize: 16),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 16),
+                          child: Column(
+                            crossAxisAlignment: .start,
+                            spacing: 8,
+                            children: [
+                              Text(
+                                "For you",
+                                style: TextStyle(fontWeight: .bold, fontSize: 16),
+                              ),
+                              Container(height: 48, child: Placeholder()),
+                            ],
+                          ),
                         ),
-                        Container(height: 48, child: Placeholder()),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          child: Column(
+                            children: List.generate(4, (idx) {
+                              return Container(
+                                height: 240,
+                                margin: .only(bottom: 16),
+                                decoration: BoxDecoration(color: Colors.white),
+                              );
+                            }),
+                          ),
+                        ),
                       ],
                     ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Column(
-                      children: List.generate(4, (idx) {
-                        return Container(
-                          height: 180,
-                          margin: .only(bottom: 16),
-                          decoration: BoxDecoration(color: Colors.white),
-                        );
-                      }),
-                    ),
-                  ),
+                  ),),
+
                 ],
               ),
             ),
