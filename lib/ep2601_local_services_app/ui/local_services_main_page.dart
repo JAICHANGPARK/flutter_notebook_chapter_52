@@ -58,7 +58,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                       spacing: 14,
                       children: [
                         Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
                           child: Column(
                             spacing: 4,
                             crossAxisAlignment: .start,
@@ -108,7 +108,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.only(left: 16),
+                          padding: const EdgeInsets.only(left: 20),
                           child: Column(
                             crossAxisAlignment: .start,
                             spacing: 8,
@@ -122,7 +122,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
                           child: Column(
                             children: List.generate(4, (idx) {
                               return Container(
