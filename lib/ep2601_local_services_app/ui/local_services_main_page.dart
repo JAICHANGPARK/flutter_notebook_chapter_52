@@ -44,7 +44,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                         CircleAvatar(radius: 24),
                         Text(
                           "Dream Walker",
-                          style: TextStyle(fontWeight: .bold, fontSize: 16),
+                          style: TextStyle(fontWeight: .bold, fontSize: 16,),
                         ),
                         Icon(Icons.keyboard_arrow_down),
                         Spacer(),
