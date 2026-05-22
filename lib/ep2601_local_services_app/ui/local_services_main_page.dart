@@ -68,7 +68,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                 children: [
                                   Text(
                                     "Get started on nextdoor",
-                                    style: TextStyle(fontWeight: .bold, fontSize: 18),
+                                    style: TextStyle(fontWeight: .bold, fontSize: 18,),
                                   ),
                                   TextButton(
                                     child: Text("See all"),
