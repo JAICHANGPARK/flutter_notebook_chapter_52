@@ -96,7 +96,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                           padding: .all(16),
                                           child: Column(
                                             crossAxisAlignment: .start,
-                                            
+
                                             children: [
                                               Container(
                                                 decoration: BoxDecoration(
@@ -104,10 +104,18 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                                   border: .all(
                                                     color: Colors.grey[200]!,
                                                   ),
-
                                                 ),
-                                                child: Icon(Icons.notifications),
+                                                child: Icon(
+                                                  Icons.notifications,
+                                                ),
                                                 padding: .all(12),
+                                              ),
+                                              Text(
+                                                "Stay in the loop",
+                                                style: TextStyle(
+                                                  fontWeight: .bold,
+                                                  fontSize: 15,
+                                                ),
                                               ),
                                             ],
                                           ),
