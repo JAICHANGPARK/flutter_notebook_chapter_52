@@ -103,7 +103,8 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                                   ),
 
                                                 ),
-                                                child: ,
+                                                child: Icon(Icons.notifications),
+                                                padding: .all(12),
                                               ),
                                             ],
                                           ),
