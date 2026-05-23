@@ -238,6 +238,30 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                       Container(
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
+                                          color: Colors.blue,
+                                        ),
+                                        child: Center(
+                                          child: Text("All"),
+                                        ),
+                                      ),
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(
+                                            side: BorderSide(
+                                              color: Colors.grey[300]!,
+                                            ),
+                                          ),
+                                        ),
+                                        padding: EdgeInsets.symmetric(
+                                          vertical: 12,
+                                        ),
+                                        child: Center(
+                                          child: Text(
+                                            "Recommendations",
+                                            style: TextStyle(
+                                              color: Colors.grey,
+                                            ),
+                                          ),
                                         ),
                                       ),
                                     ],
