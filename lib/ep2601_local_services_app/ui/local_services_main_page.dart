@@ -120,8 +120,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                               Text(
                                                 "Get important updates & alerts",
                                                 style: TextStyle(
-                                                  fontWeight: .bold,
-                                                  fontSize: 15,
+                                                  color: Colors.grey,
                                                 ),
                                               ),
                                               Container(
