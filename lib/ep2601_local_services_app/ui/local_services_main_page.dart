@@ -44,7 +44,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                         CircleAvatar(radius: 24),
                         Text(
                           "Dream Walker",
-                          style: TextStyle(fontWeight: .bold, fontSize: 16,),
+                          style: TextStyle(fontWeight: .bold, fontSize: 16),
                         ),
                         Icon(Icons.keyboard_arrow_down),
                         Spacer(),
@@ -53,90 +53,99 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                       ],
                     ),
                   ),
-                  Expanded(child: SingleChildScrollView(
-                    child: Column(
-                      spacing: 14,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20),
-                          child: Column(
-                            spacing: 4,
-                            crossAxisAlignment: .start,
-                            children: [
-                              Row(
-                                mainAxisAlignment: .spaceBetween,
-                                children: [
-                                  Text(
-                                    "Get started on nextdoor",
-                                    style: TextStyle(fontWeight: .bold, fontSize: 18,),
-                                  ),
-                                  TextButton(
-                                    child: Text("See all"),
-                                    onPressed: () {},
-                                  ),
-                                ],
-                              ),
-                              Container(
-                                height: 240,
-                                child: Row(
-                                  spacing: 12,
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        spacing: 14,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 20),
+                            child: Column(
+                              spacing: 4,
+                              crossAxisAlignment: .start,
+                              children: [
+                                Row(
+                                  mainAxisAlignment: .spaceBetween,
                                   children: [
-                                    Expanded(
-                                      child: Container(
-                                        decoration: ShapeDecoration(
-                                          shape: RoundedSuperellipseBorder(
-                                            borderRadius: .circular(25),
-                                          ),
-                                          color: Colors.white,
-                                        ),
+                                    Text(
+                                      "Get started on nextdoor",
+                                      style: TextStyle(
+                                        fontWeight: .bold,
+                                        fontSize: 18,
                                       ),
                                     ),
-                                    Expanded(
-                                      child: Container(
-                                        decoration: ShapeDecoration(
-                                          shape: RoundedSuperellipseBorder(
-                                            borderRadius: .circular(25),
-                                          ),
-                                          color: Colors.white,
-                                        ),
-                                      ),
+                                    TextButton(
+                                      child: Text("See all"),
+                                      onPressed: () {},
                                     ),
                                   ],
                                 ),
-                              ),
-                            ],
+                                Container(
+                                  height: 240,
+                                  child: Row(
+                                    spacing: 12,
+                                    children: [
+                                      Expanded(
+                                        child: Container(
+                                          decoration: ShapeDecoration(
+                                            shape: RoundedSuperellipseBorder(
+                                              borderRadius: .circular(25),
+                                            ),
+                                            color: Colors.white,
+                                          ),
+                                        ),
+                                      ),
+                                      Expanded(
+                                        child: Container(
+                                          decoration: ShapeDecoration(
+                                            shape: RoundedSuperellipseBorder(
+                                              borderRadius: .circular(25),
+                                            ),
+                                            color: Colors.white,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(left: 20),
-                          child: Column(
-                            crossAxisAlignment: .start,
-                            spacing: 8,
-                            children: [
-                              Text(
-                                "For you",
-                                style: TextStyle(fontWeight: .bold, fontSize: 16),
-                              ),
-                              Container(height: 48, child: Placeholder()),
-                            ],
+                          Padding(
+                            padding: const EdgeInsets.only(left: 20),
+                            child: Column(
+                              crossAxisAlignment: .start,
+                              spacing: 8,
+                              children: [
+                                Text(
+                                  "For you",
+                                  style: TextStyle(
+                                    fontWeight: .bold,
+                                    fontSize: 16,
+                                  ),
+                                ),
+                                Container(height: 48, child: Placeholder()),
+                              ],
+                            ),
                           ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20),
-                          child: Column(
-                            children: List.generate(4, (idx) {
-                              return Container(
-                                height: 240,
-                                margin: .only(bottom: 16),
-                                decoration: BoxDecoration(color: Colors.white),
-                              );
-                            }),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 20),
+                            child: Column(
+                              children: List.generate(4, (idx) {
+                                return Container(
+                                  height: 240,
+                                  margin: .only(bottom: 16),
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                  ),
+                                );
+                              }),
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
-                  ),),
-
+                  ),
                 ],
               ),
             ),
