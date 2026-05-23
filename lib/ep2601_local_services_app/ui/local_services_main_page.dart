@@ -249,6 +249,9 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                         ),
                                       ),
                                       Container(
+                                        margin: .only(
+                                            right: 12
+                                        ),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(
                                             side: BorderSide(
@@ -263,6 +266,54 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                         child: Center(
                                           child: Text(
                                             "Recommendations",
+                                            style: TextStyle(
+                                              color: Colors.grey,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Container(
+                                        margin: .only(
+                                            right: 12
+                                        ),
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(
+                                            side: BorderSide(
+                                              color: Colors.grey[300]!,
+                                            ),
+                                          ),
+                                        ),
+                                        padding: EdgeInsets.symmetric(
+                                            vertical: 12,
+                                            horizontal: 16
+                                        ),
+                                        child: Center(
+                                          child: Text(
+                                            "Local news",
+                                            style: TextStyle(
+                                              color: Colors.grey,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Container(
+                                        margin: .only(
+                                            right: 12
+                                        ),
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(
+                                            side: BorderSide(
+                                              color: Colors.grey[300]!,
+                                            ),
+                                          ),
+                                        ),
+                                        padding: EdgeInsets.symmetric(
+                                            vertical: 12,
+                                            horizontal: 16
+                                        ),
+                                        child: Center(
+                                          child: Text(
+                                            "Event",
                                             style: TextStyle(
                                               color: Colors.grey,
                                             ),
