@@ -131,6 +131,14 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                                     ),
                                                   ),
                                                 ),
+                                                child: Center(
+                                                  child: Text(
+                                                    "View updates",
+                                                    style: TextStyle(
+                                                      color: Colors.grey,
+                                                    ),
+                                                  ),
+                                                ),
                                               ),
                                             ],
                                           ),
