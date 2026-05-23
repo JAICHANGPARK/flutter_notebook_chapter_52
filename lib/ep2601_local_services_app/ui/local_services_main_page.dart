@@ -93,6 +93,18 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                             ),
                                             color: Colors.white,
                                           ),
+                                          child: Column(
+                                            children: [
+                                              Container(
+                                                decoration: BoxDecoration(
+                                                  shape: .circle,
+                                                  border: .all(
+                                                    color: Colors.grey[200]!,
+                                                  ),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
                                         ),
                                       ),
                                       Expanded(
