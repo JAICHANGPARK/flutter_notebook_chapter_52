@@ -117,6 +117,22 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                                   fontSize: 15,
                                                 ),
                                               ),
+                                              Text(
+                                                "Get important updates & alerts",
+                                                style: TextStyle(
+                                                  fontWeight: .bold,
+                                                  fontSize: 15,
+                                                ),
+                                              ),
+                                              Container(
+                                                decoration: ShapeDecoration(
+                                                  shape: StadiumBorder(
+                                                    side: BorderSide(
+                                                      color: Colors.grey[300]!,
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
                                             ],
                                           ),
                                         ),
