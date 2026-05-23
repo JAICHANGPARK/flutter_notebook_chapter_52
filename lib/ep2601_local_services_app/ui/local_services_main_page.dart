@@ -93,7 +93,10 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                             ),
                                             color: Colors.white,
                                           ),
+                                          padding: .all(16),
                                           child: Column(
+                                            crossAxisAlignment: .start,
+                                            
                                             children: [
                                               Container(
                                                 decoration: BoxDecoration(
