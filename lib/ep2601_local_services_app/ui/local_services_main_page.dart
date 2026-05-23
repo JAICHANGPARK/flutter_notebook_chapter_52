@@ -236,6 +236,9 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                     scrollDirection: .horizontal,
                                     children: [
                                       Container(
+                                        margin: .only(
+                                          right: 12
+                                        ),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           color: Colors.blue,
