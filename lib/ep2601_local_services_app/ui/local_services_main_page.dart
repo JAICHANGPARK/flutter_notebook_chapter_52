@@ -154,6 +154,57 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                             ),
                                             color: Colors.white,
                                           ),
+                                          padding: .all(16),
+                                          child: Column(
+                                            crossAxisAlignment: .start,
+                                            mainAxisAlignment: .spaceBetween,
+
+                                            children: [
+                                              Container(
+                                                decoration: BoxDecoration(
+                                                  shape: .circle,
+                                                  border: .all(
+                                                    color: Colors.grey[200]!,
+                                                  ),
+                                                ),
+                                                child: Icon(
+                                                  Icons.notifications,
+                                                ),
+                                                padding: .all(12),
+                                              ),
+                                              Text(
+                                                "Stay in the loop",
+                                                style: TextStyle(
+                                                  fontWeight: .bold,
+                                                  fontSize: 15,
+                                                ),
+                                              ),
+                                              Text(
+                                                "Get important updates & alerts",
+                                                style: TextStyle(
+                                                  color: Colors.grey,
+                                                ),
+                                              ),
+                                              Container(
+                                                decoration: ShapeDecoration(
+                                                  shape: StadiumBorder(
+                                                    side: BorderSide(
+                                                      color: Colors.grey[300]!,
+                                                    ),
+                                                  ),
+                                                ),
+                                                padding: EdgeInsets.symmetric(vertical: 12),
+                                                child: Center(
+                                                  child: Text(
+                                                    "View updates",
+                                                    style: TextStyle(
+                                                      color: Colors.grey,
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
                                         ),
                                       ),
                                     ],
