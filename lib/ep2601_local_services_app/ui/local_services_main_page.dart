@@ -81,7 +81,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                   ],
                                 ),
                                 Container(
-                                  height: 240,
+                                  height: 220,
                                   child: Row(
                                     spacing: 12,
                                     children: [
@@ -96,6 +96,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                           padding: .all(16),
                                           child: Column(
                                             crossAxisAlignment: .start,
+                                            mainAxisAlignment: .spaceBetween,
 
                                             children: [
                                               Container(
@@ -131,6 +132,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                                     ),
                                                   ),
                                                 ),
+                                                padding: EdgeInsets.symmetric(vertical: 12),
                                                 child: Center(
                                                   child: Text(
                                                     "View updates",
