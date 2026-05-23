@@ -132,7 +132,9 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                                     ),
                                                   ),
                                                 ),
-                                                padding: EdgeInsets.symmetric(vertical: 12),
+                                                padding: EdgeInsets.symmetric(
+                                                  vertical: 12,
+                                                ),
                                                 child: Center(
                                                   child: Text(
                                                     "View updates",
@@ -193,7 +195,9 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                                     ),
                                                   ),
                                                 ),
-                                                padding: EdgeInsets.symmetric(vertical: 12),
+                                                padding: EdgeInsets.symmetric(
+                                                  vertical: 12,
+                                                ),
                                                 child: Center(
                                                   child: Text(
                                                     "View updates",
@@ -226,7 +230,19 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                     fontSize: 16,
                                   ),
                                 ),
-                                Container(height: 48, child: Placeholder()),
+                                Container(
+                                  height: 48,
+                                  child: ListView(
+                                    scrollDirection: .horizontal,
+                                    children: [
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
                               ],
                             ),
                           ),
