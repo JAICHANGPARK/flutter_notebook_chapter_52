@@ -384,7 +384,9 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                       ),
                                       Container(
                                         height: 100,
+                                        padding: .all(4),
                                         decoration: ShapeDecoration(
+                                          
                                           shape: RoundedSuperellipseBorder(
 
                                             borderRadius: .circular(24),
