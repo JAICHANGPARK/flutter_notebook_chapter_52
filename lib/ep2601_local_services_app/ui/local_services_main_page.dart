@@ -334,6 +334,11 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                   ),
+                                  child: Column(
+                                    children: [
+                                      
+                                    ],
+                                  ),
                                 );
                               }),
                             ),
