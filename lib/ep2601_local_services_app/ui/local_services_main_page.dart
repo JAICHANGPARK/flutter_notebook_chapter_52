@@ -371,7 +371,9 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                         "Affordable Walk-in Shower Solutions",
                                         style: TextStyle(fontWeight: .bold),
                                       ),
-                                      Text("I had just bought my first house (exciting right) but came wait..")
+                                      Text("I had just bought my first house (exciting right) but came wait..",
+                                      maxLines: 1,
+                                      overflow: .ellipsis,)
                                     ],
                                   ),
                                 );
