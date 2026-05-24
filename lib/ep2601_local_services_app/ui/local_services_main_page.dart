@@ -231,7 +231,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                   ),
                                 ),
                                 Container(
-                                  height: 48,
+                                  height: 42,
                                   child: ListView(
                                     scrollDirection: .horizontal,
                                     children: [
