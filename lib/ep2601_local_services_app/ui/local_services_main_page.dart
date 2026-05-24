@@ -323,7 +323,11 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                 return Container(
                                   height: 280,
                                   margin: .only(bottom: 16),
-                                  decoration: BoxDecoration(
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+
+                                      borderRadius: .circular(16),
+                                    ),
                                     color: Colors.white,
                                   ),
                                   padding: .all(16),
