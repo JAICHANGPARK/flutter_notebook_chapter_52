@@ -390,6 +390,18 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                               Text("Like"),
                                             ],
                                           ),
+                                          Row(
+                                            children: [
+                                              Icon(Icons.chat_outlined),
+                                              Text("Comment"),
+                                            ],
+                                          ),
+                                          Row(
+                                            children: [
+                                              Icon(Icons.share),
+                                              Text("Like"),
+                                            ],
+                                          ),
                                         ],
                                       ),
                                     ],
