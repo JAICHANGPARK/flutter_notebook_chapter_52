@@ -243,7 +243,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                           shape: StadiumBorder(),
                                           color: Colors.blue,
                                         ),
-                                        padding: .symmetric(horizontal: 16),
+                                        padding: .symmetric(horizontal: 24),
                                         child: Center(
                                           child: Text("All"),
                                         ),
@@ -336,7 +336,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                   ),
                                   child: Column(
                                     children: [
-                                      
+
                                     ],
                                   ),
                                 );
