@@ -321,7 +321,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                             child: Column(
                               children: List.generate(4, (idx) {
                                 return Container(
-                                  height: 260,
+                                  height: 280,
                                   margin: .only(bottom: 16),
                                   decoration: BoxDecoration(
                                     color: Colors.white,
