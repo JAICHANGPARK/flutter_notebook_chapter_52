@@ -338,7 +338,13 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                               spacing: 4,
                                               crossAxisAlignment: .start,
                                               children: [
-                                                Text("Dream walker"),
+                                                Text(
+                                                  "Dream walker",
+                                                  style: TextStyle(
+                                                    fontSize: 13,
+                                                    fontWeight: .bold,
+                                                  ),
+                                                ),
                                                 Text("2hours ago"),
                                               ],
                                             ),
@@ -349,7 +355,6 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                               border: .all(
                                                 color: Colors.grey[200]!,
                                               ),
-
                                             ),
                                             padding: .all(8),
                                             child: Icon(Icons.more_horiz),
