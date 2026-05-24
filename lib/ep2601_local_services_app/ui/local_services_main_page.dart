@@ -386,8 +386,16 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                       Container(
                                         height: 100,
                                         child: Row(
+                                          spacing: 5,
                                           children: [
-                                            Expanded(child: Placeholder()),
+                                            Expanded(child: Container(
+                                              decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
+
+                                                borderRadius: .only(
+                                                  topLeft: .circular(24),
+                                                )
+                                              )),
+                                            )),
                                             Expanded(child: Placeholder()),
                                           ],
                                         )
