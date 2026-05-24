@@ -407,13 +407,35 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                                           topLeft: .circular(
                                                             24,
                                                           ),
+                                                          bottomLeft:
+                                                              .circular(
+                                                            24,
+                                                          ),
                                                         ),
                                                       ),
                                                   color: Colors.orange,
                                                 ),
                                               ),
                                             ),
-                                            Expanded(child: Placeholder()),
+                                            Expanded(
+                                              child: Container(
+                                                decoration: ShapeDecoration(
+                                                  shape:
+                                                  RoundedSuperellipseBorder(
+                                                    borderRadius: .only(
+                                                      topRight: .circular(
+                                                        24,
+                                                      ),
+                                                      bottomRight:
+                                                          .circular(
+                                                        24,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  color: Colors.orange,
+                                                ),
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
