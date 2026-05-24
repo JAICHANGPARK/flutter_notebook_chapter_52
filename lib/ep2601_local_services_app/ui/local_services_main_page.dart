@@ -236,22 +236,16 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                     scrollDirection: .horizontal,
                                     children: [
                                       Container(
-                                        margin: .only(
-                                          right: 12
-                                        ),
+                                        margin: .only(right: 12),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           color: Colors.blue,
                                         ),
                                         padding: .symmetric(horizontal: 24),
-                                        child: Center(
-                                          child: Text("All"),
-                                        ),
+                                        child: Center(child: Text("All")),
                                       ),
                                       Container(
-                                        margin: .only(
-                                            right: 12
-                                        ),
+                                        margin: .only(right: 12),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(
                                             side: BorderSide(
@@ -261,7 +255,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                         ),
                                         padding: EdgeInsets.symmetric(
                                           vertical: 12,
-                                          horizontal: 16
+                                          horizontal: 16,
                                         ),
                                         child: Center(
                                           child: Text(
@@ -273,9 +267,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                         ),
                                       ),
                                       Container(
-                                        margin: .only(
-                                            right: 12
-                                        ),
+                                        margin: .only(right: 12),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(
                                             side: BorderSide(
@@ -284,8 +276,8 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                           ),
                                         ),
                                         padding: EdgeInsets.symmetric(
-                                            vertical: 12,
-                                            horizontal: 16
+                                          vertical: 12,
+                                          horizontal: 16,
                                         ),
                                         child: Center(
                                           child: Text(
@@ -306,8 +298,8 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                           ),
                                         ),
                                         padding: EdgeInsets.symmetric(
-                                            vertical: 12,
-                                            horizontal: 16
+                                          vertical: 12,
+                                          horizontal: 16,
                                         ),
                                         child: Center(
                                           child: Text(
@@ -339,12 +331,24 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                       Row(
                                         children: [
                                           CircleAvatar(),
-                                          Expanded(child: Column(children: [
-                                            
-                                          ],))
+                                          Expanded(
+                                            child: Column(
+                                              children: [
+                                                Text("Dream walker"),
+                                                Text("2hours ago"),
+                                              ],
+                                            ),
+                                          ),
+                                          Container(
+                                            decoration: BoxDecoration(
+                                              shape: .circle,
+                                              border: .all(
+                                                color: Colors.grey[200]!,
+                                              ),
+                                            ),
+                                          ),
                                         ],
-                                      )
-
+                                      ),
                                     ],
                                   ),
                                 );
