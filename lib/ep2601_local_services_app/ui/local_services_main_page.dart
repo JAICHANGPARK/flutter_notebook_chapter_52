@@ -326,7 +326,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                   decoration: ShapeDecoration(
                                     shape: RoundedSuperellipseBorder(
 
-                                      borderRadius: .circular(16),
+                                      borderRadius: .circular(24),
                                     ),
                                     color: Colors.white,
                                   ),
