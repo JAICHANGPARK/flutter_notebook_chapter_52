@@ -351,6 +351,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                               ),
 
                                             ),
+                                            padding: .all(8),
                                             child: Icon(Icons.more_horiz),
                                           ),
                                         ],
