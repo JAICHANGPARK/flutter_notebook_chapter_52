@@ -385,21 +385,22 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                       Row(
                                         children: [
                                           Row(
+                                            spacing: 4,
                                             children: [
                                               Icon(Icons.favorite_border),
                                               Text("Like"),
                                             ],
                                           ),
-                                          Row(
+                                          Row(  spacing: 4,
                                             children: [
                                               Icon(Icons.chat_outlined),
                                               Text("Comment"),
                                             ],
                                           ),
-                                          Row(
+                                          Row(  spacing: 4,
                                             children: [
                                               Icon(Icons.share),
-                                              Text("Like"),
+                                              Text("Shares"),
                                             ],
                                           ),
                                         ],
