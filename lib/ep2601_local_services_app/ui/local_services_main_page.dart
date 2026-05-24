@@ -321,7 +321,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                             child: Column(
                               children: List.generate(4, (idx) {
                                 return Container(
-                                  height: 240,
+                                  height: 260,
                                   margin: .only(bottom: 16),
                                   decoration: BoxDecoration(
                                     color: Colors.white,
@@ -377,6 +377,20 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                         "I had just bought my first house (exciting right) but came wait..",
                                         maxLines: 1,
                                         overflow: .ellipsis,
+                                      ),
+                                      Container(
+                                        height: 100,
+                                        child: Placeholder(),
+                                      ),
+                                      Row(
+                                        children: [
+                                          Row(
+                                            children: [
+                                              Icon(Icons.favorite_border),
+                                              Text("Like"),
+                                            ],
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
