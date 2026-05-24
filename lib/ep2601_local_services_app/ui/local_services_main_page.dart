@@ -329,6 +329,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                   padding: .all(16),
                                   child: Column(
                                     crossAxisAlignment: .start,
+                                    spacing: 5,
                                     children: [
                                       Row(
                                         spacing: 12,
