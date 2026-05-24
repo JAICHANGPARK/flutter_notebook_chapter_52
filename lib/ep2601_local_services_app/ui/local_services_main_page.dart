@@ -297,9 +297,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                         ),
                                       ),
                                       Container(
-                                        margin: .only(
-                                            right: 12
-                                        ),
+                                        margin: .only(right: 12),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(
                                             side: BorderSide(
