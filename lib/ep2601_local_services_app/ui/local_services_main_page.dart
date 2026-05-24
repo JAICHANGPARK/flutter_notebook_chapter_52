@@ -335,7 +335,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                           CircleAvatar(),
                                           Expanded(
                                             child: Column(
-                                              spacing: 4,
+                                              spacing: 2,
                                               crossAxisAlignment: .start,
                                               children: [
                                                 Text(
@@ -345,7 +345,13 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                                     fontWeight: .bold,
                                                   ),
                                                 ),
-                                                Text("2hours ago"),
+                                                Text(
+                                                  "2hours ago",
+                                                  style: TextStyle(
+                                                    fontSize: 13,
+                                                    // fontWeight: .bold,
+                                                  ),
+                                                ),
                                               ],
                                             ),
                                           ),
@@ -360,6 +366,10 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                             child: Icon(Icons.more_horiz),
                                           ),
                                         ],
+                                      ),
+                                      Text(
+                                        "Affordable Walk-in Shower Solutions",
+                                        style: TextStyle(fontWeight: .bold),
                                       ),
                                     ],
                                   ),
