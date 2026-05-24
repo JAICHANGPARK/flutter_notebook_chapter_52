@@ -325,7 +325,6 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                   margin: .only(bottom: 16),
                                   decoration: ShapeDecoration(
                                     shape: RoundedSuperellipseBorder(
-
                                       borderRadius: .circular(24),
                                     ),
                                     color: Colors.white,
@@ -388,17 +387,23 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                         child: Row(
                                           spacing: 5,
                                           children: [
-                                            Expanded(child: Container(
-                                              decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
-
-                                                borderRadius: .only(
-                                                  topLeft: .circular(24),
-                                                )
-                                              )),
-                                            )),
+                                            Expanded(
+                                              child: Container(
+                                                decoration: ShapeDecoration(
+                                                  shape:
+                                                      RoundedSuperellipseBorder(
+                                                        borderRadius: .only(
+                                                          topLeft: .circular(
+                                                            24,
+                                                          ),
+                                                        ),
+                                                      ),
+                                                ),
+                                              ),
+                                            ),
                                             Expanded(child: Placeholder()),
                                           ],
-                                        )
+                                        ),
                                       ),
                                       Row(
                                         mainAxisAlignment: .spaceBetween,
@@ -406,19 +411,27 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                           Row(
                                             spacing: 4,
                                             children: [
-                                              Icon(Icons.favorite_border,size: 16,),
+                                              Icon(
+                                                Icons.favorite_border,
+                                                size: 16,
+                                              ),
                                               Text("Like"),
                                             ],
                                           ),
-                                          Row(  spacing: 4,
+                                          Row(
+                                            spacing: 4,
                                             children: [
-                                              Icon(Icons.chat_outlined,size: 16,),
+                                              Icon(
+                                                Icons.chat_outlined,
+                                                size: 16,
+                                              ),
                                               Text("Comment"),
                                             ],
                                           ),
-                                          Row(  spacing: 4,
+                                          Row(
+                                            spacing: 4,
                                             children: [
-                                              Icon(Icons.share,size: 16,),
+                                              Icon(Icons.share, size: 16),
                                               Text("Shares"),
                                             ],
                                           ),
