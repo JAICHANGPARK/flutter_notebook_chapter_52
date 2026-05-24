@@ -349,7 +349,9 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                               border: .all(
                                                 color: Colors.grey[200]!,
                                               ),
+
                                             ),
+                                            child: Icon(Icons.more_horiz),
                                           ),
                                         ],
                                       ),
