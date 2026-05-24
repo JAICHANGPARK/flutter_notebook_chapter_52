@@ -385,7 +385,12 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                       ),
                                       Container(
                                         height: 100,
-                                        child: Placeholder(),
+                                        child: Row(
+                                          children: [
+                                            Expanded(child: Placeholder()),
+                                            Expanded(child: Placeholder()),
+                                          ],
+                                        )
                                       ),
                                       Row(
                                         mainAxisAlignment: .spaceBetween,
