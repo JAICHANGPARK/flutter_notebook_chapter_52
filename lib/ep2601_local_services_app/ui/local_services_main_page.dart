@@ -336,6 +336,14 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                   ),
                                   child: Column(
                                     children: [
+                                      Row(
+                                        children: [
+                                          CircleAvatar(),
+                                          Expanded(child: Column(children: [
+                                            
+                                          ],))
+                                        ],
+                                      )
 
                                     ],
                                   ),
