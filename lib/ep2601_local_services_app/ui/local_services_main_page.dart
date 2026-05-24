@@ -326,6 +326,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                   ),
+                                  padding: .all(16),
                                   child: Column(
                                     children: [
                                       Row(
@@ -333,6 +334,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                           CircleAvatar(),
                                           Expanded(
                                             child: Column(
+                                              crossAxisAlignment: .start,
                                               children: [
                                                 Text("Dream walker"),
                                                 Text("2hours ago"),
