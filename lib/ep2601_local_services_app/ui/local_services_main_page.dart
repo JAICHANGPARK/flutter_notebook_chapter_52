@@ -330,10 +330,12 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                   child: Column(
                                     children: [
                                       Row(
+                                        spacing: 12,
                                         children: [
                                           CircleAvatar(),
                                           Expanded(
                                             child: Column(
+                                              spacing: 4,
                                               crossAxisAlignment: .start,
                                               children: [
                                                 Text("Dream walker"),
