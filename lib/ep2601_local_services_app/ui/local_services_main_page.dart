@@ -384,6 +384,15 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                       ),
                                       Container(
                                         height: 100,
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(
+
+                                            borderRadius: .circular(24),
+                                            side: BorderSide(
+                                              color: Colors.grey,
+                                            ),
+                                          ),
+                                        ),
                                         child: Row(
                                           spacing: 5,
                                           children: [
@@ -398,6 +407,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                                           ),
                                                         ),
                                                       ),
+                                                  color: Colors.orange,
                                                 ),
                                               ),
                                             ),
