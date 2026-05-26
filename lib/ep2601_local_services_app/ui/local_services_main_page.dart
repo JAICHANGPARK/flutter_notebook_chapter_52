@@ -49,10 +49,17 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
               child: Row(
                 mainAxisAlignment: .spaceBetween,
                 children: [
-                  Column(
-                    mainAxisAlignment: .center,
-                    spacing: 4,
-                    children: [Icon(Icons.home_filled), Text("Home")],
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        pageNum = 0;
+                      });
+                    },
+                    child: Column(
+                      mainAxisAlignment: .center,
+                      spacing: 4,
+                      children: [Icon(Icons.home_filled), Text("Home")],
+                    ),
                   ),
                   Column(
                     mainAxisAlignment: .center,
