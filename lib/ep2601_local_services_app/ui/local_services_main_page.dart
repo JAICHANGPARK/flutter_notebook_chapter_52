@@ -13,7 +13,6 @@ class LocalServicesMainPage extends StatefulWidget {
 
 class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
   var pageNum = 0;
-  double page = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -22,15 +21,18 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
       body: Stack(
         children: [
           Positioned.fill(child: LocalServicesBgWidget()),
-          Positioned.fill(top: 12, child: IndexedStack(
-            children: [
-              LocalServicesHomePage(),
-              Placeholder(),
-              LocalServicesForSalePage(),
-              Placeholder(),
-
-            ],
-          ),),
+          Positioned.fill(
+            top: 12,
+            child: IndexedStack(
+              index: pageNum,
+              children: [
+                LocalServicesHomePage(),
+                Placeholder(),
+                LocalServicesForSalePage(),
+                Placeholder(),
+              ],
+            ),
+          ),
           Positioned(
             bottom: 0,
             left: 0,
