@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_52/ep2601_local_services_app/ui/local_services_for_sale_page.dart';
 
 import 'local_services_home_page.dart';
 import 'widgets/local_services_bg_widget.dart';
@@ -22,7 +23,9 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
             children: [
               LocalServicesHomePage(),
               Placeholder(),
-              
+              LocalServicesForSalePage(),
+              Placeholder(),
+
             ],
           ),),
           Positioned(
