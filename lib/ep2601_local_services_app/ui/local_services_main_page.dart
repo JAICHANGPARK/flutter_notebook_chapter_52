@@ -61,10 +61,17 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                       children: [Icon(Icons.home_filled), Text("Home")],
                     ),
                   ),
-                  Column(
-                    mainAxisAlignment: .center,
-                    spacing: 4,
-                    children: [Icon(Icons.search), Text("Search")],
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        pageNum = 1;
+                      });
+                    },
+                    child: Column(
+                      mainAxisAlignment: .center,
+                      spacing: 4,
+                      children: [Icon(Icons.search), Text("Search")],
+                    ),
                   ),
                   Container(
                     height: 62,
