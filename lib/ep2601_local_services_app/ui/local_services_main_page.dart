@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/local_services_bg_widget.dart';
+
 class LocalServicesMainPage extends StatefulWidget {
   const LocalServicesMainPage({super.key});
 
@@ -14,21 +16,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          Positioned.fill(
-            child: Container(
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  begin: .topCenter,
-                  end: .bottomCenter,
-                  colors: [
-                    Color.fromRGBO(221, 239, 251, 1),
-                    Color.fromRGBO(249, 249, 249, 1),
-                    Color.fromRGBO(237, 243, 246, 1),
-                  ],
-                ),
-              ),
-            ),
-          ),
+          Positioned.fill(child: LocalServicesBgWidget()),
           Positioned.fill(
             top: 12,
             child: SafeArea(
@@ -386,9 +374,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                         height: 100,
                                         padding: .all(2),
                                         decoration: ShapeDecoration(
-                                          
                                           shape: RoundedSuperellipseBorder(
-
                                             borderRadius: .circular(24),
                                             side: BorderSide(
                                               color: Colors.grey,
@@ -407,8 +393,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                                           topLeft: .circular(
                                                             24,
                                                           ),
-                                                          bottomLeft:
-                                                              .circular(
+                                                          bottomLeft: .circular(
                                                             24,
                                                           ),
                                                         ),
@@ -421,17 +406,15 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                                               child: Container(
                                                 decoration: ShapeDecoration(
                                                   shape:
-                                                  RoundedSuperellipseBorder(
-                                                    borderRadius: .only(
-                                                      topRight: .circular(
-                                                        24,
+                                                      RoundedSuperellipseBorder(
+                                                        borderRadius: .only(
+                                                          topRight: .circular(
+                                                            24,
+                                                          ),
+                                                          bottomRight:
+                                                              .circular(24),
+                                                        ),
                                                       ),
-                                                      bottomRight:
-                                                          .circular(
-                                                        24,
-                                                      ),
-                                                    ),
-                                                  ),
                                                   color: Colors.orange,
                                                 ),
                                               ),
