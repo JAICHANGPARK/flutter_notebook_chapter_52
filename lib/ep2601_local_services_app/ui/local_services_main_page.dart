@@ -18,7 +18,13 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
       body: Stack(
         children: [
           Positioned.fill(child: LocalServicesBgWidget()),
-          Positioned.fill(top: 12, child: LocalServicesHomePage()),
+          Positioned.fill(top: 12, child: IndexedStack(
+            children: [
+              LocalServicesHomePage(),
+              Placeholder(),
+              
+            ],
+          ),),
           Positioned(
             bottom: 0,
             left: 0,
