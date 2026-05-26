@@ -97,10 +97,17 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                       ],
                     ),
                   ),
-                  Column(
-                    spacing: 4,
-                    mainAxisAlignment: .center,
-                    children: [Icon(Icons.favorite_border), Text("Saves")],
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        pageNum = 3;
+                      });
+                    },
+                    child: Column(
+                      spacing: 4,
+                      mainAxisAlignment: .center,
+                      children: [Icon(Icons.favorite_border), Text("Saves")],
+                    ),
                   ),
                 ],
               ),
