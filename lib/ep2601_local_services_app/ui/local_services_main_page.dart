@@ -73,13 +73,20 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                       children: [Icon(Icons.search), Text("Search")],
                     ),
                   ),
-                  Container(
-                    height: 62,
-                    width: 62,
-                    child: Icon(Icons.add),
-                    decoration: BoxDecoration(
-                      shape: .circle,
-                      color: Colors.blue,
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        pageNum = 2;
+                      });
+                    },
+                    child: Container(
+                      height: 62,
+                      width: 62,
+                      child: Icon(Icons.add),
+                      decoration: BoxDecoration(
+                        shape: .circle,
+                        color: Colors.blue,
+                      ),
                     ),
                   ),
                   Column(
