@@ -12,6 +12,7 @@ class LocalServicesMainPage extends StatefulWidget {
 }
 
 class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
+  int pageNum = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
