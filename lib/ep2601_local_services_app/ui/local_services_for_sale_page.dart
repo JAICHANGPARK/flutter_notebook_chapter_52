@@ -75,7 +75,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                             Positioned(
                                 left: 16,
                                 right: 16,
-                                top: 16,
+                                top: 0,
                                 bottom: 24,
                                 child: Placeholder()),
 
