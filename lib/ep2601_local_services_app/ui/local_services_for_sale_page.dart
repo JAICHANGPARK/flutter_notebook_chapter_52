@@ -36,7 +36,10 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                               child: TextField(),
                             ),
                           ),
-                          Container(decoration: BoxDecoration(shape: .circle)),
+                          Container(
+                            padding: .all(16),
+                            decoration: BoxDecoration(shape: .circle),
+                          child: Icon(Icons.tune),),
                         ],
                       ),
                     ),
