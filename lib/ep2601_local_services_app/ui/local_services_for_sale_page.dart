@@ -42,16 +42,23 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                         Tab(text: "Services"),
                       ],
                     ),
-                    Expanded(child: TabBarView(children: [],)),
-                    SizedBox(height: 52, child: Placeholder()),
-                    Row(
-                      mainAxisAlignment: .spaceBetween,
-                      children: [
-                        Text("Recommended for you"),
-                        TextButton(onPressed: () {}, child: Text("See all")),
-                      ],
-                    ),
-                    Expanded(child: Stack(children: [],))
+                    Expanded(child: TabBarView(children: [
+                      Column(
+                        crossAxisAlignment: .start,
+                        children: [
+                          SizedBox(height: 52, child: Placeholder()),
+                          Row(
+                            mainAxisAlignment: .spaceBetween,
+                            children: [
+                              Text("Recommended for you"),
+                              TextButton(onPressed: () {}, child: Text("See all")),
+                            ],
+                          ),
+                          Expanded(child: Stack(children: [],))
+                        ],
+                      )
+                    ],)),
+
                   ],
                 ),
               ),
