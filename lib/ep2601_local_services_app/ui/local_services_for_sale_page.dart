@@ -34,12 +34,15 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                         Container(decoration: BoxDecoration(shape: .circle)),
                       ],
                     ),
-                    TabBar(tabs: [
-                      Tab(text: "For Sale & Free",),
-                      Tab(text: "Local Deals",),
-                      Tab(text: "Rentals",),
-                      Tab(text: "For Sale & Free",),
-                    ],)
+                    TabBar(
+                      tabs: [
+                        Tab(text: "For Sale & Free"),
+                        Tab(text: "Local Deals"),
+                        Tab(text: "Rentals"),
+                        Tab(text: "Services"),
+                      ],
+                    ),
+                    SizedBox(height: 52, child: Placeholder()),
                   ],
                 ),
               ),
