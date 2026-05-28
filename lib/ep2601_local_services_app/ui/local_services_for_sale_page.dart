@@ -73,11 +73,24 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                           ),
                           Expanded(child: Stack(children: [
                             Positioned(
-                                left: 16,
-                                right: 16,
+                                left: 64,
+                                right: 64,
                                 top: 0,
                                 bottom: 24,
                                 child: Placeholder()),
+                            Positioned(
+                                left: 42,
+                                right: 42,
+                                top:28,
+                                bottom: 24,
+                                child: Placeholder()),
+                            Positioned(
+                                left: 16,
+                                right: 16,
+                                top:64,
+                                bottom: 24,
+                                child: Placeholder()),
+
 
                           ],))
                         ],
