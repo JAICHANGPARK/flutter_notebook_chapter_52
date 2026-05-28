@@ -23,7 +23,12 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                 children: [
                   Row(
                     children: [
-                      Expanded(child: Container()),
+                      Expanded(
+                        child: Container(
+                          decoration: ShapeDecoration(shape: StadiumBorder()),
+                          child: TextField(),
+                        ),
+                      ),
                       Container(decoration: BoxDecoration(shape: .circle)),
                     ],
                   ),
