@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 import 'widgets/local_services_bg_widget.dart';
 
-
 class LocalServicesForSalePage extends StatefulWidget {
   const LocalServicesForSalePage({super.key});
 
   @override
-  State<LocalServicesForSalePage> createState() => _LocalServicesForSalePageState();
+  State<LocalServicesForSalePage> createState() =>
+      _LocalServicesForSalePageState();
 }
 
 class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
@@ -17,9 +17,20 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
       body: Stack(
         children: [
           Positioned.fill(child: LocalServicesBgWidget()),
-          Positioned.fill(child: Column(children: [
-            
-          ],))
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Expanded(child: Container()),
+                      Container(decoration: BoxDecoration(shape: .circle)),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
