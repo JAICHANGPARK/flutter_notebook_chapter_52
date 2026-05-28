@@ -54,6 +54,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                     ),
                     Expanded(child: TabBarView(children: [
                       Column(
+                        spacing: 16,
                         crossAxisAlignment: .start,
                         children: [
                           Padding(
@@ -70,7 +71,15 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                               ],
                             ),
                           ),
-                          Expanded(child: Stack(children: [],))
+                          Expanded(child: Stack(children: [
+                            Positioned(
+                                left: 16,
+                                right: 16,
+                                top: 16,
+                                bottom: 24,
+                                child: Placeholder()),
+
+                          ],))
                         ],
                       )
                     ],)),
