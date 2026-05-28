@@ -56,13 +56,19 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                       Column(
                         crossAxisAlignment: .start,
                         children: [
-                          SizedBox(height: 52, child: Placeholder()),
-                          Row(
-                            mainAxisAlignment: .spaceBetween,
-                            children: [
-                              Text("Recommended for you"),
-                              TextButton(onPressed: () {}, child: Text("See all")),
-                            ],
+                          Padding(
+                            padding: const EdgeInsets.only(left: 16),
+                            child: SizedBox(height: 52, child: Placeholder()),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Row(
+                              mainAxisAlignment: .spaceBetween,
+                              children: [
+                                Text("Recommended for you"),
+                                TextButton(onPressed: () {}, child: Text("See all")),
+                              ],
+                            ),
                           ),
                           Expanded(child: Stack(children: [],))
                         ],
