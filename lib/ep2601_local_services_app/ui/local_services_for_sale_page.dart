@@ -17,6 +17,9 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
       body: Stack(
         children: [
           Positioned.fill(child: LocalServicesBgWidget()),
+          Positioned.fill(child: Column(children: [
+            
+          ],))
         ],
       ),
     );
