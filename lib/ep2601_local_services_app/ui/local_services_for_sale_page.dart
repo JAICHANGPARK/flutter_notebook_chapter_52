@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 import 'widgets/local_services_bg_widget.dart';
 
@@ -22,18 +23,24 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
               child: DefaultTabController(
                 length: 4,
                 child: Column(
+                  spacing: 16,
+                  crossAxisAlignment: .start,
                   children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Container(
-                            decoration: ShapeDecoration(shape: StadiumBorder()),
-                            child: TextField(),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Row(
+                        children: [
+                          Expanded(
+                            child: Container(
+                              decoration: ShapeDecoration(shape: StadiumBorder()),
+                              child: TextField(),
+                            ),
                           ),
-                        ),
-                        Container(decoration: BoxDecoration(shape: .circle)),
-                      ],
+                          Container(decoration: BoxDecoration(shape: .circle)),
+                        ],
+                      ),
                     ),
+                    Gap(8),
                     TabBar(
                       tabs: [
                         Tab(text: "For Sale & Free"),
