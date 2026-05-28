@@ -43,6 +43,12 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                       ],
                     ),
                     SizedBox(height: 52, child: Placeholder()),
+                    Row(
+                      children: [
+                        Text("Recommended for you"),
+                        TextButton(onPressed: () {}, child: Text("See all")),
+                      ],
+                    ),
                   ],
                 ),
               ),
