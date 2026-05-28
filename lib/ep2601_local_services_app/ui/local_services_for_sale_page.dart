@@ -20,6 +20,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
           Positioned.fill(
             child: SafeArea(
               child: DefaultTabController(
+                length: 4,
                 child: Column(
                   children: [
                     Row(
@@ -34,7 +35,10 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                       ],
                     ),
                     TabBar(tabs: [
-                      Tab()
+                      Tab(text: "For Sale & Free",),
+                      Tab(text: "Local Deals",),
+                      Tab(text: "Rentals",),
+                      Tab(text: "For Sale & Free",),
                     ],)
                   ],
                 ),
