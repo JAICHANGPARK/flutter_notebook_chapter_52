@@ -42,6 +42,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                         Tab(text: "Services"),
                       ],
                     ),
+                    Expanded(child: TabBarView(children: [],)),
                     SizedBox(height: 52, child: Placeholder()),
                     Row(
                       mainAxisAlignment: .spaceBetween,
@@ -50,6 +51,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                         TextButton(onPressed: () {}, child: Text("See all")),
                       ],
                     ),
+                    Expanded(child: Stack(children: [],))
                   ],
                 ),
               ),
