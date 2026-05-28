@@ -19,20 +19,25 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
           Positioned.fill(child: LocalServicesBgWidget()),
           Positioned.fill(
             child: SafeArea(
-              child: Column(
-                children: [
-                  Row(
-                    children: [
-                      Expanded(
-                        child: Container(
-                          decoration: ShapeDecoration(shape: StadiumBorder()),
-                          child: TextField(),
+              child: DefaultTabController(
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Container(
+                            decoration: ShapeDecoration(shape: StadiumBorder()),
+                            child: TextField(),
+                          ),
                         ),
-                      ),
-                      Container(decoration: BoxDecoration(shape: .circle)),
-                    ],
-                  ),
-                ],
+                        Container(decoration: BoxDecoration(shape: .circle)),
+                      ],
+                    ),
+                    TabBar(tabs: [
+                      Tab()
+                    ],)
+                  ],
+                ),
               ),
             ),
           ),
