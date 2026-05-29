@@ -112,6 +112,15 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                           ],
                                         ),
                                       ),
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(
+                                            side: BorderSide(
+                                              color: Colors.grey,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 ),
