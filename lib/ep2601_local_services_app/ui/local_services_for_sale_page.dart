@@ -117,11 +117,11 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(
                                             side: BorderSide(
-                                              color: Colors.grey,
+                                              color: Colors.grey[300]!,
                                             ),
                                           ),
                                         ),
-                                        padding: .symmetric(horizontal: 16),
+                                        padding: .symmetric(horizontal: 24),
                                         margin: .only(right: 12),
                                         child: Row(
                                           spacing: 4,
