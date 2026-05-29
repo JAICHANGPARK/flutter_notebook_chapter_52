@@ -37,11 +37,17 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                 color: Colors.white54,
                               ),
                               padding: EdgeInsets.symmetric(horizontal: 12),
-                              child: TextField(
-                                decoration: InputDecoration(
-                                  hintText: "Search",
-                                  border: .none,
-                                ),
+                              child: Row(
+                                children: [
+                                  Expanded(
+                                    child: TextField(
+                                      decoration: InputDecoration(
+                                        hintText: "Search",
+                                        border: .none,
+                                      ),
+                                    ),
+                                  ),
+                                ],
                               ),
                             ),
                           ),
