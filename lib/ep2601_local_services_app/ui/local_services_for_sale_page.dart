@@ -103,7 +103,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                             colors: [Colors.blue, Colors.blue],
                                           ),
                                         ),
-                                        padding: .symmetric(horizontal: 16),
+                                        padding: .symmetric(horizontal: 24),
                                         margin: .only(right: 12),
                                         child: Row(
                                           spacing: 4,
