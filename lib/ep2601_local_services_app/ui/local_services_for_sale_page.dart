@@ -104,6 +104,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                           ),
                                         ),
                                         padding: .symmetric(horizontal: 16),
+                                        margin: .only(right: 12),
                                         child: Row(
                                           spacing: 4,
                                           children: [
@@ -120,6 +121,8 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                             ),
                                           ),
                                         ),
+                                        padding: .symmetric(horizontal: 16),
+                                        margin: .only(right: 12),
                                         child: Row(
                                           spacing: 4,
                                           children: [
