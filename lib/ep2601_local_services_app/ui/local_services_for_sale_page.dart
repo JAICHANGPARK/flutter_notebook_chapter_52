@@ -94,13 +94,14 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                 child: SizedBox(
                                   height: 52,
                                   child: ListView(
+                                    scrollDirection: .horizontal,
                                     children: [
                                       Container(
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
-                                          gradient: LinearGradient(colors: [
-                                            Colors.blue,
-                                          ],)
+                                          gradient: LinearGradient(
+                                            colors: [Colors.blue, Colors.blue],
+                                          ),
                                         ),
                                         child: Row(
                                           spacing: 4,
