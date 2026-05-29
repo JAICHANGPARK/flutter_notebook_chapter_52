@@ -70,9 +70,10 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                       isScrollable: true,
                       tabAlignment: .start,
                       indicatorColor: Colors.black,
-                      labelStyle: TextStyle(
-                        color: Colors.black,
-                        fontSize: 16
+                      labelStyle: TextStyle(color: Colors.black, fontSize: 16),
+                      unselectedLabelStyle: TextStyle(
+                        color: Colors.blueGrey[500],
+                        fontSize: 16,
                       ),
                       tabs: [
                         Tab(text: "For Sale & Free"),
@@ -92,7 +93,15 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                 padding: const EdgeInsets.only(left: 16),
                                 child: SizedBox(
                                   height: 52,
-                                  child: Placeholder(),
+                                  child: ListView(
+                                    children: [
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                               Padding(
