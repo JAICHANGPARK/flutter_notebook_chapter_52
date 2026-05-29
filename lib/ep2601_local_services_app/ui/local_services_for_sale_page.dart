@@ -98,6 +98,16 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                       Container(
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
+                                          gradient: LinearGradient(colors: [
+                                            Colors.blue,
+                                          ],)
+                                        ),
+                                        child: Row(
+                                          spacing: 4,
+                                          children: [
+                                            Text("All Categories"),
+                                            Icon(Icons.keyboard_arrow_down),
+                                          ],
                                         ),
                                       ),
                                     ],
