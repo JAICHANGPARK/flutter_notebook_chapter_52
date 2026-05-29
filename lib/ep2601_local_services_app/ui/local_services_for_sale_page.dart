@@ -55,11 +55,10 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                             ),
                           ),
                           Container(
-                            padding: .all(16),
-
+                            padding: .all(12),
                             decoration: BoxDecoration(
                               shape: .circle,
-                              color: Colors.white38,
+                              color: Colors.white54,
                             ),
                             child: Icon(Icons.tune),
                           ),
