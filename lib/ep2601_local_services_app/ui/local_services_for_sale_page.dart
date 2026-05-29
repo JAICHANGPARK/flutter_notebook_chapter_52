@@ -38,7 +38,9 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                               ),
                               padding: EdgeInsets.symmetric(horizontal: 12),
                               child: Row(
+                                spacing: 8,
                                 children: [
+                                  Icon(Icons.search),
                                   Expanded(
                                     child: TextField(
                                       decoration: InputDecoration(
