@@ -120,6 +120,13 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                             ),
                                           ),
                                         ),
+                                        child: Row(
+                                          spacing: 4,
+                                          children: [
+                                            Text("Within 15 mi"),
+                                            Icon(Icons.keyboard_arrow_down),
+                                          ],
+                                        ),
                                       ),
                                     ],
                                   ),
