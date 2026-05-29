@@ -103,7 +103,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                             colors: [Colors.blue, Colors.blue],
                                           ),
                                         ),
-                                        padding: .symmetric(horizontal: 24),
+                                        padding: .symmetric(horizontal: 20),
                                         margin: .only(right: 12),
                                         child: Row(
                                           spacing: 4,
@@ -121,12 +121,30 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                             ),
                                           ),
                                         ),
-                                        padding: .symmetric(horizontal: 24),
+                                        padding: .symmetric(horizontal: 20),
                                         margin: .only(right: 12),
                                         child: Row(
                                           spacing: 4,
                                           children: [
                                             Text("Within 15 mi"),
+                                            Icon(Icons.keyboard_arrow_down),
+                                          ],
+                                        ),
+                                      ),
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(
+                                            side: BorderSide(
+                                              color: Colors.grey[300]!,
+                                            ),
+                                          ),
+                                        ),
+                                        padding: .symmetric(horizontal: 20),
+                                        margin: .only(right: 12),
+                                        child: Row(
+                                          spacing: 4,
+                                          children: [
+                                            Text("Sort"),
                                             Icon(Icons.keyboard_arrow_down),
                                           ],
                                         ),
