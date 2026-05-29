@@ -65,8 +65,11 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                         ],
                       ),
                     ),
-                    Gap(8),
+
                     TabBar(
+                      isScrollable: true,
+                      tabAlignment: .start,
+                      indicatorColor: Colors.black,
                       tabs: [
                         Tab(text: "For Sale & Free"),
                         Tab(text: "Local Deals"),
