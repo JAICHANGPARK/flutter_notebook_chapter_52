@@ -160,7 +160,10 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                 child: Row(
                                   mainAxisAlignment: .spaceBetween,
                                   children: [
-                                    Text("Recommended for you"),
+                                    Text(
+                                      "Recommended for you",
+                                      style: TextStyle(fontWeight: .bold),
+                                    ),
                                     TextButton(
                                       onPressed: () {},
                                       child: Text("See all"),
