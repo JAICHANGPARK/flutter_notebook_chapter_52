@@ -32,14 +32,19 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                         children: [
                           Expanded(
                             child: Container(
-                              decoration: ShapeDecoration(shape: StadiumBorder()),
-                              child: TextField(),
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                              ),
+                              child: TextField(
+                                decoration: InputDecoration(hintText: "Search"),
+                              ),
                             ),
                           ),
                           Container(
                             padding: .all(16),
                             decoration: BoxDecoration(shape: .circle),
-                          child: Icon(Icons.tune),),
+                            child: Icon(Icons.tune),
+                          ),
                         ],
                       ),
                     ),
@@ -52,51 +57,67 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                         Tab(text: "Services"),
                       ],
                     ),
-                    Expanded(child: TabBarView(children: [
-                      Column(
-                        spacing: 16,
-                        crossAxisAlignment: .start,
+                    Expanded(
+                      child: TabBarView(
                         children: [
-                          Padding(
-                            padding: const EdgeInsets.only(left: 16),
-                            child: SizedBox(height: 52, child: Placeholder()),
+                          Column(
+                            spacing: 16,
+                            crossAxisAlignment: .start,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(left: 16),
+                                child: SizedBox(
+                                  height: 52,
+                                  child: Placeholder(),
+                                ),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 16,
+                                ),
+                                child: Row(
+                                  mainAxisAlignment: .spaceBetween,
+                                  children: [
+                                    Text("Recommended for you"),
+                                    TextButton(
+                                      onPressed: () {},
+                                      child: Text("See all"),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Expanded(
+                                child: Stack(
+                                  children: [
+                                    Positioned(
+                                      left: 64,
+                                      right: 64,
+                                      top: 0,
+                                      bottom: 24,
+                                      child: Placeholder(),
+                                    ),
+                                    Positioned(
+                                      left: 42,
+                                      right: 42,
+                                      top: 28,
+                                      bottom: 24,
+                                      child: Placeholder(),
+                                    ),
+                                    Positioned(
+                                      left: 16,
+                                      right: 16,
+                                      top: 64,
+                                      bottom: 24,
+                                      child: Placeholder(),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
                           ),
-                          Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 16),
-                            child: Row(
-                              mainAxisAlignment: .spaceBetween,
-                              children: [
-                                Text("Recommended for you"),
-                                TextButton(onPressed: () {}, child: Text("See all")),
-                              ],
-                            ),
-                          ),
-                          Expanded(child: Stack(children: [
-                            Positioned(
-                                left: 64,
-                                right: 64,
-                                top: 0,
-                                bottom: 24,
-                                child: Placeholder()),
-                            Positioned(
-                                left: 42,
-                                right: 42,
-                                top:28,
-                                bottom: 24,
-                                child: Placeholder()),
-                            Positioned(
-                                left: 16,
-                                right: 16,
-                                top:64,
-                                bottom: 24,
-                                child: Placeholder()),
-
-
-                          ],))
                         ],
-                      )
-                    ],)),
-
+                      ),
+                    ),
                   ],
                 ),
               ),
