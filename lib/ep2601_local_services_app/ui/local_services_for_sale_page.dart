@@ -34,9 +34,14 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                             child: Container(
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
+
+                                color: Colors.white12,
                               ),
                               child: TextField(
-                                decoration: InputDecoration(hintText: "Search"),
+                                decoration: InputDecoration(
+                                  hintText: "Search",
+                                  border: .none,
+                                ),
                               ),
                             ),
                           ),
