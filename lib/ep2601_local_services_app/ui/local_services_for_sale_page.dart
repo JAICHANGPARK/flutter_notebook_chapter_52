@@ -85,6 +85,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                     ),
                     Expanded(
                       child: TabBarView(
+                        physics: NeverScrollableScrollPhysics(),
                         children: [
                           Column(
                             spacing: 16,
