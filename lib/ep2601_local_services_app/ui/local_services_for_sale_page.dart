@@ -29,6 +29,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       child: Row(
+                        spacing: 12,
                         children: [
                           Expanded(
                             child: Container(
@@ -55,7 +56,11 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                           ),
                           Container(
                             padding: .all(16),
-                            decoration: BoxDecoration(shape: .circle),
+
+                            decoration: BoxDecoration(
+                              shape: .circle,
+                              color: Colors.white38,
+                            ),
                             child: Icon(Icons.tune),
                           ),
                         ],
