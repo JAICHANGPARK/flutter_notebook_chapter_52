@@ -92,7 +92,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                               Padding(
                                 padding: const EdgeInsets.only(left: 16),
                                 child: SizedBox(
-                                  height: 52,
+                                  height: 42,
                                   child: ListView(
                                     scrollDirection: .horizontal,
                                     children: [
@@ -103,6 +103,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                             colors: [Colors.blue, Colors.blue],
                                           ),
                                         ),
+                                        padding: .symmetric(horizontal: 16),
                                         child: Row(
                                           spacing: 4,
                                           children: [
