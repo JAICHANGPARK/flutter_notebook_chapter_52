@@ -75,6 +75,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                         color: Colors.blueGrey[500],
                         fontSize: 16,
                       ),
+                      indicatorWeight: 0.7,
                       tabs: [
                         Tab(text: "For Sale & Free"),
                         Tab(text: "Local Deals"),
@@ -162,7 +163,8 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                   children: [
                                     Text(
                                       "Recommended for you",
-                                      style: TextStyle(fontWeight: .bold),
+                                      style: TextStyle(fontWeight: .bold,
+                                      fontSize: 18),
                                     ),
                                     TextButton(
                                       onPressed: () {},
@@ -200,6 +202,9 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                               ),
                             ],
                           ),
+                          Container(),
+                          Container(),
+                          Container(),
                         ],
                       ),
                     ),
