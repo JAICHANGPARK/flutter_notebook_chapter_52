@@ -70,6 +70,10 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                       isScrollable: true,
                       tabAlignment: .start,
                       indicatorColor: Colors.black,
+                      labelStyle: TextStyle(
+                        color: Colors.black,
+                        fontSize: 16
+                      ),
                       tabs: [
                         Tab(text: "For Sale & Free"),
                         Tab(text: "Local Deals"),
