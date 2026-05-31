@@ -102,7 +102,10 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           gradient: LinearGradient(
-                                            colors: [Colors.blue, Colors.blue],
+                                            colors: [
+                                              Color.fromRGBO(114, 198, 243, 1),
+                                              Color.fromRGBO(60, 175, 247, 1),
+                                            ],
                                           ),
                                         ),
                                         padding: .symmetric(horizontal: 20),
@@ -186,7 +189,9 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                       bottom: 24,
                                       child: Container(
                                         decoration: ShapeDecoration(
-                                          shape: RoundedSuperellipseBorder(),
+                                          shape: RoundedSuperellipseBorder(
+                                            borderRadius: .circular(24),
+                                          ),
                                           color: Colors.white,
                                         ),
                                       ),
