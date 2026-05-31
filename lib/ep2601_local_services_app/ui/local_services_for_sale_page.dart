@@ -248,6 +248,9 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                                 ),
                                               ),
                                             ),
+                                            Text("Beautiful 4 - Bedroom Apartment"),
+                                            Text("4w ago . 3.8 mi . Unknown")
+
                                           ],
                                         ),
                                       ),
