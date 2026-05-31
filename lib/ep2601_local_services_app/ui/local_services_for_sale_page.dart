@@ -237,7 +237,6 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
 
                                         child: Column(
                                           crossAxisAlignment: .start,
-                                          spacing: 16,
 
                                           children: [
                                             Expanded(
@@ -246,23 +245,29 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                                   color: Colors.brown,
                                                   shape:
                                                       RoundedSuperellipseBorder(
-                                                        borderRadius: .circular(42),
+                                                        borderRadius: .circular(
+                                                          42,
+                                                        ),
                                                       ),
                                                 ),
                                               ),
                                             ),
                                             Padding(
-                                              padding: const EdgeInsets.symmetric(horizontal: 16),
+                                              padding: const EdgeInsets.all(
+                                                16.0,
+                                              ),
                                               child: Column(
                                                 crossAxisAlignment: .start,
                                                 children: [
-                                                  Text("Beautiful 4 - Bedroom Apartment"),
-                                                  Text("4w ago . 3.8 mi . Unknown")
+                                                  Text(
+                                                    "Beautiful 4 - Bedroom Apartment",
+                                                  ),
+                                                  Text(
+                                                    "4w ago . 3.8 mi . Unknown",
+                                                  ),
                                                 ],
                                               ),
-                                            )
-
-
+                                            ),
                                           ],
                                         ),
                                       ),
