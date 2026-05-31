@@ -266,11 +266,13 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                                                   color: Colors
                                                                       .white54,
                                                                 ),
+                                                            padding: .symmetric(horizontal: 16,vertical: 12),
                                                             child: Text(
                                                               "\$3,700",
                                                             ),
                                                           ),
                                                           Container(
+                                                            
                                                             decoration:
                                                                 BoxDecoration(
                                                                   shape:
