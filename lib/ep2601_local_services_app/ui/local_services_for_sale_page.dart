@@ -234,7 +234,10 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                           ),
                                           color: Colors.white,
                                         ),
+
                                         child: Column(
+                                          crossAxisAlignment: .start,
+
                                           children: [
                                             Expanded(
                                               child: Container(
@@ -248,8 +251,13 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                                 ),
                                               ),
                                             ),
-                                            Text("Beautiful 4 - Bedroom Apartment"),
-                                            Text("4w ago . 3.8 mi . Unknown")
+                                            Column(
+                                              children: [
+                                                Text("Beautiful 4 - Bedroom Apartment"),
+                                                Text("4w ago . 3.8 mi . Unknown")
+                                              ],
+                                            )
+
 
                                           ],
                                         ),
