@@ -254,13 +254,18 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                             ),
                                             Padding(
                                               padding: const EdgeInsets.all(
-                                                16.0,
+                                                24.0,
                                               ),
                                               child: Column(
                                                 crossAxisAlignment: .start,
+                                                spacing: 6,
                                                 children: [
                                                   Text(
                                                     "Beautiful 4 - Bedroom Apartment",
+                                                    style: TextStyle(
+                                                      fontWeight: .bold,
+                                                      fontSize: 16,
+                                                    ),
                                                   ),
                                                   Text(
                                                     "4w ago . 3.8 mi . Unknown",
