@@ -207,7 +207,6 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                       left: 42,
                                       right: 42,
                                       top: 28,
-                                      bottom: 24,
                                       child: Container(
                                         height: 320,
                                         decoration: ShapeDecoration(
@@ -222,8 +221,16 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                       left: 16,
                                       right: 16,
                                       top: 64,
-                                      bottom: 24,
-                                      child: Placeholder(),
+
+                                      child: Container(
+                                        height: 420,
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(
+                                            borderRadius: .circular(24),
+                                          ),
+                                          color: Colors.white,
+                                        ),
+                                      ),
                                     ),
                                   ],
                                 ),
