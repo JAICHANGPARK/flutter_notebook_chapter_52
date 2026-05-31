@@ -76,7 +76,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                   Container(
                     height: 62,
                     width: 62,
-                    child: Icon(Icons.add),
+                    child: Icon(Icons.add, color: Colors.white),
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                         begin: .topCenter,
@@ -106,7 +106,7 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                     ),
                   ),
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
                         pageNum = 3;
                       });
