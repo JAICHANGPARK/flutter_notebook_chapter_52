@@ -185,7 +185,8 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                       top: 0,
                                       bottom: 24,
                                       child: Container(
-                                        decoration: BoxDecoration(
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(),
                                           color: Colors.white,
                                         ),
                                       ),
