@@ -102,6 +102,8 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           gradient: LinearGradient(
+                                            begin: .topCenter,
+                                            end: .bottomCenter,
                                             colors: [
                                               Color.fromRGBO(114, 198, 243, 1),
                                               Color.fromRGBO(60, 175, 247, 1),
@@ -113,8 +115,12 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                         child: Row(
                                           spacing: 4,
                                           children: [
-                                            Text("All Categories"),
-                                            Icon(Icons.keyboard_arrow_down),
+                                            Text("All Categories",style: TextStyle(
+                                              color: Colors.white,
+                                            ),),
+                                            Icon(Icons.keyboard_arrow_down,
+                                              color: Colors.white,
+                                            ),
                                           ],
                                         ),
                                       ),
