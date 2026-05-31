@@ -78,6 +78,14 @@ class _LocalServicesMainPageState extends State<LocalServicesMainPage> {
                     width: 62,
                     child: Icon(Icons.add),
                     decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        begin: .topCenter,
+                        end: .bottomCenter,
+                        colors: [
+                          Color.fromRGBO(114, 198, 243, 1),
+                          Color.fromRGBO(60, 175, 247, 1),
+                        ],
+                      ),
                       shape: .circle,
                       color: Colors.blue,
                     ),
