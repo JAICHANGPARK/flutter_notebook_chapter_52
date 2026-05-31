@@ -164,8 +164,10 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                   children: [
                                     Text(
                                       "Recommended for you",
-                                      style: TextStyle(fontWeight: .bold,
-                                      fontSize: 18),
+                                      style: TextStyle(
+                                        fontWeight: .bold,
+                                        fontSize: 18,
+                                      ),
                                     ),
                                     TextButton(
                                       onPressed: () {},
@@ -182,7 +184,11 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                       right: 64,
                                       top: 0,
                                       bottom: 24,
-                                      child: Placeholder(),
+                                      child: Container(
+                                        decoration: BoxDecoration(
+                                          color: Colors.white,
+                                        ),
+                                      ),
                                     ),
                                     Positioned(
                                       left: 42,
