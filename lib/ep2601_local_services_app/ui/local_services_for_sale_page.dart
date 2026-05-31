@@ -201,7 +201,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                         height: 320,
                                         decoration: ShapeDecoration(
                                           shape: RoundedSuperellipseBorder(
-                                            borderRadius: .circular(24),
+                                            borderRadius: .circular(42),
                                           ),
                                           color: Colors.white,
                                         ),
@@ -215,7 +215,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                         height: 320,
                                         decoration: ShapeDecoration(
                                           shape: RoundedSuperellipseBorder(
-                                            borderRadius: .circular(24),
+                                            borderRadius: .circular(42),
                                           ),
                                           color: Colors.white,
                                         ),
@@ -230,7 +230,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                         height: 420,
                                         decoration: ShapeDecoration(
                                           shape: RoundedSuperellipseBorder(
-                                            borderRadius: .circular(24),
+                                            borderRadius: .circular(42),
                                           ),
                                           color: Colors.white,
                                         ),
@@ -246,9 +246,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                                   color: Colors.brown,
                                                   shape:
                                                       RoundedSuperellipseBorder(
-                                                        borderRadius: .circular(
-                                                          24,
-                                                        ),
+                                                        borderRadius: .circular(42),
                                                       ),
                                                 ),
                                               ),
