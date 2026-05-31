@@ -252,12 +252,32 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                                 ),
                                                 child: Stack(
                                                   children: [
-                                                    Positioned(child: Row(children: [
-                                                      Container(
-                                                        decoration: ShapeDecoration(shape: StadiumBorder()),
-                                                        child: Text("\$3,700"),
-                                                      )
-                                                    ],))
+                                                    Positioned(
+                                                      child: Row(
+                                                        children: [
+                                                          Container(
+                                                            decoration:
+                                                                ShapeDecoration(
+                                                                  shape:
+                                                                      StadiumBorder(),
+                                                                ),
+                                                            child: Text(
+                                                              "\$3,700",
+                                                            ),
+                                                          ),
+                                                          Container(
+                                                            decoration:
+                                                                BoxDecoration(
+                                                                  shape:
+                                                                      .circle,
+                                                                ),
+                                                            child: Icon(
+                                                              Icons.favorite,
+                                                            ),
+                                                          ),
+                                                        ],
+                                                      ),
+                                                    ),
                                                   ],
                                                 ),
                                               ),
