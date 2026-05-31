@@ -253,13 +253,18 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                                 child: Stack(
                                                   children: [
                                                     Positioned(
+                                                      right: 24,
+                                                      top: 24,
                                                       child: Row(
+                                                        spacing: 12,
                                                         children: [
                                                           Container(
                                                             decoration:
                                                                 ShapeDecoration(
                                                                   shape:
                                                                       StadiumBorder(),
+                                                                  color: Colors
+                                                                      .white54,
                                                                 ),
                                                             child: Text(
                                                               "\$3,700",
@@ -270,7 +275,10 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                                                 BoxDecoration(
                                                                   shape:
                                                                       .circle,
+                                                                  color: Colors
+                                                                      .white54,
                                                                 ),
+
                                                             child: Icon(
                                                               Icons.favorite,
                                                             ),
