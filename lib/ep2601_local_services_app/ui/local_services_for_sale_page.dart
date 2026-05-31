@@ -115,10 +115,14 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                         child: Row(
                                           spacing: 4,
                                           children: [
-                                            Text("All Categories",style: TextStyle(
-                                              color: Colors.white,
-                                            ),),
-                                            Icon(Icons.keyboard_arrow_down,
+                                            Text(
+                                              "All Categories",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                            Icon(
+                                              Icons.keyboard_arrow_down,
                                               color: Colors.white,
                                             ),
                                           ],
@@ -232,9 +236,18 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                         ),
                                         child: Column(
                                           children: [
-                                            Expanded(child: Container(decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
-                                              borderRadius: .circular(24),
-                                            )),))
+                                            Expanded(
+                                              child: Container(
+                                                decoration: ShapeDecoration(
+                                                  shape:
+                                                      RoundedSuperellipseBorder(
+                                                        borderRadius: .circular(
+                                                          24,
+                                                        ),
+                                                      ),
+                                                ),
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
