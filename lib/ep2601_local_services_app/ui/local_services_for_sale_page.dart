@@ -272,7 +272,7 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                                             ),
                                                           ),
                                                           Container(
-                                                            
+                                                            padding: .all(10),
                                                             decoration:
                                                                 BoxDecoration(
                                                                   shape:
