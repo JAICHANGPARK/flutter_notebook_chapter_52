@@ -192,8 +192,9 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                       left: 64,
                                       right: 64,
                                       top: 0,
-                                      bottom: 24,
+                                      
                                       child: Container(
+                                        height: 320,
                                         decoration: ShapeDecoration(
                                           shape: RoundedSuperellipseBorder(
                                             borderRadius: .circular(24),
