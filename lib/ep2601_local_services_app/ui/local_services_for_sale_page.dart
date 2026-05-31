@@ -230,6 +230,13 @@ class _LocalServicesForSalePageState extends State<LocalServicesForSalePage> {
                                           ),
                                           color: Colors.white,
                                         ),
+                                        child: Column(
+                                          children: [
+                                            Expanded(child: Container(decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
+                                              borderRadius: .circular(24),
+                                            )),))
+                                          ],
+                                        ),
                                       ),
                                     ),
                                   ],
