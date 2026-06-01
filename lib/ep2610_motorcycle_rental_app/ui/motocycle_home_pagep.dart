@@ -20,6 +20,8 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                   colors: [
                     Color.fromRGBO(10, 42, 115, 1),
                     Color.fromRGBO(34, 74, 161, 1),
+                    Color.fromRGBO(141, 160, 206, 1),
+                    Colors.white,
                   ],
                 ),
               ),
