@@ -11,7 +11,15 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: Stack(
+        children: [
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(gradient: LinearGradient(colors: [])),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
