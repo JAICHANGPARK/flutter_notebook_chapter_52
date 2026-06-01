@@ -2,7 +2,7 @@
 
 ## EP2610
 
-- Community Marketplace & Local Services App
+- Zizy Motorcycle Rental - Mobile App
 - Farhan ahmed Jibon
 - https://dribbble.com/shots/27385018-Community-Marketplace-Local-Services-App
 
