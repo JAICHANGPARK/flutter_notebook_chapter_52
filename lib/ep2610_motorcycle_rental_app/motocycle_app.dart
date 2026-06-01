@@ -9,7 +9,6 @@ class MotorcycleApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: MotorcycleHomePage(),
-
     );
   }
 }
