@@ -17,7 +17,10 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
             child: Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Color.fromRGBO(10, 42, 115, 1)],
+                  colors: [
+                    Color.fromRGBO(10, 42, 115, 1),
+                    Color.fromRGBO(34, 74, 161, 1),
+                  ],
                 ),
               ),
             ),
