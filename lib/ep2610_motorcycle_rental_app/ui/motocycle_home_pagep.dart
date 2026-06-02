@@ -33,7 +33,14 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
           Positioned.fill(child: Column(children: [])),
         ],
       ),
-      bottomNavigationBar: Container(height: 100, child: Placeholder()),
+      bottomNavigationBar: Container(height: 100, child: Row(
+        children: [
+          Expanded(child: Placeholder()),
+          Expanded(child: Placeholder()),
+          Expanded(child: Placeholder()),
+          Expanded(child: Placeholder()),
+        ],
+      )),
     );
   }
 }
