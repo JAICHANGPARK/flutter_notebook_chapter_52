@@ -65,12 +65,24 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     ),
                   ),
                   Positioned(
+                    top: 16,
+                    left: 0,
+                    right: 0,
                     child: Column(
-                      children: [Icon(Icons.home_filled), Text("Home",
-                      style: TextStyle(
-                        fontWeight: .bold,
-                        color: Color.fromRGBO(12, 72, 197, 1),
-                      ),)],
+                      crossAxisAlignment: .center,
+                      children: [
+                        Icon(Icons.home_filled,
+                          size: 27,
+                          color: Color.fromRGBO(12, 72, 197, 1),
+                        ),
+                        Text(
+                          "Home",
+                          style: TextStyle(
+                            fontWeight: .bold,
+                            color: Color.fromRGBO(12, 72, 197, 1),
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                 ],
