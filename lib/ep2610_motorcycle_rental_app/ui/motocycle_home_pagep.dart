@@ -42,6 +42,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
               child: Stack(
                 children: [
                   Positioned.fill(
+                    bottom: 12,
                     child: Container(
                       decoration: BoxDecoration(
                         border: Border(
@@ -51,7 +52,13 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           ),
                         ),
                         gradient: LinearGradient(
-                          colors: [Color.fromRGBO(211, 238, 250, 1)],
+                          begin: .topCenter,
+                          end: .bottomCenter,
+                          colors: [
+                            Color.fromRGBO(211, 238, 250, 1),
+                            Colors.white,
+                            Colors.white,
+                          ],
                         ),
                       ),
                     ),
