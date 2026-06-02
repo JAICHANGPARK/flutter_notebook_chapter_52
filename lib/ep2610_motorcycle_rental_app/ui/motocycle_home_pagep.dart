@@ -175,13 +175,13 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     child: Column(
                       crossAxisAlignment: .center,
                       children: [
-                        Icon(Icons.receipt_long,
+                        Icon(Icons.explore_outlined,
                           size: 27,
                           color: Colors.grey,
                           // color: Color.fromRGBO(12, 72, 197, 1),
                         ),
                         Text(
-                          "Bookings",
+                          "Explore",
                           style: TextStyle(
                             fontWeight: .bold,
                             color: Colors.grey,
