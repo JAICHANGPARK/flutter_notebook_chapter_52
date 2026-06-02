@@ -36,6 +36,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
       bottomNavigationBar: Container(
         padding: EdgeInsets.symmetric(horizontal: 16),
         height: 100,
+        color: Colors.white,
         child: Row(
           children: [
             Expanded(
@@ -61,6 +62,15 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           ],
                         ),
                       ),
+                    ),
+                  ),
+                  Positioned(
+                    child: Column(
+                      children: [Icon(Icons.home_filled), Text("Home",
+                      style: TextStyle(
+                        fontWeight: .bold,
+                        color: Color.fromRGBO(12, 72, 197, 1),
+                      ),)],
                     ),
                   ),
                 ],
