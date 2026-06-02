@@ -94,25 +94,26 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                 children: [
                   Positioned.fill(
                     bottom: 12,
-                    child: Container(
-                      decoration: BoxDecoration(
-                        border: Border(
-                          top: BorderSide(
-                            color: Color.fromRGBO(12, 72, 197, 1),
-                            width: 4,
-                          ),
-                        ),
-                        gradient: LinearGradient(
-                          begin: .topCenter,
-                          end: .bottomCenter,
-                          colors: [
-                            Color.fromRGBO(211, 238, 250, 1),
-                            Colors.white,
-                            Colors.white,
-                          ],
-                        ),
-                      ),
-                    ),
+                    child: Container(),
+                    // child: Container(
+                    //   decoration: BoxDecoration(
+                    //     border: Border(
+                    //       top: BorderSide(
+                    //         color: Color.fromRGBO(12, 72, 197, 1),
+                    //         width: 4,
+                    //       ),
+                    //     ),
+                    //     gradient: LinearGradient(
+                    //       begin: .topCenter,
+                    //       end: .bottomCenter,
+                    //       colors: [
+                    //         Color.fromRGBO(211, 238, 250, 1),
+                    //         Colors.white,
+                    //         Colors.white,
+                    //       ],
+                    //     ),
+                    //   ),
+                    // ),
                   ),
                   Positioned(
                     top: 12,
@@ -130,7 +131,8 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           "Bookings",
                           style: TextStyle(
                             fontWeight: .bold,
-                            color: Color.fromRGBO(12, 72, 197, 1),
+                            color: Colors.grey,
+                            // color: Color.fromRGBO(12, 72, 197, 1),
                           ),
                         ),
                       ],
