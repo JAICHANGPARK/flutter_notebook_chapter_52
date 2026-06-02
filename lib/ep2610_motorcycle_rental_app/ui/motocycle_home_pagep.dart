@@ -65,7 +65,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     ),
                   ),
                   Positioned(
-                    top: 16,
+                    top: 12,
                     left: 0,
                     right: 0,
                     child: Column(
@@ -85,10 +85,61 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       ],
                     ),
                   ),
+
                 ],
               ),
             ),
-            Expanded(child: Placeholder()),
+            Expanded(
+              child: Stack(
+                children: [
+                  Positioned.fill(
+                    bottom: 12,
+                    child: Container(
+                      decoration: BoxDecoration(
+                        border: Border(
+                          top: BorderSide(
+                            color: Color.fromRGBO(12, 72, 197, 1),
+                            width: 4,
+                          ),
+                        ),
+                        gradient: LinearGradient(
+                          begin: .topCenter,
+                          end: .bottomCenter,
+                          colors: [
+                            Color.fromRGBO(211, 238, 250, 1),
+                            Colors.white,
+                            Colors.white,
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    top: 12,
+                    left: 0,
+                    right: 0,
+                    child: Column(
+                      crossAxisAlignment: .center,
+                      children: [
+                        Icon(Icons.receipt_long,
+                          size: 27,
+                          color: Colors.grey,
+                          // color: Color.fromRGBO(12, 72, 197, 1),
+                        ),
+                        Text(
+                          "Bookings",
+                          style: TextStyle(
+                            fontWeight: .bold,
+                            color: Color.fromRGBO(12, 72, 197, 1),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+
+                ],
+              ),
+            ),
             Expanded(child: Placeholder()),
             Expanded(child: Placeholder()),
           ],
