@@ -44,7 +44,15 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                   Positioned.fill(
                     child: Container(
                       decoration: BoxDecoration(
-                        gradient: LinearGradient(colors: []),
+                        border: Border(
+                          top: BorderSide(
+                            color: Color.fromRGBO(12, 72, 197, 1),
+                            width: 4,
+                          ),
+                        ),
+                        gradient: LinearGradient(
+                          colors: [Color.fromRGBO(211, 238, 250, 1)],
+                        ),
                       ),
                     ),
                   ),
