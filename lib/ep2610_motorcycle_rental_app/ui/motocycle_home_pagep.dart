@@ -33,14 +33,30 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
           Positioned.fill(child: Column(children: [])),
         ],
       ),
-      bottomNavigationBar: Container(height: 100, child: Row(
-        children: [
-          Expanded(child: Placeholder()),
-          Expanded(child: Placeholder()),
-          Expanded(child: Placeholder()),
-          Expanded(child: Placeholder()),
-        ],
-      )),
+      bottomNavigationBar: Container(
+        padding: EdgeInsets.symmetric(horizontal: 16),
+        height: 100,
+        child: Row(
+          children: [
+            Expanded(
+              child: Stack(
+                children: [
+                  Positioned.fill(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(colors: []),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Expanded(child: Placeholder()),
+            Expanded(child: Placeholder()),
+            Expanded(child: Placeholder()),
+          ],
+        ),
+      ),
     );
   }
 }
