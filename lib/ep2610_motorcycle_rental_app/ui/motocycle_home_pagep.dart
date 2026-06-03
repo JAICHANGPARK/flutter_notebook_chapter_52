@@ -77,14 +77,14 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     ],
                   ),
                   Container(
-                    height: 48,
+                    height: 52,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: .circular(6),
                     ),
                   ),
                   Container(
-                    height: 150,
+                    height: 200,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: .circular(12),
