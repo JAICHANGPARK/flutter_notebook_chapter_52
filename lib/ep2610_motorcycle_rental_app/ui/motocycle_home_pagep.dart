@@ -30,13 +30,15 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
               ),
             ),
           ),
-          Positioned.fill(child: Column(children: [
-            Row(
+          Positioned.fill(
+            child: Column(
               children: [
-                
+                Row(
+                  children: [Expanded(child: Column(children: []))],
+                ),
               ],
-            )
-          ])),
+            ),
+          ),
         ],
       ),
       bottomNavigationBar: Container(
@@ -77,7 +79,8 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     child: Column(
                       crossAxisAlignment: .center,
                       children: [
-                        Icon(Icons.home_filled,
+                        Icon(
+                          Icons.home_filled,
                           size: 27,
                           color: Color.fromRGBO(12, 72, 197, 1),
                         ),
@@ -91,7 +94,6 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       ],
                     ),
                   ),
-
                 ],
               ),
             ),
@@ -128,7 +130,8 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     child: Column(
                       crossAxisAlignment: .center,
                       children: [
-                        Icon(Icons.receipt_long,
+                        Icon(
+                          Icons.receipt_long,
                           size: 27,
                           color: Colors.grey,
                           // color: Color.fromRGBO(12, 72, 197, 1),
@@ -144,7 +147,6 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       ],
                     ),
                   ),
-
                 ],
               ),
             ),
@@ -181,7 +183,8 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     child: Column(
                       crossAxisAlignment: .center,
                       children: [
-                        Icon(Icons.explore_outlined,
+                        Icon(
+                          Icons.explore_outlined,
                           size: 27,
                           color: Colors.grey,
                           // color: Color.fromRGBO(12, 72, 197, 1),
@@ -197,7 +200,6 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       ],
                     ),
                   ),
-
                 ],
               ),
             ),
@@ -234,7 +236,8 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     child: Column(
                       crossAxisAlignment: .center,
                       children: [
-                        Icon(Icons.person_2_outlined,
+                        Icon(
+                          Icons.person_2_outlined,
                           size: 27,
                           color: Colors.grey,
                           // color: Color.fromRGBO(12, 72, 197, 1),
@@ -250,7 +253,6 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       ],
                     ),
                   ),
-
                 ],
               ),
             ),
