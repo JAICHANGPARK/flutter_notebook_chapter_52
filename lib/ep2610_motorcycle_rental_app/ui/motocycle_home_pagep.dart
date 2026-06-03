@@ -97,6 +97,10 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       ],
                     ),
                   ),
+                  Container(
+                    height: 52,
+                    child: Placeholder(),
+                  )
                 ],
               ),
             ),
