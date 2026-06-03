@@ -61,12 +61,13 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           ],
                         ),
                       ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.notifications_active_outlined),
+                      ),
                     ],
                   ),
-                  IconButton(
-                    onPressed: () {},
-                    icon: Icon(Icons.notifications_active_outlined),
-                  ),
+
                 ],
               ),
             ),
