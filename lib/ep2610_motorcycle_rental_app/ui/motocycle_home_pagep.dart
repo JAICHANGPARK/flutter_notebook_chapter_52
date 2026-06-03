@@ -91,8 +91,8 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       boxShadow: [
                         BoxShadow(
                           color: Colors.black.withValues(alpha: .1),
-                          blurRadius: 2,
-                          spreadRadius: 3,
+                          blurRadius: 20,
+                          spreadRadius: 16,
                         ),
                       ],
                     ),
