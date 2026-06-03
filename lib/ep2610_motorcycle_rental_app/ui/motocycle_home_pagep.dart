@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class MotorcycleHomePage extends StatefulWidget {
   const MotorcycleHomePage({super.key});
@@ -101,9 +102,13 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     height: 52,
                     child: Placeholder(),
                   ),
+                  Gap(8),
                   Row(
+                    mainAxisAlignment: .spaceBetween,
                     children: [
-                      Text("Mostly in rental"),
+                      Text("Mostly in rental",style: TextStyle(
+                        fontSize: 18,
+                      ),),
                       Icon(Icons.chevron_right),
                     ],
                   )
