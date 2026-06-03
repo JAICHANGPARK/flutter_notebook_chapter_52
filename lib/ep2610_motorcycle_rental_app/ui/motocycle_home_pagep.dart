@@ -100,6 +100,12 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                   Container(
                     height: 52,
                     child: Placeholder(),
+                  ),
+                  Row(
+                    children: [
+                      Text("Mostly in rental"),
+                      Icon(Icons.chevron_right),
+                    ],
                   )
                 ],
               ),
