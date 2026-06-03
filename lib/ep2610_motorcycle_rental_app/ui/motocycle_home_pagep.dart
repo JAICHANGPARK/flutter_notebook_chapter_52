@@ -59,7 +59,10 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                                 ),
                                 Text(
                                   "Unknown, Dart",
-                                  style: TextStyle(color: Colors.white, fontSize: 16),
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 16,
+                                  ),
                                 ),
                               ],
                             ),
@@ -85,8 +88,15 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: .circular(12),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withValues(alpha: .1),
+                          blurRadius: 2,
+                          spreadRadius: 3,
+                        ),
+                      ],
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
