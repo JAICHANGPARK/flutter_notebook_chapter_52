@@ -31,30 +31,32 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
             ),
           ),
           Positioned.fill(
-            child: Column(
-              children: [
-                Row(
-                  children: [
-                    Expanded(
-                      child: Column(
-                        children: [
-                          Text("Your current location"),
-                          Row(
-                            children: [
-                              Icon(Icons.location_on_outlined),
-                              Text("Unknown, Dart"),
-                            ],
-                          ),
-                        ],
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Text("Your current location"),
+                            Row(
+                              children: [
+                                Icon(Icons.location_on_outlined),
+                                Text("Unknown, Dart"),
+                              ],
+                            ),
+                          ],
+                        ),
                       ),
-                    ),
-                  ],
-                ),
-                IconButton(
-                  onPressed: () {},
-                  icon: Icon(Icons.notifications_active_outlined),
-                ),
-              ],
+                    ],
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.notifications_active_outlined),
+                  ),
+                ],
+              ),
             ),
           ),
         ],
