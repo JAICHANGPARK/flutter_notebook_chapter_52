@@ -111,7 +111,8 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       ),),
                       Icon(Icons.chevron_right),
                     ],
-                  )
+                  ),
+                  Expanded(child: Placeholder(),),
                 ],
               ),
             ),
