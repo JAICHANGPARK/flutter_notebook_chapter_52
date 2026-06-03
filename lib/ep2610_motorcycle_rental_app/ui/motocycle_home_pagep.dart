@@ -34,7 +34,16 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
             child: Column(
               children: [
                 Row(
-                  children: [Expanded(child: Column(children: []))],
+                  children: [Expanded(child: Column(children: [
+
+                    Text("Your current location"),
+                    Row(
+                      children: [
+                        
+                      ],
+                    )
+
+                  ]))],
                 ),
                 IconButton(
                   onPressed: () {},
