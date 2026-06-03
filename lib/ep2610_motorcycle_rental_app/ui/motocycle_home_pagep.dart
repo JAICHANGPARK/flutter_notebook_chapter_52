@@ -43,6 +43,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     children: [
                       Expanded(
                         child: Column(
+                          spacing: 4,
                           crossAxisAlignment: .start,
                           children: [
                             Text(
@@ -50,6 +51,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                               style: TextStyle(color: Colors.white),
                             ),
                             Row(
+                              spacing: 4,
                               children: [
                                 Icon(
                                   Icons.location_on_outlined,
