@@ -36,6 +36,10 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                 Row(
                   children: [Expanded(child: Column(children: []))],
                 ),
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.notifications_active_outlined),
+                ),
               ],
             ),
           ),
