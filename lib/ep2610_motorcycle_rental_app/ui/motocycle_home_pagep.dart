@@ -48,8 +48,14 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                             ),
                             Row(
                               children: [
-                                Icon(Icons.location_on_outlined),
-                                Text("Unknown, Dart"),
+                                Icon(
+                                  Icons.location_on_outlined,
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  "Unknown, Dart",
+                                  style: TextStyle(color: Colors.white),
+                                ),
                               ],
                             ),
                           ],
