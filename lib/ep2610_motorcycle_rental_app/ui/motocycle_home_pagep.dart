@@ -102,7 +102,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     height: 52,
                     child: Placeholder(),
                   ),
-                  Gap(8),
+                  Gap(4),
                   Row(
                     mainAxisAlignment: .spaceBetween,
                     children: [
