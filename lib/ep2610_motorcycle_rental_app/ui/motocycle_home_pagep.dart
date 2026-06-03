@@ -37,6 +37,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: .start,
+                spacing: 16,
                 children: [
                   Row(
                     children: [
