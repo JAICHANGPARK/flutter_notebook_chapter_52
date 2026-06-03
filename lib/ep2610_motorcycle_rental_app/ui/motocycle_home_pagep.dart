@@ -32,6 +32,8 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
           ),
           Positioned.fill(
             top: 16,
+            left: 16,
+            right: 16,
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: .start,
@@ -68,7 +70,13 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       ),
                     ],
                   ),
-
+                  Container(
+                    height: 42,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: .circular(6),
+                    ),
+                  ),
                 ],
               ),
             ),
