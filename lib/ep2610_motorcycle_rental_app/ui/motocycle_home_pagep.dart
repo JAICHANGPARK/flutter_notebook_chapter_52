@@ -57,7 +57,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                                 ),
                                 Text(
                                   "Unknown, Dart",
-                                  style: TextStyle(color: Colors.white),
+                                  style: TextStyle(color: Colors.white, fontSize: 16),
                                 ),
                               ],
                             ),
