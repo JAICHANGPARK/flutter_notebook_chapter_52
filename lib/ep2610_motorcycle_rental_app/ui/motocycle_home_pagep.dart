@@ -31,15 +31,21 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
             ),
           ),
           Positioned.fill(
+            top: 16,
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: .start,
                 children: [
                   Row(
                     children: [
                       Expanded(
                         child: Column(
+                          crossAxisAlignment: .start,
                           children: [
-                            Text("Your current location"),
+                            Text(
+                              "Your current location",
+                              style: TextStyle(color: Colors.white),
+                            ),
                             Row(
                               children: [
                                 Icon(Icons.location_on_outlined),
