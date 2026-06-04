@@ -177,7 +177,9 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                         crossAxisSpacing: 12,
                         mainAxisSpacing: 12,
                       ),
-                      itemBuilder: (context, index){},
+                      itemBuilder: (context, index){
+                        return Placeholder();
+                      },
                     ),
                   ),
                 ],
