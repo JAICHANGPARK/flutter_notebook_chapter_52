@@ -99,13 +99,14 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     ),
                   ),
                   Container(
-                    height: 52,
+                    height: 48,
                     child: ListView(
                       scrollDirection: .horizontal,
                       children: [
                         Container(
                           padding: .symmetric(horizontal: 16),
                           decoration: ShapeDecoration(
+                            color: Colors.white,
                             shape: StadiumBorder(
                               side: BorderSide(color: Colors.grey[200]!),
                             ),
