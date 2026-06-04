@@ -181,7 +181,12 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       itemBuilder: (context, index){
                         return Column(
                           children: [
-                            
+                            Expanded(child: Placeholder()),
+                            Text("Dream"),
+                            Text("Grand Walker"),
+                            Text.rich(TextSpan(
+                              children: [],
+                            ))
                           ],
                         );
                       },
