@@ -180,8 +180,10 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       ),
                       itemBuilder: (context, index){
                         return Column(
+                          crossAxisAlignment: .start,
                           children: [
                             Expanded(child: Placeholder()),
+                            Gap(12),
                             Text("Dream"),
                             Text("Grand Walker"),
                             Text.rich(TextSpan(
