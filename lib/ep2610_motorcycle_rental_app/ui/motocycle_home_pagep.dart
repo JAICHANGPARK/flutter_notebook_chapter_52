@@ -105,21 +105,17 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       children: [
                         Container(
                           padding: .symmetric(horizontal: 16),
-                          decoration: ShapeDecoration(shape: StadiumBorder(
-                            side: BorderSide(
-                              color: Colors.grey[200]!,
-                            )
-                          ),),
-                          child: Center(
-                            child: Text("Vario"),
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.grey[200]!),
+                            ),
                           ),
+                          child: Center(child: Text("Vario")),
                         ),
                         Container(
-                          decoration: ShapeDecoration(shape: StadiumBorder(),),
-                          child: Center(
-                            child: Text("Vario"),
-                          ),
-                        )
+                          decoration: ShapeDecoration(shape: StadiumBorder()),
+                          child: Center(child: Text("Vario")),
+                        ),
                       ],
                     ),
                   ),
@@ -127,13 +123,11 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                   Row(
                     mainAxisAlignment: .spaceBetween,
                     children: [
-                      Text("Mostly in rental",style: TextStyle(
-                        fontSize: 18,
-                      ),),
+                      Text("Mostly in rental", style: TextStyle(fontSize: 18)),
                       Icon(Icons.chevron_right),
                     ],
                   ),
-                  Expanded(child: Placeholder(),),
+                  Expanded(child: Placeholder()),
                 ],
               ),
             ),
