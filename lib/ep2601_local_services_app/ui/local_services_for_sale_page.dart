@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'widgets/local_services_bg_widget.dart';
 
 class LocalServicesForSalePage extends StatefulWidget {
