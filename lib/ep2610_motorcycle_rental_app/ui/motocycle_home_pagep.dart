@@ -99,6 +99,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     ),
                   ),
                   Container(
+                    margin: .symmetric(vertical: 4),
                     height: 48,
                     child: ListView(
                       scrollDirection: .horizontal,
@@ -124,6 +125,39 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                             ),
                           ),
                           child: Center(child: Text("Mio")),
+                        ),
+                        Container(
+                          padding: .symmetric(horizontal: 16),
+                          margin: .only(right: 8),
+                          decoration: ShapeDecoration(
+                            color: Colors.white,
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.grey[200]!),
+                            ),
+                          ),
+                          child: Center(child: Text("Scoopy")),
+                        ),
+                        Container(
+                          padding: .symmetric(horizontal: 16),
+                          margin: .only(right: 8),
+                          decoration: ShapeDecoration(
+                            color: Colors.white,
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.grey[200]!),
+                            ),
+                          ),
+                          child: Center(child: Text("PCX")),
+                        ),
+                        Container(
+                          padding: .symmetric(horizontal: 16),
+                          margin: .only(right: 8),
+                          decoration: ShapeDecoration(
+                            color: Colors.white,
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.grey[200]!),
+                            ),
+                          ),
+                          child: Center(child: Text("Aerox")),
                         ),
                       ],
                     ),
