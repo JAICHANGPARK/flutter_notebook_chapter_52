@@ -181,33 +181,35 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       itemBuilder: (context, index) {
                         return Column(
                           crossAxisAlignment: .start,
+                          spacing: 12,
                           children: [
                             Expanded(child: Placeholder()),
-                            Gap(12),
+
                             Column(
+                              spacing: 3,
                               children: [
-                                
+                                Text("Dream"),
+                                Text(
+                                  "Grand Walker",
+                                  style: TextStyle(fontWeight: .bold),
+                                ),
+                                Text.rich(
+                                  TextSpan(
+                                    children: [
+                                      TextSpan(
+                                        text: "\$110,00 ",
+                                        style: TextStyle(
+                                          color: Colors.indigo,
+                                          fontWeight: .bold,
+                                        ),
+                                      ),
+                                      TextSpan(text: "\/day"),
+                                    ],
+                                  ),
+                                ),
                               ],
                             )
-                            Text("Dream"),
-                            Text(
-                              "Grand Walker",
-                              style: TextStyle(fontWeight: .bold),
-                            ),
-                            Text.rich(
-                              TextSpan(
-                                children: [
-                                  TextSpan(
-                                    text: "\$110,00 ",
-                                    style: TextStyle(
-                                      color: Colors.indigo,
-                                      fontWeight: .bold,
-                                    ),
-                                  ),
-                                  TextSpan(text: "\/day"),
-                                ],
-                              ),
-                            ),
+
                           ],
                         );
                       },
