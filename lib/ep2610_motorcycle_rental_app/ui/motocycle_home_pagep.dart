@@ -178,25 +178,28 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                         mainAxisSpacing: 12,
                         childAspectRatio: .8,
                       ),
-                      itemBuilder: (context, index){
+                      itemBuilder: (context, index) {
                         return Column(
                           crossAxisAlignment: .start,
                           children: [
                             Expanded(child: Placeholder()),
                             Gap(12),
                             Text("Dream"),
-                            Text("Grand Walker"),
-                            Text.rich(TextSpan(
-                              children: [
-                                TextSpan(
-                                  text:"\$110,00"
-                                ),
-                                TextSpan(
-                                  text: "\/day",
-                                )
-
-                              ],
-                            ))
+                            Text(
+                              "Grand Walker",
+                              style: TextStyle(fontWeight: .bold),
+                            ),
+                            Text.rich(
+                              TextSpan(
+                                children: [
+                                  TextSpan(
+                                    text: "\$110,00",
+                                    style: TextStyle(color: Colors.blue),
+                                  ),
+                                  TextSpan(text: "\/day"),
+                                ],
+                              ),
+                            ),
                           ],
                         );
                       },
