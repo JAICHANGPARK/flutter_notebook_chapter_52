@@ -184,6 +184,11 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           children: [
                             Expanded(child: Placeholder()),
                             Gap(12),
+                            Column(
+                              children: [
+                                
+                              ],
+                            )
                             Text("Dream"),
                             Text(
                               "Grand Walker",
@@ -193,8 +198,11 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                               TextSpan(
                                 children: [
                                   TextSpan(
-                                    text: "\$110,00",
-                                    style: TextStyle(color: Colors.blue),
+                                    text: "\$110,00 ",
+                                    style: TextStyle(
+                                      color: Colors.indigo,
+                                      fontWeight: .bold,
+                                    ),
                                   ),
                                   TextSpan(text: "\/day"),
                                 ],
