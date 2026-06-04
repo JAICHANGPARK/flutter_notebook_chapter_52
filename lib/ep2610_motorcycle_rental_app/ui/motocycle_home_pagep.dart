@@ -185,7 +185,15 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                             Text("Dream"),
                             Text("Grand Walker"),
                             Text.rich(TextSpan(
-                              children: [],
+                              children: [
+                                TextSpan(
+                                  text:"\$110,00"
+                                ),
+                                TextSpan(
+                                  text: "\/day",
+                                )
+
+                              ],
                             ))
                           ],
                         );
