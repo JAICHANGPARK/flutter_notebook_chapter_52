@@ -105,6 +105,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       children: [
                         Container(
                           padding: .symmetric(horizontal: 16),
+                          margin: .only(right: 12),
                           decoration: ShapeDecoration(
                             color: Colors.white,
                             shape: StadiumBorder(
