@@ -170,7 +170,16 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       Icon(Icons.chevron_right),
                     ],
                   ),
-                  Expanded(child: Placeholder()),
+                  Expanded(
+                    child: GridView.builder(
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 2,
+                        crossAxisSpacing: 12,
+                        mainAxisSpacing: 12,
+                      ),
+                      itemBuilder: (context, index){},
+                    ),
+                  ),
                 ],
               ),
             ),
