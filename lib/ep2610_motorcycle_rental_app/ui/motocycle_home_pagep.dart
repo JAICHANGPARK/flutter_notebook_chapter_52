@@ -183,10 +183,15 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           crossAxisAlignment: .start,
                           spacing: 12,
                           children: [
-                            Expanded(child: Placeholder()),
+                            Expanded(
+                              child: Container(
+                                decoration: BoxDecoration(color: Colors.grey),
+                              ),
+                            ),
 
                             Column(
                               spacing: 3,
+                              crossAxisAlignment: .start,
                               children: [
                                 Text("Dream"),
                                 Text(
@@ -208,8 +213,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                                   ),
                                 ),
                               ],
-                            )
-
+                            ),
                           ],
                         );
                       },
