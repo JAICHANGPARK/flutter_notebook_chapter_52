@@ -104,6 +104,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       scrollDirection: .horizontal,
                       children: [
                         Container(
+                          padding: .symmetric(horizontal: 16),
                           decoration: ShapeDecoration(shape: StadiumBorder(
                             side: BorderSide(
                               color: Colors.grey[200]!,
