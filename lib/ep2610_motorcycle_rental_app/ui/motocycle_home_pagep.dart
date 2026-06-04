@@ -104,6 +104,16 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       scrollDirection: .horizontal,
                       children: [
                         Container(
+                          decoration: ShapeDecoration(shape: StadiumBorder(
+                            side: BorderSide(
+                              color: Colors.grey[100],
+                            )
+                          ),),
+                          child: Center(
+                            child: Text("Vario"),
+                          ),
+                        ),
+                        Container(
                           decoration: ShapeDecoration(shape: StadiumBorder(),),
                           child: Center(
                             child: Text("Vario"),
