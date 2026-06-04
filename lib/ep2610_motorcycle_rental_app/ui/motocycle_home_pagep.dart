@@ -105,7 +105,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       children: [
                         Container(
                           padding: .symmetric(horizontal: 16),
-                          margin: .only(right: 12),
+                          margin: .only(right: 8),
                           decoration: ShapeDecoration(
                             color: Colors.white,
                             shape: StadiumBorder(
@@ -115,8 +115,15 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           child: Center(child: Text("Vario")),
                         ),
                         Container(
-                          decoration: ShapeDecoration(shape: StadiumBorder()),
-                          child: Center(child: Text("Vario")),
+                          padding: .symmetric(horizontal: 16),
+                          margin: .only(right: 8),
+                          decoration: ShapeDecoration(
+                            color: Colors.white,
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.grey[200]!),
+                            ),
+                          ),
+                          child: Center(child: Text("Mio")),
                         ),
                       ],
                     ),
