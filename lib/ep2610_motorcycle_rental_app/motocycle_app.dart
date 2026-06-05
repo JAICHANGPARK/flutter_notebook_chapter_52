@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'ui/motocycle_home_pagep.dart';
 
 class MotorcycleApp extends StatelessWidget {
