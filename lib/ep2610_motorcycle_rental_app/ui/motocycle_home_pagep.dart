@@ -121,18 +121,39 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           child: Row(
                             spacing: 4,
                             children: [
-                              Expanded(child: Column(
+                              Expanded(
+                                child: Column(
                                   crossAxisAlignment: .center,
                                   mainAxisAlignment: .center,
                                   spacing: 12,
                                   children: [
-                                    CircleAvatar(
-                                      radius: 27,
-                                    ),
+                                    CircleAvatar(radius: 27),
                                     Text("AAAAA"),
-                                  ])),
-                              Expanded(child: Placeholder()),
-                              Expanded(child: Placeholder()),
+                                  ],
+                                ),
+                              ),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: .center,
+                                  mainAxisAlignment: .center,
+                                  spacing: 12,
+                                  children: [
+                                    CircleAvatar(radius: 27),
+                                    Text("AAAAA"),
+                                  ],
+                                ),
+                              ),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: .center,
+                                  mainAxisAlignment: .center,
+                                  spacing: 12,
+                                  children: [
+                                    CircleAvatar(radius: 27),
+                                    Text("AAAAA"),
+                                  ],
+                                ),
+                              ),
                               Expanded(child: Placeholder()),
                             ],
                           ),
