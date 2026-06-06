@@ -83,6 +83,12 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       color: Colors.white,
                       borderRadius: .circular(6),
                     ),
+                    child: Row(
+                      children: [
+                        Icon(Icons.search),
+                        Expanded(child: TextField()),
+                      ],
+                    ),
                   ),
                   Container(
                     height: 180,
