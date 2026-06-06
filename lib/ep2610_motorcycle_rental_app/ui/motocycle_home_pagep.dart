@@ -154,14 +154,24 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                                   ],
                                 ),
                               ),
-                              Expanded(child: Placeholder()),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: .center,
+                                  mainAxisAlignment: .center,
+                                  spacing: 12,
+                                  children: [
+                                    CircleAvatar(radius: 27),
+                                    Text("AAAAA"),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                         ),
                         Container(
                           padding: .symmetric(vertical: 4),
                           decoration: BoxDecoration(
-                            border: .all(),
+                            border: .all(color: Colors.grey[200]!),
                             borderRadius: .circular(4),
                           ),
                           child: Row(
