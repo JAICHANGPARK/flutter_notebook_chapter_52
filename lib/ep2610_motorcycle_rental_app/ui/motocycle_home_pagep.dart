@@ -88,11 +88,14 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       spacing: 12,
                       children: [
                         Icon(Icons.search),
-                        Expanded(child: TextField(
-                          decoration: InputDecoration(
-                            hintText: "Search for a name or brand"
+                        Expanded(
+                          child: TextField(
+                            decoration: InputDecoration(
+                              hintText: "Search for a name or brand",
+                              border: .none,
+                            ),
                           ),
-                        )),
+                        ),
                         Icon(Icons.tune),
                       ],
                     ),
