@@ -127,17 +127,15 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           ),
                         ),
                         Container(
-                          decoration: BoxDecoration(
-                            border: .all(),
-
-                          ),
+                          padding: .symmetric(vertical: 4),
+                          decoration: BoxDecoration(border: .all()),
                           child: Row(
                             children: [
-                              
+                              Icon(Icons.apps_outlined),
+                              Text("All categories"),
                             ],
                           ),
-                        )
-                        
+                        ),
                       ],
                     ),
                   ),
