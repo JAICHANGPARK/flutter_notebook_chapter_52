@@ -119,9 +119,9 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           child: Row(
                             children: [
                               Expanded(child: Placeholder()),
-                              Placeholder(),
-                              Placeholder(),
-                              Placeholder(),
+                              Expanded(child: Placeholder()),
+                              Expanded(child: Placeholder()),
+                              Expanded(child: Placeholder()),
                             ],
                           ),
                         ),
