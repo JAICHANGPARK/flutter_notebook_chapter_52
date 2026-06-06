@@ -88,7 +88,9 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       children: [
                         Icon(Icons.search),
                         Expanded(child: TextField(
-                          decoration: InputDecoration(),
+                          decoration: InputDecoration(
+                            hintText: "Search for a name or brand"
+                          ),
                         )),
                         Icon(Icons.tune),
                       ],
