@@ -133,6 +133,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           decoration: BoxDecoration(border: .all(),
                           borderRadius: .circular(4)),
                           child: Row(
+                            spacing: 5,
                             mainAxisAlignment: .center,
                             children: [
                               Icon(Icons.apps_outlined),
