@@ -84,9 +84,13 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       borderRadius: .circular(6),
                     ),
                     child: Row(
+                      spacing: 5,
                       children: [
                         Icon(Icons.search),
-                        Expanded(child: TextField()),
+                        Expanded(child: TextField(
+                          decoration: InputDecoration(),
+                        )),
+                        Icon(Icons.tune),
                       ],
                     ),
                   ),
