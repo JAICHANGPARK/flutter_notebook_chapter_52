@@ -131,6 +131,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           padding: .symmetric(vertical: 4),
                           decoration: BoxDecoration(border: .all()),
                           child: Row(
+                            mainAxisAlignment: .center,
                             children: [
                               Icon(Icons.apps_outlined),
                               Text("All categories"),
