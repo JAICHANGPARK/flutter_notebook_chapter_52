@@ -121,7 +121,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           child: Row(
                             spacing: 4,
                             children: [
-                              Expanded(child: Placeholder()),
+                              Expanded(child: Column(children: [])),
                               Expanded(child: Placeholder()),
                               Expanded(child: Placeholder()),
                               Expanded(child: Placeholder()),
@@ -130,8 +130,10 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                         ),
                         Container(
                           padding: .symmetric(vertical: 4),
-                          decoration: BoxDecoration(border: .all(),
-                          borderRadius: .circular(4)),
+                          decoration: BoxDecoration(
+                            border: .all(),
+                            borderRadius: .circular(4),
+                          ),
                           child: Row(
                             spacing: 5,
                             mainAxisAlignment: .center,
