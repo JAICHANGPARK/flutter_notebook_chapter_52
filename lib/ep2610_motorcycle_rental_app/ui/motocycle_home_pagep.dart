@@ -121,7 +121,15 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           child: Row(
                             spacing: 4,
                             children: [
-                              Expanded(child: Column(children: [])),
+                              Expanded(child: Column(
+                                  crossAxisAlignment: .center,
+                                  spacing: 12,
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 27,
+                                    ),
+                                    Text("AAAAA"),
+                                  ])),
                               Expanded(child: Placeholder()),
                               Expanded(child: Placeholder()),
                               Expanded(child: Placeholder()),
