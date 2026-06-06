@@ -113,6 +113,21 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                         ),
                       ],
                     ),
+                    child: Column(
+                      children: [
+                        Expanded(
+                          child: Row(
+                            children: [
+                              Expanded(child: Placeholder()),
+                              Placeholder(),
+                              Placeholder(),
+                              Placeholder(),
+                            ],
+                          ),
+                        ),
+                        
+                      ],
+                    ),
                   ),
                   Container(
                     margin: .symmetric(vertical: 4),
