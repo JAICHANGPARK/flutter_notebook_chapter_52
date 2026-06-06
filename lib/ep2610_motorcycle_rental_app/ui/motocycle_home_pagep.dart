@@ -254,7 +254,10 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                   Row(
                     mainAxisAlignment: .spaceBetween,
                     children: [
-                      Text("Mostly in rental", style: TextStyle(fontSize: 18)),
+                      Text(
+                        "Mostly in rental",
+                        style: TextStyle(fontSize: 18, fontWeight: .bold),
+                      ),
                       Icon(Icons.chevron_right),
                     ],
                   ),
@@ -273,7 +276,10 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                           children: [
                             Expanded(
                               child: Container(
-                                decoration: BoxDecoration(color: Colors.grey),
+                                decoration: BoxDecoration(
+                                  color: Colors.grey[200]!,
+                                  borderRadius: .circular(12),
+                                ),
                               ),
                             ),
 
