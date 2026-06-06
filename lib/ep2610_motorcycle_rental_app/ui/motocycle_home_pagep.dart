@@ -115,6 +115,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     ),
                     padding: .all(14),
                     child: Column(
+                      spacing: 12,
                       children: [
                         Expanded(
                           child: Row(
