@@ -123,6 +123,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                             children: [
                               Expanded(child: Column(
                                   crossAxisAlignment: .center,
+                                  mainAxisAlignment: .center,
                                   spacing: 12,
                                   children: [
                                     CircleAvatar(
