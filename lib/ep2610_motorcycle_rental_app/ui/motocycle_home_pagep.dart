@@ -83,8 +83,9 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       color: Colors.white,
                       borderRadius: .circular(6),
                     ),
+                    padding: .symmetric(horizontal: 12),
                     child: Row(
-                      spacing: 5,
+                      spacing: 12,
                       children: [
                         Icon(Icons.search),
                         Expanded(child: TextField(
