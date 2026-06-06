@@ -101,7 +101,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                     ),
                   ),
                   Container(
-                    height: 180,
+                    height: 190,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: .circular(12),
@@ -119,6 +119,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                       children: [
                         Expanded(
                           child: Row(
+                            spacing: 4,
                             children: [
                               Expanded(child: Placeholder()),
                               Expanded(child: Placeholder()),
