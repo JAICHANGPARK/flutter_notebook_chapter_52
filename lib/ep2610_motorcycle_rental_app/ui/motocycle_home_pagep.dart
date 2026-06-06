@@ -113,6 +113,7 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                         ),
                       ],
                     ),
+                    padding: .all(14),
                     child: Column(
                       children: [
                         Expanded(
@@ -125,6 +126,17 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                             ],
                           ),
                         ),
+                        Container(
+                          decoration: BoxDecoration(
+                            border: .all(),
+
+                          ),
+                          child: Row(
+                            children: [
+                              
+                            ],
+                          ),
+                        )
                         
                       ],
                     ),
