@@ -130,7 +130,8 @@ class _MotorcycleHomePageState extends State<MotorcycleHomePage> {
                         ),
                         Container(
                           padding: .symmetric(vertical: 4),
-                          decoration: BoxDecoration(border: .all()),
+                          decoration: BoxDecoration(border: .all(),
+                          borderRadius: .circular(4)),
                           child: Row(
                             mainAxisAlignment: .center,
                             children: [
