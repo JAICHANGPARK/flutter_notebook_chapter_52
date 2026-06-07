@@ -37,6 +37,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                   ),
                   Expanded(child: IndexedStack(children: [
                     Placeholder(),
+                    Placeholder(),
                   ])),
                 ],
               ),
