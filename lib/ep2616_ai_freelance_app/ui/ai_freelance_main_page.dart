@@ -16,7 +16,17 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
       body: Stack(
         children: [
           Positioned.fill(child: Column(children: [
-
+                Row(
+                  children: [
+                    Container(
+                      decoration: BoxDecoration(),
+                      child: Text("24 credits"),
+                    ),
+                    CircleAvatar(),
+                    CircleAvatar(),
+                  ],
+                ),
+            Expanded(child: IndexedStack(children: [],))
           ],)),
           Positioned(
               bottom: 32,
