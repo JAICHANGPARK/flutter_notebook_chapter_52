@@ -13,7 +13,13 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
     return Scaffold(
       body: Stack(
         children: [
-          
+          Positioned(
+              bottom: 32,
+              left: 42,
+              right: 42,
+              child: Container(height: 72,
+          child: Placeholder(),))
+
         ],
       ),
     );
