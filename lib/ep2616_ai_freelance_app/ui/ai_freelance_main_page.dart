@@ -18,7 +18,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
             top: 16,
             child: SafeArea(
               child: Column(
-                spacing: 16
+                spacing: 16,
                 children: [
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
