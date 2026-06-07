@@ -8,33 +8,41 @@ class AiFreelanceMainPage extends StatefulWidget {
 }
 
 class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          Positioned.fill(child: Column(children: [
-                Row(
-                  children: [
-                    Container(
-                      decoration: BoxDecoration(),
-                      child: Text("24 credits"),
+          Positioned.fill(
+            top: 16,
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(),
+                          child: Text("24 credits"),
+                        ),
+                        CircleAvatar(),
+                        CircleAvatar(),
+                      ],
                     ),
-                    CircleAvatar(),
-                    CircleAvatar(),
-                  ],
-                ),
-            Expanded(child: IndexedStack(children: [],))
-          ],)),
+                  ),
+                  Expanded(child: IndexedStack(children: [])),
+                ],
+              ),
+            ),
+          ),
           Positioned(
-              bottom: 32,
-              left: 42,
-              right: 42,
-              child: Container(height: 72,
-          child: Placeholder(),))
-
+            bottom: 32,
+            left: 42,
+            right: 42,
+            child: Container(height: 72, child: Placeholder()),
+          ),
         ],
       ),
     );
