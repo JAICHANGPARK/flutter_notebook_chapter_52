@@ -20,13 +20,14 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
               child: Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
                       children: [
                         Container(
                           decoration: BoxDecoration(),
                           child: Text("24 credits"),
                         ),
+                        Spacer(),
                         CircleAvatar(),
                         CircleAvatar(),
                       ],
