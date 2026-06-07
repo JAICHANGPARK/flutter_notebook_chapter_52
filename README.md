@@ -3,7 +3,7 @@
 ## EP2616
 
 - AI Freelance Mobile UI
-- Ahmad Jaelani
+- Cecillia Yo for Yow
 - https://dribbble.com/shots/27435589-AI-Freelance-Mobile-UI
 
 <img src="https://cdn.dribbble.com/userupload/47903997/file/427cd533fb855a129d1546cd4937c83f.png?resize=1905x1429&vertical=center" alt=""/>
