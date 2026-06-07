@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_52/ep2616_ai_freelance_app/ui/ai_freelance_main_page.dart';
 
 
 class AiFreelanceApp extends StatelessWidget {
@@ -6,6 +7,8 @@ class AiFreelanceApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home: AiFreelanceMainPage(),
+    );
   }
 }
