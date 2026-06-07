@@ -22,6 +22,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
+                      spacing: 4,
                       children: [
                         Container(
                           decoration: BoxDecoration(),
@@ -33,7 +34,9 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                       ],
                     ),
                   ),
-                  Expanded(child: IndexedStack(children: [])),
+                  Expanded(child: IndexedStack(children: [
+                    Placeholder(),
+                  ])),
                 ],
               ),
             ),
