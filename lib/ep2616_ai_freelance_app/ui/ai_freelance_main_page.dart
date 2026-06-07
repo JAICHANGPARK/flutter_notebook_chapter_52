@@ -10,6 +10,12 @@ class AiFreelanceMainPage extends StatefulWidget {
 class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Stack(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
