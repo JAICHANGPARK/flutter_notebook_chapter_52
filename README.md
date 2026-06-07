@@ -2,9 +2,9 @@
 
 ## EP2616
 
-- Zizy Motorcycle Rental - Mobile App
+- AI Freelance Mobile UI
 - Ahmad Jaelani
-- https://dribbble.com/shots/27425592-Zizy-Motorcycle-Rental-Mobile-App
+- https://dribbble.com/shots/27435589-AI-Freelance-Mobile-UI
 
 <img src="https://cdn.dribbble.com/userupload/47903997/file/427cd533fb855a129d1546cd4937c83f.png?resize=1905x1429&vertical=center" alt=""/>
 
