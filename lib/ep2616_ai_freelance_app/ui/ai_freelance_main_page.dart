@@ -8,11 +8,16 @@ class AiFreelanceMainPage extends StatefulWidget {
 }
 
 class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Stack(
         children: [
+          Positioned.fill(child: Column(children: [
+
+          ],)),
           Positioned(
               bottom: 32,
               left: 42,
