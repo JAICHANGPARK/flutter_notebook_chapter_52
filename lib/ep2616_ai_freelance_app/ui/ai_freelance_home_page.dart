@@ -14,6 +14,12 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
     return Column(
       crossAxisAlignment: .start,
       children: [
+        Text("Welcome back, Dreamwalker"),
+        Text("Ready to land your\nnext project?"),
+        Container(
+          height: 200,
+          child: Placeholder(),
+        ),
 
       ],
     );
