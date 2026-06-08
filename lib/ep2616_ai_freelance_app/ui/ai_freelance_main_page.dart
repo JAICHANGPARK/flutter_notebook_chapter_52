@@ -52,9 +52,11 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
             child: Container(
               height: 72,
               child: Row(
+                spacing: 16,
                 children: [
                   Expanded(
                     child: Container(
+                      padding: .symmetric(vertical: 16),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: Colors.white,
@@ -81,7 +83,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
                               ),
-                              child: HugeIcon(icon: HugeIcons.strokeRoundedHome02),
+                              child: HugeIcon(icon: HugeIcons.strokeRoundedLayer),
                             ),
                           ),
                           Expanded(
@@ -89,7 +91,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
                               ),
-                              child: HugeIcon(icon: HugeIcons.strokeRoundedHome02),
+                              child: HugeIcon(icon: HugeIcons.strokeRoundedChat),
                             ),
                           ),
                           Expanded(
@@ -106,6 +108,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                   ),
                   Container(
                     decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: HugeIcon(icon: HugeIcons.strokeRoundedLuggage01),
                   ),
                 ],
               ),
