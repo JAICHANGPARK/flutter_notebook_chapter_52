@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class AiFreelanceMainPage extends StatefulWidget {
   const AiFreelanceMainPage({super.key});
@@ -64,11 +65,17 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                             spreadRadius: 4,
                           ),
                         ],
-
                       ),
                       child: Row(
                         children: [
-                          
+                          Expanded(
+                            child: Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                              ),
+                              child: HugeIcon(icon: HugeIcons.strokeRoundedHome02),
+                            ),
+                          ),
                         ],
                       ),
                     ),
