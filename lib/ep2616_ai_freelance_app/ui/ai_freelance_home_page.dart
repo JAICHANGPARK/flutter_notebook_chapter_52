@@ -11,6 +11,11 @@ class AiFreelanceHomePage extends StatefulWidget {
 class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(
+      crossAxisAlignment: .start,
+      children: [
+
+      ],
+    );
   }
 }
