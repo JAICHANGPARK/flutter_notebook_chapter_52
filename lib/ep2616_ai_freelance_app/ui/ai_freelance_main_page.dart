@@ -63,7 +63,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                         shadows: [
                           BoxShadow(
                             color: Colors.black.withValues(alpha: .1),
-                            blurRadius: 3,
+                            blurRadius: 16,
                             spreadRadius: 4,
                           ),
                         ],
