@@ -57,6 +57,11 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
             ],
           ),
         ),
+        Container(
+          padding: .only(left: 16),
+          height: 240,
+          child: Placeholder(),
+        ),
 
       ],
     );
