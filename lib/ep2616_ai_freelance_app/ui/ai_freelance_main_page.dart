@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_52/ep2616_ai_freelance_app/ui/ai_freelance_home_page.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class AiFreelanceMainPage extends StatefulWidget {
@@ -38,7 +39,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                   ),
                   Expanded(
                     child: IndexedStack(
-                      children: [Placeholder(), Placeholder()],
+                      children: [AiFreelanceHomePage(), Placeholder(),],
                     ),
                   ),
                 ],
@@ -75,7 +76,8 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
                               ),
-                              child: HugeIcon(icon: HugeIcons.strokeRoundedHome02),
+                              child: HugeIcon(
+                                  icon: HugeIcons.strokeRoundedHome02),
                             ),
                           ),
                           Expanded(
@@ -83,7 +85,8 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
                               ),
-                              child: HugeIcon(icon: HugeIcons.strokeRoundedLayer),
+                              child: HugeIcon(
+                                  icon: HugeIcons.strokeRoundedLayer),
                             ),
                           ),
                           Expanded(
@@ -91,7 +94,8 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
                               ),
-                              child: HugeIcon(icon: HugeIcons.strokeRoundedChat),
+                              child: HugeIcon(
+                                  icon: HugeIcons.strokeRoundedChat),
                             ),
                           ),
                           Expanded(
@@ -99,7 +103,8 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
                               ),
-                              child: HugeIcon(icon: HugeIcons.strokeRoundedStar),
+                              child: HugeIcon(
+                                  icon: HugeIcons.strokeRoundedStar),
                             ),
                           ),
                         ],
