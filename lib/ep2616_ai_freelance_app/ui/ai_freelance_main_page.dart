@@ -35,10 +35,11 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                       ],
                     ),
                   ),
-                  Expanded(child: IndexedStack(children: [
-                    Placeholder(),
-                    Placeholder(),
-                  ])),
+                  Expanded(
+                    child: IndexedStack(
+                      children: [Placeholder(), Placeholder()],
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -47,7 +48,21 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
             bottom: 32,
             left: 42,
             right: 42,
-            child: Container(height: 72, child: Placeholder()),
+            child: Container(
+              height: 72,
+              child: Row(
+                children: [
+                  Expanded(
+                    child: Container(
+                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                    ),
+                  ),
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                  ),
+                ],
+              ),
+            ),
           ),
         ],
       ),
