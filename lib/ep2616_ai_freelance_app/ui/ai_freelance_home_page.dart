@@ -13,10 +13,12 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: .start,
+      spacing: 16,
       children: [
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Column(
+            spacing: 8,
             crossAxisAlignment: .start,
             children: [
               Text("Welcome back, Dreamwalker"),
@@ -29,7 +31,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Row(
             mainAxisAlignment: .spaceBetween,
             children: [
@@ -44,7 +46,17 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
           padding: .only(left: 16),
           height: 240,
           child: Placeholder(),
-        )
+        ),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Row(
+            mainAxisAlignment: .spaceBetween,
+            children: [
+              Text("My Services(5)"),
+              Icon(Icons.arrow_forward)
+            ],
+          ),
+        ),
 
       ],
     );
