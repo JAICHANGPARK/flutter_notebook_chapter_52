@@ -19,6 +19,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
           Positioned.fill(
             top: 16,
             child: SafeArea(
+              bottom: false,
               child: Column(
                 spacing: 16,
                 children: [
