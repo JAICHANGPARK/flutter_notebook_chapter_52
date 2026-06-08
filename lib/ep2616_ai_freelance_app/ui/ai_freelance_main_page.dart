@@ -76,6 +76,30 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                               child: HugeIcon(icon: HugeIcons.strokeRoundedHome02),
                             ),
                           ),
+                          Expanded(
+                            child: Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                              ),
+                              child: HugeIcon(icon: HugeIcons.strokeRoundedHome02),
+                            ),
+                          ),
+                          Expanded(
+                            child: Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                              ),
+                              child: HugeIcon(icon: HugeIcons.strokeRoundedHome02),
+                            ),
+                          ),
+                          Expanded(
+                            child: Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                              ),
+                              child: HugeIcon(icon: HugeIcons.strokeRoundedStar),
+                            ),
+                          ),
                         ],
                       ),
                     ),
