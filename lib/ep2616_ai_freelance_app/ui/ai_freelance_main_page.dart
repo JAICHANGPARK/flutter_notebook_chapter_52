@@ -54,7 +54,23 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                 children: [
                   Expanded(
                     child: Container(
-                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.white,
+                        shadows: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: .1),
+                            blurRadius: 3,
+                            spreadRadius: 4,
+                          ),
+                        ],
+
+                      ),
+                      child: Row(
+                        children: [
+                          
+                        ],
+                      ),
                     ),
                   ),
                   Container(
