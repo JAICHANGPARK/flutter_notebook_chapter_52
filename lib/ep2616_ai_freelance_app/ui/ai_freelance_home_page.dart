@@ -17,9 +17,20 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
         Text("Welcome back, Dreamwalker"),
         Text("Ready to land your\nnext project?"),
         Container(
-          height: 200,
+          height: 140,
           child: Placeholder(),
         ),
+        Row(
+          mainAxisAlignment: .spaceBetween,
+          children: [
+            Text("AI- Matched Jobs For You"),
+            Icon(Icons.arrow_forward)
+          ],
+        ),
+        Container(
+          height: 240,
+          child: Placeholder(),
+        )
 
       ],
     );
