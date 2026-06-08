@@ -56,7 +56,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                 children: [
                   Expanded(
                     child: Container(
-                      padding: .symmetric(vertical: 16),
+                      padding: .symmetric(vertical: 16, horizontal: 8),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: Colors.white,
@@ -107,7 +107,18 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                     ),
                   ),
                   Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    padding: .symmetric(vertical: 16, horizontal: 18),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.white,
+                      shadows: [
+                        BoxShadow(
+                          color: Colors.black.withValues(alpha: .1),
+                          blurRadius: 16,
+                          spreadRadius: 4,
+                        ),
+                      ],
+                    ),
                     child: HugeIcon(icon: HugeIcons.strokeRoundedLuggage01),
                   ),
                 ],
