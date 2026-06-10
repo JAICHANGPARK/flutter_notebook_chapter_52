@@ -30,7 +30,13 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                   style: TextStyle(fontSize: 24, fontWeight: .bold,),
                 ),
                 Gap(4),
-                Container(height: 140, child: Placeholder()),
+                Container(height: 140, child: Stack(
+                  children: [Positioned.fill(
+                      left: 32,
+                      right: 32,
+                      top: 0,
+                      child: Placeholder()),Placeholder()],
+                )),
               ],
             ),
           ),
