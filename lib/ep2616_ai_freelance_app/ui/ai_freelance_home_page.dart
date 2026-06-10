@@ -36,8 +36,8 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                   child: Stack(
                     children: [
                       Positioned.fill(
-                        left: 32,
-                        right: 32,
+                        left: 20,
+                        right: 20,
                         top: 0,
                         bottom: 12,
                         child: Container(
@@ -48,9 +48,9 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                         ),
                       ),
                       Positioned(
-                        left: 16,
-                        right: 16,
-                        top: 16,
+                        left: 8,
+                        right: 8,
+                        top: 12,
                         bottom: 0,
                         child: Container(
                           decoration: BoxDecoration(
