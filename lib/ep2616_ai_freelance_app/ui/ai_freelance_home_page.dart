@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class AiFreelanceHomePage extends StatefulWidget {
   const AiFreelanceHomePage({super.key});
 
@@ -22,15 +21,12 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
               spacing: 8,
               crossAxisAlignment: .start,
               children: [
-                Text("Welcome back, Dreamwalker",style: TextStyle(
-                  fontSize: 16,
-                  color: Colors.grey,
-                ),),
-                Text("Ready to land your\nnext project?"),
-                Container(
-                  height: 140,
-                  child: Placeholder(),
+                Text(
+                  "Welcome back, Dreamwalker",
+                  style: TextStyle(fontSize: 16, color: Colors.black54),
                 ),
+                Text("Ready to land your\nnext project?"),
+                Container(height: 140, child: Placeholder()),
               ],
             ),
           ),
@@ -40,12 +36,11 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
               mainAxisAlignment: .spaceBetween,
               children: [
                 Text("AI- Matched Jobs For You"),
-                Icon(Icons.arrow_forward)
+                Icon(Icons.arrow_forward),
               ],
             ),
           ),
-      
-      
+
           Container(
             padding: .only(left: 16),
             height: 240,
@@ -55,10 +50,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Row(
               mainAxisAlignment: .spaceBetween,
-              children: [
-                Text("My Services(5)"),
-                Icon(Icons.arrow_forward)
-              ],
+              children: [Text("My Services(5)"), Icon(Icons.arrow_forward)],
             ),
           ),
           Container(
@@ -66,7 +58,6 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
             height: 240,
             child: Placeholder(),
           ),
-      
         ],
       ),
     );
