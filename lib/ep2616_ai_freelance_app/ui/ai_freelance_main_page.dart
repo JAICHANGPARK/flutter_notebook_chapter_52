@@ -50,7 +50,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                             child: Icon(Icons.notifications_active_outlined),
                           ),
                         ),
-                        CircleAvatar(),
+                        CircleAvatar( radius: 24,),
                       ],
                     ),
                   ),
