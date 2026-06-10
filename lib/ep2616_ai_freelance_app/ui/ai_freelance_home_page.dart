@@ -51,10 +51,17 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                         left: 16,
                         right: 16,
                         top: 16,
+                        bottom: 0,
                         child: Container(
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: .circular(12),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withValues(alpha: .1),
+                                blurRadius: 12,
+                              )
+                            ],
                           ),
                         ),
                       ),
