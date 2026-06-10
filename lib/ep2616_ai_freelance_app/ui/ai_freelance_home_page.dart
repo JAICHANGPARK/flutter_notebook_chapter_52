@@ -60,7 +60,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                               BoxShadow(
                                 color: Colors.black.withValues(alpha: .1),
                                 blurRadius: 12,
-                                spreadRadius: 3
+                                spreadRadius: 3,
                               ),
                             ],
                           ),
@@ -72,10 +72,12 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
               ],
             ),
           ),
+          Gap(8),
           Column(
+            spacing: 16,
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, ),
+                padding: const EdgeInsets.symmetric(horizontal: 16),
                 child: Row(
                   mainAxisAlignment: .spaceBetween,
                   children: [
