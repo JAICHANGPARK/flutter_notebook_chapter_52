@@ -22,7 +22,10 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
               spacing: 8,
               crossAxisAlignment: .start,
               children: [
-                Text("Welcome back, Dreamwalker"),
+                Text("Welcome back, Dreamwalker",style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.grey,
+                ),),
                 Text("Ready to land your\nnext project?"),
                 Container(
                   height: 140,
