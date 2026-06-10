@@ -30,7 +30,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                       children: [
                         Container(
                           decoration: BoxDecoration(
-                            color: Color.fromRGBO(226, 237, 237, 1),
+                            color: Color.fromRGBO(226, 236, 237, 1),
                             borderRadius: .circular(4)
                           ),
                           padding: .symmetric(horizontal: 12, vertical: 6),
