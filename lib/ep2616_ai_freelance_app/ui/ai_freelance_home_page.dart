@@ -26,22 +26,38 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                   "Welcome back, Dreamwalker",
                   style: TextStyle(fontSize: 16, color: Colors.black54),
                 ),
-                Text("Ready to land your\nnext project?",
-                  style: TextStyle(fontSize: 24, fontWeight: .bold,),
+                Text(
+                  "Ready to land your\nnext project?",
+                  style: TextStyle(fontSize: 24, fontWeight: .bold),
                 ),
                 Gap(4),
-                Container(height: 140, child: Stack(
-                  children: [Positioned.fill(
-                      left: 32,
-                      right: 32,
-                      top: 0,
-                      child: Placeholder()),Positioned(
-                      left: 16,
-                      right: 16,
-                      top: 16,
+                Container(
+                  height: 140,
+                  child: Stack(
+                    children: [
+                      Positioned.fill(
+                        left: 32,
+                        right: 32,
+                        top: 0,
+                        bottom: 12,
+                        child: Container(
+                          decoration: BoxDecoration(color: Colors.grey[100]!
+                          ,borderRadius: .circular(12),),
+                        ),
+                      ),
+                      Positioned(
+                        left: 16,
+                        right: 16,
+                        top: 16,
 
-                      child: Placeholder())],
-                )),
+                        child: Container(
+                          decoration: BoxDecoration(color: Colors.white,
+                            ,borderRadius: .circular(12),),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
