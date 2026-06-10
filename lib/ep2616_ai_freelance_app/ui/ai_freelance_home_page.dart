@@ -35,7 +35,12 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                       left: 32,
                       right: 32,
                       top: 0,
-                      child: Placeholder()),Placeholder()],
+                      child: Placeholder()),Positioned(
+                      left: 16,
+                      right: 16,
+                      top: 16,
+
+                      child: Placeholder())],
                 )),
               ],
             ),
