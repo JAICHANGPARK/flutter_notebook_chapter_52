@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class AiFreelanceHomePage extends StatefulWidget {
   const AiFreelanceHomePage({super.key});
@@ -28,6 +29,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                 Text("Ready to land your\nnext project?",
                   style: TextStyle(fontSize: 24, fontWeight: .bold,),
                 ),
+                Gap(4),
                 Container(height: 140, child: Placeholder()),
               ],
             ),
