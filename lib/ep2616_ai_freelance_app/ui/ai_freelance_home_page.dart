@@ -97,18 +97,29 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
               ),
             ],
           ),
-
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Row(
-              mainAxisAlignment: .spaceBetween,
-              children: [Text("My Services(5)"), Icon(Icons.arrow_forward)],
-            ),
-          ),
-          Container(
-            padding: .only(left: 16),
-            height: 240,
-            child: Placeholder(),
+          Gap(4),
+          Column(
+            spacing: 16,
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Row(
+                  mainAxisAlignment: .spaceBetween,
+                  children: [
+                    Text(
+                      "My Services(5)",
+                      style: TextStyle(fontWeight: .bold, fontSize: 18),
+                    ),
+                    Icon(Icons.arrow_forward),
+                  ],
+                ),
+              ),
+              Container(
+                padding: .only(left: 16),
+                height: 240,
+                child: Placeholder(),
+              ),
+            ],
           ),
         ],
       ),
