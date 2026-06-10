@@ -30,9 +30,14 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                       children: [
                         Container(
                           decoration: BoxDecoration(
-                            color: Color.fromRGBO(226, 237, 237, 1)
+                            color: Color.fromRGBO(226, 237, 237, 1),
                           ),
-                          child: Text("24 credits"),
+                          child: Text(
+                            "24 credits",
+                            style: TextStyle(
+                              color: Color.fromRGBO(64, 119, 149, 1),
+                            ),
+                          ),
                         ),
                         Spacer(),
                         CircleAvatar(),
@@ -42,7 +47,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                   ),
                   Expanded(
                     child: IndexedStack(
-                      children: [AiFreelanceHomePage(), Placeholder(),],
+                      children: [AiFreelanceHomePage(), Placeholder()],
                     ),
                   ),
                 ],
@@ -80,7 +85,8 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                                 shape: StadiumBorder(),
                               ),
                               child: HugeIcon(
-                                  icon: HugeIcons.strokeRoundedHome02),
+                                icon: HugeIcons.strokeRoundedHome02,
+                              ),
                             ),
                           ),
                           Expanded(
@@ -89,7 +95,8 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                                 shape: StadiumBorder(),
                               ),
                               child: HugeIcon(
-                                  icon: HugeIcons.strokeRoundedLayer),
+                                icon: HugeIcons.strokeRoundedLayer,
+                              ),
                             ),
                           ),
                           Expanded(
@@ -98,7 +105,8 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                                 shape: StadiumBorder(),
                               ),
                               child: HugeIcon(
-                                  icon: HugeIcons.strokeRoundedChat),
+                                icon: HugeIcons.strokeRoundedChat,
+                              ),
                             ),
                           ),
                           Expanded(
@@ -107,7 +115,8 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                                 shape: StadiumBorder(),
                               ),
                               child: HugeIcon(
-                                  icon: HugeIcons.strokeRoundedStar),
+                                icon: HugeIcons.strokeRoundedStar,
+                              ),
                             ),
                           ),
                         ],
