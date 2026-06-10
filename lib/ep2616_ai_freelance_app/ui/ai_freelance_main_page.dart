@@ -29,7 +29,9 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                       spacing: 4,
                       children: [
                         Container(
-                          decoration: BoxDecoration(),
+                          decoration: BoxDecoration(
+                            color: Color.fromRGBO(226, 237, 237, 1)
+                          ),
                           child: Text("24 credits"),
                         ),
                         Spacer(),
