@@ -31,7 +31,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                         Container(
                           decoration: BoxDecoration(
                             color: Color.fromRGBO(226, 236, 237, 1),
-                            borderRadius: .circular(4)
+                            borderRadius: .circular(4),
                           ),
                           padding: .symmetric(horizontal: 12, vertical: 6),
                           child: Text(
@@ -42,7 +42,13 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                           ),
                         ),
                         Spacer(),
-                        CircleAvatar(),
+                        CircleAvatar(
+                          radius: 22,
+                          backgroundColor: Colors.grey[200]!,
+                          child: Badge(
+                            child: Icon(Icons.notifications_active_outlined),
+                          ),
+                        ),
                         CircleAvatar(),
                       ],
                     ),
