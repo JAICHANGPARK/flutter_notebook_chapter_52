@@ -60,7 +60,8 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                               BoxShadow(
                                 color: Colors.black.withValues(alpha: .1),
                                 blurRadius: 12,
-                              )
+                                spreadRadius: 3
+                              ),
                             ],
                           ),
                         ),
@@ -71,22 +72,30 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
               ],
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Row(
-              mainAxisAlignment: .spaceBetween,
-              children: [
-                Text("AI- Matched Jobs For You"),
-                Icon(Icons.arrow_forward),
-              ],
-            ),
+          Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16, ),
+                child: Row(
+                  mainAxisAlignment: .spaceBetween,
+                  children: [
+                    Text(
+                      "AI- Matched Jobs For You",
+                      style: TextStyle(fontWeight: .bold, fontSize: 18),
+                    ),
+                    Icon(Icons.arrow_forward),
+                  ],
+                ),
+              ),
+
+              Container(
+                padding: .only(left: 16),
+                height: 240,
+                child: Placeholder(),
+              ),
+            ],
           ),
 
-          Container(
-            padding: .only(left: 16),
-            height: 240,
-            child: Placeholder(),
-          ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Row(
