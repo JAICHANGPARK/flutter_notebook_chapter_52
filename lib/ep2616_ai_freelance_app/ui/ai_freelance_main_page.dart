@@ -45,6 +45,7 @@ class _AiFreelanceMainPageState extends State<AiFreelanceMainPage> {
                         CircleAvatar(
                           radius: 22,
                           backgroundColor: Colors.grey[200]!,
+                          foregroundColor: Colors.grey,
                           child: Badge(
                             child: Icon(Icons.notifications_active_outlined),
                           ),
