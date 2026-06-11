@@ -72,7 +72,8 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                   Text("Custom AI chat interface"),
                                   Text("\$500"),
                                 ],
-                              )
+                              ),
+                              Text("Mar 16, 2026 - Present")
 
                             ],
                           ),
