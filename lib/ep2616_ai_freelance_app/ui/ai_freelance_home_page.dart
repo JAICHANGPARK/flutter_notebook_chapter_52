@@ -65,7 +65,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                             ],
                           ),
                           child: Column(
-
+                            crossAxisAlignment: .start,
                             children: [
                               Row(
                                 children: [
