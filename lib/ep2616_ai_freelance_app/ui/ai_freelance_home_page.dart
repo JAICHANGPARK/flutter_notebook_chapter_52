@@ -84,6 +84,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                               ),
                               Text("Mar 16, 2026 - Present"),
                               Row(
+                                mainAxisAlignment: .spaceBetween,
                                 children: [
                                   Text("Progress 60%"),
                                   Text("3 of 5 milestones completed"),
