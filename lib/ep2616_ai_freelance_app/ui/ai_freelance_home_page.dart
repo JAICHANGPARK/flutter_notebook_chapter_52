@@ -75,13 +75,17 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                 children: [
                                   Text(
                                     "Custom AI chat interface",
-                                    style: TextStyle(fontWeight: .bold,
-                                    fontSize: 16),
+                                    style: TextStyle(
+                                      fontWeight: .bold,
+                                      fontSize: 16,
+                                    ),
                                   ),
                                   Text(
                                     "\$500",
-                                    style: TextStyle(fontWeight: .bold,
-                                        fontSize: 16),
+                                    style: TextStyle(
+                                      fontWeight: .bold,
+                                      fontSize: 16,
+                                    ),
                                   ),
                                 ],
                               ),
@@ -89,7 +93,13 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                               Row(
                                 mainAxisAlignment: .spaceBetween,
                                 children: [
-                                  Text("Progress 60%"),
+                                  Text(
+                                    "Progress 60%",
+                                    style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: .bold,
+                                    ),
+                                  ),
                                   Text("3 of 5 milestones completed"),
                                 ],
                               ),
