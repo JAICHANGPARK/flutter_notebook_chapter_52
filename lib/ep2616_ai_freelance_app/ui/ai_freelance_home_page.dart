@@ -112,6 +112,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                 padding: .zero,
                                 percent: .6,
                                 progressColor: Colors.blue,
+                                backgroundColor: Colors.grey[200]!,
                               ),
                             ],
                           ),
