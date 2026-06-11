@@ -152,7 +152,8 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                       width: 340,
                       padding: .all(6),
                       margin: .only(right: 8),
-                      decoration: BoxDecoration(color: Colors.grey[50]),
+                      decoration: BoxDecoration(color: Colors.grey[50],
+                      borderRadius: .circular(6)),
                       child: Column(
                         spacing: 12,
                         children: [
