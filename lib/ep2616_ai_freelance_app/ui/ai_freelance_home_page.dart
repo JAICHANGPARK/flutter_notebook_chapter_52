@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:percent_indicator/flutter_percent_indicator.dart';
 
 class AiFreelanceHomePage extends StatefulWidget {
   const AiFreelanceHomePage({super.key});
@@ -79,7 +80,10 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                   Text("Progress 60%"),
                                   Text("3 of 5 milestones completed")
                                 ],
-                              )
+                              ),
+                              LinearPercentIndicator(
+                                percent: .6,
+                              ),
 
                             ],
                           ),
