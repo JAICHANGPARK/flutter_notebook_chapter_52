@@ -65,28 +65,34 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                               ),
                             ],
                           ),
+                          padding: .all(12),
                           child: Column(
                             crossAxisAlignment: .start,
                             children: [
                               Row(
                                 mainAxisAlignment: .spaceBetween,
                                 children: [
-                                  Text("Custom AI chat interface"),
-                                  Text("\$500"),
+                                  Text(
+                                    "Custom AI chat interface",
+                                    style: TextStyle(fontWeight: .bold),
+                                  ),
+                                  Text(
+                                    "\$500",
+                                    style: TextStyle(fontWeight: .bold),
+                                  ),
                                 ],
                               ),
                               Text("Mar 16, 2026 - Present"),
                               Row(
                                 children: [
                                   Text("Progress 60%"),
-                                  Text("3 of 5 milestones completed")
+                                  Text("3 of 5 milestones completed"),
                                 ],
                               ),
                               LinearPercentIndicator(
                                 padding: .zero,
                                 percent: .6,
                               ),
-
                             ],
                           ),
                         ),
