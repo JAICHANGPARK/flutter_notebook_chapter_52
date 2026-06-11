@@ -179,7 +179,37 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                         ],
                       ),
                     ),
-                    Container(width: 340, child: Placeholder()),
+                    Container(
+                      width: 340,
+                      padding: .all(6),
+                      margin: .only(right: 8),
+                      decoration: BoxDecoration(color: Colors.grey[50],
+                          borderRadius: .circular(6)),
+                      child: Column(
+                        spacing: 6,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(6.0),
+                            child: Row(children: [Text("Dream Labs")]),
+                          ),
+                          Expanded(
+                            child: Container(
+                              decoration: BoxDecoration(color: Colors.white),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(6.0),
+                            child: Row(
+                              mainAxisAlignment: .spaceBetween,
+                              children: [
+                                Text("\$3,500 ~ \$5,200"),
+                                Text("9 proposals")
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),
