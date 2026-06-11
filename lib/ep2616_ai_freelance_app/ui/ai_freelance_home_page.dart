@@ -145,7 +145,13 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
               Container(
                 padding: .only(left: 16),
                 height: 240,
-                child: Placeholder(),
+                child: ListView(
+                  scrollDirection: .horizontal,
+                  children: [Container(width: 340, child: Placeholder(),
+                  margin: .only(right: 8),),
+                    Container(width: 340, child: Placeholder())
+                  ],
+                ),
               ),
             ],
           ),
