@@ -69,6 +69,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                             crossAxisAlignment: .start,
                             children: [
                               Row(
+                                mainAxisAlignment: .spaceBetween,
                                 children: [
                                   Text("Custom AI chat interface"),
                                   Text("\$500"),
@@ -82,6 +83,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                 ],
                               ),
                               LinearPercentIndicator(
+                                padding: .zero,
                                 percent: .6,
                               ),
 
