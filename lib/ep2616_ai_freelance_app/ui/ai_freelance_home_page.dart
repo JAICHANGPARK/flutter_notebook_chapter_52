@@ -73,7 +73,13 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                   Text("\$500"),
                                 ],
                               ),
-                              Text("Mar 16, 2026 - Present")
+                              Text("Mar 16, 2026 - Present"),
+                              Row(
+                                children: [
+                                  Text("Progress 60%"),
+                                  Text("3 of 5 milestones completed")
+                                ],
+                              )
 
                             ],
                           ),
