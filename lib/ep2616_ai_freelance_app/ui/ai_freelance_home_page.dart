@@ -150,9 +150,11 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                   children: [
                     Container(
                       width: 340,
+                      padding: .all(6),
                       margin: .only(right: 8),
                       decoration: BoxDecoration(color: Colors.grey[50]),
                       child: Column(
+                        spacing: 12,
                         children: [
                           Row(children: [Text("Dream Labs")]),
                           Expanded(
