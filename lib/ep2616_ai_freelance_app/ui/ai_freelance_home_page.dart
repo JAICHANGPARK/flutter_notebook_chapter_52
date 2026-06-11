@@ -147,9 +147,29 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                 height: 240,
                 child: ListView(
                   scrollDirection: .horizontal,
-                  children: [Container(width: 340, child: Placeholder(),
-                  margin: .only(right: 8),),
-                    Container(width: 340, child: Placeholder())
+                  children: [
+                    Container(
+                      width: 340,
+                      margin: .only(right: 8),
+                      decoration: BoxDecoration(color: Colors.grey[50]),
+                      child: Column(
+                        children: [
+                          Row(children: [Text("Dream Labs")]),
+                          Expanded(
+                            child: Container(
+                              decoration: BoxDecoration(color: Colors.white),
+                            ),
+                          ),
+                          Row(
+                            children: [
+                              Text("\$3,500 ~ \$5,200"),
+                              Text("9 proposals")
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(width: 340, child: Placeholder()),
                   ],
                 ),
               ),
