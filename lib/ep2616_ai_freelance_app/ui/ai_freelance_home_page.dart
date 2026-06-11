@@ -98,16 +98,20 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                   Text(
                                     "Progress 60%",
                                     style: TextStyle(
-                                      fontSize: 12,
+                                      fontSize: 13,
                                       fontWeight: .bold,
                                     ),
                                   ),
-                                  Text("3 of 5 milestones completed"),
+                                  Text(
+                                    "3 of 5 milestones completed",
+                                    style: TextStyle(color: Colors.grey),
+                                  ),
                                 ],
                               ),
                               LinearPercentIndicator(
                                 padding: .zero,
                                 percent: .6,
+                                progressColor: Colors.blue,
                               ),
                             ],
                           ),
