@@ -69,7 +69,8 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                             children: [
                               Row(
                                 children: [
-                                  
+                                  Text("Custom AI chat interface"),
+                                  Text("\$500"),
                                 ],
                               )
 
