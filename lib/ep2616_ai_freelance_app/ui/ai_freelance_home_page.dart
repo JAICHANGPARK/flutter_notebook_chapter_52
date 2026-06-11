@@ -33,7 +33,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                 ),
                 Gap(4),
                 Container(
-                  height: 140,
+                  height: 130,
                   child: Stack(
                     children: [
                       Positioned.fill(
@@ -69,6 +69,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                           child: Column(
                             spacing: 4,
                             crossAxisAlignment: .start,
+                            mainAxisAlignment: .spaceBetween,
                             children: [
                               Row(
                                 mainAxisAlignment: .spaceBetween,
@@ -90,6 +91,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                 ],
                               ),
                               Text("Mar 16, 2026 - Present"),
+                              Gap(4),
                               Row(
                                 mainAxisAlignment: .spaceBetween,
                                 children: [
