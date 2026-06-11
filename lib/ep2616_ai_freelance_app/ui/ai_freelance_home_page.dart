@@ -64,6 +64,11 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                               ),
                             ],
                           ),
+                          child: Column(
+                            children: [
+                              
+                            ],
+                          ),
                         ),
                       ),
                     ],
