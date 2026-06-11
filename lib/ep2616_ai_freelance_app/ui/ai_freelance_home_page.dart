@@ -74,11 +74,13 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                 children: [
                                   Text(
                                     "Custom AI chat interface",
-                                    style: TextStyle(fontWeight: .bold),
+                                    style: TextStyle(fontWeight: .bold,
+                                    fontSize: 16),
                                   ),
                                   Text(
                                     "\$500",
-                                    style: TextStyle(fontWeight: .bold),
+                                    style: TextStyle(fontWeight: .bold,
+                                        fontSize: 16),
                                   ),
                                 ],
                               ),
