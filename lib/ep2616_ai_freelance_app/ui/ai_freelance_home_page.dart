@@ -217,7 +217,15 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                     ],
                                   ),
                                   Text("Design intuitive user experiences for SaaS products, from wireframes to high-fidelity UI ..."),
-                                  
+                                  SizedBox(
+                                    height: 32,
+                                    child: ListView(
+                                      scrollDirection: .horizontal,
+                                      children: [
+
+                                      ],
+                                    ),
+                                  )
                                 ],
                               ),
                             ),
