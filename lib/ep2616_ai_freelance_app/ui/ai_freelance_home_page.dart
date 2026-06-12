@@ -214,9 +214,10 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                         child: Icon(Icons.check, size: 10),
                                       ),
                                       Text("Expert"),
-
                                     ],
                                   ),
+                                  Text("Design intuitive user experiences for SaaS products, from wireframes to high-fidelity UI ..."),
+                                  
                                 ],
                               ),
                             ),
