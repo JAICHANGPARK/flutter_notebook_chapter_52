@@ -203,6 +203,10 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                         backgroundColor: Colors.red[50]!,
                                         child: Icon(Icons.wifi, size: 10),
                                       ),
+                                      Text("Expert"),
+                                      Icon(Icons.location_on, size: 12,),
+                                      Text("Unknown"),
+
                                     ],
                                   ),
                                 ],
