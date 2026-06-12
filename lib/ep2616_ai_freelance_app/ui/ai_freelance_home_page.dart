@@ -197,6 +197,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                 children: [
                                   Text("Product Desiner - SaaS"),
                                   Row(
+                                    spacing: 4,
                                     children: [
                                       CircleAvatar(
                                         radius: 10,
