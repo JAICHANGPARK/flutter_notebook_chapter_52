@@ -162,9 +162,10 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                           Padding(
                             padding: const EdgeInsets.all(6.0),
                             child: Row(
+                              spacing: 4,
                               children: [
                                 Text("Dream Labs"),
-                                Icon(Icons.verified),
+                                Icon(Icons.verified,size: 14,),
                                 Spacer(),
                                 Container(decoration: BoxDecoration()),
                                 Icon(Icons.bookmark_border),
