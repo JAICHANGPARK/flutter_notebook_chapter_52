@@ -207,7 +207,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                       Icon(Icons.location_on, size: 12,),
                                       Text("Unknown"),
                                       CircleAvatar(
-                                        radius: 10,
+                                        radius: 8,
                                         backgroundColor: Colors.indigo,
                                         foregroundColor: Colors.white,
                                         child: Icon(Icons.check, size: 10),
