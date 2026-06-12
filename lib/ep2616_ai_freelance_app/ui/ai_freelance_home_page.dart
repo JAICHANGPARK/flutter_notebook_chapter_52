@@ -277,7 +277,10 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                             child: Row(
                               mainAxisAlignment: .spaceBetween,
                               children: [
-                                Text("\$3,500 ~ \$5,200"),
+                                Text("\$3,500 ~ \$5,200",style: TextStyle(
+                                  fontWeight: .bold,
+                                  fontSize: 15
+                                ),),
                                 Text("9 proposals"),
                               ],
                             ),
