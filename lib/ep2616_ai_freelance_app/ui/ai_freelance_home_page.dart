@@ -190,6 +190,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                 color: Colors.white,
                                 borderRadius: .circular(6),
                               ),
+                              padding: .all(8),
                               child: Column(
                                 crossAxisAlignment: .start,
                                 children: [
