@@ -205,7 +205,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                         child: Icon(Icons.wifi, size: 10),
                                       ),
                                       Text("Expert"),
-                                      Icon(Icons.location_on, size: 12,),
+                                      Icon(Icons.location_on, size: 12),
                                       Text("Unknown"),
                                       CircleAvatar(
                                         radius: 8,
@@ -216,16 +216,20 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                       Text("Expert"),
                                     ],
                                   ),
-                                  Text("Design intuitive user experiences for SaaS products, from wireframes to high-fidelity UI ..."),
+                                  Text(
+                                    "Design intuitive user experiences for SaaS products, from wireframes to high-fidelity UI ...",
+                                  ),
                                   SizedBox(
                                     height: 32,
                                     child: ListView(
                                       scrollDirection: .horizontal,
                                       children: [
-
+                                        Container(child: Text("Figma"),
+                                        ),
+                                        Container(child: Text("Figma")),
                                       ],
                                     ),
-                                  )
+                                  ),
                                 ],
                               ),
                             ),
