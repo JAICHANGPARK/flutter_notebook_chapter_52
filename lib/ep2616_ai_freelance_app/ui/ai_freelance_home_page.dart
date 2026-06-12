@@ -164,6 +164,8 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                             child: Row(
                               children: [
                                 Text("Dream Labs"),
+                                Icon(Icons.verified),
+                                Spacer(),
                                 Container(decoration: BoxDecoration()),
                                 Icon(Icons.bookmark_border),
                               ],
