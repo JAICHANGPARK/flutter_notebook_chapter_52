@@ -192,6 +192,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                               ),
                               padding: .all(8),
                               child: Column(
+                                spacing: 4,
                                 crossAxisAlignment: .start,
                                 children: [
                                   Text("Product Desiner - SaaS"),
