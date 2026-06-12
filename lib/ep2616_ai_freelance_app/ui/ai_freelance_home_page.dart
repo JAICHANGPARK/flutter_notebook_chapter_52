@@ -242,7 +242,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                           ),
                                           child: Center(child: Text("SaaS Design")),
                                         ),
-                                        Container(
+                                        Container( margin: .only(right: 8),
                                           padding: .symmetric(horizontal: 12),
                                           decoration: BoxDecoration(
                                             color: Colors.grey[100]!,
