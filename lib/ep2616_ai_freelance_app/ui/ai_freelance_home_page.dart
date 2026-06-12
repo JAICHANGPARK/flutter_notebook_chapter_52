@@ -168,9 +168,7 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                 Icon(Icons.verified, size: 14),
                                 Spacer(),
                                 Container(
-                                  decoration: BoxDecoration(
-
-                                  ),
+                                  decoration: BoxDecoration(),
                                   child: Row(
                                     spacing: 4,
                                     children: [
@@ -194,9 +192,12 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                   Text("Product Desiner - SaaS"),
                                   Row(
                                     children: [
-                                      
+                                      CircleAvatar(
+                                        backgroundColor: Colors.red[50]!,
+                                        child: Icon(Icons.wifi, size: 12),
+                                      ),
                                     ],
-                                  )
+                                  ),
                                 ],
                               ),
                             ),
