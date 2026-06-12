@@ -234,23 +234,30 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                           ),
                                           child: Center(child: Text("Figma")),
                                         ),
-                                        Container( margin: .only(right: 8),
+                                        Container(
+                                          margin: .only(right: 8),
                                           padding: .symmetric(horizontal: 12),
                                           decoration: BoxDecoration(
                                             color: Colors.grey[100]!,
                                             borderRadius: .circular(3),
                                           ),
-                                          child: Center(child: Text("SaaS Design")),
+                                          child: Center(
+                                            child: Text("SaaS Design"),
+                                          ),
                                         ),
-                                        Container( margin: .only(right: 8),
+                                        Container(
+                                          margin: .only(right: 8),
                                           padding: .symmetric(horizontal: 12),
                                           decoration: BoxDecoration(
                                             color: Colors.grey[100]!,
                                             borderRadius: .circular(3),
                                           ),
-                                          child: Center(child: Text("Web Design")),
+                                          child: Center(
+                                            child: Text("Web Design"),
+                                          ),
                                         ),
-                                        Container( margin: .only(right: 8),
+                                        Container(
+                                          margin: .only(right: 8),
                                           padding: .symmetric(horizontal: 12),
                                           decoration: BoxDecoration(
                                             color: Colors.grey[100]!,
