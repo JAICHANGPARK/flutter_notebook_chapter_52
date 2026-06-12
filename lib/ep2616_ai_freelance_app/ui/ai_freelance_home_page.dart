@@ -224,7 +224,11 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                     child: ListView(
                                       scrollDirection: .horizontal,
                                       children: [
-                                        Container(child: Text("Figma"),
+                                        Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.grey[200]!,
+                                          ),
+                                          child: Text("Figma"),
                                         ),
                                         Container(child: Text("Figma")),
                                       ],
