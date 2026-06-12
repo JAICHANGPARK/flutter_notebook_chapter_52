@@ -168,11 +168,17 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                 Icon(Icons.verified, size: 14),
                                 Spacer(),
                                 Container(
-                                  decoration: BoxDecoration(),
+                                  decoration: BoxDecoration(
+
+                                  ),
                                   child: Row(
+                                    spacing: 4,
                                     children: [
-                                      Icon(Icons.star_border),
-                                      Text("85% Match"),
+                                      Icon(Icons.star_border, size: 12),
+                                      Text(
+                                        "85% Match",
+                                        style: TextStyle(fontSize: 12),
+                                      ),
                                     ],
                                   ),
                                 ),
@@ -183,6 +189,16 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                           Expanded(
                             child: Container(
                               decoration: BoxDecoration(color: Colors.white),
+                              child: Column(
+                                children: [
+                                  Text("Product Desiner - SaaS"),
+                                  Row(
+                                    children: [
+                                      
+                                    ],
+                                  )
+                                ],
+                              ),
                             ),
                           ),
                           Padding(
