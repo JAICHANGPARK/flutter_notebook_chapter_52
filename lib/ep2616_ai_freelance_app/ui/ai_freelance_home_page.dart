@@ -188,11 +188,13 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                             child: Container(
                               decoration: BoxDecoration(color: Colors.white),
                               child: Column(
+                                crossAxisAlignment: .start,
                                 children: [
                                   Text("Product Desiner - SaaS"),
                                   Row(
                                     children: [
                                       CircleAvatar(
+                                        radius: 12,
                                         backgroundColor: Colors.red[50]!,
                                         child: Icon(Icons.wifi, size: 12),
                                       ),
