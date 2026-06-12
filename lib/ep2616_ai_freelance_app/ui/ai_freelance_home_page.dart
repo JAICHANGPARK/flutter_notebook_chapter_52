@@ -186,7 +186,10 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                           ),
                           Expanded(
                             child: Container(
-                              decoration: BoxDecoration(color: Colors.white),
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: .circular(6),
+                              ),
                               child: Column(
                                 crossAxisAlignment: .start,
                                 children: [
