@@ -159,7 +159,12 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(6.0),
-                            child: Row(children: [Text("Dream Labs")]),
+                            child: Row(children: [Text("Dream Labs"),
+                            Container(
+                              decoration: BoxDecoration(
+
+                              ),
+                            ),],),
                           ),
                           Expanded(
                             child: Container(
