@@ -250,6 +250,14 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                           ),
                                           child: Center(child: Text("Web Design")),
                                         ),
+                                        Container(
+                                          padding: .symmetric(horizontal: 12),
+                                          decoration: BoxDecoration(
+                                            color: Colors.grey[100]!,
+                                            borderRadius: .circular(3),
+                                          ),
+                                          child: Center(child: Text("Mockup")),
+                                        ),
                                       ],
                                     ),
                                   ),
