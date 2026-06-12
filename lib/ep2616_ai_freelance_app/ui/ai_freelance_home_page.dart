@@ -220,11 +220,12 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                     "Design intuitive user experiences for SaaS products, from wireframes to high-fidelity UI ...",
                                   ),
                                   SizedBox(
-                                    height: 32,
+                                    height: 28,
                                     child: ListView(
                                       scrollDirection: .horizontal,
                                       children: [
                                         Container(
+                                          padding: .symmetric(horizontal: 12),
                                           decoration: BoxDecoration(
                                             color: Colors.grey[200]!,
                                             borderRadius: .circular(3),
