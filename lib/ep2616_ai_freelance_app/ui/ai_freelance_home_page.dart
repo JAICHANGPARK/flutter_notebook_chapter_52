@@ -152,19 +152,22 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                       width: 340,
                       padding: .all(6),
                       margin: .only(right: 8),
-                      decoration: BoxDecoration(color: Colors.grey[50],
-                      borderRadius: .circular(6)),
+                      decoration: BoxDecoration(
+                        color: Colors.grey[50],
+                        borderRadius: .circular(6),
+                      ),
                       child: Column(
                         spacing: 6,
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(6.0),
-                            child: Row(children: [Text("Dream Labs"),
-                            Container(
-                              decoration: BoxDecoration(
-
-                              ),
-                            ),],),
+                            child: Row(
+                              children: [
+                                Text("Dream Labs"),
+                                Container(decoration: BoxDecoration()),
+                                Icon(Icons.bookmark_border),
+                              ],
+                            ),
                           ),
                           Expanded(
                             child: Container(
@@ -177,10 +180,10 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                               mainAxisAlignment: .spaceBetween,
                               children: [
                                 Text("\$3,500 ~ \$5,200"),
-                                Text("9 proposals")
+                                Text("9 proposals"),
                               ],
                             ),
-                          )
+                          ),
                         ],
                       ),
                     ),
@@ -188,8 +191,10 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                       width: 340,
                       padding: .all(6),
                       margin: .only(right: 8),
-                      decoration: BoxDecoration(color: Colors.grey[50],
-                          borderRadius: .circular(6)),
+                      decoration: BoxDecoration(
+                        color: Colors.grey[50],
+                        borderRadius: .circular(6),
+                      ),
                       child: Column(
                         spacing: 6,
                         children: [
@@ -208,10 +213,10 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                               mainAxisAlignment: .spaceBetween,
                               children: [
                                 Text("\$3,500 ~ \$5,200"),
-                                Text("9 proposals")
+                                Text("9 proposals"),
                               ],
                             ),
-                          )
+                          ),
                         ],
                       ),
                     ),
