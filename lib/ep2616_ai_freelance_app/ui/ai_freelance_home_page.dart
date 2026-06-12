@@ -198,9 +198,9 @@ class _AiFreelanceHomePageState extends State<AiFreelanceHomePage> {
                                   Row(
                                     children: [
                                       CircleAvatar(
-                                        radius: 12,
+                                        radius: 10,
                                         backgroundColor: Colors.red[50]!,
-                                        child: Icon(Icons.wifi, size: 12),
+                                        child: Icon(Icons.wifi, size: 10),
                                       ),
                                     ],
                                   ),
