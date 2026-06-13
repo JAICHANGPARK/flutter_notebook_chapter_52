@@ -16,7 +16,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
         children: [
           Positioned.fill(child: SafeArea(
             bottom: false,
-            child: Column(children: [
+            child: Column(
+              crossAxisAlignment: .start,
+              children: [
               
             ],),
           ))
