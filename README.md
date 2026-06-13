@@ -4,7 +4,7 @@
 
 - Finance App Design
 - Sujon Hossain
-- https://dribbble.com/shots/27435589-AI-Freelance-Mobile-UI
+- https://dribbble.com/shots/27457797-Finance-App-Design
 
 <img src="https://cdn.dribbble.com/userupload/47938421/file/960d131bb92f66187e9db56ce586a018.png?resize=1905x1429&vertical=center" alt=""/>
 
