@@ -27,12 +27,19 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
             child: Row(
               children: [
                 Container(
-                  width: 52,
-                  height: 52,
-                  decoration: BoxDecoration(shape: .circle),
-                  child: Placeholder(),
+                  width: 64,
+                  height: 64,
+                  decoration: BoxDecoration(
+                    shape: .circle,
+                    color: Colors.black,
+                  ),
                 ),
-                Container(width: 52, height: 52, child: Placeholder()),
+                Container(width: 64, height: 64,
+                    decoration: BoxDecoration(
+                      shape: .circle,
+                      color: Colors.white,
+                    ),
+                    child: Placeholder()),
               ],
             ),
           ),
