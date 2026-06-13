@@ -21,7 +21,14 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
               children: [
               
             ],),
-          ))
+          )),
+          Positioned(
+              bottom: 24,
+              left: 32,
+              right: 32,
+              child: Row(children: [
+
+          ],))
 
         ],
       ),
