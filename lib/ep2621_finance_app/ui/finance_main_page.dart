@@ -14,22 +14,19 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
       backgroundColor: Colors.grey[100],
       body: Stack(
         children: [
-          Positioned.fill(child: SafeArea(
-            bottom: false,
-            child: Column(
-              crossAxisAlignment: .start,
-              children: [
-              
-            ],),
-          )),
-          Positioned(
-              bottom: 24,
-              left: 32,
-              right: 32,
-              child: Row(children: [
-
-          ],))
-
+          Positioned.fill(
+            child: SafeArea(
+              bottom: false,
+              child: Column(crossAxisAlignment: .start, children: []),
+            ),
+          ),
+          Positioned(bottom: 24, left: 32, right: 32, child: Row(children: [
+            Container(
+              width: 52,
+              height: 52,
+              child: Placeholder(),
+            )
+          ])),
         ],
       ),
     );
