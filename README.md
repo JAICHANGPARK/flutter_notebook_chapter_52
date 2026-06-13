@@ -1,5 +1,13 @@
 # flutter_notebook_chapter_52
 
+## EP2616-2620
+
+- AI Freelance Mobile UI
+- Cecillia Yo for Yow
+- https://dribbble.com/shots/27435589-AI-Freelance-Mobile-UI
+
+<img src="https://cdn.dribbble.com/userupload/47938421/file/960d131bb92f66187e9db56ce586a018.png?resize=1905x1429&vertical=center" alt=""/>
+
 
 ## EP2616-2620
 
