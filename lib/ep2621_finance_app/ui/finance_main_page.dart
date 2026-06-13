@@ -34,7 +34,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     color: Colors.black,
                   ),
                 ),
-                Container(width: 64, height: 64,
+                Container(width: 60, height: 60,
                     decoration: BoxDecoration(
                       shape: .circle,
                       color: Colors.white,
