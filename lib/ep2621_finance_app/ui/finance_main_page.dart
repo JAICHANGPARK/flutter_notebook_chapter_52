@@ -14,9 +14,12 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
       backgroundColor: Colors.grey[100],
       body: Stack(
         children: [
-          Positioned.fill(child: Column(children: [
-
-          ],))
+          Positioned.fill(child: SafeArea(
+            bottom: false,
+            child: Column(children: [
+              
+            ],),
+          ))
 
         ],
       ),
