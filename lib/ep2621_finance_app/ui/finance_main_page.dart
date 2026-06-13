@@ -20,7 +20,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
               child: Column(crossAxisAlignment: .start, children: []),
             ),
           ),
-          Positioned(bottom: 24, left: 32, right: 32, child: Row(children: [
+          Positioned(bottom: 32, left: 32, right: 32, child: Row(children: [
             Container(
               width: 52,
               height: 52,
