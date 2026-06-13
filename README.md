@@ -2,7 +2,7 @@
 
 ## EP2621
 
-- AI Freelance Mobile UI
+- Finance App Design
 - Cecillia Yo for Yow
 - https://dribbble.com/shots/27435589-AI-Freelance-Mobile-UI
 
