@@ -39,7 +39,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       shape: .circle,
                       color: Colors.white,
                     ),
-                    child: Placeholder()),
+                   ),
               ],
             ),
           ),
