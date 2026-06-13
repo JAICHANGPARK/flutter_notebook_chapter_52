@@ -25,6 +25,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
             left: 32,
             right: 32,
             child: Row(
+              mainAxisAlignment: .spaceEvenly,
               children: [
                 Container(
                   width: 64,
