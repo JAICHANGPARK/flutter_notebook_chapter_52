@@ -29,7 +29,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     ],)),
                     Badge(
                       child: HugeIcon(icon: HugeIcons.strokeRoundedNotification01),
-                    )
+                    ),
+                    HugeIcon(icon: HugeIcons.strokeRoundedScan),
+
                   ],
                 )
               ]),
