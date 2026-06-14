@@ -35,27 +35,38 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     shape: .circle,
                     color: Colors.black,
                   ),
-                  child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                  child: HugeIcon(
+                    icon: HugeIcons.strokeRoundedHome01,
+                    color: Colors.white,
+                  ),
                 ),
-                Container(width: 60, height: 60,
-                    decoration: BoxDecoration(
-                      shape: .circle,
-                      color: Colors.white,
-                    ),
-                   ),
-                Container(width: 60, height: 60,
+                Container(
+                  width: 60,
+                  height: 60,
                   decoration: BoxDecoration(
                     shape: .circle,
                     color: Colors.white,
                   ),
                 ),
-                Container(width: 60, height: 60,
+                Container(
+                  width: 60,
+                  height: 60,
                   decoration: BoxDecoration(
                     shape: .circle,
                     color: Colors.white,
                   ),
                 ),
-                Container(width: 60, height: 60,
+                Container(
+                  width: 60,
+                  height: 60,
+                  decoration: BoxDecoration(
+                    shape: .circle,
+                    color: Colors.white,
+                  ),
+                ),
+                Container(
+                  width: 60,
+                  height: 60,
                   decoration: BoxDecoration(
                     shape: .circle,
                     color: Colors.white,
