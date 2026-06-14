@@ -16,10 +16,15 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
       body: Stack(
         children: [
           Positioned.fill(
+            top: 16,
+            left: 16,
+            right: 16,
+
             child: SafeArea(
               bottom: false,
               child: Column(crossAxisAlignment: .start, children: [
                 Row(
+                  spacing: 12,
                   children: [
                     Expanded(child: Column(
                       crossAxisAlignment: .start,
