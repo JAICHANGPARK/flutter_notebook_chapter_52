@@ -18,7 +18,18 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
           Positioned.fill(
             child: SafeArea(
               bottom: false,
-              child: Column(crossAxisAlignment: .start, children: []),
+              child: Column(crossAxisAlignment: .start, children: [
+                Row(
+                  children: [
+                    Expanded(child: Column(
+                      crossAxisAlignment: .start,
+                      children: [
+                        Text("Hello Dream")
+
+                    ],))
+                  ],
+                )
+              ]),
             ),
           ),
           Positioned(
