@@ -53,6 +53,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                   Container(height: 320, child: Placeholder()),
                   Column(
                     spacing: 6,
+                    crossAxisAlignment: .start,
                     children: [
                       Row(
                         mainAxisAlignment: .spaceBetween,
@@ -66,6 +67,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                   ),
                   Column(
                     spacing: 6,
+                    crossAxisAlignment: .start,
                     children: [
                       Row(
                         mainAxisAlignment: .spaceBetween,
