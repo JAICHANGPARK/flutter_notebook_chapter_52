@@ -35,9 +35,11 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     shape: .circle,
                     color: Colors.black,
                   ),
-                  child: HugeIcon(
-                    icon: HugeIcons.strokeRoundedHome01,
-                    color: Colors.white,
+                  child: Center(
+                    child: HugeIcon(
+                      icon: HugeIcons.strokeRoundedHome01,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
                 Container(
@@ -45,6 +47,10 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                   height: 60,
                   decoration: BoxDecoration(
                     shape: .circle,
+                    color: Colors.white,
+                  ),
+                  child: HugeIcon(
+                    icon: HugeIcons.strokeRoundedHome01,
                     color: Colors.white,
                   ),
                 ),
