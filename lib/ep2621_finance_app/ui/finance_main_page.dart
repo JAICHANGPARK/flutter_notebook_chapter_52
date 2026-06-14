@@ -52,8 +52,10 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                   ),
                   Container(height: 320, child: Placeholder()),
                   Column(
+                    spacing: 12,
                     children: [
-                      Row(children: [Text("My Accounts Balance")]),
+                      Row(children: [Text("My Accounts Balance"),
+                      TextButton(onPressed: (){}, child: Text("View All"))]),
                       Container(height: 160, child: Placeholder()),
                     ],
                   ),
