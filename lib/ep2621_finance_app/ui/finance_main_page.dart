@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class FinanceMainPage extends StatefulWidget {
   const FinanceMainPage({super.key});
@@ -34,6 +35,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     shape: .circle,
                     color: Colors.black,
                   ),
+                  child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                 ),
                 Container(width: 60, height: 60,
                     decoration: BoxDecoration(
