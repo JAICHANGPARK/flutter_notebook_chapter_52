@@ -27,6 +27,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                   spacing: 12,
                   children: [
                     Expanded(child: Column(
+                      spacing: 5,
                       crossAxisAlignment: .start,
                       children: [
                         Text("Hello Dream",style: TextStyle(
