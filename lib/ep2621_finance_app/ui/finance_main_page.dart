@@ -29,7 +29,10 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     Expanded(child: Column(
                       crossAxisAlignment: .start,
                       children: [
-                        Text("Hello Dream"),
+                        Text("Hello Dream",style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: .bold,
+                        ),),
                         Text("It's Thursday, 04 June"),
                     ],)),
                     Badge(
