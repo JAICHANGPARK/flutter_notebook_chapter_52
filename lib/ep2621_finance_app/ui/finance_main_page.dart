@@ -24,7 +24,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
               bottom: false,
               child: Column(crossAxisAlignment: .start, children: [
                 Row(
-                  spacing: 12,
+                  spacing: 16,
                   children: [
                     Expanded(child: Column(
                       spacing: 5,
@@ -42,6 +42,10 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     HugeIcon(icon: HugeIcons.strokeRoundedScan),
 
                   ],
+                ),
+                Container(
+                  height: 320,
+                  child: Placeholder(),
                 )
               ]),
             ),
