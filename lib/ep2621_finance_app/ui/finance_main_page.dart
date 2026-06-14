@@ -77,7 +77,6 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                         ],
                       ),
                       Text("Today"),
-
                     ],
                   ),
                 ],
