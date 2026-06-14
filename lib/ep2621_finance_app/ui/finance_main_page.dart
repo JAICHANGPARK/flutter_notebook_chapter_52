@@ -22,32 +22,38 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
 
             child: SafeArea(
               bottom: false,
-              child: Column(crossAxisAlignment: .start, children: [
-                Row(
-                  spacing: 16,
-                  children: [
-                    Expanded(child: Column(
-                      spacing: 5,
-                      crossAxisAlignment: .start,
-                      children: [
-                        Text("Hello Dream",style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: .bold,
-                        ),),
-                        Text("It's Thursday, 04 June"),
-                    ],)),
-                    Badge(
-                      child: HugeIcon(icon: HugeIcons.strokeRoundedNotification01),
-                    ),
-                    HugeIcon(icon: HugeIcons.strokeRoundedScan),
-
-                  ],
-                ),
-                Container(
-                  height: 320,
-                  child: Placeholder(),
-                )
-              ]),
+              child: Column(
+                spacing: 24,
+                crossAxisAlignment: .start,
+                children: [
+                  Row(
+                    spacing: 16,
+                    children: [
+                      Expanded(
+                        child: Column(
+                          spacing: 5,
+                          crossAxisAlignment: .start,
+                          children: [
+                            Text(
+                              "Hello Dream",
+                              style: TextStyle(fontSize: 20, fontWeight: .bold),
+                            ),
+                            Text("It's Thursday, 04 June"),
+                          ],
+                        ),
+                      ),
+                      Badge(
+                        child: HugeIcon(
+                          icon: HugeIcons.strokeRoundedNotification01,
+                        ),
+                      ),
+                      HugeIcon(icon: HugeIcons.strokeRoundedScan),
+                    ],
+                  ),
+                  Container(height: 320, child: Placeholder()),
+                  Column(children: [Row(children: [])]),
+                ],
+              ),
             ),
           ),
           Positioned(
