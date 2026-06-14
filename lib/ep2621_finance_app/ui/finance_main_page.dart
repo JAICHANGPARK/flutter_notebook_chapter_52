@@ -51,12 +51,12 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     ],
                   ),
                   Container(height: 320, child: Placeholder()),
-                  Column(children: [Row(children: []),
-                    Container(
-                      height: 160,
-                      child: Placeholder(),
-                    )
-                  ]),
+                  Column(
+                    children: [
+                      Row(children: [Text("My Accounts Balance")]),
+                      Container(height: 160, child: Placeholder()),
+                    ],
+                  ),
                 ],
               ),
             ),
