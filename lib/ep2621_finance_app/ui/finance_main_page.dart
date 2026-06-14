@@ -91,6 +91,12 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     shape: .circle,
                     color: Colors.white,
                   ),
+                  child: Center(
+                    child: HugeIcon(
+                      icon: HugeIcons.strokeRoundedMenu01,
+                      // color: Colors.white,
+                    ),
+                  ),
                 ),
               ],
             ),
