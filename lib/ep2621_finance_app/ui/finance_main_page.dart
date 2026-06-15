@@ -51,12 +51,15 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     ],
                   ),
                   Container(
-                      padding: .only(top: 12),
-                      height: 300, child: Column(
-                    children: [
-                      
-                    ],
-                  )),
+                    padding: .only(top: 12),
+                    height: 300,
+                    child: Column(
+                        crossAxisAlignment: .start,
+                        children: [
+                Expanded(child: Placeholder()),
+
+                    ]),
+                  ),
                   Column(
                     spacing: 6,
                     crossAxisAlignment: .start,
