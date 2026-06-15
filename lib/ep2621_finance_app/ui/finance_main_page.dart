@@ -61,7 +61,15 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     child: Column(
                       crossAxisAlignment: .start,
                       children: [
-                        Expanded(child: Placeholder()),
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              gradient: RadialGradient(
+                                colors: [Color.fromRGBO(242, 163, 210, 1)],
+                              ),
+                            ),
+                          ),
+                        ),
                         Expanded(child: Placeholder()),
                       ],
                     ),
