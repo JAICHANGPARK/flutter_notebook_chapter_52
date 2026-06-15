@@ -206,29 +206,28 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                         children: [
                           Text(
                             "My Accounts Balance",
-                            style: TextStyle(
-                              fontWeight: .bold,
-                              fontSize: 18,
-                            ),
+                            style: TextStyle(fontWeight: .bold, fontSize: 18),
                           ),
-                          TextButton(onPressed: () {}, child: Text("View All"),
-                          style: TextButton.styleFrom(
-                            foregroundColor: Colors.black
-                          )
+                          TextButton(
+                            onPressed: () {},
+                            child: Text("View All"),
+                            style: TextButton.styleFrom(
+                              foregroundColor: Colors.black,
+                            ),
                           ),
                         ],
                       ),
-                      Container(height: 160, child: Row(
-                        spacing: 6,
-                        children: [
-                          Expanded(child: Placeholder()),
-                          Expanded(child: Placeholder()),
-                          Container(
-                            width: 32,
-                            child: Placeholder(),
-                          )
-                        ],
-                      )),
+                      Container(
+                        height: 160,
+                        child: Row(
+                          spacing: 6,
+                          children: [
+                            Expanded(child: Placeholder()),
+                            Expanded(child: Placeholder()),
+                            Container(width: 32, child: Placeholder()),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                   Column(
