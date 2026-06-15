@@ -218,7 +218,16 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                           ),
                         ],
                       ),
-                      Container(height: 160, child: Placeholder()),
+                      Container(height: 160, child: Row(
+                        children: [
+                          Expanded(child: Placeholder()),
+                          Expanded(child: Placeholder()),
+                          Container(
+                            width: 32,
+                            child: Placeholder(),
+                          )
+                        ],
+                      )),
                     ],
                   ),
                   Column(
