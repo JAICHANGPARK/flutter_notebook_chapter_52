@@ -117,7 +117,6 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                       center: Alignment(-.3, -0.8),
                                       // 왼쪽 상단
                                       radius: 1.1,
-
                                       colors: [
                                         Color.fromRGBO(239, 158, 208, 1),
                                         // 핑크
