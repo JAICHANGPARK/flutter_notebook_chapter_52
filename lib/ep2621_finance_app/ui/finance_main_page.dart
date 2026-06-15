@@ -84,11 +84,14 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                     child: Container(
                                       decoration: const BoxDecoration(
                                         gradient: RadialGradient(
-                                          center: Alignment(-0.8, -0.8), // 왼쪽 상단
+                                          center: Alignment(-.3, -0.8),
+                                          // 왼쪽 상단
                                           radius: 1.0,
                                           colors: [
-                                            Color(0xFFFCE7F3), // 핑크
-                                            Colors.transparent, // 투명하게 페이드 아웃
+                                            Color(0xFFFCE7F3),
+                                            // 핑크
+                                            Colors.white,
+                                            //                                            Colors.transparent, // 투명하게 페이드 아웃
                                           ],
                                           stops: [0.0, 0.7],
                                         ),
@@ -103,11 +106,12 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                     child: Container(
                                       decoration: const BoxDecoration(
                                         gradient: RadialGradient(
-                                          center: Alignment(0.8, -0.8), // 오른쪽 상단
+                                          center: Alignment(0.3, -0.8),
+                                          // 오른쪽 상단
                                           radius: 1.0,
                                           colors: [
                                             Color(0xFFE0E7FF), // 연보라
-                                            Colors.transparent, // 투명하게 페이드 아웃
+                                            // Colors.transparent, // 투명하게 페이드 아웃
                                           ],
                                           stops: [0.0, 0.7],
                                         ),
@@ -130,10 +134,13 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                 child: Column(
                                   spacing: 12,
                                   mainAxisAlignment: .center,
-                                  children: [CircleAvatar(
-                                    radius: 28,
-                                    backgroundColor: Colors.grey[100],
-                                  ), Text("Send")],
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 28,
+                                      backgroundColor: Colors.grey[100],
+                                    ),
+                                    Text("Send"),
+                                  ],
                                 ),
                               ),
                             ],
