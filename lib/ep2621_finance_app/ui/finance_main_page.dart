@@ -78,44 +78,35 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                             child: Stack(
                               children: [
                                 // 1. 왼쪽 상단 핑크색 그라디언트 레이어
-                                Positioned.fill(
-                                  child: ClipRRect(
-                                    borderRadius: BorderRadius.circular(24),
-                                    child: Container(
-                                      decoration: const BoxDecoration(
-                                        gradient: RadialGradient(
-                                          center: Alignment(-.3, -0.8),
-                                          // 왼쪽 상단
-                                          radius: 1.0,
-                                          colors: [
-                                            Color(0xFFFCE7F3),
-                                            // 핑크
-                                            Colors.white,
-                                            //                                            Colors.transparent, // 투명하게 페이드 아웃
-                                          ],
-                                          stops: [0.0, 0.7],
-                                        ),
-                                      ),
+                                Container(
+                                  decoration: const BoxDecoration(
+                                    gradient: RadialGradient(
+                                      center: Alignment(-.3, -0.8),
+                                      // 왼쪽 상단
+                                      radius: 1.0,
+                                      colors: [
+                                        Color.fromRGBO(239, 158 , 208, 1),
+                                        // 핑크
+                                        Colors.white,
+                                        //                                            Colors.transparent, // 투명하게 페이드 아웃
+                                      ],
+                                      stops: [0.0, 0.7],
                                     ),
                                   ),
                                 ),
                                 // 2. 오른쪽 상단 연보라색 그라디언트 레이어
-                                Positioned.fill(
-                                  child: ClipRRect(
-                                    borderRadius: BorderRadius.circular(24),
-                                    child: Container(
-                                      decoration: const BoxDecoration(
-                                        gradient: RadialGradient(
-                                          center: Alignment(0.3, -0.8),
-                                          // 오른쪽 상단
-                                          radius: 1.0,
-                                          colors: [
-                                            Color(0xFFE0E7FF), // 연보라
-                                            // Colors.transparent, // 투명하게 페이드 아웃
-                                          ],
-                                          stops: [0.0, 0.7],
-                                        ),
-                                      ),
+                                Container(
+                                  decoration: const BoxDecoration(
+                                    gradient: RadialGradient(
+                                      center: Alignment(0.3, -0.8),
+                                      // 오른쪽 상단
+                                      radius: 1.0,
+                                      colors: [
+                                        Color(0xFFE0E7FF), // 연보라
+                                        Colors.white
+                                        // Colors.transparent, // 투명하게 페이드 아웃
+                                      ],
+                                      stops: [0.0, 0.7],
                                     ),
                                   ),
                                 ),
