@@ -57,6 +57,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                         crossAxisAlignment: .start,
                         children: [
                 Expanded(child: Placeholder()),
+                          Expanded(child: Placeholder()),
 
                     ]),
                   ),
