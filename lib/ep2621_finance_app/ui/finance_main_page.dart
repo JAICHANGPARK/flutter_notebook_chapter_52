@@ -52,8 +52,8 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                   ),
                   Container(
                     margin: .only(top: 12),
-                    padding: .all(12),
-                    height: 300,
+                    padding: .all(16),
+                    height: 280,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: .circular(16),
@@ -67,8 +67,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                               gradient: RadialGradient(
                                 center: .topCenter,
                                 colors: [
-                                  Color.fromRGBO(242, 163, 210, 1),
-                                  Color.fromRGBO(184, 151, 241, 1),
+                                  Color(0xFFFCE7F3), // 1. 중심부의 은은한 핑크
+                                  Color(0xFFE0E7FF), // 2. 외곽으로 퍼지는 연보라
+                                  Colors.white,      // 3. 마지막엔 완전히 흰색 배경으로 흡수
                                 ],
                               ),
                             ),
@@ -80,6 +81,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                               Expanded(
                                 child: Column(
                                   spacing: 12,
+                                  mainAxisAlignment: .center,
                                   children: [CircleAvatar(
                                     radius: 28,
                                     backgroundColor: Colors.grey[100],
