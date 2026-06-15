@@ -58,7 +58,6 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       color: Colors.white,
                       borderRadius: .circular(16),
                     ),
-
                     child: Column(
                       crossAxisAlignment: .start,
                       children: [
