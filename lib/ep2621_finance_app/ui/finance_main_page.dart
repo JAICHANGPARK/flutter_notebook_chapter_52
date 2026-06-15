@@ -152,6 +152,45 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                   ],
                                 ),
                               ),
+                              Expanded(
+                                child: Column(
+                                  spacing: 12,
+                                  mainAxisAlignment: .center,
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 28,
+                                      backgroundColor: Colors.grey[100],
+                                    ),
+                                    Text("Send"),
+                                  ],
+                                ),
+                              ),
+                              Expanded(
+                                child: Column(
+                                  spacing: 12,
+                                  mainAxisAlignment: .center,
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 28,
+                                      backgroundColor: Colors.grey[100],
+                                    ),
+                                    Text("Send"),
+                                  ],
+                                ),
+                              ),
+                              Expanded(
+                                child: Column(
+                                  spacing: 12,
+                                  mainAxisAlignment: .center,
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 28,
+                                      backgroundColor: Colors.grey[100],
+                                    ),
+                                    Text("Send"),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                         ),
