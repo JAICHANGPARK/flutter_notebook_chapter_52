@@ -20,7 +20,6 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
             top: 16,
             left: 16,
             right: 16,
-
             child: SafeArea(
               bottom: false,
               child: Column(
@@ -251,8 +250,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                           ),
                         ],
                       ),
-                      Gap(4),
+
                       Text("Today"),
+                      Gap(4),
                       Column(
                         spacing: 12,
                         children: List.generate(5, (idx){
