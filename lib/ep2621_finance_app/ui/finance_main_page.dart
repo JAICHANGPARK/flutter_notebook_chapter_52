@@ -52,12 +52,13 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                   ),
                   Container(
                     margin: .only(top: 12),
+                    padding: .all(12),
                     height: 300,
                     decoration: BoxDecoration(
                       color: Colors.white,
-                      borderRadius: .all(16),
+                      borderRadius: .circular(16),
                     ),
-                    padding: .all(12),
+
                     child: Column(
                       crossAxisAlignment: .start,
                       children: [
