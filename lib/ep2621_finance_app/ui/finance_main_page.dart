@@ -79,7 +79,11 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                             children: [
                               Expanded(
                                 child: Column(
-                                  children: [CircleAvatar(), Text("Send")],
+                                  spacing: 12,
+                                  children: [CircleAvatar(
+                                    radius: 28,
+                                    backgroundColor: Colors.grey[100],
+                                  ), Text("Send")],
                                 ),
                               ),
                             ],
