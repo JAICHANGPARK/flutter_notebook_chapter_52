@@ -50,7 +50,13 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       HugeIcon(icon: HugeIcons.strokeRoundedScan),
                     ],
                   ),
-                  Container(height: 320, child: Placeholder()),
+                  Container(
+                      padding: .only(top: 12),
+                      height: 300, child: Column(
+                    children: [
+                      
+                    ],
+                  )),
                   Column(
                     spacing: 6,
                     crossAxisAlignment: .start,
