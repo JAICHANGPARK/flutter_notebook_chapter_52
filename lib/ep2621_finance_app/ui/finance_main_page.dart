@@ -206,10 +206,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                         children: [
                           Text(
                             "My Accounts Balance",
-
                             style: TextStyle(
                               fontWeight: .bold,
-                              fontSize: 16,
+                              fontSize: 18,
                             ),
                           ),
                           TextButton(onPressed: () {}, child: Text("View All")),
