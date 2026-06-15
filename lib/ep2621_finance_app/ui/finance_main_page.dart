@@ -231,7 +231,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     ],
                   ),
                   Column(
-                    spacing: 6,
+                    spacing: 4,
                     crossAxisAlignment: .start,
                     children: [
                       Row(
@@ -251,6 +251,14 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                         ],
                       ),
                       Text("Today"),
+                      Column(
+                        children: List.generate(5, (idx){
+                          return Container(
+                            height: 52,
+                            child: Placeholder(),
+                          );
+                        }),
+                      )
                     ],
                   ),
                 ],
