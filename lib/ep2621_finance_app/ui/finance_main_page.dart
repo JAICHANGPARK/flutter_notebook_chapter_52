@@ -237,8 +237,17 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       Row(
                         mainAxisAlignment: .spaceBetween,
                         children: [
-                          Text("Transactions"),
-                          TextButton(onPressed: () {}, child: Text("View All")),
+                          Text(
+                            "Transactions",
+                            style: TextStyle(fontWeight: .bold, fontSize: 18),
+                          ),
+                          TextButton(
+                            onPressed: () {},
+                            child: Text("View All"),
+                            style: TextButton.styleFrom(
+                              foregroundColor: Colors.black,
+                            ),
+                          ),
                         ],
                       ),
                       Text("Today"),
