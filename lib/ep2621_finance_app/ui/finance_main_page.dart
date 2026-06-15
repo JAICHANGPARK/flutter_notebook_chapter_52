@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class FinanceMainPage extends StatefulWidget {
@@ -250,8 +251,10 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                           ),
                         ],
                       ),
+                      Gap(4),
                       Text("Today"),
                       Column(
+                        spacing: 12,
                         children: List.generate(5, (idx){
                           return Container(
                             height: 52,
