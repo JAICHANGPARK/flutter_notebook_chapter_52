@@ -63,27 +63,63 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       children: [
                         Expanded(
                           child: Container(
+                            width: double.infinity,
                             decoration: BoxDecoration(
-                              gradient: const LinearGradient(
-                                begin: Alignment.topLeft,    // 왼쪽 상단 (핑크색 시작 지점)
-                                end: Alignment.bottomRight,  // 오른쪽 하단 (흰색으로 페이드 아웃)
-                                colors: [
-                                  Color(0xFFFCE7F3), // 1. 왼쪽 상단 핑크
-                                  Color(0xFFE0E7FF), // 2. 상단 중앙~우측 연보라
-                                  Colors.white,      // 3. 나머지 넓은 영역은 흰색
-                                ],
-                                // stops를 조절하여 핑크와 연보라가 상단에만 짧게 머물고
-                                // 나머지는 흰색이 되도록 합니다.
-                                stops: [0.0, 0.2, 0.7],
-                              ),
-                              // gradient: RadialGradient(
-                              //   center: .topCenter,
-                              //   colors: [
-                              //     Color(0xFFFCE7F3), // 1. 중심부의 은은한 핑크
-                              //     Color(0xFFE0E7FF), // 2. 외곽으로 퍼지는 연보라
-                              //     Colors.grey[50]!,      // 3. 마지막엔 완전히 흰색 배경으로 흡수
-                              //   ],
-                              // ),
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(24),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withOpacity(0.03),
+                                  blurRadius: 20,
+                                  offset: const Offset(0, 10),
+                                ),
+                              ],
+                            ),
+                            child: Stack(
+                              children: [
+                                // 1. 왼쪽 상단 핑크색 그라디언트 레이어
+                                Positioned.fill(
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(24),
+                                    child: Container(
+                                      decoration: const BoxDecoration(
+                                        gradient: RadialGradient(
+                                          center: Alignment(-0.8, -0.8), // 왼쪽 상단
+                                          radius: 1.0,
+                                          colors: [
+                                            Color(0xFFFCE7F3), // 핑크
+                                            Colors.transparent, // 투명하게 페이드 아웃
+                                          ],
+                                          stops: [0.0, 0.7],
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                // 2. 오른쪽 상단 연보라색 그라디언트 레이어
+                                Positioned.fill(
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(24),
+                                    child: Container(
+                                      decoration: const BoxDecoration(
+                                        gradient: RadialGradient(
+                                          center: Alignment(0.8, -0.8), // 오른쪽 상단
+                                          radius: 1.0,
+                                          colors: [
+                                            Color(0xFFE0E7FF), // 연보라
+                                            Colors.transparent, // 투명하게 페이드 아웃
+                                          ],
+                                          stops: [0.0, 0.7],
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                // 3. 카드 내부 콘텐츠 레이어
+                                const Column(
+                                  // Available Balance 등
+                                ),
+                              ],
                             ),
                           ),
                         ),
