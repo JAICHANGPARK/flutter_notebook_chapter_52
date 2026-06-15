@@ -65,12 +65,26 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                           child: Container(
                             decoration: BoxDecoration(
                               gradient: RadialGradient(
-                                colors: [Color.fromRGBO(242, 163, 210, 1)],
+                                center: .topCenter,
+                                colors: [
+                                  Color.fromRGBO(242, 163, 210, 1),
+                                  Color.fromRGBO(184, 151, 241, 1),
+                                ],
                               ),
                             ),
                           ),
                         ),
-                        Expanded(child: Placeholder()),
+                        Expanded(
+                          child: Row(
+                            children: [
+                              Expanded(
+                                child: Column(
+                                  children: [CircleAvatar(), Text("Send")],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                   ),
