@@ -211,7 +211,11 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                               fontSize: 18,
                             ),
                           ),
-                          TextButton(onPressed: () {}, child: Text("View All")),
+                          TextButton(onPressed: () {}, child: Text("View All"),
+                          style: TextButton.styleFrom(
+                            foregroundColor: Colors.black
+                          )
+                          ),
                         ],
                       ),
                       Container(height: 160, child: Placeholder()),
