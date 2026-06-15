@@ -204,7 +204,14 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       Row(
                         mainAxisAlignment: .spaceBetween,
                         children: [
-                          Text("My Accounts Balance"),
+                          Text(
+                            "My Accounts Balance",
+
+                            style: TextStyle(
+                              fontWeight: .bold,
+                              fontSize: 16,
+                            ),
+                          ),
                           TextButton(onPressed: () {}, child: Text("View All")),
                         ],
                       ),
