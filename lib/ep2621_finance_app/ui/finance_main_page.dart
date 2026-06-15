@@ -69,7 +69,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                 colors: [
                                   Color(0xFFFCE7F3), // 1. 중심부의 은은한 핑크
                                   Color(0xFFE0E7FF), // 2. 외곽으로 퍼지는 연보라
-                                  Colors.white,      // 3. 마지막엔 완전히 흰색 배경으로 흡수
+                                  Colors.grey[50]!,      // 3. 마지막엔 완전히 흰색 배경으로 흡수
                                 ],
                               ),
                             ),
