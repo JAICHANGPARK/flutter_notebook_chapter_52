@@ -60,6 +60,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     ),
                     child: Column(
                       crossAxisAlignment: .start,
+                      spacing: 12,
                       children: [
                         Expanded(
                           child: Container(
