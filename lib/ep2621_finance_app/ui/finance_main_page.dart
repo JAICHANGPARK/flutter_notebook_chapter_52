@@ -263,6 +263,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                         padding: .all(14),
                                         child: Column(
                                           crossAxisAlignment: .start,
+                                          spacing: 4,
                                           children: [
                                             Row(
                                               spacing: 5,
@@ -271,10 +272,14 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                                 Text("USD"),
                                               ],
                                             ),
-                                            Text("\$30.00"),
+                                            Spacer(),
+                                            Text("\$30.00",style: TextStyle(
+                                              fontWeight: .bold,
+                                              fontSize: 16,
+                                            ),),
                                             Row(
                                               children: [
-                                                Icon(Icons.food_bank_outlined),
+                                                HugeIcon(icon: HugeIcons.strokeRoundedBank, size: 16,),
                                                 Text("**** **** 1234"),
 
                                               ],
