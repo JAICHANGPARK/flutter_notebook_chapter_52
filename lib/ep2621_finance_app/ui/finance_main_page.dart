@@ -260,10 +260,12 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                           ),
                                           color: Colors.white,
                                         ),
+                                        padding: .all(14),
                                         child: Column(
                                           crossAxisAlignment: .start,
                                           children: [
                                             Row(
+                                              spacing: 5,
                                               children: [
                                                 CircleAvatar(),
                                                 Text("USD"),
