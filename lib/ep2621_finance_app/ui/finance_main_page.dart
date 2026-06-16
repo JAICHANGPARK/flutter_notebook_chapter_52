@@ -250,6 +250,34 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                           ),
                                           color: Colors.white,
                                         ),
+                                        padding: .all(14),
+                                        child: Column(
+                                          crossAxisAlignment: .start,
+                                          spacing: 4,
+                                          children: [
+                                            Row(
+                                              spacing: 5,
+                                              children: [
+                                                CircleAvatar(),
+                                                Text("USD"),
+                                              ],
+                                            ),
+                                            Spacer(),
+                                            Text("\$30.00",style: TextStyle(
+                                              fontWeight: .bold,
+                                              fontSize: 16,
+                                            ),),
+                                            Row(
+                                              spacing: 12,
+                                              children: [
+                                                HugeIcon(icon: HugeIcons.strokeRoundedBank, size: 16,),
+                                                Text("**** **** 1234"),
+
+                                              ],
+                                            )
+
+                                          ],
+                                        ),
                                       ),
                                     ),
                                     Expanded(
