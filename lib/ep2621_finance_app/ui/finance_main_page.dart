@@ -380,7 +380,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                       shape: StadiumBorder(),
                                       color: Colors.white,
                                     ),
-                                    padding: .all(12),
+                                    padding: .symmetric(horizontal: 16, vertical: 12),
                                     child: Row(
                                       spacing: 12,
                                       children: [
