@@ -237,7 +237,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                 ],
                               ),
                               Container(
-                                height: 160,
+                                height: 152,
                                 child: Row(
                                   spacing: 6,
                                   children: [
@@ -245,13 +245,22 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                       child: Container(
                                         decoration: ShapeDecoration(
                                           shape: RoundedSuperellipseBorder(
-                                            borderRadius: .circular(16),
+                                            borderRadius: .circular(24),
                                           ),
                                           color: Colors.white,
                                         ),
                                       ),
                                     ),
-                                    Expanded(child: Placeholder()),
+                                    Expanded(
+                                      child: Container(
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(
+                                            borderRadius: .circular(24),
+                                          ),
+                                          color: Colors.white,
+                                        ),
+                                      ),
+                                    ),
                                     Container(width: 32, child: Placeholder()),
                                   ],
                                 ),
