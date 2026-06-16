@@ -265,6 +265,11 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                     Container(
                                       width: 32,
                                       child: DottedBorder(
+                                        options: RoundedRectDottedBorderOptions(
+                                          radius: .circular(32),
+                                          dashPattern: [10, 4],
+                                          strokeWidth: 1.5,
+                                        ),
                                         child: Center(child: Icon(Icons.add)),
                                       ),
                                     ),
