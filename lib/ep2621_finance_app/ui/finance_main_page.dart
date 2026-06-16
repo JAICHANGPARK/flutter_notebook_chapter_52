@@ -50,228 +50,255 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       HugeIcon(icon: HugeIcons.strokeRoundedScan),
                     ],
                   ),
-                  Expanded(child: SingleChildScrollView(
-                    child: Column(
-                      crossAxisAlignment: .start,
-                      children: [
-                        Container(
-                          margin: .only(top: 12),
-                          padding: .all(16),
-                          height: 280,
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: .circular(16),
-                          ),
-                          child: Column(
-                            crossAxisAlignment: .start,
-                            spacing: 12,
-                            children: [
-                              Expanded(
-                                child: Container(
-                                  width: double.infinity,
-                                  decoration: BoxDecoration(
-                                    color: Colors.white,
-                                    borderRadius: BorderRadius.circular(24),
-                                    boxShadow: [
-                                      BoxShadow(
-                                        color: Colors.black.withOpacity(0.03),
-                                        blurRadius: 20,
-                                        offset: const Offset(0, 10),
-                                      ),
-                                    ],
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        crossAxisAlignment: .start,
+                        children: [
+                          Container(
+                            margin: .only(top: 12),
+                            padding: .all(16),
+                            height: 280,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: .circular(16),
+                            ),
+                            child: Column(
+                              crossAxisAlignment: .start,
+                              spacing: 12,
+                              children: [
+                                Expanded(
+                                  child: Container(
+                                    width: double.infinity,
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.circular(24),
+                                      boxShadow: [
+                                        BoxShadow(
+                                          color: Colors.black.withOpacity(0.03),
+                                          blurRadius: 20,
+                                          offset: const Offset(0, 10),
+                                        ),
+                                      ],
+                                    ),
+                                    child: Stack(
+                                      children: [
+                                        // 1. 왼쪽 상단 핑크색 그라디언트 레이어
+                                        Container(
+                                          decoration: const BoxDecoration(
+                                            gradient: RadialGradient(
+                                              center: Alignment(-.3, -0.8),
+                                              // 왼쪽 상단
+                                              radius: 1.0,
+                                              colors: [
+                                                Color.fromRGBO(
+                                                  239,
+                                                  158,
+                                                  208,
+                                                  1,
+                                                ),
+                                                // 핑크
+                                                Colors.white,
+                                                //                                            Colors.transparent, // 투명하게 페이드 아웃
+                                              ],
+                                              stops: [0.0, 0.7],
+                                            ),
+                                          ),
+                                        ),
+                                        // 2. 오른쪽 상단 연보라색 그라디언트 레이어
+                                        Container(
+                                          decoration: const BoxDecoration(
+                                            gradient: RadialGradient(
+                                              center: Alignment(0.3, -0.8),
+                                              // 오른쪽 상단
+                                              radius: 1.0,
+                                              colors: [
+                                                Color(0xFFE0E7FF),
+                                                // 연보라
+                                                Colors.white,
+                                                // Colors.transparent, // 투명하게 페이드 아웃
+                                              ],
+                                              stops: [0.0, 0.7],
+                                            ),
+                                          ),
+                                        ),
+                                        // 1. 왼쪽 상단 핑크색 그라디언트 레이어
+                                        Container(
+                                          decoration: const BoxDecoration(
+                                            gradient: RadialGradient(
+                                              center: Alignment(-.3, -0.8),
+                                              // 왼쪽 상단
+                                              radius: 1.1,
+                                              colors: [
+                                                Color.fromRGBO(
+                                                  239,
+                                                  158,
+                                                  208,
+                                                  1,
+                                                ),
+                                                // 핑크
+                                                Colors.white,
+                                                //                                            Colors.transparent, // 투명하게 페이드 아웃
+                                              ],
+                                              stops: [0.0, 0.7],
+                                            ),
+                                          ),
+                                        ),
+                                        // 3. 카드 내부 콘텐츠 레이어
+                                        const Column(
+                                          // Available Balance 등
+                                        ),
+                                      ],
+                                    ),
                                   ),
-                                  child: Stack(
+                                ),
+                                Expanded(
+                                  child: Row(
                                     children: [
-                                      // 1. 왼쪽 상단 핑크색 그라디언트 레이어
-                                      Container(
-                                        decoration: const BoxDecoration(
-                                          gradient: RadialGradient(
-                                            center: Alignment(-.3, -0.8),
-                                            // 왼쪽 상단
-                                            radius: 1.0,
-                                            colors: [
-                                              Color.fromRGBO(239, 158, 208, 1),
-                                              // 핑크
-                                              Colors.white,
-                                              //                                            Colors.transparent, // 투명하게 페이드 아웃
-                                            ],
-                                            stops: [0.0, 0.7],
-                                          ),
+                                      Expanded(
+                                        child: Column(
+                                          spacing: 12,
+                                          mainAxisAlignment: .center,
+                                          children: [
+                                            CircleAvatar(
+                                              radius: 28,
+                                              backgroundColor: Colors.grey[100],
+                                            ),
+                                            Text("Send"),
+                                          ],
                                         ),
                                       ),
-                                      // 2. 오른쪽 상단 연보라색 그라디언트 레이어
-                                      Container(
-                                        decoration: const BoxDecoration(
-                                          gradient: RadialGradient(
-                                            center: Alignment(0.3, -0.8),
-                                            // 오른쪽 상단
-                                            radius: 1.0,
-                                            colors: [
-                                              Color(0xFFE0E7FF), // 연보라
-                                              Colors.white,
-                                              // Colors.transparent, // 투명하게 페이드 아웃
-                                            ],
-                                            stops: [0.0, 0.7],
-                                          ),
+                                      Expanded(
+                                        child: Column(
+                                          spacing: 12,
+                                          mainAxisAlignment: .center,
+                                          children: [
+                                            CircleAvatar(
+                                              radius: 28,
+                                              backgroundColor: Colors.grey[100],
+                                            ),
+                                            Text("Send"),
+                                          ],
                                         ),
                                       ),
-                                      // 1. 왼쪽 상단 핑크색 그라디언트 레이어
-                                      Container(
-                                        decoration: const BoxDecoration(
-                                          gradient: RadialGradient(
-                                            center: Alignment(-.3, -0.8),
-                                            // 왼쪽 상단
-                                            radius: 1.1,
-                                            colors: [
-                                              Color.fromRGBO(239, 158, 208, 1),
-                                              // 핑크
-                                              Colors.white,
-                                              //                                            Colors.transparent, // 투명하게 페이드 아웃
-                                            ],
-                                            stops: [0.0, 0.7],
-                                          ),
+                                      Expanded(
+                                        child: Column(
+                                          spacing: 12,
+                                          mainAxisAlignment: .center,
+                                          children: [
+                                            CircleAvatar(
+                                              radius: 28,
+                                              backgroundColor: Colors.grey[100],
+                                            ),
+                                            Text("Send"),
+                                          ],
                                         ),
                                       ),
-                                      // 3. 카드 내부 콘텐츠 레이어
-                                      const Column(
-                                        // Available Balance 등
+                                      Expanded(
+                                        child: Column(
+                                          spacing: 12,
+                                          mainAxisAlignment: .center,
+                                          children: [
+                                            CircleAvatar(
+                                              radius: 28,
+                                              backgroundColor: Colors.grey[100],
+                                            ),
+                                            Text("Send"),
+                                          ],
+                                        ),
                                       ),
                                     ],
                                   ),
                                 ),
+                              ],
+                            ),
+                          ),
+                          Column(
+                            spacing: 6,
+                            crossAxisAlignment: .start,
+                            children: [
+                              Row(
+                                mainAxisAlignment: .spaceBetween,
+                                children: [
+                                  Text(
+                                    "My Accounts Balance",
+                                    style: TextStyle(
+                                      fontWeight: .bold,
+                                      fontSize: 18,
+                                    ),
+                                  ),
+                                  TextButton(
+                                    onPressed: () {},
+                                    child: Text("View All"),
+                                    style: TextButton.styleFrom(
+                                      foregroundColor: Colors.black,
+                                    ),
+                                  ),
+                                ],
                               ),
-                              Expanded(
+                              Container(
+                                height: 160,
                                 child: Row(
+                                  spacing: 6,
                                   children: [
                                     Expanded(
-                                      child: Column(
-                                        spacing: 12,
-                                        mainAxisAlignment: .center,
-                                        children: [
-                                          CircleAvatar(
-                                            radius: 28,
-                                            backgroundColor: Colors.grey[100],
+                                      child: Container(
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(
+                                            borderRadius: .circular(16),
                                           ),
-                                          Text("Send"),
-                                        ],
+                                          color: Colors.white,
+                                        ),
                                       ),
                                     ),
-                                    Expanded(
-                                      child: Column(
-                                        spacing: 12,
-                                        mainAxisAlignment: .center,
-                                        children: [
-                                          CircleAvatar(
-                                            radius: 28,
-                                            backgroundColor: Colors.grey[100],
-                                          ),
-                                          Text("Send"),
-                                        ],
-                                      ),
-                                    ),
-                                    Expanded(
-                                      child: Column(
-                                        spacing: 12,
-                                        mainAxisAlignment: .center,
-                                        children: [
-                                          CircleAvatar(
-                                            radius: 28,
-                                            backgroundColor: Colors.grey[100],
-                                          ),
-                                          Text("Send"),
-                                        ],
-                                      ),
-                                    ),
-                                    Expanded(
-                                      child: Column(
-                                        spacing: 12,
-                                        mainAxisAlignment: .center,
-                                        children: [
-                                          CircleAvatar(
-                                            radius: 28,
-                                            backgroundColor: Colors.grey[100],
-                                          ),
-                                          Text("Send"),
-                                        ],
-                                      ),
-                                    ),
+                                    Expanded(child: Placeholder()),
+                                    Container(width: 32, child: Placeholder()),
                                   ],
                                 ),
                               ),
                             ],
                           ),
-                        ),
-                        Column(
-                          spacing: 6,
-                          crossAxisAlignment: .start,
-                          children: [
-                            Row(
-                              mainAxisAlignment: .spaceBetween,
-                              children: [
-                                Text(
-                                  "My Accounts Balance",
-                                  style: TextStyle(fontWeight: .bold, fontSize: 18),
-                                ),
-                                TextButton(
-                                  onPressed: () {},
-                                  child: Text("View All"),
-                                  style: TextButton.styleFrom(
-                                    foregroundColor: Colors.black,
-                                  ),
-                                ),
-                              ],
-                            ),
-                            Container(
-                              height: 160,
-                              child: Row(
-                                spacing: 6,
+                          Column(
+                            spacing: 4,
+                            crossAxisAlignment: .start,
+                            children: [
+                              Row(
+                                mainAxisAlignment: .spaceBetween,
                                 children: [
-                                  Expanded(child: Placeholder()),
-                                  Expanded(child: Placeholder()),
-                                  Container(width: 32, child: Placeholder()),
+                                  Text(
+                                    "Transactions",
+                                    style: TextStyle(
+                                      fontWeight: .bold,
+                                      fontSize: 18,
+                                    ),
+                                  ),
+                                  TextButton(
+                                    onPressed: () {},
+                                    child: Text("View All"),
+                                    style: TextButton.styleFrom(
+                                      foregroundColor: Colors.black,
+                                    ),
+                                  ),
                                 ],
                               ),
-                            ),
-                          ],
-                        ),
-                        Column(
-                          spacing: 4,
-                          crossAxisAlignment: .start,
-                          children: [
-                            Row(
-                              mainAxisAlignment: .spaceBetween,
-                              children: [
-                                Text(
-                                  "Transactions",
-                                  style: TextStyle(fontWeight: .bold, fontSize: 18),
-                                ),
-                                TextButton(
-                                  onPressed: () {},
-                                  child: Text("View All"),
-                                  style: TextButton.styleFrom(
-                                    foregroundColor: Colors.black,
-                                  ),
-                                ),
-                              ],
-                            ),
 
-                            Text("Today"),
-                            Gap(4),
-                            Column(
-                              spacing: 12,
-                              children: List.generate(5, (idx){
-                                return Container(
-                                  height: 52,
-                                  child: Placeholder(),
-                                );
-                              }),
-                            )
-                          ],
-                        ),
-                      ],
+                              Text("Today"),
+                              Gap(4),
+                              Column(
+                                spacing: 12,
+                                children: List.generate(5, (idx) {
+                                  return Container(
+                                    height: 52,
+                                    child: Placeholder(),
+                                  );
+                                }),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
-                  ))
-
+                  ),
                 ],
               ),
             ),
