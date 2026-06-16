@@ -1,3 +1,4 @@
+import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
@@ -261,7 +262,12 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                         ),
                                       ),
                                     ),
-                                    Container(width: 32, child: Placeholder()),
+                                    Container(
+                                      width: 32,
+                                      child: DottedBorder(
+                                        child: Center(child: Icon(Icons.add)),
+                                      ),
+                                    ),
                                   ],
                                 ),
                               ),
