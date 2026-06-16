@@ -388,6 +388,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                           radius: 24,
                                         ),
                                         Expanded(child: Column(
+                                          spacing: 4,
                                           children: [
                                             Row(
                                               mainAxisAlignment: .spaceBetween,
