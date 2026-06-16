@@ -260,6 +260,26 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                           ),
                                           color: Colors.white,
                                         ),
+                                        child: Column(
+                                          crossAxisAlignment: .start,
+                                          children: [
+                                            Row(
+                                              children: [
+                                                CircleAvatar(),
+                                                Text("USD"),
+                                              ],
+                                            ),
+                                            Text("\$30.00"),
+                                            Row(
+                                              children: [
+                                                Icon(Icons.food_bank_outlined),
+                                                Text("**** **** 1234"),
+
+                                              ],
+                                            )
+
+                                          ],
+                                        ),
                                       ),
                                     ),
                                     Container(
@@ -269,6 +289,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                           radius: .circular(32),
                                           dashPattern: [10, 4],
                                           strokeWidth: 1.5,
+                                          color: Colors.grey,
                                         ),
                                         child: Center(child: Icon(Icons.add)),
                                       ),
