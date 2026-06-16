@@ -278,6 +278,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                               fontSize: 16,
                                             ),),
                                             Row(
+                                              spacing: 12,
                                               children: [
                                                 HugeIcon(icon: HugeIcons.strokeRoundedBank, size: 16,),
                                                 Text("**** **** 1234"),
