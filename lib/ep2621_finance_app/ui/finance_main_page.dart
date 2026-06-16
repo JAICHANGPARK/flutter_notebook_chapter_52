@@ -263,19 +263,24 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                               ],
                                             ),
                                             Spacer(),
-                                            Text("\$30.00",style: TextStyle(
-                                              fontWeight: .bold,
-                                              fontSize: 16,
-                                            ),),
+                                            Text(
+                                              "\$30.00",
+                                              style: TextStyle(
+                                                fontWeight: .bold,
+                                                fontSize: 16,
+                                              ),
+                                            ),
                                             Row(
                                               spacing: 12,
                                               children: [
-                                                HugeIcon(icon: HugeIcons.strokeRoundedBank, size: 16,),
+                                                HugeIcon(
+                                                  icon: HugeIcons
+                                                      .strokeRoundedBank,
+                                                  size: 16,
+                                                ),
                                                 Text("**** **** 1234"),
-
                                               ],
-                                            )
-
+                                            ),
                                           ],
                                         ),
                                       ),
@@ -301,19 +306,24 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                               ],
                                             ),
                                             Spacer(),
-                                            Text("\$30.00",style: TextStyle(
-                                              fontWeight: .bold,
-                                              fontSize: 16,
-                                            ),),
+                                            Text(
+                                              "\$30.00",
+                                              style: TextStyle(
+                                                fontWeight: .bold,
+                                                fontSize: 16,
+                                              ),
+                                            ),
                                             Row(
                                               spacing: 12,
                                               children: [
-                                                HugeIcon(icon: HugeIcons.strokeRoundedBank, size: 16,),
+                                                HugeIcon(
+                                                  icon: HugeIcons
+                                                      .strokeRoundedBank,
+                                                  size: 16,
+                                                ),
                                                 Text("**** **** 1234"),
-
                                               ],
-                                            )
-
+                                            ),
                                           ],
                                         ),
                                       ),
@@ -366,7 +376,24 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                 children: List.generate(5, (idx) {
                                   return Container(
                                     height: 52,
-                                    child: Placeholder(),
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.white,
+                                    ),
+                                    child: Row(
+                                      children: [
+                                        CircleAvatar(),
+                                        Expanded(child: Column(
+                                          children: [
+                                            Row(
+                                              children: [
+                                                Text("")
+                                              ],
+                                            )
+                                          ],
+                                        ))
+                                      ],
+                                    )
                                   );
                                 }),
                               ),
