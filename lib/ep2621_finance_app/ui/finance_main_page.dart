@@ -385,17 +385,19 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                       spacing: 12,
                                       children: [
                                         CircleAvatar(
-                                          radius: 12,
+                                          radius: 24,
                                         ),
                                         Expanded(child: Column(
                                           children: [
                                             Row(
+                                              mainAxisAlignment: .spaceBetween,
                                               children: [
                                                 Text("Grocery"),
                                                 Text("- \$12.99"),
                                               ],
                                             ),
                                             Row(
+                                              mainAxisAlignment: .spaceBetween,
                                               children: [
                                                 Text("Payment"),
                                                 Text("10:32 am")
