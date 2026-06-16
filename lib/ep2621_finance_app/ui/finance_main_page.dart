@@ -387,9 +387,18 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                           children: [
                                             Row(
                                               children: [
-                                                Text("")
+                                                Text("Grocery"),
+                                                Text("- \$12.99"),
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Text("Payment"),
+                                                Text("10:32 am")
                                               ],
                                             )
+
+
                                           ],
                                         ))
                                       ],
