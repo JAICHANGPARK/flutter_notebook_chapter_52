@@ -375,14 +375,18 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                 spacing: 12,
                                 children: List.generate(5, (idx) {
                                   return Container(
-                                    height: 52,
+                                    // height: 52,
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Colors.white,
                                     ),
+                                    padding: .all(12),
                                     child: Row(
+                                      spacing: 12,
                                       children: [
-                                        CircleAvatar(),
+                                        CircleAvatar(
+                                          radius: 12,
+                                        ),
                                         Expanded(child: Column(
                                           children: [
                                             Row(
