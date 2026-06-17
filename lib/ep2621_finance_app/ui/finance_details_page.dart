@@ -16,6 +16,7 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
       body: SafeArea(
         bottom: false,
         child: Column(
+          spacing: 16,
           children: [
             Row(
               children: [
