@@ -19,8 +19,8 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
         children: [
           Container(
             margin: .only(top: 12),
-            padding: .all(16),
-            height: 280,
+            padding: .all(12),
+            height: 240,
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: .circular(16),
