@@ -11,7 +11,7 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[50],
+      backgroundColor: Colors.grey[100],
       body: SafeArea(
         child: Column(
           children: [
@@ -31,6 +31,13 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                 ),
                 IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
               ],
+            ),
+            Container(
+              height: 320,
+              decoration: ShapeDecoration(
+                shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
+                color: Colors.white,
+              ),
             ),
           ],
         ),
