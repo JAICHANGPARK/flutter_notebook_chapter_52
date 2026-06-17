@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-
 class FinanceTransactionsWidget extends StatelessWidget {
   const FinanceTransactionsWidget({super.key});
 
