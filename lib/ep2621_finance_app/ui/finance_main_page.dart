@@ -11,6 +11,8 @@ class FinanceMainPage extends StatefulWidget {
 }
 
 class _FinanceMainPageState extends State<FinanceMainPage> {
+  int pageNum = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,7 +55,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                   ),
                   Expanded(
                     child: IndexedStack(
-                      
+                      index: pageNum,
                       children: [
                         SingleChildScrollView(
                           child: Column(
@@ -76,10 +78,14 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                         width: double.infinity,
                                         decoration: BoxDecoration(
                                           color: Colors.white,
-                                          borderRadius: BorderRadius.circular(24),
+                                          borderRadius: BorderRadius.circular(
+                                            24,
+                                          ),
                                           boxShadow: [
                                             BoxShadow(
-                                              color: Colors.black.withOpacity(0.03),
+                                              color: Colors.black.withOpacity(
+                                                0.03,
+                                              ),
                                               blurRadius: 20,
                                               offset: const Offset(0, 10),
                                             ),
@@ -166,7 +172,8 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                               children: [
                                                 CircleAvatar(
                                                   radius: 28,
-                                                  backgroundColor: Colors.grey[100],
+                                                  backgroundColor:
+                                                      Colors.grey[100],
                                                 ),
                                                 Text("Send"),
                                               ],
@@ -179,7 +186,8 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                               children: [
                                                 CircleAvatar(
                                                   radius: 28,
-                                                  backgroundColor: Colors.grey[100],
+                                                  backgroundColor:
+                                                      Colors.grey[100],
                                                 ),
                                                 Text("Send"),
                                               ],
@@ -192,7 +200,8 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                               children: [
                                                 CircleAvatar(
                                                   radius: 28,
-                                                  backgroundColor: Colors.grey[100],
+                                                  backgroundColor:
+                                                      Colors.grey[100],
                                                 ),
                                                 Text("Send"),
                                               ],
@@ -205,7 +214,8 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                               children: [
                                                 CircleAvatar(
                                                   radius: 28,
-                                                  backgroundColor: Colors.grey[100],
+                                                  backgroundColor:
+                                                      Colors.grey[100],
                                                 ),
                                                 Text("Send"),
                                               ],
@@ -334,13 +344,16 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                         Container(
                                           width: 32,
                                           child: DottedBorder(
-                                            options: RoundedRectDottedBorderOptions(
-                                              radius: .circular(32),
-                                              dashPattern: [10, 4],
-                                              strokeWidth: 1.5,
-                                              color: Colors.grey,
+                                            options:
+                                                RoundedRectDottedBorderOptions(
+                                                  radius: .circular(32),
+                                                  dashPattern: [10, 4],
+                                                  strokeWidth: 1.5,
+                                                  color: Colors.grey,
+                                                ),
+                                            child: Center(
+                                              child: Icon(Icons.add),
                                             ),
-                                            child: Center(child: Icon(Icons.add)),
                                           ),
                                         ),
                                       ],
@@ -383,36 +396,39 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                           shape: StadiumBorder(),
                                           color: Colors.white,
                                         ),
-                                        padding: .symmetric(horizontal: 16, vertical: 12),
+                                        padding: .symmetric(
+                                          horizontal: 16,
+                                          vertical: 12,
+                                        ),
                                         child: Row(
                                           spacing: 12,
                                           children: [
-                                            CircleAvatar(
-                                              radius: 24,
+                                            CircleAvatar(radius: 24),
+                                            Expanded(
+                                              child: Column(
+                                                spacing: 4,
+                                                children: [
+                                                  Row(
+                                                    mainAxisAlignment:
+                                                        .spaceBetween,
+                                                    children: [
+                                                      Text("Grocery"),
+                                                      Text("- \$12.99"),
+                                                    ],
+                                                  ),
+                                                  Row(
+                                                    mainAxisAlignment:
+                                                        .spaceBetween,
+                                                    children: [
+                                                      Text("Payment"),
+                                                      Text("10:32 am"),
+                                                    ],
+                                                  ),
+                                                ],
+                                              ),
                                             ),
-                                            Expanded(child: Column(
-                                              spacing: 4,
-                                              children: [
-                                                Row(
-                                                  mainAxisAlignment: .spaceBetween,
-                                                  children: [
-                                                    Text("Grocery"),
-                                                    Text("- \$12.99"),
-                                                  ],
-                                                ),
-                                                Row(
-                                                  mainAxisAlignment: .spaceBetween,
-                                                  children: [
-                                                    Text("Payment"),
-                                                    Text("10:32 am")
-                                                  ],
-                                                )
-
-
-                                              ],
-                                            ))
                                           ],
-                                        )
+                                        ),
                                       );
                                     }),
                                   ),
