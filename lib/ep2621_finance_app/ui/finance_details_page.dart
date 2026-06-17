@@ -14,6 +14,7 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
     return Scaffold(
       backgroundColor: Colors.grey[100],
       body: SafeArea(
+        bottom: false,
         child: Column(
           children: [
             Row(
@@ -33,18 +34,21 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                 IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
               ],
             ),
-            Expanded(child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  Container(
-                    height: 320,
-                    decoration: ShapeDecoration(
-                      shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
-                      color: Colors.white,
+            Expanded(child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Container(
+                      height: 320,
+                      decoration: ShapeDecoration(
+                        shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
+                        color: Colors.white,
+                      ),
                     ),
-                  ),
-                  FinanceTransactionsWidget(),
-                ],
+                    FinanceTransactionsWidget(),
+                  ],
+                ),
               ),
             )),
 
