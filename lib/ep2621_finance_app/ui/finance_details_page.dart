@@ -35,9 +35,10 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
               ],
             ),
             Expanded(child: Padding(
-              padding: const EdgeInsets.all(16.0),
+              padding: const EdgeInsets.symmetric(horizontal: 16),
               child: SingleChildScrollView(
                 child: Column(
+                  spacing: 16,
                   children: [
                     Container(
                       height: 320,
