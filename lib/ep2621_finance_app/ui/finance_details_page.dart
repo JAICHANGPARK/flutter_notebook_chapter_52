@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FinanceDetailsPage extends StatefulWidget {
   const FinanceDetailsPage({super.key});
 
@@ -12,17 +11,30 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(child: Column(children: [
-
-        Row(
+      backgroundColor: Colors.grey[50],
+      body: SafeArea(
+        child: Column(
           children: [
-            IconButton(onPressed: (){}, icon: Icon(Icons.keyboard_arrow_left)),
-            Expanded(child: Center(child: Text("Account Details"),))
+            Row(
+              children: [
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.keyboard_arrow_left),
+                ),
+                Expanded(
+                  child: Center(
+                    child: Text(
+                      "Account Details",
+                      style: TextStyle(fontSize: 18, fontWeight: .bold),
+                    ),
+                  ),
+                ),
+                IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
+              ],
+            ),
           ],
-        )
-
-      ],)),
-
+        ),
+      ),
     );
   }
 }
