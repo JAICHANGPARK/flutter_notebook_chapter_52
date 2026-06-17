@@ -29,7 +29,7 @@ class FinanceTransactionsWidget extends StatelessWidget {
         Gap(4),
         Column(
           spacing: 12,
-          children: List.generate(5, (idx) {
+          children: List.generate(4, (idx) {
             return Container(
               // height: 52,
               decoration: ShapeDecoration(
