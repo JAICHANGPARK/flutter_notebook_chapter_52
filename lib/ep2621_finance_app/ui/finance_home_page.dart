@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:dotted_border/dotted_border.dart';
+import 'package:flutter_notebook_chapter_52/ep2621_finance_app/ui/finance_details_page.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
@@ -18,8 +19,10 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
         crossAxisAlignment: .start,
         children: [
           GestureDetector(
-            onTap: (){
-              
+            onTap: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => FinanceDetailsPage()),
+              );
             },
             child: Container(
               margin: .only(top: 12),
