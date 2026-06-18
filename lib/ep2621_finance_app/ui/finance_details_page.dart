@@ -59,65 +59,54 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                               children: [
                                 Text("Abailable Balance"),
                                 Container(
-                                  decoration: BoxDecoration(
-
-                                  ),
+                                  decoration: BoxDecoration(),
                                   child: Row(
                                     children: [
                                       Text("All currency"),
-                                      Icon(Icons.keyboard_arrow_down)
+                                      Icon(Icons.keyboard_arrow_down),
                                     ],
                                   ),
                                 ),
-
                               ],
                             ),
                             Gap(24),
                             Row(
+                              spacing: 4,
                               crossAxisAlignment: .end,
                               children: [
-                                Text("\$56,123",style: TextStyle(
-                                  fontSize: 38,
-                                ),),
+                                Text(
+                                  "\$56,123",
+                                  style: TextStyle(
+                                    fontSize: 38,
+                                    fontWeight: .bold,
+                                  ),
+                                ),
                                 Spacer(),
                                 Text("-\$10.12"),
-                                Icon(Icons.line_axis_rounded),
-                                Text("2.4%")
+                                Icon(Icons.line_axis_rounded, size: 15),
+                                Text("2.4%"),
                               ],
                             ),
                             Gap(12),
-                            Container(
-                              height: 100,
-                              child: Placeholder(),
-                            ),
+                            Container(height: 100, child: Placeholder()),
                             Gap(12),
                             Row(
                               mainAxisAlignment: .center,
                               crossAxisAlignment: .center,
                               spacing: 6,
                               children: [
-                                CircleAvatar(
-                                  radius: 5,
-
-                                ),
+                                CircleAvatar(radius: 5),
                                 Text("USD"),
                                 Gap(24),
-                                CircleAvatar(
-                                  radius: 5,
-
-                                ),
+                                CircleAvatar(radius: 5),
                                 Text("EUR"),
                                 Gap(24),
-                                CircleAvatar(
-                                  radius: 5,
-
-                                ),
+                                CircleAvatar(radius: 5),
                                 Text("GBP"),
                               ],
-                            )
+                            ),
                           ],
                         ),
-
                       ),
                       FinanceTransactionsWidget(),
                       Container(
@@ -140,16 +129,19 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                                     borderRadius: .circular(3),
                                     color: Colors.grey[100]!,
                                   ),
-                                  padding: .symmetric(horizontal: 4, vertical: 2),
+                                  padding: .symmetric(
+                                    horizontal: 4,
+                                    vertical: 2,
+                                  ),
                                   child: Row(
                                     children: [
                                       Text("USD"),
                                       Icon(Icons.keyboard_arrow_down),
                                     ],
                                   ),
-                                )
+                                ),
                               ],
-                            )
+                            ),
                           ],
                         ),
                       ),
