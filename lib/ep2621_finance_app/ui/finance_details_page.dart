@@ -57,12 +57,12 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                             Row(
                               mainAxisAlignment: .spaceBetween,
                               children: [
-                                Text("Abailable Balance"),
+                                Text("Abailable Balance", style: TextStyle()),
                                 Container(
                                   decoration: BoxDecoration(),
                                   child: Row(
                                     children: [
-                                      Text("All currency"),
+                                      Text("All currency", style: TextStyle()),
                                       Icon(Icons.keyboard_arrow_down),
                                     ],
                                   ),
