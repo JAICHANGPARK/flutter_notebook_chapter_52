@@ -49,7 +49,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               ),
             ),
           ),
-          Positioned(child: Container(height: 100)),
+          Positioned(
+              bottom: 0,
+              left: 0,
+              right: 0,
+              child: Container(height: 100)),
         ],
       ),
     );
