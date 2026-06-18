@@ -86,6 +86,7 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                               height: 100,
                               child: Placeholder(),
                             ),
+                            Gap(12),
                             Row(
                               mainAxisAlignment: .center,
                               crossAxisAlignment: .center,
