@@ -74,8 +74,12 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                             ),
                             Gap(24),
                             Row(
+                              crossAxisAlignment: .end,
                               children: [
-                                Text("\$56,123"),
+                                Text("\$56,123",style: TextStyle(
+                                  fontSize: 38,
+                                ),),
+                                Spacer(),
                                 Text("-\$10.12"),
                                 Icon(Icons.line_axis_rounded),
                                 Text("2.4%")
