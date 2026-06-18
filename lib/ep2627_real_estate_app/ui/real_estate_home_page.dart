@@ -21,7 +21,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                 height: 80
                 ,
                 child: Placeholder(),
-              )
+              ),
+              Expanded(child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    
+                  ],
+                ),
+              ))
             ],
           ))),
           Positioned(child: Container(height: 100,)),
