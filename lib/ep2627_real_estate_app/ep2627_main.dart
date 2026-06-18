@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
-void main() {
+import 'real_estate_app.dart';
 
+void main() {
+  runApp(RealEstateApp());
 }
