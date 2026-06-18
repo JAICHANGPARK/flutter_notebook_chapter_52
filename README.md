@@ -6,7 +6,7 @@
 - UIX Maruf Hossen
 - https://dribbble.com/shots/27480034-Real-Estate-Mobile-App-Design
 
-<img src="https://cdn.dribbble.com/userupload/48015671/file/3f2e321634a0472c6279bb15936db530.jpg?resize=1905x1429&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/48095737/file/d14abaf8213e00d0df8f23ce443d9fed.png?resize=1905x1429&vertical=center" alt=""/>
 
 
 ## EP2621-2626
