@@ -96,13 +96,13 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
 
                                 ),
                                 Text("USD"),
-                                Gap(32),
+                                Gap(24),
                                 CircleAvatar(
                                   radius: 5,
 
                                 ),
                                 Text("EUR"),
-                                Gap(32),
+                                Gap(24),
                                 CircleAvatar(
                                   radius: 5,
 
