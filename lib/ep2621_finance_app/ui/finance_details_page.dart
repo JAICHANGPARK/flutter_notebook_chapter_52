@@ -64,13 +64,15 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                         child: Column(
                           children: [
                             Row(
+                              mainAxisAlignment: .spaceBetween,
                               children: [
                                 Text("USD Dollar Account Details"),
                                 Container(
                                   decoration: BoxDecoration(
                                     borderRadius: .circular(3),
-                                    color: Colors.grey[300]!,
+                                    color: Colors.grey[100]!,
                                   ),
+                                  padding: .symmetric(horizontal: 4, vertical: 2),
                                   child: Row(
                                     children: [
                                       Text("USD"),
