@@ -35,31 +35,36 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                 IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
               ],
             ),
-            Expanded(child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: SingleChildScrollView(
-                child: Column(
-                  spacing: 16,
-                  children: [
-                    Container(
-                      height: 320,
-                      decoration: ShapeDecoration(
-                        shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
-                        color: Colors.white,
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: SingleChildScrollView(
+                  child: Column(
+                    spacing: 16,
+                    children: [
+                      Container(
+                        height: 320,
+                        decoration: ShapeDecoration(
+                          shape: RoundedSuperellipseBorder(
+                            borderRadius: .circular(16),
+                          ),
+                          color: Colors.white,
+                        ),
                       ),
-                    ),
-                    FinanceTransactionsWidget(),
-                    Container(
-                      decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
-                        borderRadius: .circular(16),
-                        
-                      )),
-                    )
-                  ],
+                      FinanceTransactionsWidget(),
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: RoundedSuperellipseBorder(
+                            borderRadius: .circular(16),
+                          ),
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
-            )),
-
+            ),
           ],
         ),
       ),
