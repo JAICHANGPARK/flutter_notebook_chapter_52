@@ -60,6 +60,7 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                           ),
                           color: Colors.white,
                         ),
+                        padding: .all(12),
                         child: Column(
                           children: [
                             Row(
