@@ -50,6 +50,40 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                           ),
                           color: Colors.white,
                         ),
+                        child: Column(
+                          children: [
+                            Row(
+                              children: [
+                                Text("Abailable Balance"),
+                                Container(
+                                  decoration: BoxDecoration(
+
+                                  ),
+                                  child: Row(
+                                    children: [
+                                      Text("All currency"),
+                                      Icon(Icons.keyboard_arrow_down)
+                                    ],
+                                  ),
+                                ),
+
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Text("\$56,123"),
+                                Text("-\$10.12"),
+                                Icon(Icons.line_axis_rounded),
+                                Text("2.4%")
+                              ],
+                            ),
+                            Container(
+                              height: 100,
+                              child: Placeholder(),
+                            )
+                          ],
+                        ),
+
                       ),
                       FinanceTransactionsWidget(),
                       Container(
