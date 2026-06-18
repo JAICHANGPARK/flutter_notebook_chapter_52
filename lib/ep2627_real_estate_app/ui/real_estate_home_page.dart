@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class RealEstateHomePage extends StatefulWidget {
   const RealEstateHomePage({super.key});
 
@@ -15,24 +14,38 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          Positioned.fill(child: SafeArea(child: Column(
-            children: [
-              Container(
-                height: 80
-                ,
-                child: Placeholder(),
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Container(height: 80, child: Placeholder()),
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        children: [
+                          Container(height: 560, child: Placeholder()),
+                          Column(
+                            children: [
+                              Row(
+                                children: [
+                                  Text("Recommended"),
+                                  TextButton(
+                                    onPressed: () {},
+                                    child: Text("View All"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
               ),
-              Expanded(child: SingleChildScrollView(
-                child: Column(
-                  children: [
-                    
-                  ],
-                ),
-              ))
-            ],
-          ))),
-          Positioned(child: Container(height: 100,)),
-
+            ),
+          ),
+          Positioned(child: Container(height: 100)),
         ],
       ),
     );
