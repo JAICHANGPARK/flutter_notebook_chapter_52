@@ -69,6 +69,12 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                                     borderRadius: .circular(3),
                                     color: Colors.grey[300]!,
                                   ),
+                                  child: Row(
+                                    children: [
+                                      Text("USD"),
+                                      Icon(Icons.keyboard_arrow_down),
+                                    ],
+                                  ),
                                 )
                               ],
                             )
