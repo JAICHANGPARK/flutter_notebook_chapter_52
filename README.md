@@ -2,7 +2,7 @@
 
 ## EP2627
 
-- Finance App Design
+- Real Estate Mobile App Design
 - Sujon Hossain
 - https://dribbble.com/shots/27457797-Finance-App-Design
 
