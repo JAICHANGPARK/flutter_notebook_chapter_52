@@ -53,6 +53,7 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                       ),
                       FinanceTransactionsWidget(),
                       Container(
+                        margin: .symmetric(horizontal: 16),
                         decoration: ShapeDecoration(
                           shape: RoundedSuperellipseBorder(
                             borderRadius: .circular(16),
