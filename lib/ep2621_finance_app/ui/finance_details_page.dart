@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_52/ep2621_finance_app/ui/widgets/finance_transactions_widget.dart';
+import 'package:gap/gap.dart';
 
 class FinanceDetailsPage extends StatefulWidget {
   const FinanceDetailsPage({super.key});
@@ -43,7 +44,8 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                     spacing: 16,
                     children: [
                       Container(
-                        height: 320,
+                        padding: .all(16),
+                        height: 300,
                         decoration: ShapeDecoration(
                           shape: RoundedSuperellipseBorder(
                             borderRadius: .circular(16),
@@ -53,6 +55,7 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                         child: Column(
                           children: [
                             Row(
+                              mainAxisAlignment: .spaceBetween,
                               children: [
                                 Text("Abailable Balance"),
                                 Container(
@@ -69,6 +72,7 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
 
                               ],
                             ),
+                            Gap(24),
                             Row(
                               children: [
                                 Text("\$56,123"),
@@ -77,11 +81,14 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                                 Text("2.4%")
                               ],
                             ),
+                            Gap(12),
                             Container(
                               height: 100,
                               child: Placeholder(),
                             ),
                             Row(
+                              mainAxisAlignment: .center,
+                              crossAxisAlignment: .center,
                               spacing: 6,
                               children: [
                                 CircleAvatar(
@@ -89,11 +96,13 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
 
                                 ),
                                 Text("USD"),
+                                Gap(32),
                                 CircleAvatar(
                                   radius: 5,
 
                                 ),
                                 Text("EUR"),
+                                Gap(32),
                                 CircleAvatar(
                                   radius: 5,
 
