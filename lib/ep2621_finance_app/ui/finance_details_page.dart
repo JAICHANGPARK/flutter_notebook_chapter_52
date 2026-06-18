@@ -80,6 +80,26 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                             Container(
                               height: 100,
                               child: Placeholder(),
+                            ),
+                            Row(
+                              spacing: 6,
+                              children: [
+                                CircleAvatar(
+                                  radius: 5,
+
+                                ),
+                                Text("USD"),
+                                CircleAvatar(
+                                  radius: 5,
+
+                                ),
+                                Text("EUR"),
+                                CircleAvatar(
+                                  radius: 5,
+
+                                ),
+                                Text("GBP"),
+                              ],
                             )
                           ],
                         ),
