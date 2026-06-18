@@ -57,7 +57,10 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                             Row(
                               mainAxisAlignment: .spaceBetween,
                               children: [
-                                Text("Abailable Balance", style: TextStyle()),
+                                Text(
+                                  "Abailable Balance",
+                                  style: TextStyle(fontWeight: .bold),
+                                ),
                                 Container(
                                   decoration: BoxDecoration(),
                                   child: Row(
