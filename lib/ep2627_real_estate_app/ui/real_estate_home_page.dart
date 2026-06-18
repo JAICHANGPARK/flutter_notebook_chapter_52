@@ -35,6 +35,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   ),
                                 ],
                               ),
+                              Container(
+                                height: 80,
+                                child: Placeholder(),
+                              )
                             ],
                           ),
                         ],
