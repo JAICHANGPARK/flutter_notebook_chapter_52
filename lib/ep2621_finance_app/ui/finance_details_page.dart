@@ -59,6 +59,21 @@ class _FinanceDetailsPageState extends State<FinanceDetailsPage> {
                           ),
                           color: Colors.white,
                         ),
+                        child: Column(
+                          children: [
+                            Row(
+                              children: [
+                                Text("USD Dollar Account Details"),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    borderRadius: .circular(3),
+                                    color: Colors.grey[300]!,
+                                  ),
+                                )
+                              ],
+                            )
+                          ],
+                        ),
                       ),
                     ],
                   ),
