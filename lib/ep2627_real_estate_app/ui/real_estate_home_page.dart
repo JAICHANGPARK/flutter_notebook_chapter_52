@@ -81,8 +81,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             children: [
                               Padding(
 
-                                padding: const EdgeInsets.all(8.0),
+                                padding: const EdgeInsets.symmetric(horizontal: 12),
                                 child: Row(
+                                  mainAxisAlignment: .spaceBetween,
                                   children: [
                                     Text("Recommended",style: TextStyle(
                                       fontWeight: .bold,
