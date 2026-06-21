@@ -18,7 +18,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             child: SafeArea(
               child: Column(
                 children: [
-                  Container(height: 80, child: Placeholder()),
+                  Container(height: 80, child: Row(
+                    children: [
+                      
+                    ],
+                  )),
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
