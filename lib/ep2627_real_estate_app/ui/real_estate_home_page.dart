@@ -36,8 +36,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           onPressed: () {},
                           icon: HugeIcon(
                             icon: HugeIcons.strokeRoundedNotification02,
+                            size: 28,
                           ),
-                          iconSize: 32,
+                          iconSize: 40,
                         ),
                         CircleAvatar(
                           radius: 22,
