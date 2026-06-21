@@ -21,20 +21,26 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                 children: [
                   Container(
                     height: 80,
+                    padding: .symmetric(horizontal: 16),
                     child: Row(
                       children: [
                         Expanded(
                           child: Column(
+                            crossAxisAlignment: .start,
+                            mainAxisAlignment: .center,
                             children: [Text("Good"), Text("morning")],
                           ),
                         ),
                         IconButton(
                           onPressed: () {},
                           icon: HugeIcon(
-                            icon: HugeIcons.strokeRoundedNotification01,
+                            icon: HugeIcons.strokeRoundedNotification02,
                           ),
-                          iconSize: 36,
+                          iconSize: 32,
                         ),
+                        CircleAvatar(
+                          radius: 22,
+                        )
                       ],
                     ),
                   ),
