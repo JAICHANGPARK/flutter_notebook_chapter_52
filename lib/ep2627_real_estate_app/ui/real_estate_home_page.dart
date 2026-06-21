@@ -23,6 +23,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     height: 80,
                     padding: .symmetric(horizontal: 16),
                     child: Row(
+                      spacing: 8,
                       children: [
                         Expanded(
                           child: Column(
