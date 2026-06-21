@@ -30,9 +30,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           child: Column(
                             crossAxisAlignment: .start,
                             mainAxisAlignment: .center,
-                            children: [Text("Good",style: TextStyle(
-                              fontSize: 22,
-                            ),), Text("morning")],
+                            children: [
+                              Text(
+                                "Good",
+                                style: TextStyle(
+                                  fontSize: 22,
+                                  fontWeight: .bold,
+                                ),
+                              ),
+                              Text("morning", style: TextStyle(fontSize: 22)),
+                            ],
                           ),
                         ),
                         IconButton(
@@ -57,7 +64,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             child: Stack(
                               children: [
                                 Positioned(
-                                  left:60,
+                                  left: 60,
                                   right: 60,
                                   top: 0,
                                   bottom: 0,
@@ -71,26 +78,31 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   child: Placeholder(),
                                 ),
                                 Positioned(
-                                    left: 24,
-                                    right: 24,
-                                    top: 48,
-                                    bottom: 0,
-                                    child: Placeholder())
+                                  left: 24,
+                                  right: 24,
+                                  top: 48,
+                                  bottom: 0,
+                                  child: Placeholder(),
+                                ),
                               ],
                             ),
                           ),
                           Column(
                             children: [
                               Padding(
-
-                                padding: const EdgeInsets.symmetric(horizontal: 12),
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 12,
+                                ),
                                 child: Row(
                                   mainAxisAlignment: .spaceBetween,
                                   children: [
-                                    Text("Recommended",style: TextStyle(
-                                      fontWeight: .bold,
-                                      fontSize: 18
-                                    ),),
+                                    Text(
+                                      "Recommended",
+                                      style: TextStyle(
+                                        fontWeight: .bold,
+                                        fontSize: 18,
+                                      ),
+                                    ),
                                     TextButton(
                                       onPressed: () {},
                                       child: Text("View All"),
