@@ -16,6 +16,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
       body: Stack(
         children: [
           Positioned.fill(
+            top: 12,
             child: SafeArea(
               child: Column(
                 spacing: 16,
