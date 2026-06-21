@@ -18,6 +18,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 children: [
                   Container(
                     height: 80,
@@ -44,6 +45,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       ],
                     ),
                   ),
+
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
@@ -53,16 +55,23 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             child: Stack(
                               children: [
                                 Positioned(
+                                  left:60,
+                                  right: 60,
+                                  top: 0,
+                                  bottom: 0,
+                                  child: Placeholder(),
+                                ),
+                                Positioned(
                                   left: 42,
                                   right: 42,
-                                  top: 0,
+                                  top: 24,
                                   bottom: 0,
                                   child: Placeholder(),
                                 ),
                                 Positioned(
                                     left: 24,
                                     right: 24,
-                                    top: 24,
+                                    top: 42,
                                     bottom: 0,
                                     child: Placeholder())
                               ],
