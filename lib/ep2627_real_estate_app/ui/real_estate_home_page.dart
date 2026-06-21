@@ -21,10 +21,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   Container(
                     height: 80,
                     child: Row(
-                      children: [Expanded(child: Column(children: [
-                        Text("Good"),
-                        Text("morning"),
-                      ]))],
+                      children: [
+                        Expanded(
+                          child: Column(
+                            children: [Text("Good"), Text("morning")],
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                   Expanded(
