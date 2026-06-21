@@ -51,12 +51,15 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           Container(
                             height: 560,
                             child: Stack(
-                              children: [Positioned(
+                              children: [
+                                Positioned(
                                   left: 42,
                                   right: 42,
                                   top: 0,
                                   bottom: 0,
-                                  child: Placeholder())],
+                                  child: Placeholder(),
+                                ),
+                              ],
                             ),
                           ),
                           Column(
