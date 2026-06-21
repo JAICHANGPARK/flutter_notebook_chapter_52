@@ -51,7 +51,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       child: Column(
                         children: [
                           Container(
-                            height: 560,
+                            height: 520,
                             child: Stack(
                               children: [
                                 Positioned(
@@ -71,7 +71,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                 Positioned(
                                     left: 24,
                                     right: 24,
-                                    top: 42,
+                                    top: 48,
                                     bottom: 0,
                                     child: Placeholder())
                               ],
