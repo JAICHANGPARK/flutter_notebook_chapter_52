@@ -40,9 +40,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           ),
                           iconSize: 40,
                         ),
-                        CircleAvatar(
-                          radius: 22,
-                        )
+                        CircleAvatar(radius: 22),
                       ],
                     ),
                   ),
@@ -50,7 +48,17 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     child: SingleChildScrollView(
                       child: Column(
                         children: [
-                          Container(height: 560, child: Placeholder()),
+                          Container(
+                            height: 560,
+                            child: Stack(
+                              children: [Positioned(
+                                  left: 42,
+                                  right: 42,
+                                  top: 0,
+                                  bottom: 0,
+                                  child: Placeholder())],
+                            ),
+                          ),
                           Column(
                             children: [
                               Row(
