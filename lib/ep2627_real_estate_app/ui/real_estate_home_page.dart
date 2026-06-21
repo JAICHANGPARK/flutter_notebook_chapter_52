@@ -59,6 +59,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   bottom: 0,
                                   child: Placeholder(),
                                 ),
+                                Positioned(
+                                    left: 24,
+                                    right: 24,
+                                    top: 24,
+                                    bottom: 0,
+                                    child: Placeholder())
                               ],
                             ),
                           ),
