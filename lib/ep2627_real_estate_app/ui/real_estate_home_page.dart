@@ -30,7 +30,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           child: Column(
                             crossAxisAlignment: .start,
                             mainAxisAlignment: .center,
-                            children: [Text("Good"), Text("morning")],
+                            children: [Text("Good",style: TextStyle(
+                              fontSize: 22,
+                            ),), Text("morning")],
                           ),
                         ),
                         IconButton(
