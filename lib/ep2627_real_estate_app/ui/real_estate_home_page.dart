@@ -18,11 +18,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             child: SafeArea(
               child: Column(
                 children: [
-                  Container(height: 80, child: Row(
-                    children: [
-                      
-                    ],
-                  )),
+                  Container(
+                    height: 80,
+                    child: Row(
+                      children: [Expanded(child: Column(children: []))],
+                    ),
+                  ),
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
@@ -39,10 +40,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   ),
                                 ],
                               ),
-                              Container(
-                                height: 80,
-                                child: Placeholder(),
-                              )
+                              Container(height: 80, child: Placeholder()),
                             ],
                           ),
                         ],
@@ -54,10 +52,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             ),
           ),
           Positioned(
-              bottom: 0,
-              left: 0,
-              right: 0,
-              child: Container(height: 100, child: Placeholder(),)),
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: Container(height: 100, child: Placeholder()),
+          ),
         ],
       ),
     );
