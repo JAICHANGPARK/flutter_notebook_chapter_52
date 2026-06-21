@@ -79,14 +79,21 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           ),
                           Column(
                             children: [
-                              Row(
-                                children: [
-                                  Text("Recommended"),
-                                  TextButton(
-                                    onPressed: () {},
-                                    child: Text("View All"),
-                                  ),
-                                ],
+                              Padding(
+
+                                padding: const EdgeInsets.all(8.0),
+                                child: Row(
+                                  children: [
+                                    Text("Recommended",style: TextStyle(
+                                      fontWeight: .bold,
+                                      fontSize: 18
+                                    ),),
+                                    TextButton(
+                                      onPressed: () {},
+                                      child: Text("View All"),
+                                    ),
+                                  ],
+                                ),
                               ),
                               Container(height: 80, child: Placeholder()),
                             ],
