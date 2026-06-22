@@ -126,7 +126,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             bottom: 0,
             left: 0,
             right: 0,
-            child: Container(height: 100, child: Placeholder()),
+            child: Container(height: 100, child: Stack(children: [
+              
+            ],)),
           ),
         ],
       ),
