@@ -126,16 +126,37 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             bottom: 0,
             left: 0,
             right: 0,
-            child: Container(height: 100, child: Stack(children: [
-              Positioned(child: Container(
-                decoration: BoxDecoration(
-                    borderRadius: .only(
-                      topLeft: Radius.circular(16),
-                      topRight: Radius.circular(16),
-                    )
-                ),
-              ),)
-            ])),
+            child: Container(
+              height: 100,
+              child: Stack(
+                children: [
+                  Positioned(
+                    top: 32,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.black,
+                        borderRadius: .only(
+                          topLeft: Radius.circular(32),
+                          topRight: Radius.circular(32),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 0,
+                    right: 0,
+                    top: 0,
+                    child: Container(
+                      height: 62,
+                      color: 62,
+                      
+                    ),)
+                ],
+              ),
+            ),
           ),
         ],
       ),
