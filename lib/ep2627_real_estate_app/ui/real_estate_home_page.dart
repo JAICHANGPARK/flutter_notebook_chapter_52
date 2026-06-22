@@ -127,7 +127,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             left: 0,
             right: 0,
             child: Container(
-              height: 100,
+              height: 120,
               child: Stack(
                 children: [
                   Positioned(
@@ -150,12 +150,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     right: 0,
                     top: 0,
                     child: Container(
-                      height: 62,
-                      width: 62,
-                      padding: .all(4),
+                      height: 72,
+                      width: 72,
+                      padding: .all(5),
                       decoration: BoxDecoration(shape: .circle, color: Colors.white, ),
                       child: CircleAvatar(
                         backgroundColor: Colors.black,
+                        foregroundColor: Colors.white,
                         child: Icon(Icons.add),
                       ),
                     ),
