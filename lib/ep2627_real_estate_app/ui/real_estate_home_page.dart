@@ -129,7 +129,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             child: Container(height: 100, child: Stack(children: [
               Positioned(child: Container(
                 decoration: BoxDecoration(
-
+                    borderRadius: .only(
+                      topLeft: Radius.circular(16),
+                      topRight: Radius.circular(16),
+                    )
                 ),
               ),)
             ])),
