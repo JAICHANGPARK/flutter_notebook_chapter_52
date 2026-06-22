@@ -145,10 +145,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       ),
                       child: Row(
                         children: [
-                          Icon(Icons.home_filled),
-                          Icon(Icons.search),
-                          Icon(Icons.favorite_border),
-                          Icon(Icons.person_2_outlined)
+                          Icon(Icons.home_filled, color: Colors.white,),
+                          Icon(Icons.search, color: Colors.white,),
+                          Icon(Icons.favorite_border, color: Colors.white,),
+                          Icon(Icons.person_2_outlined, color: Colors.white,)
                         ],
                       ),
                     ),
