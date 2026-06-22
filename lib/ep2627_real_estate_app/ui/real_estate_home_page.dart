@@ -143,6 +143,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           topRight: Radius.circular(32),
                         ),
                       ),
+                      child: Row(
+                        children: [
+                          Icon(Icons.home_filled),
+                          Icon(Icons.search),
+                          Icon(Icons.favorite_border),
+                          Icon(Icons.person_2_outlined)
+                        ],
+                      ),
                     ),
                   ),
                   Positioned(
