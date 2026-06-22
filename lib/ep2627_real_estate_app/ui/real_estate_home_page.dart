@@ -153,6 +153,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       height: 62,
                       width: 62,
                       decoration: BoxDecoration(shape: .circle),
+                      child: CircleAvatar(
+                        backgroundColor: Colors.black,
+                        child: Icon(Icons.add),
+                      ),
                     ),
                   ),
                 ],
