@@ -151,9 +151,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     top: 0,
                     child: Container(
                       height: 62,
-                      color: 62,
-                      
-                    ),)
+                      width: 62,
+                      decoration: BoxDecoration(shape: .circle),
+                    ),
+                  ),
                 ],
               ),
             ),
