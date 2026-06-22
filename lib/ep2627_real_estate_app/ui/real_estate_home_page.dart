@@ -182,7 +182,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       child: CircleAvatar(
                         backgroundColor: Colors.black,
                         foregroundColor: Colors.white,
-                        child: Icon(Icons.add),
+                        child: Icon(Icons.add, size: 38,),
                       ),
                     ),
                   ),
