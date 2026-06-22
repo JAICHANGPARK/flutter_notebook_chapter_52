@@ -146,11 +146,23 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       child: Row(
                         mainAxisAlignment: .spaceEvenly,
                         children: [
-                          Icon(Icons.home_filled, color: Colors.white),
-                          Icon(Icons.search, color: Colors.white),
-                          SizedBox(width: 100,),
-                          Icon(Icons.favorite_border, color: Colors.white),
-                          Icon(Icons.person_2_outlined, color: Colors.white),
+                          Icon(
+                            Icons.home_filled,
+                            color: Colors.white,
+                            size: 28,
+                          ),
+                          Icon(Icons.search, color: Colors.white, size: 28),
+                          SizedBox(width: 100),
+                          Icon(
+                            Icons.favorite_border,
+                            color: Colors.white,
+                            size: 28,
+                          ),
+                          Icon(
+                            Icons.person_2_outlined,
+                            color: Colors.white,
+                            size: 28,
+                          ),
                         ],
                       ),
                     ),
