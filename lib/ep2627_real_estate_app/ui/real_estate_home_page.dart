@@ -192,10 +192,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                     ),
                                     Expanded(
                                       child: Column(
+                                        spacing: 4,
                                         crossAxisAlignment: .start,
                                         mainAxisAlignment: .center,
                                         children: [
-                                          Text("Sunset Ride Estate"),
+                                          Text(
+                                            "Sunset Ride Estate",
+                                            style: TextStyle(fontWeight: .bold),
+                                          ),
                                           Text(
                                             "1234 Unknown Place, Unknown, ABC",
                                           ),
