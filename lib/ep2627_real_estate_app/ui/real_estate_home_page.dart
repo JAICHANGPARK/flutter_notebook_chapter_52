@@ -131,6 +131,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                             child: Icon(Icons.favorite_border),
                                           ),
                                         ),
+                                        Positioned(
+                                            
+                                            child: Column(children: [
+
+                                        ],))
                                       ],
                                     ),
                                   ),
