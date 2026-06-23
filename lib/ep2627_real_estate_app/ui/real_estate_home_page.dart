@@ -135,11 +135,19 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                           bottom: 16,
                                           left: 16,
                                           right: 16,
-                                          child: Column(children: [
-                                            Text("Dream Dste\nat Dream"),
-                                            Text.rich(TextSpan())
-
-                                          ]),
+                                          child: Column(
+                                            children: [
+                                              Text("Dream Dste\nat Dream"),
+                                              Text.rich(
+                                                TextSpan(
+                                                  children: [
+                                                    TextSpan(text: "\$1,799"),
+                                                    TextSpan(text: "/month"),
+                                                  ],
+                                                ),
+                                              ),
+                                            ],
+                                          ),
                                         ),
                                       ],
                                     ),
