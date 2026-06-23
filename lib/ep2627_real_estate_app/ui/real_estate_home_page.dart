@@ -76,7 +76,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                       image: DecorationImage(
                                         image: NetworkImage(
                                           "https://cdn.pixabay.com/photo/2020/01/08/18/50/clouds-4750959_1280.jpg",
+
                                         ),
+                                        fit: .cover,
                                       ),
                                     ),
                                   ),
