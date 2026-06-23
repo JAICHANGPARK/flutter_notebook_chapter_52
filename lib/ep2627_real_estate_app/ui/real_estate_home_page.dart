@@ -184,7 +184,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   Container(
                                     height: 80,
                                     width: 80,
-                                  )
+                                    child: Placeholder(),
+                                  ),
+                                  Expanded(child: Column(children: [
+                                    
+                                  ],))
 
                                 ],
                               )),
