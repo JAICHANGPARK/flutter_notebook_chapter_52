@@ -102,7 +102,6 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                         fit: .cover,
                                       ),
                                     ),
-
                                   ),
                                   //
                                 ),
@@ -112,10 +111,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   top: 48,
                                   bottom: 0,
                                   child: Container(
-                                    decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(),
-                                    
+                                    decoration: ShapeDecoration(
+                                      shape: RoundedSuperellipseBorder(),
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                          "https://cdn.pixabay.com/photo/2022/07/10/19/30/house-7313645_1280.jpg",
+                                        ),
+                                        fit: .cover,
+                                      ),
                                     ),
-                                  )
+                                  ),
                                 ),
                               ],
                             ),
