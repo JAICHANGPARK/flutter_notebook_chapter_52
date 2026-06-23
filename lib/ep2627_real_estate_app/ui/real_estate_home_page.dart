@@ -136,8 +136,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                           left: 16,
                                           right: 16,
                                           child: Column(
+                                            crossAxisAlignment: .start,
+                                            spacing: 12,
                                             children: [
-                                              Text("Dream Dste\nat Dream"),
+                                              Text(
+                                                "Dream Dste\nat Dream",
+                                                style: TextStyle(
+                                                  fontWeight: .bold,
+                                                  color: Colors.white,
+                                                ),
+                                              ),
                                               Text.rich(
                                                 TextSpan(
                                                   children: [
