@@ -112,7 +112,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   bottom: 0,
                                   child: Container(
                                     decoration: ShapeDecoration(
-                                      shape: RoundedSuperellipseBorder(),
+                                      shape: RoundedSuperellipseBorder(
+                                        borderRadius: .circular(32),
+                                      ),
                                       image: DecorationImage(
                                         image: NetworkImage(
                                           "https://cdn.pixabay.com/photo/2022/07/10/19/30/house-7313645_1280.jpg",
