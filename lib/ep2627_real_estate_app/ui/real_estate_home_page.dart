@@ -69,7 +69,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   right: 60,
                                   top: 0,
                                   bottom: 0,
-                                  child: Placeholder(),
+                                  child: Container(
+                                    decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
+
+                                    ),),
+                                  ),
                                 ),
                                 Positioned(
                                   left: 42,
