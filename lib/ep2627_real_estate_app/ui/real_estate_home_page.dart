@@ -93,9 +93,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                     decoration: ShapeDecoration(
                                       color: Colors.blue,
                                       shape: RoundedSuperellipseBorder(),
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                          "https://cdn.pixabay.com/photo/2024/05/15/16/15/sky-8763986_1280.jpg",
+                                        ),
+                                        fit: .cover,
+                                      ),
                                     ),
+
                                   ),
-                                  //     https://cdn.pixabay.com/photo/2024/05/15/16/15/sky-8763986_1280.jpg
+                                  //
                                 ),
                                 Positioned(
                                   left: 24,
