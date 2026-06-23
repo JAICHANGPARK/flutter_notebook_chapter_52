@@ -125,6 +125,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                     child: Stack(
                                       children: [
                                         Positioned(
+                                          right: 15,
+                                          top: 16,
                                           child: CircleAvatar(
                                             child: Icon(Icons.favorite_border),
                                           ),
