@@ -192,6 +192,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                     ),
                                     Expanded(
                                       child: Column(
+                                        crossAxisAlignment: .start,
+                                        mainAxisAlignment: .center,
                                         children: [
                                           Text("Sunset Ride Estate"),
                                           Text(
