@@ -179,19 +179,29 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   ],
                                 ),
                               ),
-                              Container(height: 80, child: Row(
-                                children: [
-                                  Container(
-                                    height: 80,
-                                    width: 80,
-                                    child: Placeholder(),
-                                  ),
-                                  Expanded(child: Column(children: [
-                                    
-                                  ],))
-
-                                ],
-                              )),
+                              Container(
+                                height: 80,
+                                child: Row(
+                                  children: [
+                                    Container(
+                                      height: 80,
+                                      width: 80,
+                                      child: Placeholder(),
+                                    ),
+                                    Expanded(
+                                      child: Column(
+                                        children: [
+                                          Text("Sunset Ride Estate"),
+                                          Text(
+                                            "1234 Unknown Place, Unknown, ABC",
+                                          ),
+                                          Text("Price \$1234"),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                         ],
