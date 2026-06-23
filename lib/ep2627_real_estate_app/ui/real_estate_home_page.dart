@@ -89,8 +89,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   right: 42,
                                   top: 24,
                                   bottom: 0,
-                                  child:
-                                //     https://cdn.pixabay.com/photo/2024/05/15/16/15/sky-8763986_1280.jpg
+                                  child: Container(
+                                    decoration: ShapeDecoration(
+                                      color: Colors.blue,
+                                      shape: RoundedSuperellipseBorder(),
+                                    ),
+                                  ),
+                                  //     https://cdn.pixabay.com/photo/2024/05/15/16/15/sky-8763986_1280.jpg
                                 ),
                                 Positioned(
                                   left: 24,
