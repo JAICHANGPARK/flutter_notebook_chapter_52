@@ -132,12 +132,15 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                           ),
                                         ),
                                         Positioned(
-                                            bottom: 16,
-                                            left: 16,
-                                            right: 16,
-                                            child: Column(children: [
+                                          bottom: 16,
+                                          left: 16,
+                                          right: 16,
+                                          child: Column(children: [
+                                            Text("Dream Dste\nat Dream"),
+                                            Text.rich(TextSpan())
 
-                                        ],))
+                                          ]),
+                                        ),
                                       ],
                                     ),
                                   ),
