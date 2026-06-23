@@ -181,7 +181,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               ),
                               Container(
                                 height: 80,
+                                margin: .symmetric(horizontal: 16),
                                 child: Row(
+                                  spacing: 20,
                                   children: [
                                     Container(
                                       height: 80,
