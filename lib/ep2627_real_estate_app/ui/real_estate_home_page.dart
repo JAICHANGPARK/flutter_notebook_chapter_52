@@ -122,6 +122,15 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                         fit: .cover,
                                       ),
                                     ),
+                                    child: Stack(
+                                      children: [
+                                        Positioned(
+                                          child: CircleAvatar(
+                                            child: Icon(Icons.favorite_border),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ],
