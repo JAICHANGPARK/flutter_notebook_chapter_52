@@ -85,8 +85,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   ),
                                 ),
                                 Positioned(
-                                  left: 42,
-                                  right: 42,
+                                  left: 32,
+                                  right: 32,
                                   top: 24,
                                   bottom: 0,
                                   child: Container(
@@ -144,13 +144,19 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                                 style: TextStyle(
                                                   fontWeight: .bold,
                                                   color: Colors.white,
-                                                  fontSize: 32
+                                                  fontSize: 32,
                                                 ),
                                               ),
                                               Text.rich(
                                                 TextSpan(
                                                   children: [
-                                                    TextSpan(text: "\$1,799"),
+                                                    TextSpan(
+                                                      text: "\$1,799",
+                                                      style: TextStyle(
+                                                        fontWeight: .bold,
+                                                        color: Colors.white,
+                                                      ),
+                                                    ),
                                                     TextSpan(text: "/month"),
                                                   ],
                                                 ),
