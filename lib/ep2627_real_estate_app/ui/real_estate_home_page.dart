@@ -70,10 +70,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   top: 0,
                                   bottom: 0,
                                   child: Container(
-                                    decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
-
-                                    ),
-                                    color: Colors.blue,
+                                    decoration: ShapeDecoration(
+                                      shape: RoundedSuperellipseBorder(),
+                                      color: Colors.blue,
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                          "https://cdn.pixabay.com/photo/2020/01/08/18/50/clouds-4750959_1280.jpg",
+                                        ),
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -188,7 +192,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       child: CircleAvatar(
                         backgroundColor: Colors.black,
                         foregroundColor: Colors.white,
-                        child: Icon(Icons.add, size: 38,),
+                        child: Icon(Icons.add, size: 38),
                       ),
                     ),
                   ),
