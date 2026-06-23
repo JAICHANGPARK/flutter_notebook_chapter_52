@@ -78,7 +78,6 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                       image: DecorationImage(
                                         image: NetworkImage(
                                           "https://cdn.pixabay.com/photo/2020/01/08/18/50/clouds-4750959_1280.jpg",
-
                                         ),
                                         fit: .cover,
                                       ),
@@ -90,7 +89,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   right: 42,
                                   top: 24,
                                   bottom: 0,
-                                  child: Placeholder(),
+                                  child:
+                                //     https://cdn.pixabay.com/photo/2024/05/15/16/15/sky-8763986_1280.jpg
                                 ),
                                 Positioned(
                                   left: 24,
