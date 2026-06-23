@@ -144,6 +144,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                                 style: TextStyle(
                                                   fontWeight: .bold,
                                                   color: Colors.white,
+                                                  fontSize: 32
                                                 ),
                                               ),
                                               Text.rich(
