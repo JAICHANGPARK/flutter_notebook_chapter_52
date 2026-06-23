@@ -72,7 +72,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   child: Container(
                                     decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
 
-                                    ),),
+                                    ),
+                                    color: Colors.blue,
+                                    ),
                                   ),
                                 ),
                                 Positioned(
