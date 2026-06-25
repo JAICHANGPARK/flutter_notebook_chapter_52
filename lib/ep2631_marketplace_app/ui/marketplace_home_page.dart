@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 class MarketplaceHomePage extends StatefulWidget {
   const MarketplaceHomePage({super.key});
 
@@ -12,6 +10,6 @@ class MarketplaceHomePage extends StatefulWidget {
 class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
