@@ -3,7 +3,7 @@
 ## EP2631
 
 - OpenSea NFT Marketplace App UI
-- UIX Maruf Hossen
+- Alamin Hossen
 - https://dribbble.com/shots/27480034-Real-Estate-Mobile-App-Design
 
 <img src="https://cdn.dribbble.com/userupload/48095737/file/d14abaf8213e00d0df8f23ce443d9fed.png?resize=1905x1429&vertical=center" alt=""/>
