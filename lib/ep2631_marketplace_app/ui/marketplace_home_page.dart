@@ -15,20 +15,30 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
         children: [
           Positioned.fill(child: Column()),
           Positioned(
-              bottom: 32,
-              left: 0,
-              right: 0,
-              child: Container(
-            height: 72,
-                child: Row(
-                  mainAxisAlignment: .center,
-                  children: [
-                    Container(
-                      decoration: ShapeDecoration(shape: StadiumBorder()),
-                    )
-                  ],
-                ),
-          ))
+            bottom: 32,
+            left: 0,
+            right: 0,
+            child: Container(
+              height: 72,
+              child: Row(
+                mainAxisAlignment: .center,
+                children: [
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                  ),
+                  IconButton(onPressed: () {}, icon: Icon(Icons.search)),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.calendar_month),
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.person_2_outlined),
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
