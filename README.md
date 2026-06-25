@@ -2,7 +2,7 @@
 
 ## EP2631
 
-- Real Estate Mobile App Design
+- OpenSea NFT Marketplace App UI
 - UIX Maruf Hossen
 - https://dribbble.com/shots/27480034-Real-Estate-Mobile-App-Design
 
