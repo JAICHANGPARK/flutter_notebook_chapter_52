@@ -4,7 +4,7 @@
 
 - OpenSea NFT Marketplace App UI
 - Alamin Hossen
-- https://dribbble.com/shots/27480034-Real-Estate-Mobile-App-Design
+- https://dribbble.com/shots/27498560-OpenSea-NFT-Marketplace-App-UI
 
 <img src="https://cdn.dribbble.com/userupload/48095737/file/d14abaf8213e00d0df8f23ce443d9fed.png?resize=1905x1429&vertical=center" alt=""/>
 
