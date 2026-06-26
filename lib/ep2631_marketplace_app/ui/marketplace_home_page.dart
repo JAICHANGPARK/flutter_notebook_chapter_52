@@ -27,10 +27,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                     decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: Row(
                       spacing: 4,
-                      children: [
-                        Icon(Icons.home_filled),
-                        Text("Home")
-                      ],
+                      children: [Icon(Icons.home_filled), Text("Home")],
                     ),
                   ),
                   IconButton(onPressed: () {}, icon: Icon(Icons.search)),
