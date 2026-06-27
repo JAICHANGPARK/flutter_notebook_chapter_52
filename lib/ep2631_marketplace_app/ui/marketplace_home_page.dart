@@ -20,7 +20,9 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Row(children: [Text("OpenMKT"), CircleAvatar()]),
+                    child: Row(
+                        mainAxisAlignment: .spaceBetween,
+                        children: [Text("OpenMKT"), CircleAvatar()]),
                   ),
                   Container(
                     height: 240,
