@@ -29,7 +29,9 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                     ),
                   ),
                   Expanded(
-                    child: SingleChildScrollView(child: Column(children: [
+                    child: SingleChildScrollView(child: Column(
+                        spacing: 16,
+                        children: [
                       Container(
                         height: 240,
                         margin: .only(left: 16),
@@ -45,18 +47,22 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                         margin: .only(left: 16),
                         child: Placeholder(),
                       ),
-                      Column(
-                        children: [
-                          Row(children: [Text("\# Collection"), Text("Volume")]),
-                          ListView.builder(
-                            itemCount: 10,
-                            shrinkWrap: true,
-                            physics: NeverScrollableScrollPhysics(),
-                            itemBuilder: (context, index) {
-                              return Placeholder();
-                            },
-                          ),
-                        ],
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Column(
+                          spacing: 12,
+                          children: [
+                            Row(children: [Text("\# Collection"), Text("Volume")]),
+                            ListView.builder(
+                              itemCount: 10,
+                              shrinkWrap: true,
+                              physics: NeverScrollableScrollPhysics(),
+                              itemBuilder: (context, index) {
+                                return Placeholder();
+                              },
+                            ),
+                          ],
+                        ),
                       ),
 
                     ])),
