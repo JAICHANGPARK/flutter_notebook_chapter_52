@@ -29,35 +29,37 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                     ),
                   ),
                   Expanded(
-                    child: SingleChildScrollView(child: Column(children: [])),
-                  ),
-                  Container(
-                    height: 240,
-                    margin: .only(left: 16),
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 62,
-                    margin: .only(left: 16),
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 62,
-                    margin: .only(left: 16),
-                    child: Placeholder(),
-                  ),
-                  Column(
-                    children: [
-                      Row(children: [Text("\# Collection"), Text("Volume")]),
-                      Expanded(
-                        child: ListView.builder(
-                          itemBuilder: (context, index) {
-                            return Placeholder();
-                          },
-                        ),
+                    child: SingleChildScrollView(child: Column(children: [
+                      Container(
+                        height: 240,
+                        margin: .only(left: 16),
+                        child: Placeholder(),
                       ),
-                    ],
+                      Container(
+                        height: 62,
+                        margin: .only(left: 16),
+                        child: Placeholder(),
+                      ),
+                      Container(
+                        height: 62,
+                        margin: .only(left: 16),
+                        child: Placeholder(),
+                      ),
+                      Column(
+                        children: [
+                          Row(children: [Text("\# Collection"), Text("Volume")]),
+                          ListView.builder(
+                            shrinkWrap: true,
+                            itemBuilder: (context, index) {
+                              return Placeholder();
+                            },
+                          ),
+                        ],
+                      ),
+
+                    ])),
                   ),
+
                 ],
               ),
             ),
