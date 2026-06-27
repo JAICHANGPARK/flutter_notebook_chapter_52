@@ -21,7 +21,12 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                   Text("OpenMKT"),
                   CircleAvatar(),
                 ],
-              )
+              ),
+              Container(
+                height: 240,
+                child: Placeholder(),
+              ),
+
 
             ],
           )),
