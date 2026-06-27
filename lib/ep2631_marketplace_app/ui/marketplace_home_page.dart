@@ -48,7 +48,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                         child: Placeholder(),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
                         child: Column(
                           spacing: 12,
                           children: [
