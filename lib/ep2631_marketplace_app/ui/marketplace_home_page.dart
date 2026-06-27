@@ -52,7 +52,9 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                         child: Column(
                           spacing: 12,
                           children: [
-                            Row(children: [Text("\# Collection"), Text("Volume")]),
+                            Row(
+                                mainAxisAlignment: .spaceBetween,
+                                children: [Text("\# Collection"), Text("Volume")]),
                             ListView.builder(
                               itemCount: 10,
                               shrinkWrap: true,
