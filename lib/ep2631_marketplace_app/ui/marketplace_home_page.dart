@@ -13,7 +13,12 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned.fill(child: Column()),
+          Positioned.fill(child: Column(
+            crossAxisAlignment: .start,
+            children: [
+
+            ],
+          )),
           Positioned(
             bottom: 32,
             left: 0,
