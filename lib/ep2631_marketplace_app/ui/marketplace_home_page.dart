@@ -48,7 +48,9 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                       Row(children: [Text("\# Collection"), Text("Volume")]),
                       Expanded(
                         child: ListView.builder(
-                          itemBuilder: (context, index) {},
+                          itemBuilder: (context, index) {
+                            return Placeholder();
+                          },
                         ),
                       ),
                     ],
