@@ -18,8 +18,15 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
               child: Column(
                 crossAxisAlignment: .start,
                 children: [
-                  Row(children: [Text("OpenMKT"), CircleAvatar()]),
-                  Container(height: 240, child: Placeholder()),
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(children: [Text("OpenMKT"), CircleAvatar()]),
+                  ),
+                  Container(
+                    height: 240,
+                    margin: .only(left: 16),
+                    child: Placeholder(),
+                  ),
                 ],
               ),
             ),
