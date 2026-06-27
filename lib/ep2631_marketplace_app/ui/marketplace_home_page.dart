@@ -49,7 +49,9 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                         children: [
                           Row(children: [Text("\# Collection"), Text("Volume")]),
                           ListView.builder(
+                            itemCount: 10,
                             shrinkWrap: true,
+                            physics: NeverScrollableScrollPhysics(),
                             itemBuilder: (context, index) {
                               return Placeholder();
                             },
