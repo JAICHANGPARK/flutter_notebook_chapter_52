@@ -13,25 +13,17 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned.fill(child: SafeArea(
-            child: Column(
-              crossAxisAlignment: .start,
-              children: [
-                Row(
-                  children: [
-                    Text("OpenMKT"),
-                    CircleAvatar(),
-                  ],
-                ),
-                Container(
-                  height: 240,
-                  child: Placeholder(),
-                ),
-            
-            
-              ],
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(
+                crossAxisAlignment: .start,
+                children: [
+                  Row(children: [Text("OpenMKT"), CircleAvatar()]),
+                  Container(height: 240, child: Placeholder()),
+                ],
+              ),
             ),
-          )),
+          ),
           Positioned(
             bottom: 32,
             left: 0,
