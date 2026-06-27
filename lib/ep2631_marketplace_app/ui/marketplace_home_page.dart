@@ -16,6 +16,12 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
           Positioned.fill(child: Column(
             crossAxisAlignment: .start,
             children: [
+              Row(
+                children: [
+                  Text("OpenMKT"),
+                  CircleAvatar(),
+                ],
+              )
 
             ],
           )),
