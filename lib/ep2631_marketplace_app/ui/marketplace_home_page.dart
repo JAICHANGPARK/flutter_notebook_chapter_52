@@ -43,17 +43,19 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                     margin: .only(left: 16),
                     child: Placeholder(),
                   ),
-                  Column(
-                    children: [
-                      Row(children: [Text("\# Collection"), Text("Volume")]),
-                      Expanded(
-                        child: ListView.builder(
-                          itemBuilder: (context, index) {
-                            return Placeholder();
-                          },
+                  Expanded(
+                    child: Column(
+                      children: [
+                        Row(children: [Text("\# Collection"), Text("Volume")]),
+                        Expanded(
+                          child: ListView.builder(
+                            itemBuilder: (context, index) {
+                              return Placeholder();
+                            },
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ],
               ),
