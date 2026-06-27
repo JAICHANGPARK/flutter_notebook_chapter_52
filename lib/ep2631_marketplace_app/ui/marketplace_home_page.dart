@@ -33,6 +33,17 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                     margin: .only(left: 16),
                     child: Placeholder(),
                   ),
+                  Container(
+                    height: 62,
+                    margin: .only(left: 16),
+                    child: Placeholder(),
+                  ),
+                  Container(
+                    height: 62,
+                    margin: .only(left: 16),
+                    child: Placeholder(),
+                  ),
+                  Row(children: [Text("\# Collection"), Text("Volume")]),
                 ],
               ),
             ),
