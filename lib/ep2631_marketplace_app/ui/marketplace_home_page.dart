@@ -64,6 +64,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                             shape: StadiumBorder(),
                                             color: Colors.white12,
                                           ),
+                                          padding: .all(4),
                                           child: Row(
                                             children: [
                                               Expanded(
@@ -76,10 +77,15 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                                 ),
                                               ),
                                               CircleAvatar(
+                                                radius: 24,
                                                 backgroundColor: Colors.black,
                                                 child: Transform.rotate(
-                                                    angle: - 2 / pi,
-                                                    child: Icon(Icons.arrow_forward)),
+                                                  angle: -2 / pi,
+                                                  child: Icon(
+                                                    Icons.arrow_forward,
+                                                  ),
+                                                ),
+                                                foregroundColor: Colors.white,
                                               ),
                                             ],
                                           ),
