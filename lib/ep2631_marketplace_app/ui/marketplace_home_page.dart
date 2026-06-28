@@ -159,13 +159,11 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
           Align(
             alignment: .bottomCenter,
             child: Container(
-              height: 72,
-
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Color.fromRGBO(68, 68, 68, 1),
               ),
-              padding: .symmetric(horizontal: 8),
+              padding: .symmetric(horizontal: 4, vertical: 4),
               child: Row(
                 spacing: 16,
                 mainAxisSize: .min,
@@ -176,9 +174,14 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(34, 34, 34, 1),
                     ),
+                    padding: .symmetric(horizontal: 16, vertical: 12),
                     child: Row(
+
                       spacing: 4,
-                      children: [Icon(Icons.home_filled), Text("Home")],
+                      children: [
+                        Icon(Icons.home_filled, color: Colors.white),
+                        Text("Home", style: TextStyle(color: Colors.white)),
+                      ],
                     ),
                   ),
                   IconButton(
