@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 class MarketplaceHomePage extends StatefulWidget {
@@ -61,6 +63,25 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                           decoration: ShapeDecoration(
                                             shape: StadiumBorder(),
                                             color: Colors.white12,
+                                          ),
+                                          child: Row(
+                                            children: [
+                                              Expanded(
+                                                child: Column(
+                                                  crossAxisAlignment: .start,
+                                                  children: [
+                                                    Text("DREAM"),
+                                                    Text("Walker: 0.15 GEM"),
+                                                  ],
+                                                ),
+                                              ),
+                                              CircleAvatar(
+                                                backgroundColor: Colors.black,
+                                                child: Transform.rotate(
+                                                    angle: - 2 / pi,
+                                                    child: Icon(Icons.arrow_forward)),
+                                              ),
+                                            ],
                                           ),
                                         ),
                                       ),
