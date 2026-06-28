@@ -156,14 +156,17 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
               ),
             ),
           ),
-          Positioned(
-            bottom: 32,
-            left: 0,
-            right: 0,
+          Align(
+            alignment: .bottomCenter,
             child: Container(
               height: 72,
-              decoration: ShapeDecoration(shape: StadiumBorder()),
+
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.white12,
+              ),
               child: Row(
+                mainAxisSize: .min,
                 mainAxisAlignment: .center,
                 children: [
                   Container(
