@@ -176,14 +176,20 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                       children: [Icon(Icons.home_filled), Text("Home")],
                     ),
                   ),
-                  IconButton(onPressed: () {}, icon: Icon(Icons.search)),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.search),
+                    color: Colors.white,
+                  ),
                   IconButton(
                     onPressed: () {},
                     icon: Icon(Icons.calendar_month),
+                    color: Colors.white,
                   ),
                   IconButton(
                     onPressed: () {},
                     icon: Icon(Icons.person_2_outlined),
+                    color: Colors.white,
                   ),
                 ],
               ),
