@@ -64,15 +64,31 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                             shape: StadiumBorder(),
                                             color: Colors.white12,
                                           ),
-                                          padding: .all(4),
+                                          padding: .only(
+                                            left: 24,
+                                            bottom: 4,
+                                            right: 4,
+                                            top: 4,
+                                          ),
                                           child: Row(
                                             children: [
                                               Expanded(
                                                 child: Column(
                                                   crossAxisAlignment: .start,
                                                   children: [
-                                                    Text("DREAM"),
-                                                    Text("Walker: 0.15 GEM"),
+                                                    Text(
+                                                      "DREAM",
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                      ),
+                                                    ),
+                                                    Text(
+                                                      "Walker: 0.15 GEM",
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                        fontWeight: .bold,
+                                                      ),
+                                                    ),
                                                   ],
                                                 ),
                                               ),
