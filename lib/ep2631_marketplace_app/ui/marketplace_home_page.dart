@@ -45,10 +45,17 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                               children: [
                                 Container(
                                   width: 240,
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: .circular(24),
+                                    ),
+                                  ),
                                   child: Stack(
                                     children: [
                                       Positioned(
                                         bottom: 12,
+                                        left: 12,
+                                        right: 12,
                                         child: Container(
                                           decoration: ShapeDecoration(
                                             shape: StadiumBorder(),
