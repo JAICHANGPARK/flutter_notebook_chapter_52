@@ -49,6 +49,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                     shape: RoundedSuperellipseBorder(
                                       borderRadius: .circular(24),
                                     ),
+                                    color: Colors.grey,
                                   ),
                                   child: Stack(
                                     children: [
