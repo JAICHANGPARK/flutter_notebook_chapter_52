@@ -11,6 +11,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromRGBO(34, 34, 34, 1),
       body: Stack(
         children: [
           Positioned.fill(
@@ -23,53 +24,82 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                     child: Row(
                       mainAxisAlignment: .spaceBetween,
                       children: [
-                        Text("OpenMKT", style: TextStyle(fontSize: 26)),
-                        CircleAvatar(radius: 23),
+                        Text(
+                          "OpenMKT",
+                          style: TextStyle(fontSize: 26, color: Colors.white),
+                        ),
+                        CircleAvatar(radius: 23, backgroundColor: Colors.blue),
                       ],
                     ),
                   ),
                   Expanded(
-                    child: SingleChildScrollView(child: Column(
+                    child: SingleChildScrollView(
+                      child: Column(
                         spacing: 16,
                         children: [
-                      Container(
-                        height: 240,
-                        margin: .only(left: 16),
-                        child: Placeholder(),
-                      ),
-                      Container(
-                        height: 62,
-                        margin: .only(left: 16),
-                        child: Placeholder(),
-                      ),
-                      Container(
-                        height: 62,
-                        margin: .only(left: 16),
-                        child: Placeholder(),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 16),
-                        child: Column(
-                          spacing: 12,
-                          children: [
-                            Row(
-                                mainAxisAlignment: .spaceBetween,
-                                children: [Text("\# Collection"), Text("Volume")]),
-                            ListView.builder(
-                              itemCount: 10,
-                              shrinkWrap: true,
-                              physics: NeverScrollableScrollPhysics(),
-                              itemBuilder: (context, index) {
-                                return Placeholder();
-                              },
+                          Container(
+                            height: 240,
+                            margin: .only(left: 16),
+                            child: ListView(
+                              scrollDirection: .horizontal,
+                              children: [
+                                Container(
+                                  width: 240,
+                                  child: Stack(
+                                    children: [
+                                      Positioned(
+                                        bottom: 12,
+                                        child: Container(
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(),
+                                            color: Colors.white12,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Container(width: 240, child: Placeholder()),
+                              ],
                             ),
-                          ],
-                        ),
+                          ),
+                          Container(
+                            height: 62,
+                            margin: .only(left: 16),
+                            child: Placeholder(),
+                          ),
+                          Container(
+                            height: 62,
+                            margin: .only(left: 16),
+                            child: Placeholder(),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Column(
+                              spacing: 12,
+                              children: [
+                                Row(
+                                  mainAxisAlignment: .spaceBetween,
+                                  children: [
+                                    Text("\# Collection"),
+                                    Text("Volume"),
+                                  ],
+                                ),
+                                ListView.builder(
+                                  itemCount: 10,
+                                  shrinkWrap: true,
+                                  physics: NeverScrollableScrollPhysics(),
+                                  itemBuilder: (context, index) {
+                                    return Placeholder();
+                                  },
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
                       ),
-
-                    ])),
+                    ),
                   ),
-
                 ],
               ),
             ),
