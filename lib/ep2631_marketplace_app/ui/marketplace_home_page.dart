@@ -75,6 +75,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                               Expanded(
                                                 child: Column(
                                                   crossAxisAlignment: .start,
+                                                  spacing: 6,
                                                   children: [
                                                     Text(
                                                       "DREAM",
@@ -93,7 +94,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                                 ),
                                               ),
                                               CircleAvatar(
-                                                radius: 24,
+                                                radius: 26,
                                                 backgroundColor: Colors.black,
                                                 child: Transform.rotate(
                                                   angle: -2 / pi,
