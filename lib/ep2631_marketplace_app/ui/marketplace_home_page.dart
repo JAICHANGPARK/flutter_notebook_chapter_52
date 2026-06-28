@@ -44,9 +44,10 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                             margin: .only(left: 16),
                             child: ListView.builder(
                               scrollDirection: .horizontal,
-                             itemBuilder: (context,index){
-                                return  Container(
+                              itemBuilder: (context, index) {
+                                return Container(
                                   width: 240,
+                                  margin: .only(right: 12),
                                   decoration: ShapeDecoration(
                                     shape: RoundedSuperellipseBorder(
                                       borderRadius: .circular(32),
@@ -111,7 +112,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                     ],
                                   ),
                                 );
-                             },
+                              },
                             ),
                           ),
                           Container(
@@ -161,6 +162,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
             right: 0,
             child: Container(
               height: 72,
+              decoration: ShapeDecoration(shape: StadiumBorder()),
               child: Row(
                 mainAxisAlignment: .center,
                 children: [
