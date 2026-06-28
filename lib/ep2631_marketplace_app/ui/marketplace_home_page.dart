@@ -42,14 +42,14 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                           Container(
                             height: 240,
                             margin: .only(left: 16),
-                            child: ListView(
+                            child: ListView.builder(
                               scrollDirection: .horizontal,
-                              children: [
-                                Container(
+                             itemBuilder: (context,index){
+                                return  Container(
                                   width: 240,
                                   decoration: ShapeDecoration(
                                     shape: RoundedSuperellipseBorder(
-                                      borderRadius: .circular(24),
+                                      borderRadius: .circular(32),
                                     ),
                                     color: Colors.grey,
                                   ),
@@ -110,9 +110,8 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                       ),
                                     ],
                                   ),
-                                ),
-                                Container(width: 240, child: Placeholder()),
-                              ],
+                                );
+                             },
                             ),
                           ),
                           Container(
