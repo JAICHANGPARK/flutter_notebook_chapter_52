@@ -163,7 +163,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
 
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
-                color: Colors.white12,
+                color: Color.fromRGBO(68, 68, 68, 1),
               ),
               child: Row(
                 mainAxisSize: .min,
