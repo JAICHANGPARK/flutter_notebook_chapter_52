@@ -175,10 +175,10 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(34, 34, 34, 1),
                     ),
-                    padding: .symmetric(horizontal: 16, vertical: 12),
+                    padding: .symmetric(horizontal: 16, vertical: 14),
                     child: Row(
 
-                      spacing: 4,
+                      spacing: 12,
                       children: [
                         Icon(Icons.home_filled, color: Colors.white),
                         Text("Home", style: TextStyle(color: Colors.white)),
