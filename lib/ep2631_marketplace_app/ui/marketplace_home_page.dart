@@ -170,9 +170,26 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                   "All chains",
                                   "All categories",
                                 ];
-                                return ListView.builder(itemBuilder: (context,index){
-                                  
-                                });
+                                return ListView.builder(
+                                  scrollDirection: .horizontal,
+                                  itemBuilder: (context, index) {
+                                    return Container(
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(
+                                          side: BorderSide(color: Colors.grey),
+                                        ),
+                                      ),
+                                      child: Row(
+                                        children: [
+                                          Text("${items[index]}"),
+                                          Icon(
+                                            Icons.keyboard_arrow_down_outlined,
+                                          ),
+                                        ],
+                                      ),
+                                    );
+                                  },
+                                );
                               },
                             ),
                           ),
