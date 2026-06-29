@@ -140,7 +140,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                               48, 48, 48, 1)
                                       ),
                                       child: Center(
-                                        child: Text(""),
+                                        child: Text("${items[idx]}"),
                                       ),
                                     );
                                   },
