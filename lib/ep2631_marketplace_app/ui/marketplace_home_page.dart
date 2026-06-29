@@ -117,7 +117,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                           ),
                           Container(
                             height: 42,
-                            margin: .only(left: 16,bottom: 12, top: 12),
+                            margin: .only(left: 16, bottom: 12, top: 12),
                             child: Builder(
                               builder: (context) {
                                 List<String> items = [
@@ -163,7 +163,18 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                           Container(
                             height: 62,
                             margin: .only(left: 16),
-                            child: Placeholder(),
+                            child: Builder(
+                              builder: (context) {
+                                List<String> items = [
+                                  "24h",
+                                  "All chains",
+                                  "All categories",
+                                ];
+                                return ListView.builder(itemBuilder: (context,index){
+                                  
+                                });
+                              },
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 16),
