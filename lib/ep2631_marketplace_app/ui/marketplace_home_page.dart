@@ -139,6 +139,9 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                               : const Color.fromRGBO(
                                               48, 48, 48, 1)
                                       ),
+                                      child: Center(
+                                        child: Text(""),
+                                      ),
                                     );
                                   },
                                 );
