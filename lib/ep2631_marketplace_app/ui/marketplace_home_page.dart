@@ -131,16 +131,27 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                   itemCount: items.length,
                                   itemBuilder: (context, idx) {
                                     return Container(
+                                      margin: .only(right: 16),
                                       decoration: ShapeDecoration(
-                                          shape: StadiumBorder(
-
-                                          ),
-                                          color: idx == 0 ? Colors.white
-                                              : const Color.fromRGBO(
-                                              48, 48, 48, 1)
+                                        shape: StadiumBorder(),
+                                        color: idx == 0
+                                            ? Colors.white
+                                            : const Color.fromRGBO(
+                                                48,
+                                                48,
+                                                48,
+                                                1,
+                                              ),
                                       ),
                                       child: Center(
-                                        child: Text("${items[idx]}"),
+                                        child: Text(
+                                          "${items[idx]}",
+                                          style: TextStyle(
+                                            color: idx == 0
+                                                ? Colors.black
+                                                : Colors.grey,
+                                          ),
+                                        ),
                                       ),
                                     );
                                   },
