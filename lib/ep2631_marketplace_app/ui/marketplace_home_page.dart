@@ -177,7 +177,6 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                     ),
                     padding: .symmetric(horizontal: 16, vertical: 14),
                     child: Row(
-
                       spacing: 12,
                       children: [
                         Icon(Icons.home_filled, color: Colors.white),
