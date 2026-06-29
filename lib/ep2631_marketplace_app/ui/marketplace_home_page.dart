@@ -161,7 +161,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                             ),
                           ),
                           Container(
-                            height: 62,
+                            height: 42,
                             margin: .only(left: 16),
                             child: Builder(
                               builder: (context) {
@@ -172,11 +172,15 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                 ];
                                 return ListView.builder(
                                   scrollDirection: .horizontal,
+                                  itemCount: items.length,
                                   itemBuilder: (context, index) {
                                     return Container(
+                                      margin: .only(right: 12),
                                       decoration: ShapeDecoration(
                                         shape: StadiumBorder(
-                                          side: BorderSide(color: Colors.grey),
+                                          side: BorderSide(
+                                            color: Colors.white12,
+                                          ),
                                         ),
                                       ),
                                       child: Row(
@@ -201,8 +205,14 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                 Row(
                                   mainAxisAlignment: .spaceBetween,
                                   children: [
-                                    Text("\# Collection"),
-                                    Text("Volume"),
+                                    Text(
+                                      "\# Collection",
+                                      style: TextStyle(color: Colors.white),
+                                    ),
+                                    Text(
+                                      "Volume",
+                                      style: TextStyle(color: Colors.white),
+                                    ),
                                   ],
                                 ),
                                 ListView.builder(
