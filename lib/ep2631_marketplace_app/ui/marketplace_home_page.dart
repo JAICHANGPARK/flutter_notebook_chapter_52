@@ -136,7 +136,8 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
 
                                           ),
                                           color: idx == 0 ? Colors.white
-                                              : const Color.fromRGBO(48, 48, 48, 1).
+                                              : const Color.fromRGBO(
+                                              48, 48, 48, 1)
                                       ),
                                     );
                                   },
