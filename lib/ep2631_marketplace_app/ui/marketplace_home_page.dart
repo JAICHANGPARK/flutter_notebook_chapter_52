@@ -118,7 +118,31 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                           Container(
                             height: 62,
                             margin: .only(left: 16),
-                            child: Placeholder(),
+                            child: Builder(
+                              builder: (context) {
+                                List<String> items = [
+                                  "Trending",
+                                  "Top",
+                                  "Owned",
+                                  "Watchlist",
+                                ];
+                                return ListView.builder(
+                                  scrollDirection: .horizontal,
+                                  itemCount: items.length,
+                                  itemBuilder: (context, idx) {
+                                    return Container(
+                                      decoration: ShapeDecoration(
+                                          shape: StadiumBorder(
+
+                                          ),
+                                          color: idx == 0 ? Colors.white
+                                              : const Color.fromRGBO(48, 48, 48, 1).
+                                      ),
+                                    );
+                                  },
+                                );
+                              },
+                            ),
                           ),
                           Container(
                             height: 62,
