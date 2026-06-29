@@ -116,8 +116,8 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                             ),
                           ),
                           Container(
-                            height: 62,
-                            margin: .only(left: 16),
+                            height: 42,
+                            margin: .only(left: 16,bottom: 12, top: 12),
                             child: Builder(
                               builder: (context) {
                                 List<String> items = [
@@ -132,6 +132,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                   itemBuilder: (context, idx) {
                                     return Container(
                                       margin: .only(right: 16),
+                                      padding: .symmetric(horizontal: 24),
                                       decoration: ShapeDecoration(
                                         shape: StadiumBorder(),
                                         color: idx == 0
