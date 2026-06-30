@@ -238,7 +238,11 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                         Container(
                                           height: 64,
                                           width: 64,
-                                          child: Placeholder(),
+                                          child: Stack(
+                                            children: [
+                                              
+                                            ],
+                                          ),
                                         ),
                                         Expanded(
                                           child: Column(
