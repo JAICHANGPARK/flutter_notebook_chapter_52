@@ -252,8 +252,9 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                                 Positioned(
                                                   bottom: 0,
                                                   right: 0,
-                                                  child: CircleAvatar(
-                                                    radius: 12,
+                                                  child: Icon(
+                                                    Icons.verified_rounded,
+                                                    color: Colors.blue,
                                                   ),
                                                 ),
                                               ],
