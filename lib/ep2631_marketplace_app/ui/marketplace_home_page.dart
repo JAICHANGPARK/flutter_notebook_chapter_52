@@ -228,7 +228,14 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                   shrinkWrap: true,
                                   physics: NeverScrollableScrollPhysics(),
                                   itemBuilder: (context, index) {
-                                    return Placeholder();
+                                    return Row(
+                                      children: [
+                                        Text(
+                                          "${index}",
+                                          style: TextStyle(color: Colors.white),
+                                        ),
+                                      ],
+                                    );
                                   },
                                 ),
                               ],
