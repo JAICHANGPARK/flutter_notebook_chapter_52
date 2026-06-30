@@ -270,12 +270,14 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                                     "Floor 12.56 GEM",
                                                     style: TextStyle(
                                                       color: Colors.white38,
+                                                      fontSize: 13,
                                                     ),
                                                   ),
                                                   Text(
                                                     "44.3%",
                                                     style: TextStyle(
                                                       color: Colors.green,
+                                                      fontSize: 13,
                                                     ),
                                                   ),
                                                 ],
