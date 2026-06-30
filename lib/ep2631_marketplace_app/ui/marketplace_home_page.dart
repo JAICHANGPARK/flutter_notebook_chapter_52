@@ -261,6 +261,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                                 ],
                                               ),
                                               Row(
+                                                mainAxisAlignment: .spaceBetween,
                                                 children: [
                                                   Text(
                                                     "Floor 12.56 GEM",
