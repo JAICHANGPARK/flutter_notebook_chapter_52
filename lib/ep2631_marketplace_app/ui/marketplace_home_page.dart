@@ -243,6 +243,8 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                           child: Column(
                                             children: [
                                               Row(
+                                                mainAxisAlignment:
+                                                    .spaceBetween,
                                                 children: [
                                                   Text(
                                                     "dream.io",
@@ -260,7 +262,12 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                               ),
                                               Row(
                                                 children: [
-                                                  Text("Floor 12.56 GEM"),
+                                                  Text(
+                                                    "Floor 12.56 GEM",
+                                                    style: TextStyle(
+                                                      color: Colors.white12,
+                                                    ),
+                                                  ),
                                                   Text("44.3%"),
                                                 ],
                                               ),
