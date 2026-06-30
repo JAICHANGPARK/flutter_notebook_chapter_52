@@ -244,8 +244,18 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                             children: [
                                               Row(
                                                 children: [
-                                                  Text("dream.io"),
-                                                  Text("45.99 GEM"),
+                                                  Text(
+                                                    "dream.io",
+                                                    style: TextStyle(
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
+                                                  Text(
+                                                    "45.99 GEM",
+                                                    style: TextStyle(
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
                                                 ],
                                               ),
                                               Row(
