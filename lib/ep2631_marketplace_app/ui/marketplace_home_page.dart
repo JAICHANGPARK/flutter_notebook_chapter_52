@@ -175,6 +175,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                   itemCount: items.length,
                                   itemBuilder: (context, index) {
                                     return Container(
+                                      padding: .symmetric(horizontal: 16),
                                       margin: .only(right: 12),
                                       decoration: ShapeDecoration(
                                         shape: StadiumBorder(
@@ -184,10 +185,17 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                         ),
                                       ),
                                       child: Row(
+                                        spacing: 8,
                                         children: [
-                                          Text("${items[index]}"),
+                                          Text(
+                                            "${items[index]}",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
                                           Icon(
                                             Icons.keyboard_arrow_down_outlined,
+                                            color: Colors.white,
                                           ),
                                         ],
                                       ),
