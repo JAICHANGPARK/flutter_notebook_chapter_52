@@ -240,8 +240,14 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                           child: Placeholder(),
                                         ),
                                         Expanded(child: Column(children: [
-                                          
-                                        ],))
+                                          Row(
+                                            children: [
+                                              Text("dream.io"),
+                                              Text("45.99 GEM"),
+                                            ],
+                                          )
+                                        ],)),
+
                                       ],
                                     );
                                   },
