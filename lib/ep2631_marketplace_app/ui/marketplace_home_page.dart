@@ -230,15 +230,16 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                   itemBuilder: (context, index) {
                                     return Padding(
                                       padding: const EdgeInsets.only(
-                                        bottom: 12,
+                                        bottom: 16,
                                       ),
                                       child: Row(
-                                        spacing: 12,
+                                        spacing: 16,
                                         children: [
                                           Text(
                                             "${index + 1}",
                                             style: TextStyle(
                                               color: Colors.white,
+                                              fontSize: 16,
                                             ),
                                           ),
                                           Container(
