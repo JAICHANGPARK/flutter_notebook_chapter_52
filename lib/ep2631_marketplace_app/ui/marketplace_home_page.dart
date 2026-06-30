@@ -255,6 +255,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                                   child: Icon(
                                                     Icons.verified_rounded,
                                                     color: Colors.blue,
+                                                    size: 18,
                                                   ),
                                                 ),
                                               ],
