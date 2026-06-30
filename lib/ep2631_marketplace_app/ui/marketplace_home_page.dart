@@ -234,6 +234,14 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                           "${index + 1}",
                                           style: TextStyle(color: Colors.white),
                                         ),
+                                        Container(
+                                          height: 64,
+                                          width: 64,
+                                          child: Placeholder(),
+                                        ),
+                                        Expanded(child: Column(children: [
+                                          
+                                        ],))
                                       ],
                                     );
                                   },
