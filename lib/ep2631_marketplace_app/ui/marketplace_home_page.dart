@@ -263,7 +263,8 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                                 ],
                                               ),
                                               Row(
-                                                mainAxisAlignment: .spaceBetween,
+                                                mainAxisAlignment:
+                                                    .spaceBetween,
                                                 children: [
                                                   Text(
                                                     "Floor 12.56 GEM",
@@ -285,6 +286,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                         IconButton(
                                           onPressed: () {},
                                           icon: Icon(Icons.star_border),
+                                          color: Colors.white,
                                         ),
                                       ],
                                     );
