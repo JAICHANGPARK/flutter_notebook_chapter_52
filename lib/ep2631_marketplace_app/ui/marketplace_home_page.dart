@@ -239,21 +239,28 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                           width: 64,
                                           child: Placeholder(),
                                         ),
-                                        Expanded(child: Column(children: [
-                                          Row(
+                                        Expanded(
+                                          child: Column(
                                             children: [
-                                              Text("dream.io"),
-                                              Text("45.99 GEM"),
+                                              Row(
+                                                children: [
+                                                  Text("dream.io"),
+                                                  Text("45.99 GEM"),
+                                                ],
+                                              ),
+                                              Row(
+                                                children: [
+                                                  Text("Floor 12.56 GEM"),
+                                                  Text("44.3%"),
+                                                ],
+                                              ),
                                             ],
                                           ),
-                                          Row(
-                                            children: [
-                                              Text("Floor 12.56 GEM"),
-                                              Text("44.3%"),
-                                            ],
-                                          )
-                                        ],)),
-
+                                        ),
+                                        IconButton(
+                                          onPressed: () {},
+                                          icon: Icon(Icons.star_border),
+                                        ),
                                       ],
                                     );
                                   },
