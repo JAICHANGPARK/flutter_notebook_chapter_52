@@ -240,7 +240,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                           width: 64,
                                           child: Stack(
                                             children: [
-                                              
+                                              Positioned.fill(child: CircleAvatar()),
                                             ],
                                           ),
                                         ),
