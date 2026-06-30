@@ -229,6 +229,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                   physics: NeverScrollableScrollPhysics(),
                                   itemBuilder: (context, index) {
                                     return Row(
+                                      spacing: 12,
                                       children: [
                                         Text(
                                           "${index + 1}",
@@ -241,6 +242,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                         ),
                                         Expanded(
                                           child: Column(
+                                            spacing: 8,
                                             children: [
                                               Row(
                                                 mainAxisAlignment:
