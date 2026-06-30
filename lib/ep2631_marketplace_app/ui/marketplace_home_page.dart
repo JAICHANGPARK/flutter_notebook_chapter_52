@@ -231,7 +231,7 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                     return Row(
                                       children: [
                                         Text(
-                                          "${index}",
+                                          "${index + 1}",
                                           style: TextStyle(color: Colors.white),
                                         ),
                                       ],
