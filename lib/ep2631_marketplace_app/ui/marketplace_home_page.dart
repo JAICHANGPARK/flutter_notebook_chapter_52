@@ -228,73 +228,89 @@ class _MarketplaceHomePageState extends State<MarketplaceHomePage> {
                                   shrinkWrap: true,
                                   physics: NeverScrollableScrollPhysics(),
                                   itemBuilder: (context, index) {
-                                    return Row(
-                                      spacing: 12,
-                                      children: [
-                                        Text(
-                                          "${index + 1}",
-                                          style: TextStyle(color: Colors.white),
-                                        ),
-                                        Container(
-                                          height: 64,
-                                          width: 64,
-                                          child: Stack(
-                                            children: [
-                                              Positioned.fill(child: CircleAvatar()),
-                                            ],
+                                    return Padding(
+                                      padding: const EdgeInsets.only(
+                                        bottom: 12,
+                                      ),
+                                      child: Row(
+                                        spacing: 12,
+                                        children: [
+                                          Text(
+                                            "${index + 1}",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
                                           ),
-                                        ),
-                                        Expanded(
-                                          child: Column(
-                                            spacing: 8,
-                                            children: [
-                                              Row(
-                                                mainAxisAlignment:
-                                                    .spaceBetween,
-                                                children: [
-                                                  Text(
-                                                    "dream.io",
-                                                    style: TextStyle(
-                                                      color: Colors.white,
-                                                    ),
+                                          Container(
+                                            height: 60,
+                                            width: 60,
+                                            child: Stack(
+                                              children: [
+                                                Positioned.fill(
+                                                  child: CircleAvatar(),
+                                                ),
+                                                Positioned(
+                                                  bottom: 0,
+                                                  right: 0,
+                                                  child: CircleAvatar(
+                                                    radius: 12,
                                                   ),
-                                                  Text(
-                                                    "45.99 GEM",
-                                                    style: TextStyle(
-                                                      color: Colors.white,
-                                                    ),
-                                                  ),
-                                                ],
-                                              ),
-                                              Row(
-                                                mainAxisAlignment:
-                                                    .spaceBetween,
-                                                children: [
-                                                  Text(
-                                                    "Floor 12.56 GEM",
-                                                    style: TextStyle(
-                                                      color: Colors.white38,
-                                                      fontSize: 13,
-                                                    ),
-                                                  ),
-                                                  Text(
-                                                    "44.3%",
-                                                    style: TextStyle(
-                                                      color: Colors.green,
-                                                      fontSize: 13,
-                                                    ),
-                                                  ),
-                                                ],
-                                              ),
-                                            ],
+                                                ),
+                                              ],
+                                            ),
                                           ),
-                                        ),
-                                        IconButton(
-                                          onPressed: () {},
-                                          icon: Icon(Icons.star_border),
-                                          color: Colors.white,
-                                        ),
-                                      ],
+                                          Expanded(
+                                            child: Column(
+                                              spacing: 8,
+                                              children: [
+                                                Row(
+                                                  mainAxisAlignment:
+                                                      .spaceBetween,
+                                                  children: [
+                                                    Text(
+                                                      "dream.io",
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                      ),
+                                                    ),
+                                                    Text(
+                                                      "45.99 GEM",
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                      ),
+                                                    ),
+                                                  ],
+                                                ),
+                                                Row(
+                                                  mainAxisAlignment:
+                                                      .spaceBetween,
+                                                  children: [
+                                                    Text(
+                                                      "Floor 12.56 GEM",
+                                                      style: TextStyle(
+                                                        color: Colors.white38,
+                                                        fontSize: 13,
+                                                      ),
+                                                    ),
+                                                    Text(
+                                                      "44.3%",
+                                                      style: TextStyle(
+                                                        color: Colors.green,
+                                                        fontSize: 13,
+                                                      ),
+                                                    ),
+                                                  ],
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                          IconButton(
+                                            onPressed: () {},
+                                            icon: Icon(Icons.star_border),
+                                            color: Colors.white,
+                                          ),
+                                        ],
+                                      ),
                                     );
                                   },
                                 ),
