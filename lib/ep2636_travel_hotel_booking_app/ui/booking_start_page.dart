@@ -14,6 +14,17 @@ class BookingStartPage extends StatelessWidget {
               fit: .cover,
             ),
           ),
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: .bottomCenter,
+                  end: .topCenter,
+                  colors: [Colors.black, Colors.black38, Colors.transparent],
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );
