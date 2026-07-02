@@ -8,9 +8,10 @@ class BookingStartPage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned(
+          Positioned.fill(
             child: Image.network(
               "https://cdn.pixabay.com/photo/2023/10/12/14/41/town-8310950_1280.jpg",
+              fit: .cover,
             ),
           ),
         ],
