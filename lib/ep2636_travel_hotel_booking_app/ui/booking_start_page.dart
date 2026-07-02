@@ -31,6 +31,7 @@ class BookingStartPage extends StatelessWidget {
             right: 12,
             child: Container(
               decoration: BoxDecoration(color: Colors.white),
+              padding: .all(24),
               child: Column(
                 children: [
                   Text("Work Smart. Save More. Travel Better"),
