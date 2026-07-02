@@ -35,6 +35,7 @@ class BookingStartPage extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: .center,
                 crossAxisAlignment: .center,
+                spacing: 12,
                 children: [
                   Text(
                     "Work Smart. Save More. Travel Better",
@@ -46,7 +47,11 @@ class BookingStartPage extends StatelessWidget {
                     textAlign: .center,
                   ),
                   Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.blue,
+                    ),
+                    padding: .symmetric(vertical: 16),
                     child: Center(child: Text("Start Your Journey")),
                   ),
                 ],
