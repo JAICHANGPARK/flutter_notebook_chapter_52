@@ -26,12 +26,26 @@ class BookingStartPage extends StatelessWidget {
             ),
           ),
           Positioned(
-            child: Container(decoration: BoxDecoration(color: Colors.white),
-            child: Column(
-              children: [
-                
-              ],
-            ),),
+            bottom: 12,
+            left: 12,
+            right: 12,
+            child: Container(
+              decoration: BoxDecoration(color: Colors.white),
+              child: Column(
+                children: [
+                  Text("Work Smart. Save More. Travel Better"),
+                  Text(
+                    "Turn your hand work into unforgettable journeys. Discover top hotels,",
+                  ),
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: Center(
+                      child: Text("Start Your Journey"),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ),
         ],
       ),
