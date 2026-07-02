@@ -10,7 +10,7 @@ class BookingStartPage extends StatelessWidget {
         children: [
           Positioned(
             child: Image.network(
-              "https://pixabay.com/ko/images/download/palmeris-town-8310950_1920.jpg",
+              "https://cdn.pixabay.com/photo/2023/10/12/14/41/town-8310950_1280.jpg",
             ),
           ),
         ],
