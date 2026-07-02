@@ -39,16 +39,13 @@ class BookingStartPage extends StatelessWidget {
                 children: [
                   Text(
                     "Work Smart. Save More. Travel Better",
-                    style: TextStyle(fontSize: 24,),
+                    style: TextStyle(fontSize: 24, fontWeight: .bold),
                     textAlign: .center,
-
                   ),
                   Text(
                     "Turn your hand work into unforgettable journeys. Discover top hotels,",
                     textAlign: .center,
-                    style: TextStyle(
-                      fontSize: 16
-                    ),
+                    style: TextStyle(fontSize: 16),
                   ),
                   Container(
                     decoration: ShapeDecoration(
