@@ -5,10 +5,16 @@ class BookingStartPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Stack(
-      children: [
-        
-      ],
-    ));
+    return Scaffold(
+      body: Stack(
+        children: [
+          Positioned(
+            child: Image.network(
+              "https://pixabay.com/ko/images/download/palmeris-town-8310950_1920.jpg",
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
