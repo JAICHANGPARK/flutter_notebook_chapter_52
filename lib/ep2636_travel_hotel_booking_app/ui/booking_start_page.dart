@@ -45,6 +45,9 @@ class BookingStartPage extends StatelessWidget {
                   Text(
                     "Turn your hand work into unforgettable journeys. Discover top hotels,",
                     textAlign: .center,
+                    style: TextStyle(
+                      fontSize: 16
+                    ),
                   ),
                   Container(
                     decoration: ShapeDecoration(
