@@ -31,7 +31,7 @@ class BookingStartPage extends StatelessWidget {
             right: 12,
             child: Container(
               decoration: BoxDecoration(color: Colors.white),
-              padding: .all(24),
+              padding: .all(32),
               child: Column(
                 mainAxisAlignment: .center,
                 crossAxisAlignment: .center,
@@ -39,8 +39,9 @@ class BookingStartPage extends StatelessWidget {
                 children: [
                   Text(
                     "Work Smart. Save More. Travel Better",
-                    style: TextStyle(fontSize: 24),
+                    style: TextStyle(fontSize: 24,),
                     textAlign: .center,
+
                   ),
                   Text(
                     "Turn your hand work into unforgettable journeys. Discover top hotels,",
