@@ -25,6 +25,14 @@ class BookingStartPage extends StatelessWidget {
               ),
             ),
           ),
+          Positioned(
+            child: Container(decoration: BoxDecoration(color: Colors.white),
+            child: Column(
+              children: [
+                
+              ],
+            ),),
+          ),
         ],
       ),
     );
