@@ -4,9 +4,9 @@
 
 - Travel & Hotel Booking Mobile App
 - Sahin Mia for Pixelean
-- https://dribbble.com/shots/27498560-OpenSea-NFT-Marketplace-App-UI
+- https://dribbble.com/shots/27517396-Travel-Hotel-Booking-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/48162218/file/d269b20c7d81c7512a8f0bc85af00877.png?resize=1905x1429&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/48233172/file/c7bb6b0be8c82296bff9e5fd9f602151.jpg?resize=1600x1200&vertical=center" alt=""/>
 
 
 ## EP2631-2635
