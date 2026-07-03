@@ -19,9 +19,15 @@ class _BookingHomePageState extends State<BookingHomePage> {
               child: Column(
                 children: [
                   Row(
+                    spacing: 8,
                     children: [
-                      CircleAvatar(),
+                      CircleAvatar(  radius: 26,),
                       Expanded(child: Column(children: [])),
+                      CircleAvatar(
+                        radius: 26,
+                      ),
+                      CircleAvatar(  radius: 26,),
+
                     ],
                   ),
                   Text("Find Your Perfect\nStay Instantly"),
