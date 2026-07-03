@@ -50,16 +50,25 @@ class BookingStartPage extends StatelessWidget {
                     textAlign: .center,
                     style: TextStyle(fontSize: 16),
                   ),
-                  Container(
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
-                      color: Colors.blueAccent,
-                    ),
-                    padding: .symmetric(vertical: 16),
-                    child: Center(
-                      child: Text(
-                        "Start Your Journey",
-                        style: TextStyle(color: Colors.white, fontSize: 16),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => BookingHomePage(),
+                        ),
+                      );
+                    },
+                    child: Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.blueAccent,
+                      ),
+                      padding: .symmetric(vertical: 16),
+                      child: Center(
+                        child: Text(
+                          "Start Your Journey",
+                          style: TextStyle(color: Colors.white, fontSize: 16),
+                        ),
                       ),
                     ),
                   ),
