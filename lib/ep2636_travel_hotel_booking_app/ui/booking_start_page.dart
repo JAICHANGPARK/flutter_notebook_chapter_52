@@ -59,8 +59,7 @@ class BookingStartPage extends StatelessWidget {
                     child: Center(
                       child: Text(
                         "Start Your Journey",
-                        style: TextStyle(color: Colors.white,
-                        fontSize: 16),
+                        style: TextStyle(color: Colors.white, fontSize: 16),
                       ),
                     ),
                   ),
