@@ -13,7 +13,20 @@ class _BookingHomePageState extends State<BookingHomePage> {
     return Scaffold(
       backgroundColor: Color.fromRGBO(241, 245, 245, 1),
       body: Stack(
-        children: [Positioned.fill(child: Column(children: []))],
+        children: [Positioned.fill(child: SafeArea(
+          child: Column(children: [
+            Row(
+              children: [
+                CircleAvatar()
+              ],
+            ),
+            Text("Find Your Perfect\nStay Instantly"),
+            Container(
+              height: 42,
+              child: Placeholder(),
+            ),
+          ]),
+        ))],
       ),
     );
   }
