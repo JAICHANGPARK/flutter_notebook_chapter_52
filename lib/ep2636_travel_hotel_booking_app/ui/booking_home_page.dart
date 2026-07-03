@@ -12,9 +12,9 @@ class _BookingHomePageState extends State<BookingHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(241, 245, 245, 1),
-      body: Stack(children: [
-
-      ]),
+      body: Stack(
+        children: [Positioned.fill(child: Column(children: []))],
+      ),
     );
   }
 }
