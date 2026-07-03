@@ -25,6 +25,10 @@ class _BookingHomePageState extends State<BookingHomePage> {
               height: 42,
               child: Placeholder(),
             ),
+            Container(
+              height: 300,
+              child: Placeholder(),
+            )
           ]),
         ))],
       ),
