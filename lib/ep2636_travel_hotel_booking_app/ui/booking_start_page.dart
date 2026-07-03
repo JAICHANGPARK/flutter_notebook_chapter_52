@@ -56,7 +56,12 @@ class BookingStartPage extends StatelessWidget {
                       color: Colors.blue,
                     ),
                     padding: .symmetric(vertical: 16),
-                    child: Center(child: Text("Start Your Journey")),
+                    child: Center(
+                      child: Text(
+                        "Start Your Journey",
+                        style: TextStyle(color: Colors.white),
+                      ),
+                    ),
                   ),
                 ],
               ),
