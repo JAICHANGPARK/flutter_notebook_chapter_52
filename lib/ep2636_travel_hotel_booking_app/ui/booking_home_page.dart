@@ -18,7 +18,12 @@ class _BookingHomePageState extends State<BookingHomePage> {
             child: SafeArea(
               child: Column(
                 children: [
-                  Row(children: [CircleAvatar()]),
+                  Row(
+                    children: [
+                      CircleAvatar(),
+                      Expanded(child: Column(children: [])),
+                    ],
+                  ),
                   Text("Find Your Perfect\nStay Instantly"),
                   Container(height: 42, child: Placeholder()),
                   Container(height: 300, child: Placeholder()),
@@ -28,10 +33,9 @@ class _BookingHomePageState extends State<BookingHomePage> {
                       Container(
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(side: BorderSide()),
-
                         ),
                         padding: .symmetric(horizontal: 12, vertical: 3),
-                        child: Center(child: Text("See All"),),
+                        child: Center(child: Text("See All")),
                       ),
                     ],
                   ),
