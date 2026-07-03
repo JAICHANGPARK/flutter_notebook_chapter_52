@@ -30,7 +30,10 @@ class BookingStartPage extends StatelessWidget {
             left: 12,
             right: 12,
             child: Container(
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: .circular(16),
+              ),
               padding: .all(32),
               child: Column(
                 mainAxisAlignment: .center,
