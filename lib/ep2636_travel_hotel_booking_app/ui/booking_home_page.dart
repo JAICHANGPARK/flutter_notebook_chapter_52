@@ -30,10 +30,12 @@ class _BookingHomePageState extends State<BookingHomePage> {
                           shape: StadiumBorder(side: BorderSide()),
 
                         ),
+                        padding: .symmetric(horizontal: 12, vertical: 3),
                         child: Center(child: Text("See All"),),
                       ),
                     ],
                   ),
+                  Container(height: 300, child: Placeholder()),
                 ],
               ),
             ),
