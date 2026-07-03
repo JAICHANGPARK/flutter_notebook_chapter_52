@@ -28,7 +28,9 @@ class _BookingHomePageState extends State<BookingHomePage> {
                       Container(
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(side: BorderSide()),
+
                         ),
+                        child: Center(child: Text("See All"),),
                       ),
                     ],
                   ),
