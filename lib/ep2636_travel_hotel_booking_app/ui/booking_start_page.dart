@@ -26,7 +26,7 @@ class BookingStartPage extends StatelessWidget {
             ),
           ),
           Positioned(
-            bottom: 12,
+            bottom: 16,
             left: 12,
             right: 12,
             child: Container(
@@ -59,7 +59,8 @@ class BookingStartPage extends StatelessWidget {
                     child: Center(
                       child: Text(
                         "Start Your Journey",
-                        style: TextStyle(color: Colors.white),
+                        style: TextStyle(color: Colors.white,
+                        fontSize: 16),
                       ),
                     ),
                   ),
