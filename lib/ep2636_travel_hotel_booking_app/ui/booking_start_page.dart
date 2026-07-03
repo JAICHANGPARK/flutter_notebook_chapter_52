@@ -53,7 +53,7 @@ class BookingStartPage extends StatelessWidget {
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Colors.blue,
+                      color: Colors.blueAccent,
                     ),
                     padding: .symmetric(vertical: 16),
                     child: Center(
