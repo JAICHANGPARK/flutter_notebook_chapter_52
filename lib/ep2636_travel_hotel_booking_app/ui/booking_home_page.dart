@@ -17,6 +17,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
         children: [
           Positioned.fill(
             child: SafeArea(
+              bottom: false,
               child: Column(
                 spacing: 16,
                 crossAxisAlignment: .start,
@@ -157,7 +158,19 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                 ],
                               ),
                             ),
-                            Container(height: 300, child: Placeholder()),
+                            Container(
+                              height: 280,
+                              child: ListView.builder(
+                                scrollDirection: .horizontal,
+                                itemBuilder: (context, index) {
+                                  return Container(
+                                    width: 300,
+                                    margin: .only(right: 16),
+                                    child: Placeholder(),
+                                  );
+                                },
+                              ),
+                            ),
                           ],
                         ),
                       ),
