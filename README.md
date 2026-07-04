@@ -8,7 +8,6 @@
 
 <img src="https://cdn.dribbble.com/userupload/48233172/file/c7bb6b0be8c82296bff9e5fd9f602151.jpg?resize=1600x1200&vertical=center" alt=""/>
 
-
 ## EP2631-2635
 
 - OpenSea NFT Marketplace App UI
