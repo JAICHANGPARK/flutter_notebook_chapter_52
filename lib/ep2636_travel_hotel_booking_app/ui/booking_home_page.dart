@@ -82,10 +82,12 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                       shape: StadiumBorder(),
                                       color: Colors.white,
                                     ),
+                                    margin: .only(right: 12),
                                     padding: .symmetric(horizontal: 16),
                                     child: Center(child: Text("Location")),
                                   ),
                                   Container(
+                                    margin: .only(right: 12),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Colors.white,
@@ -93,7 +95,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                     padding: .symmetric(horizontal: 16),
                                     child: Center(child: Text("Hotel")),
                                   ),
-                                  Container(
+                                  Container(   margin: .only(right: 12),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Colors.white,
@@ -101,7 +103,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                     padding: .symmetric(horizontal: 16),
                                     child: Center(child: Text("Resort")),
                                   ),
-                                  Container(
+                                  Container(   margin: .only(right: 12),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Colors.white,
