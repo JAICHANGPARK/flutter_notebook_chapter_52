@@ -17,6 +17,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: .start,
                 children: [
                   Row(
                     spacing: 8,
