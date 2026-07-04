@@ -42,7 +42,11 @@ class _BookingHomePageState extends State<BookingHomePage> {
                             ],
                           ),
                         ),
-                        CircleAvatar(radius: 26),
+                        CircleAvatar(
+                          radius: 26,
+                          child: Icon(Icons.search),
+                          backgroundColor: Colors.white,
+                        ),
                         CircleAvatar(radius: 26),
                       ],
                     ),
