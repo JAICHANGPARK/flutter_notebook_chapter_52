@@ -40,6 +40,13 @@ class _BookingHomePageState extends State<BookingHomePage> {
                       ],
                     ),
                   ),
+                  Expanded(child: SingleChildScrollView(
+                    child: Column(
+                      children: [
+                        
+                      ],
+                    ),
+                  )),
                   Text("Find Your Perfect\nStay Instantly"),
                   Container(height: 42, child: Placeholder()),
                   Container(height: 300, child: Placeholder()),
