@@ -85,6 +85,22 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                     padding: .symmetric(horizontal: 16),
                                     child: Center(child: Text("Location")),
                                   ),
+                                  Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.white,
+                                    ),
+                                    padding: .symmetric(horizontal: 16),
+                                    child: Center(child: Text("Hotel")),
+                                  ),
+                                  Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.white,
+                                    ),
+                                    padding: .symmetric(horizontal: 16),
+                                    child: Center(child: Text("Resort")),
+                                  ),
                                 ],
                               ),
                             ),
