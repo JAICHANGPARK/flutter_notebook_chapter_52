@@ -95,7 +95,8 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                     padding: .symmetric(horizontal: 16),
                                     child: Center(child: Text("Hotel")),
                                   ),
-                                  Container(   margin: .only(right: 12),
+                                  Container(
+                                    margin: .only(right: 12),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Colors.white,
@@ -103,7 +104,8 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                     padding: .symmetric(horizontal: 16),
                                     child: Center(child: Text("Resort")),
                                   ),
-                                  Container(   margin: .only(right: 12),
+                                  Container(
+                                    margin: .only(right: 12),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Colors.white,
@@ -114,7 +116,18 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                 ],
                               ),
                             ),
-                            Container(height: 300, child: Placeholder()),
+                            Container(
+                              height: 280,
+                              child: ListView.builder(
+                                scrollDirection: .horizontal,
+                                itemBuilder: (context, index) {
+                                  return Container(
+                                    width: 300,
+                                    child: Placeholder(),
+                                  );
+                                },
+                              ),
+                            ),
                             Row(
                               children: [
                                 Text("Recent Booking"),
