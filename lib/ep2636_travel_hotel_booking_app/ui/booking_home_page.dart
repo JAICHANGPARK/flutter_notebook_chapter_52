@@ -17,22 +17,28 @@ class _BookingHomePageState extends State<BookingHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 crossAxisAlignment: .start,
                 children: [
-                  Row(
-                    spacing: 8,
-                    children: [
-                      CircleAvatar(  radius: 26,),
-                      Expanded(child: Column(children: [
-                        Text("welcome back!"),
-                        Text("Dreamwalker")
-                      ])),
-                      CircleAvatar(
-                        radius: 26,
-                      ),
-                      CircleAvatar(  radius: 26,),
-
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                    child: Row(
+                      spacing: 8,
+                      children: [
+                        CircleAvatar(radius: 26),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: .start,
+                            children: [
+                              Text("welcome back!"),
+                              Text("Dreamwalker"),
+                            ],
+                          ),
+                        ),
+                        CircleAvatar(radius: 26),
+                        CircleAvatar(radius: 26),
+                      ],
+                    ),
                   ),
                   Text("Find Your Perfect\nStay Instantly"),
                   Container(height: 42, child: Placeholder()),
