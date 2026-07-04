@@ -72,7 +72,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
                               style: TextStyle(fontSize: 24, fontWeight: .bold),
                             ),
                             Container(
-                              height: 42,
+                              height: 36,
                               margin: .symmetric(vertical: 12),
                               child: ListView(
                                 scrollDirection: .horizontal,
