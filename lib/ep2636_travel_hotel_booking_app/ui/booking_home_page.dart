@@ -123,6 +123,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                 itemBuilder: (context, index) {
                                   return Container(
                                     width: 300,
+                                    margin: .only(right: 16),
                                     child: Placeholder(),
                                   );
                                 },
