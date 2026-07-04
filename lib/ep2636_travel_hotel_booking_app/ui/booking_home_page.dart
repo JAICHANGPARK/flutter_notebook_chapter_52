@@ -54,7 +54,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
                           foregroundColor: Colors.black,
                           child: Badge(
                             child: Icon(Icons.notifications_active_outlined),
-                          )
+                          ),
                         ),
                       ],
                     ),
@@ -71,7 +71,21 @@ class _BookingHomePageState extends State<BookingHomePage> {
                               "Find Your Perfect\nStay Instantly",
                               style: TextStyle(fontSize: 24, fontWeight: .bold),
                             ),
-                            Container(height: 42, child: Placeholder()),
+                            Container(
+                              height: 42,
+                              margin: .symmetric(vertical: 12),
+                              child: ListView(
+                                scrollDirection: .horizontal,
+                                children: [
+                                  Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                    ),
+                                    child: Text("Location"),
+                                  ),
+                                ],
+                              ),
+                            ),
                             Container(height: 300, child: Placeholder()),
                             Row(
                               children: [
