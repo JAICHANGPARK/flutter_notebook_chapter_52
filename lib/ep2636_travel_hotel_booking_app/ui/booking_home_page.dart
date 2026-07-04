@@ -21,7 +21,10 @@ class _BookingHomePageState extends State<BookingHomePage> {
                 crossAxisAlignment: .start,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 16,
+                      vertical: 12,
+                    ),
                     child: Row(
                       spacing: 8,
                       children: [
@@ -40,34 +43,41 @@ class _BookingHomePageState extends State<BookingHomePage> {
                       ],
                     ),
                   ),
-                  Expanded(child: SingleChildScrollView(
-                    child: Padding(
-                      padding: const EdgeInsets.only(left: 16),
-                      child: Column(
-                        crossAxisAlignment: .start,
-                        spacing: 16,
-                        children: [
-                          Text("Find Your Perfect\nStay Instantly"),
-                          Container(height: 42, child: Placeholder()),
-                          Container(height: 300, child: Placeholder()),
-                          Row(
-                            children: [
-                              Text("Recent Booking"),
-                              Container(
-                                decoration: ShapeDecoration(
-                                  shape: StadiumBorder(side: BorderSide()),
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Padding(
+                        padding: const EdgeInsets.only(left: 16),
+                        child: Column(
+                          crossAxisAlignment: .start,
+                          spacing: 16,
+                          children: [
+                            Text(
+                              "Find Your Perfect\nStay Instantly",
+                              style: TextStyle(fontSize: 24, fontWeight: .bold),
+                            ),
+                            Container(height: 42, child: Placeholder()),
+                            Container(height: 300, child: Placeholder()),
+                            Row(
+                              children: [
+                                Text("Recent Booking"),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(side: BorderSide()),
+                                  ),
+                                  padding: .symmetric(
+                                    horizontal: 12,
+                                    vertical: 3,
+                                  ),
+                                  child: Center(child: Text("See All")),
                                 ),
-                                padding: .symmetric(horizontal: 12, vertical: 3),
-                                child: Center(child: Text("See All")),
-                              ),
-                            ],
-                          ),
-                          Container(height: 300, child: Placeholder()),
-                        ],
+                              ],
+                            ),
+                            Container(height: 300, child: Placeholder()),
+                          ],
+                        ),
                       ),
                     ),
-                  )),
-
+                  ),
                 ],
               ),
             ),
