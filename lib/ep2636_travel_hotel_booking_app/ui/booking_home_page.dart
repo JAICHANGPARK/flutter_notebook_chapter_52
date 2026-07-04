@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class BookingHomePage extends StatefulWidget {
   const BookingHomePage({super.key});
@@ -129,27 +130,32 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                 },
                               ),
                             ),
-                            Row(
-                              mainAxisAlignment: .spaceBetween,
-                              children: [
-                                Text(
-                                  "Recent Booking",
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                    fontWeight: .bold,
+
+                            Padding(
+                              padding: const EdgeInsets.symmetric(vertical: 12),
+                              child: Row(
+                                mainAxisAlignment: .spaceBetween,
+                                children: [
+                                  Text(
+                                    "Recent Booking",
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      fontWeight: .bold,
+                                    ),
                                   ),
-                                ),
-                                Container(
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(side: BorderSide()),
+                                  Container(
+                                    margin: .only(right: 16),
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(side: BorderSide()),
+                                    ),
+                                    padding: .symmetric(
+                                      horizontal: 12,
+                                      vertical: 3,
+                                    ),
+                                    child: Center(child: Text("See All")),
                                   ),
-                                  padding: .symmetric(
-                                    horizontal: 12,
-                                    vertical: 3,
-                                  ),
-                                  child: Center(child: Text("See All")),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
                             Container(height: 300, child: Placeholder()),
                           ],
