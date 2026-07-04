@@ -22,7 +22,10 @@ class _BookingHomePageState extends State<BookingHomePage> {
                     spacing: 8,
                     children: [
                       CircleAvatar(  radius: 26,),
-                      Expanded(child: Column(children: [])),
+                      Expanded(child: Column(children: [
+                        Text("welcome back!"),
+                        Text("Dreamwalker")
+                      ])),
                       CircleAvatar(
                         radius: 26,
                       ),
