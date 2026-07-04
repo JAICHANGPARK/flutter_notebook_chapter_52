@@ -139,7 +139,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                   Text(
                                     "Recent Booking",
                                     style: TextStyle(
-                                      fontSize: 16,
+                                      fontSize: 20,
                                       fontWeight: .bold,
                                     ),
                                   ),
