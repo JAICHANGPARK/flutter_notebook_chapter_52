@@ -130,8 +130,15 @@ class _BookingHomePageState extends State<BookingHomePage> {
                               ),
                             ),
                             Row(
+                              mainAxisAlignment: .spaceBetween,
                               children: [
-                                Text("Recent Booking"),
+                                Text(
+                                  "Recent Booking",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: .bold,
+                                  ),
+                                ),
                                 Container(
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(side: BorderSide()),
