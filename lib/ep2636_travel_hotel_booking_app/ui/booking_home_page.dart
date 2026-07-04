@@ -43,26 +43,26 @@ class _BookingHomePageState extends State<BookingHomePage> {
                   Expanded(child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        
+                        Text("Find Your Perfect\nStay Instantly"),
+                        Container(height: 42, child: Placeholder()),
+                        Container(height: 300, child: Placeholder()),
+                        Row(
+                          children: [
+                            Text("Recent Booking"),
+                            Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(side: BorderSide()),
+                              ),
+                              padding: .symmetric(horizontal: 12, vertical: 3),
+                              child: Center(child: Text("See All")),
+                            ),
+                          ],
+                        ),
+                        Container(height: 300, child: Placeholder()),
                       ],
                     ),
                   )),
-                  Text("Find Your Perfect\nStay Instantly"),
-                  Container(height: 42, child: Placeholder()),
-                  Container(height: 300, child: Placeholder()),
-                  Row(
-                    children: [
-                      Text("Recent Booking"),
-                      Container(
-                        decoration: ShapeDecoration(
-                          shape: StadiumBorder(side: BorderSide()),
-                        ),
-                        padding: .symmetric(horizontal: 12, vertical: 3),
-                        child: Center(child: Text("See All")),
-                      ),
-                    ],
-                  ),
-                  Container(height: 300, child: Placeholder()),
+
                 ],
               ),
             ),
