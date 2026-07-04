@@ -80,8 +80,10 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                   Container(
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
+                                      color: Colors.white,
                                     ),
-                                    child: Text("Location"),
+                                    padding: .symmetric(horizontal: 16),
+                                    child: Center(child: Text("Location")),
                                   ),
                                 ],
                               ),
