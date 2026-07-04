@@ -32,9 +32,13 @@ class _BookingHomePageState extends State<BookingHomePage> {
                         Expanded(
                           child: Column(
                             crossAxisAlignment: .start,
+                            spacing: 6,
                             children: [
                               Text("welcome back!"),
-                              Text("Dreamwalker"),
+                              Text(
+                                "Dreamwalker",
+                                style: TextStyle(fontWeight: .bold),
+                              ),
                             ],
                           ),
                         ),
