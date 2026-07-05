@@ -130,6 +130,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                       color: Colors.white,
                                       borderRadius: .circular(16),
                                     ),
+                                    clipBehavior: .antiAliasWithSaveLayer,
                                     child: Container(
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
