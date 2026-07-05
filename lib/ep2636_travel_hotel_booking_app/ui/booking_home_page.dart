@@ -187,6 +187,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                                     ],
                                                   ),
                                                   Row(
+                                                    mainAxisAlignment: .spaceBetween,
                                                     children: [
                                                       Row(
                                                         children: [
@@ -196,18 +197,18 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                                       ),
                                                       Row(
                                                         children: [
-                                                          Icon(Icons.dinner_dining),
+                                                          Icon(
+                                                            Icons.dinner_dining,
+                                                          ),
                                                           Text("Dinner"),
                                                         ],
                                                       ),
                                                       Row(
                                                         children: [
-
                                                           Icon(Icons.star),
                                                           Text("5.0"),
                                                         ],
-                                                      )
-
+                                                      ),
                                                     ],
                                                   ),
                                                 ],
