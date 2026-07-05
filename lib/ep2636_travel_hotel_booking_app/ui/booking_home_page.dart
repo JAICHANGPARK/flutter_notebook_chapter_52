@@ -130,7 +130,11 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                       color: Colors.white,
                                       borderRadius: .circular(16),
                                     ),
-                                    child: Placeholder(),
+                                    child: Container(
+                                      decoration: BoxDecoration(
+
+                                      ),
+                                    )
                                   );
                                 },
                               ),
