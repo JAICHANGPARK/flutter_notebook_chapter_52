@@ -194,11 +194,20 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                                           Text("3 Bed"),
                                                         ],
                                                       ),
+                                                      Row(
+                                                        children: [
+                                                          Icon(Icons.dinner_dining),
+                                                          Text("Dinner"),
+                                                        ],
+                                                      ),
+                                                      Row(
+                                                        children: [
 
-                                                      Icon(Icons.dinner_dining),
-                                                      Text("Dinner"),
-                                                      Icon(Icons.star),
-                                                      Text("5.0"),
+                                                          Icon(Icons.star),
+                                                          Text("5.0"),
+                                                        ],
+                                                      )
+
                                                     ],
                                                   ),
                                                 ],
