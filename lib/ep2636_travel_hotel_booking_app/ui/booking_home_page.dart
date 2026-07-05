@@ -145,6 +145,8 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                       child: Stack(
                                         children: [
                                           Positioned(
+                                            top: 12,
+                                            right: 12,
                                             child: CircleAvatar(
                                               radius: 16,
                                               backgroundColor: Colors.white,
