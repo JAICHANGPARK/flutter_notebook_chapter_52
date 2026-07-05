@@ -132,9 +132,13 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                     ),
                                     child: Container(
                                       decoration: BoxDecoration(
-
+                                        image: DecorationImage(
+                                          image: NetworkImage(
+                                            "https://cdn.pixabay.com/photo/2020/07/09/10/31/sea-5386810_1280.jpg",
+                                          ),
+                                        ),
                                       ),
-                                    )
+                                    ),
                                   );
                                 },
                               ),
