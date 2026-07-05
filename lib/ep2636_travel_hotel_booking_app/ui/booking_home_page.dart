@@ -179,7 +179,10 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                                   ),
                                                   Row(
                                                     children: [
-                                                      Icon(Icons.location_on_outlined),
+                                                      Icon(
+                                                        Icons
+                                                            .location_on_outlined,
+                                                      ),
                                                       Text("Dream World"),
                                                     ],
                                                   ),
@@ -190,14 +193,14 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                                           Icon(Icons.bed),
                                                           Text("3 Bed"),
                                                         ],
-                                                      )
-                                                     
+                                                      ),
+
                                                       Icon(Icons.dinner_dining),
                                                       Text("Dinner"),
                                                       Icon(Icons.star),
                                                       Text("5.0"),
                                                     ],
-                                                  )
+                                                  ),
                                                 ],
                                               ),
                                             ),
