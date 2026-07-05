@@ -148,8 +148,9 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                             top: 12,
                                             right: 12,
                                             child: CircleAvatar(
-                                              radius: 16,
+                                              radius: 18,
                                               backgroundColor: Colors.white,
+                                              child: Icon(Icons.favorite_border,size: 18,),
                                             ),
                                           ),
                                         ],
