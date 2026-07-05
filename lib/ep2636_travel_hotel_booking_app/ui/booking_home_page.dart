@@ -199,22 +199,32 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                                         .spaceBetween,
                                                     children: [
                                                       Row(
+                                                        spacing: 4,
                                                         children: [
-                                                          Icon(Icons.bed),
+                                                          Icon(
+                                                            Icons.bed,
+                                                            size: 18,
+                                                          ),
                                                           Text("3 Bed"),
                                                         ],
                                                       ),
                                                       Row(
+                                                        spacing: 4,
                                                         children: [
                                                           Icon(
                                                             Icons.dinner_dining,
+                                                            size: 18,
                                                           ),
                                                           Text("Dinner"),
                                                         ],
                                                       ),
                                                       Row(
+                                                        spacing: 4,
                                                         children: [
-                                                          Icon(Icons.star),
+                                                          Icon(
+                                                            Icons.star,
+                                                            size: 18,
+                                                          ),
                                                           Text("5.0"),
                                                         ],
                                                       ),
