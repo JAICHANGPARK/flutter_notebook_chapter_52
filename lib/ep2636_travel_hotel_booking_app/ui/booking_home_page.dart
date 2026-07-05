@@ -126,6 +126,9 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                   return Container(
                                     width: 300,
                                     margin: .only(right: 16),
+                                    decoration: BoxDecoration(
+                                      color: Colors.white
+                                    ),
                                     child: Placeholder(),
                                   );
                                 },
