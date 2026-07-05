@@ -158,6 +158,9 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                             ),
                                           ),
                                           Positioned(
+                                            bottom: 12,
+                                            left: 12,
+                                            right: 12,
                                             child: Container(
                                               decoration: BoxDecoration(
                                                 borderRadius: .circular(12),
