@@ -171,23 +171,32 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                                 children: [
                                                   Row(
                                                     children: [
-                                                      Text("Dream"),
+                                                      Text(
+                                                        "Dream",
+                                                        style: TextStyle(
+                                                          fontWeight: .bold,
+                                                        ),
+                                                      ),
                                                       Spacer(),
                                                       Text("\$2,400"),
                                                       Text("\/ Night"),
                                                     ],
                                                   ),
+                                                  Gap(4),
                                                   Row(
                                                     children: [
                                                       Icon(
                                                         Icons
                                                             .location_on_outlined,
+                                                        size: 18,
                                                       ),
                                                       Text("Dream World"),
                                                     ],
                                                   ),
+                                                  Gap(12),
                                                   Row(
-                                                    mainAxisAlignment: .spaceBetween,
+                                                    mainAxisAlignment:
+                                                        .spaceBetween,
                                                     children: [
                                                       Row(
                                                         children: [
