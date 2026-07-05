@@ -175,10 +175,15 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                                         "Dream",
                                                         style: TextStyle(
                                                           fontWeight: .bold,
+                                                          fontSize: 18,
                                                         ),
                                                       ),
                                                       Spacer(),
-                                                      Text("\$2,400"),
+                                                      Text("\$2,400",
+                                                        style: TextStyle(
+                                                          fontWeight: .bold,
+                                                          fontSize: 18,
+                                                        ),),
                                                       Text("\/ Night"),
                                                     ],
                                                   ),
