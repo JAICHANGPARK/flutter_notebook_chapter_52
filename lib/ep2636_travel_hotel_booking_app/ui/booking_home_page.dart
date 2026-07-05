@@ -166,11 +166,13 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                                 borderRadius: .circular(12),
                                                 color: Colors.white,
                                               ),
+                                              padding: .all(12),
                                               child: Column(
                                                 children: [
                                                   Row(
                                                     children: [
                                                       Text("Dream"),
+                                                      Spacer(),
                                                       Text("\$2,400"),
                                                       Text("\/ Night"),
                                                     ],
