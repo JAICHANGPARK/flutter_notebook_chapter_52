@@ -177,6 +177,18 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                                       Text("\/ Night"),
                                                     ],
                                                   ),
+                                                  Row(
+                                                    children: [
+                                                      Icon(Icons.location_on_outlined),
+                                                      Text("Dream World"),
+                                                    ],
+                                                  ),
+                                                  Row(
+                                                    children: [
+                                                      Icon(Icons.bed),
+                                                      Text("3 Bed"),
+                                                    ],
+                                                  )
                                                 ],
                                               ),
                                             ),
