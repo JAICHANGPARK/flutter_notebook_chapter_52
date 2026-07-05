@@ -281,7 +281,110 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                   return Container(
                                     width: 300,
                                     margin: .only(right: 16),
-                                    child: Placeholder(),
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: .circular(16),
+                                    ),
+                                    clipBehavior: .antiAliasWithSaveLayer,
+                                    padding: .all(4),
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        borderRadius: .circular(16),
+                                        image: DecorationImage(
+                                          image: NetworkImage(
+                                            "https://cdn.pixabay.com/photo/2020/07/09/10/31/sea-5386810_1280.jpg",
+                                          ),
+                                          fit: .cover,
+                                        ),
+                                      ),
+                                      child: Stack(
+                                        children: [
+
+                                          Positioned(
+                                            bottom: 12,
+                                            left: 12,
+                                            right: 12,
+                                            child: Container(
+                                              decoration: BoxDecoration(
+                                                borderRadius: .circular(12),
+                                                color: Colors.white,
+                                              ),
+                                              padding: .all(12),
+                                              child: Column(
+                                                children: [
+                                                  Row(
+                                                    children: [
+                                                      Text(
+                                                        "Dream",
+                                                        style: TextStyle(
+                                                          fontWeight: .bold,
+                                                          fontSize: 18,
+                                                        ),
+                                                      ),
+                                                      Spacer(),
+                                                      Text("\$2,400",
+                                                        style: TextStyle(
+                                                          fontWeight: .bold,
+                                                          fontSize: 18,
+                                                        ),),
+                                                      Text("\/ Night"),
+                                                    ],
+                                                  ),
+                                                  Gap(4),
+                                                  Row(
+                                                    children: [
+                                                      Icon(
+                                                        Icons
+                                                            .location_on_outlined,
+                                                        size: 18,
+                                                      ),
+                                                      Text("Dream World"),
+                                                    ],
+                                                  ),
+                                                  Gap(12),
+                                                  Row(
+                                                    mainAxisAlignment:
+                                                        .spaceBetween,
+                                                    children: [
+                                                      Row(
+                                                        spacing: 4,
+                                                        children: [
+                                                          Icon(
+                                                            Icons.bed,
+                                                            size: 18,
+                                                          ),
+                                                          Text("3 Bed"),
+                                                        ],
+                                                      ),
+                                                      Row(
+                                                        spacing: 4,
+                                                        children: [
+                                                          Icon(
+                                                            Icons.dinner_dining,
+                                                            size: 18,
+                                                          ),
+                                                          Text("Dinner"),
+                                                        ],
+                                                      ),
+                                                      Row(
+                                                        spacing: 4,
+                                                        children: [
+                                                          Icon(
+                                                            Icons.star,
+                                                            size: 18,
+                                                          ),
+                                                          Text("5.0"),
+                                                        ],
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
                                   );
                                 },
                               ),
