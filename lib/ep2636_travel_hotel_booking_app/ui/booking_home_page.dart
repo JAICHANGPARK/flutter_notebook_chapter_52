@@ -119,7 +119,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
                               ),
                             ),
                             Container(
-                              height: 280,
+                              height: 300,
                               child: ListView.builder(
                                 scrollDirection: .horizontal,
                                 itemBuilder: (context, index) {
