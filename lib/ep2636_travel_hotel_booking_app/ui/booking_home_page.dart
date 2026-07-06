@@ -402,6 +402,9 @@ class _BookingHomePageState extends State<BookingHomePage> {
             ),
           ),
           Positioned(
+            bottom: 24,
+            left: 42,
+            right: 42,
             child: Container(
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
