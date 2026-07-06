@@ -406,7 +406,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
             right: 0,
             bottom: 0,
             child: Container(
-              height: 100,
+              height: 160,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   begin: .bottomCenter,
