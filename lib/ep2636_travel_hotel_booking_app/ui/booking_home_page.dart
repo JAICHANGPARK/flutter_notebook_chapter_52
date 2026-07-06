@@ -409,6 +409,8 @@ class _BookingHomePageState extends State<BookingHomePage> {
               height: 100,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
+                  begin: .bottomCenter,
+                  end: .topCenter,
                   colors: [Colors.white, Colors.white12, Colors.transparent],
                 ),
               ),
