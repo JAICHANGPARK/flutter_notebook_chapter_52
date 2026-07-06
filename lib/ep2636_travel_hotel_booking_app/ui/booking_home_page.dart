@@ -427,9 +427,19 @@ class _BookingHomePageState extends State<BookingHomePage> {
               ),
               child: Row(
                 children: [
-                  ExcludeFocusTraversal(
+                  Expanded(
                     child: Container(
                       decoration: ShapeDecoration(shape: StadiumBorder()),
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      child: Row(
+                        children: [
+                          Icon(Icons.explore_outlined),
+                        ],
+                      ),
                     ),
                   ),
                 ],
