@@ -449,17 +449,13 @@ class _BookingHomePageState extends State<BookingHomePage> {
                     decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: Row(children: [Icon(Icons.favorite_border)]),
                   ),
-                  Expanded(
-                    child: Container(
-                      decoration: ShapeDecoration(shape: StadiumBorder()),
-                      child: Row(children: [Icon(Icons.list_alt_sharp)]),
-                    ),
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: Row(children: [Icon(Icons.list_alt_sharp)]),
                   ),
-                  Expanded(
-                    child: Container(
-                      decoration: ShapeDecoration(shape: StadiumBorder()),
-                      child: Row(children: [Icon(Icons.person_outlined)]),
-                    ),
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: Row(children: [Icon(Icons.person_outlined)]),
                   ),
                 ],
               ),
