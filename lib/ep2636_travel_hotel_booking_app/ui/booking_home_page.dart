@@ -430,7 +430,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
                 mainAxisAlignment: .spaceBetween,
                 children: [
                   Container(
-                    padding: .symmetric(horizontal: 12, vertical: 6),
+                    padding: .symmetric(horizontal: 14, vertical: 10),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.blueAccent,
@@ -444,18 +444,20 @@ class _BookingHomePageState extends State<BookingHomePage> {
                     ),
                   ),
                   Container(
+                    margin: .symmetric(horizontal: 6),
                     decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: Row(children: [Icon(Icons.explore_outlined)]),
                   ),
                   Container(
+                    margin: .symmetric(horizontal: 6),
                     decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: Row(children: [Icon(Icons.favorite_border)]),
                   ),
-                  Container(
+                  Container( margin: .symmetric(horizontal: 6),
                     decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: Row(children: [Icon(Icons.list_alt_sharp)]),
                   ),
-                  Container(
+                  Container( margin: .symmetric(horizontal: 6),
                     decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: Row(children: [Icon(Icons.person_outlined)]),
                   ),
