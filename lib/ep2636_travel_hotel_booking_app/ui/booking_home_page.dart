@@ -427,8 +427,10 @@ class _BookingHomePageState extends State<BookingHomePage> {
                 color: Colors.white,
               ),
               child: Row(
+                mainAxisAlignment: .spaceBetween,
                 children: [
                   Container(
+                    padding: .symmetric(horizontal: 12, vertical: 6),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.blueAccent,
