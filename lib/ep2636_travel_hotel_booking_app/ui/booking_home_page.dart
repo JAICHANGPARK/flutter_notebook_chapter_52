@@ -421,55 +421,48 @@ class _BookingHomePageState extends State<BookingHomePage> {
             left: 42,
             right: 42,
             child: Container(
+              padding: .all(4),
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Colors.white,
               ),
               child: Row(
                 children: [
-                  Expanded(
-                    child: Container(
-                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.blueAccent,
+                    ),
+                    child: Row(
+                      spacing: 4,
+                      children: [
+                        Icon(Icons.home_filled, color: Colors.white),
+                        Text("Home", style: TextStyle(color: Colors.white)),
+                      ],
                     ),
                   ),
                   Expanded(
                     child: Container(
                       decoration: ShapeDecoration(shape: StadiumBorder()),
-                      child: Row(
-                        children: [
-                          Icon(Icons.explore_outlined),
-                        ],
-                      ),
+                      child: Row(children: [Icon(Icons.explore_outlined)]),
                     ),
                   ),
                   Expanded(
                     child: Container(
                       decoration: ShapeDecoration(shape: StadiumBorder()),
-                      child: Row(
-                        children: [
-                          Icon(Icons.favorite_border),
-                        ],
-                      ),
+                      child: Row(children: [Icon(Icons.favorite_border)]),
                     ),
                   ),
                   Expanded(
                     child: Container(
                       decoration: ShapeDecoration(shape: StadiumBorder()),
-                      child: Row(
-                        children: [
-                          Icon(Icons.list_alt_sharp),
-                        ],
-                      ),
+                      child: Row(children: [Icon(Icons.list_alt_sharp)]),
                     ),
                   ),
                   Expanded(
                     child: Container(
                       decoration: ShapeDecoration(shape: StadiumBorder()),
-                      child: Row(
-                        children: [
-                          Icon(Icons.person_outlined),
-                        ],
-                      ),
+                      child: Row(children: [Icon(Icons.person_outlined)]),
                     ),
                   ),
                 ],
