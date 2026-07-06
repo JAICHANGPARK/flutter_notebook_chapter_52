@@ -425,6 +425,15 @@ class _BookingHomePageState extends State<BookingHomePage> {
                 shape: StadiumBorder(),
                 color: Colors.white,
               ),
+              child: Row(
+                children: [
+                  ExcludeFocusTraversal(
+                    child: Container(
+                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ],
