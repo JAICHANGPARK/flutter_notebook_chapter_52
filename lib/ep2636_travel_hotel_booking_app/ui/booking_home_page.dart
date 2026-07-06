@@ -442,6 +442,36 @@ class _BookingHomePageState extends State<BookingHomePage> {
                       ),
                     ),
                   ),
+                  Expanded(
+                    child: Container(
+                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      child: Row(
+                        children: [
+                          Icon(Icons.favorite_border),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      child: Row(
+                        children: [
+                          Icon(Icons.list_alt_sharp),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      child: Row(
+                        children: [
+                          Icon(Icons.person_3_outlined),
+                        ],
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
