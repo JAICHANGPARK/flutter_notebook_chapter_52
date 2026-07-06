@@ -407,7 +407,11 @@ class _BookingHomePageState extends State<BookingHomePage> {
             bottom: 0,
             child: Container(
               height: 100,
-              decoration:BoxDecoration(gradient: LinearGradient(colors: [])),
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [Colors.white, Colors.white12, Colors.transparent],
+                ),
+              ),
             ),
           ),
           Positioned(
