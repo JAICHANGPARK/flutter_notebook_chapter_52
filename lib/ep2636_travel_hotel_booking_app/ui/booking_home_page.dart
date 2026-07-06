@@ -179,11 +179,13 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                                         ),
                                                       ),
                                                       Spacer(),
-                                                      Text("\$2,400",
+                                                      Text(
+                                                        "\$2,400",
                                                         style: TextStyle(
                                                           fontWeight: .bold,
                                                           fontSize: 18,
-                                                        ),),
+                                                        ),
+                                                      ),
                                                       Text("\/ Night"),
                                                     ],
                                                   ),
@@ -299,7 +301,6 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                       ),
                                       child: Stack(
                                         children: [
-
                                           Positioned(
                                             bottom: 12,
                                             left: 12,
@@ -322,11 +323,13 @@ class _BookingHomePageState extends State<BookingHomePage> {
                                                         ),
                                                       ),
                                                       Spacer(),
-                                                      Text("\$2,400",
+                                                      Text(
+                                                        "\$2,400",
                                                         style: TextStyle(
                                                           fontWeight: .bold,
                                                           fontSize: 18,
-                                                        ),),
+                                                        ),
+                                                      ),
                                                       Text("\/ Night"),
                                                     ],
                                                   ),
@@ -395,6 +398,14 @@ class _BookingHomePageState extends State<BookingHomePage> {
                     ),
                   ),
                 ],
+              ),
+            ),
+          ),
+          Positioned(
+            child: Container(
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.white,
               ),
             ),
           ),
