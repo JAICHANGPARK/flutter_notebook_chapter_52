@@ -467,7 +467,7 @@ class _BookingHomePageState extends State<BookingHomePage> {
                       decoration: ShapeDecoration(shape: StadiumBorder()),
                       child: Row(
                         children: [
-                          Icon(Icons.person_3_outlined),
+                          Icon(Icons.person_outlined),
                         ],
                       ),
                     ),
