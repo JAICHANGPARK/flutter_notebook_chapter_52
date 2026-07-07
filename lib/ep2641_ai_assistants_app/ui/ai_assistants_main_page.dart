@@ -22,7 +22,7 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
             height: 100,
             child: Row(
               children: [
-                
+
               ],
             ),
           )
