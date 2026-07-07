@@ -10,6 +10,14 @@ class AiAssistantsMainPage extends StatefulWidget {
 class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: Color.fromRGBO(252, 253, 232, 1));
+    return Scaffold(
+      backgroundColor: Color.fromRGBO(252, 253, 232, 1),
+      body: Column(
+        children: [
+          Expanded(child: Stack(children: [])),
+          Divider(),
+        ],
+      ),
+    );
   }
 }
