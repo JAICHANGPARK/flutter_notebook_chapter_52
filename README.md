@@ -2,7 +2,7 @@
 
 ## EP2641
 
-- Travel & Hotel Booking Mobile App
+- AI Assistant Mobile App
 - Sahin Mia for Pixelean
 - https://dribbble.com/shots/27517396-Travel-Hotel-Booking-Mobile-App
 
