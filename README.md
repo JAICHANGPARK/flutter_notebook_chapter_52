@@ -3,7 +3,7 @@
 ## EP2641
 
 - AI Assistant Mobile App
-- Sahin Mia for Pixelean
+- Farhan ahmed Jibon
 - https://dribbble.com/shots/27517396-Travel-Hotel-Booking-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/48233172/file/c7bb6b0be8c82296bff9e5fd9f602151.jpg?resize=1600x1200&vertical=center" alt=""/>
