@@ -15,7 +15,17 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
       body: Column(
         children: [
           Expanded(child: Stack(children: [])),
-          Divider(),
+          Divider(
+            height: 2,
+          ),
+          Container(
+            height: 100,
+            child: Row(
+              children: [
+                
+              ],
+            ),
+          )
         ],
       ),
     );
