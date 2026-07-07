@@ -13,7 +13,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        
+
       ],
     );
   }
