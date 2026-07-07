@@ -11,6 +11,10 @@ class AiAssistantsChatPage extends StatefulWidget {
 class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(
+      children: [
+        
+      ],
+    );
   }
 }
