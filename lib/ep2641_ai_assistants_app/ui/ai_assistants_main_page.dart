@@ -59,7 +59,14 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                       Text("Home")
                     ],
                   )),
-                  Expanded(child: Placeholder()),
+                  Expanded(child: Column(
+                    mainAxisAlignment: .center,
+                    spacing: 8,
+                    children: [
+                      Icon(Icons.notifications_active_outlined),
+                      Text("Reminders")
+                    ],
+                  )),
                   Expanded(child: CircleAvatar(radius: 26)),
                   Expanded(child: Placeholder()),
                   Expanded(child: Placeholder()),
