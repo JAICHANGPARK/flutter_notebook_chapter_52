@@ -15,26 +15,29 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
       body: SafeArea(
         child: Column(
           children: [
-            Row(
-              children: [
-                CircleAvatar(),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: .start,
-                    children: [
-                      Text("AI Bot"),
-                      Text("Your ai-power pet health assistant"),
-                    ],
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                children: [
+                  CircleAvatar(),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: .start,
+                      children: [
+                        Text("AI Bot"),
+                        Text("Your ai-power pet health assistant"),
+                      ],
+                    ),
                   ),
-                ),
-                Container(
-                  decoration: BoxDecoration(
-                    shape: .circle,
-                    border: .all(width: 2),
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: .circle,
+                      border: .all(width: 2),
+                    ),
+                    child: Icon(Icons.add),
                   ),
-                  child: Icon(Icons.add),
-                ),
-              ],
+                ],
+              ),
             ),
             Expanded(child: Stack(children: [])),
             Divider(height: 2),
