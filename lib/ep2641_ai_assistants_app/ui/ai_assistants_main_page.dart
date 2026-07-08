@@ -20,18 +20,16 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
               child: Row(
                 spacing: 12,
                 children: [
-                  CircleAvatar(
-                    radius: 26,
-                  ),
+                  CircleAvatar(radius: 26),
                   Expanded(
                     child: Column(
                       spacing: 4,
                       crossAxisAlignment: .start,
                       children: [
-                        Text("AI Bot",style: TextStyle(
-                          fontWeight: .bold,
-                          fontSize: 20,
-                        ),),
+                        Text(
+                          "AI Bot",
+                          style: TextStyle(fontWeight: .bold, fontSize: 20),
+                        ),
                         Text("Your ai-power pet health assistant"),
                       ],
                     ),
@@ -42,20 +40,25 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                       shape: .circle,
                       border: .all(width: 2),
                     ),
-                    child: Icon(Icons.add,size: 32,),
+                    child: Icon(Icons.add, size: 32),
                   ),
                 ],
               ),
             ),
             Expanded(child: Stack(children: [])),
-            Divider(height: 2),
-            Container(height: 100, child: Row(children: [
-              Expanded(child: Placeholder()),
-              Expanded(child: Placeholder()),
-              Expanded(child: Placeholder()),
-              Expanded(child: Placeholder()),
-              Expanded(child: Placeholder()),
-            ])),
+            Divider(thickness: 4, color: Colors.black),
+            Container(
+              height: 90,
+              child: Row(
+                children: [
+                  Expanded(child: Placeholder()),
+                  Expanded(child: Placeholder()),
+                  Expanded(child: CircleAvatar(radius: 26)),
+                  Expanded(child: Placeholder()),
+                  Expanded(child: Placeholder()),
+                ],
+              ),
+            ),
           ],
         ),
       ),
