@@ -12,33 +12,35 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(252, 253, 232, 1),
-      body: Column(
-        children: [
-          Row(
-            children: [
-              CircleAvatar(),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: .start,
-                  children: [
-                    Text("AI Bot"),
-                    Text("Your ai-power pet health assistant"),
-                  ],
+      body: SafeArea(
+        child: Column(
+          children: [
+            Row(
+              children: [
+                CircleAvatar(),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: .start,
+                    children: [
+                      Text("AI Bot"),
+                      Text("Your ai-power pet health assistant"),
+                    ],
+                  ),
                 ),
-              ),
-              Container(
-                decoration: BoxDecoration(
-                  shape: .circle,
-                  border: .all(width: 2),
+                Container(
+                  decoration: BoxDecoration(
+                    shape: .circle,
+                    border: .all(width: 2),
+                  ),
+                  child: Icon(Icons.add),
                 ),
-                child: Icon(Icons.add),
-              ),
-            ],
-          ),
-          Expanded(child: Stack(children: [])),
-          Divider(height: 2),
-          Container(height: 100, child: Row(children: [])),
-        ],
+              ],
+            ),
+            Expanded(child: Stack(children: [])),
+            Divider(height: 2),
+            Container(height: 100, child: Row(children: [])),
+          ],
+        ),
       ),
     );
   }
