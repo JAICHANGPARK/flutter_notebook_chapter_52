@@ -51,7 +51,13 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
               height: 90,
               child: Row(
                 children: [
-                  Expanded(child: Placeholder()),
+                  Expanded(child: Column(
+                    spacing: 8,
+                    children: [
+                      Icon(Icons.home_filled),
+                      Text("Home")
+                    ],
+                  )),
                   Expanded(child: Placeholder()),
                   Expanded(child: CircleAvatar(radius: 26)),
                   Expanded(child: Placeholder()),
