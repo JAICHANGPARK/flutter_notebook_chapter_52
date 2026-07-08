@@ -17,28 +17,21 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
           Row(
             children: [
               CircleAvatar(),
-              Expanded(child: Column(
-                crossAxisAlignment: .start,
-                children: [
-                  Text("AI Bot"),
-                  Text("Your ai-power pet health assistant"),
-
-              ],))
-
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: .start,
+                  children: [
+                    Text("AI Bot"),
+                    Text("Your ai-power pet health assistant"),
+                  ],
+                ),
+              ),
+              Container(decoration: BoxDecoration(shape: .circle)),
             ],
           ),
           Expanded(child: Stack(children: [])),
-          Divider(
-            height: 2,
-          ),
-          Container(
-            height: 100,
-            child: Row(
-              children: [
-
-              ],
-            ),
-          )
+          Divider(height: 2),
+          Container(height: 100, child: Row(children: [])),
         ],
       ),
     );
