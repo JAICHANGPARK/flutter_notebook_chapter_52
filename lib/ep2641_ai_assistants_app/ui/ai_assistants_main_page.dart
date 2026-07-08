@@ -52,6 +52,7 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
               child: Row(
                 children: [
                   Expanded(child: Column(
+                    mainAxisAlignment: .center,
                     spacing: 8,
                     children: [
                       Icon(Icons.home_filled),
