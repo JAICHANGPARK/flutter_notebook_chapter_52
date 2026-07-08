@@ -36,11 +36,12 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                     ),
                   ),
                   Container(
+                    padding: .all(6),
                     decoration: BoxDecoration(
                       shape: .circle,
                       border: .all(width: 2),
                     ),
-                    child: Icon(Icons.add),
+                    child: Icon(Icons.add,size: 32,),
                   ),
                 ],
               ),
