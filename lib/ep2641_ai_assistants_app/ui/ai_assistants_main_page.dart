@@ -17,8 +17,12 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
           Row(
             children: [
               CircleAvatar(),
-              Expanded(child: Column(children: [
-                
+              Expanded(child: Column(
+                crossAxisAlignment: .start,
+                children: [
+                  Text("AI Bot"),
+                  Text("Your ai-power pet health assistant"),
+
               ],))
 
             ],
