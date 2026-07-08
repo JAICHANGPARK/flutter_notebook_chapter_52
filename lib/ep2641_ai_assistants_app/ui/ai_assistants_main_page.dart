@@ -21,7 +21,7 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                 spacing: 12,
                 children: [
                   CircleAvatar(
-                    radius: 24,
+                    radius: 26,
                   ),
                   Expanded(
                     child: Column(
