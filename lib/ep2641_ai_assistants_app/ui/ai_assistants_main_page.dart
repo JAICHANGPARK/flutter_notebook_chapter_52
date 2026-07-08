@@ -26,7 +26,12 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                   ],
                 ),
               ),
-              Container(decoration: BoxDecoration(shape: .circle)),
+              Container(
+                decoration: BoxDecoration(
+                  shape: .circle,
+                  border: .all(width: 2),
+                ),
+              ),
             ],
           ),
           Expanded(child: Stack(children: [])),
