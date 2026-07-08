@@ -14,6 +14,11 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
       backgroundColor: Color.fromRGBO(252, 253, 232, 1),
       body: Column(
         children: [
+          Row(
+            children: [
+
+            ],
+          ),
           Expanded(child: Stack(children: [])),
           Divider(
             height: 2,
