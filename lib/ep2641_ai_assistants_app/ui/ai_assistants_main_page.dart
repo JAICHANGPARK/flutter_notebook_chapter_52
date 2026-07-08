@@ -16,6 +16,10 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
         children: [
           Row(
             children: [
+              CircleAvatar(),
+              Expanded(child: Column(children: [
+                
+              ],))
 
             ],
           ),
