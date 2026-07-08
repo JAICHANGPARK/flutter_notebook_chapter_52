@@ -36,7 +36,7 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                     ),
                   ),
                   Container(
-                    padding: .all(6),
+                    padding: .all(8),
                     decoration: BoxDecoration(
                       shape: .circle,
                       border: .all(width: 2),
