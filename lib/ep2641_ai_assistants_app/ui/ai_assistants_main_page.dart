@@ -31,6 +31,7 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                   shape: .circle,
                   border: .all(width: 2),
                 ),
+                child: Icon(Icons.add),
               ),
             ],
           ),
