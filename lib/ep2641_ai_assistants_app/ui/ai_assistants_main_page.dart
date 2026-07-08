@@ -16,8 +16,9 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(16.0),
               child: Row(
+                spacing: 16,
                 children: [
                   CircleAvatar(),
                   Expanded(
