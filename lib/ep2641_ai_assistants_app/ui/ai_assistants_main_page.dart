@@ -68,8 +68,22 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                     ],
                   )),
                   Expanded(child: CircleAvatar(radius: 26)),
-                  Expanded(child: Placeholder()),
-                  Expanded(child: Placeholder()),
+                  Expanded(child: Column(
+                    mainAxisAlignment: .center,
+                    spacing: 8,
+                    children: [
+                      Icon(Icons.health_and_safety_outlined),
+                      Text("Health")
+                    ],
+                  )),
+                  Expanded(child: Column(
+                    mainAxisAlignment: .center,
+                    spacing: 8,
+                    children: [
+                      Icon(Icons.settings),
+                      Text("Settings")
+                    ],
+                  )),
                 ],
               ),
             ),
