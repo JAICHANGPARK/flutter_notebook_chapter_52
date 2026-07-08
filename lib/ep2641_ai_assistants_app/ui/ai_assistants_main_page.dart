@@ -25,6 +25,7 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                   ),
                   Expanded(
                     child: Column(
+                      spacing: 4,
                       crossAxisAlignment: .start,
                       children: [
                         Text("AI Bot",style: TextStyle(
@@ -48,7 +49,13 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
             ),
             Expanded(child: Stack(children: [])),
             Divider(height: 2),
-            Container(height: 100, child: Row(children: [])),
+            Container(height: 100, child: Row(children: [
+              Expanded(child: Placeholder()),
+              Expanded(child: Placeholder()),
+              Expanded(child: Placeholder()),
+              Expanded(child: Placeholder()),
+              Expanded(child: Placeholder()),
+            ])),
           ],
         ),
       ),
