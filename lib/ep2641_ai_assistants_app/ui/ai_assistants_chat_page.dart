@@ -17,13 +17,11 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
           "Hello dream! i'm your AI Friend Assistant. How can I help you with Oliver today?",
         ),
         Container(
-          decoration: ShapeDecoration(shape: StadiumBorder(
-            side: BorderSide()
-          ), ),
-          child: Row(children: [
-            Icon(Icons.pets),
-            Text("Why is Oliver scratching?")
-          ]),
+          decoration: ShapeDecoration(shape: StadiumBorder(side: BorderSide())),
+          child: Row(
+            mainAxisSize: .min,
+            children: [Icon(Icons.pets), Text("Why is Oliver scratching?")],
+          ),
         ),
       ],
     );
