@@ -8,6 +8,8 @@ class AiAssistantsMainPage extends StatefulWidget {
 }
 
 class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
+  int pageNum = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -51,39 +53,41 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
               height: 90,
               child: Row(
                 children: [
-                  Expanded(child: Column(
-                    mainAxisAlignment: .center,
-                    spacing: 8,
-                    children: [
-                      Icon(Icons.home_filled),
-                      Text("Home")
-                    ],
-                  )),
-                  Expanded(child: Column(
-                    mainAxisAlignment: .center,
-                    spacing: 8,
-                    children: [
-                      Icon(Icons.notifications_active_outlined),
-                      Text("Reminders")
-                    ],
-                  )),
+                  Expanded(
+                    child: Column(
+                      mainAxisAlignment: .center,
+                      spacing: 8,
+                      children: [Icon(Icons.home_filled), Text("Home")],
+                    ),
+                  ),
+                  Expanded(
+                    child: Column(
+                      mainAxisAlignment: .center,
+                      spacing: 8,
+                      children: [
+                        Icon(Icons.notifications_active_outlined),
+                        Text("Reminders"),
+                      ],
+                    ),
+                  ),
                   Expanded(child: CircleAvatar(radius: 26)),
-                  Expanded(child: Column(
-                    mainAxisAlignment: .center,
-                    spacing: 8,
-                    children: [
-                      Icon(Icons.health_and_safety_outlined),
-                      Text("Health")
-                    ],
-                  )),
-                  Expanded(child: Column(
-                    mainAxisAlignment: .center,
-                    spacing: 8,
-                    children: [
-                      Icon(Icons.settings),
-                      Text("Settings")
-                    ],
-                  )),
+                  Expanded(
+                    child: Column(
+                      mainAxisAlignment: .center,
+                      spacing: 8,
+                      children: [
+                        Icon(Icons.health_and_safety_outlined),
+                        Text("Health"),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Column(
+                      mainAxisAlignment: .center,
+                      spacing: 8,
+                      children: [Icon(Icons.settings), Text("Settings")],
+                    ),
+                  ),
                 ],
               ),
             ),
