@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_52/ep2641_ai_assistants_app/ui/ai_assistants_chat_page.dart';
 
 class AiAssistantsMainPage extends StatefulWidget {
   const AiAssistantsMainPage({super.key});
@@ -47,8 +48,7 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                 ],
               ),
             ),
-            Expanded(child: IndexedStack(children: [
-              
+            Expanded(child: IndexedStack(children: [AiAssistantsChatPage(),
             ])),
             Divider(thickness: 2, color: Colors.black),
             Container(
