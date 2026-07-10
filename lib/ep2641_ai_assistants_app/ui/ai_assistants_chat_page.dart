@@ -32,16 +32,17 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
               Container(
                 padding: .symmetric(horizontal: 16, vertical: 8),
                 decoration: ShapeDecoration(
-                  shape: StadiumBorder(side: BorderSide(
-                    width: 2
-                  )),
+                  shape: StadiumBorder(side: BorderSide(width: 2)),
                 ),
                 child: Row(
                   spacing: 12,
                   mainAxisSize: .min,
                   children: [
                     Icon(Icons.pets),
-                    Text("Why is Oliver scratching?"),
+                    Text(
+                      "Why is Oliver scratching?",
+                      style: TextStyle(fontSize: 12),
+                    ),
                   ],
                 ),
               ),
@@ -49,46 +50,52 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
               Container(
                 padding: .symmetric(horizontal: 16, vertical: 8),
                 decoration: ShapeDecoration(
-                  shape: StadiumBorder(side: BorderSide(
-                      width: 2
-                  )),
+                  shape: StadiumBorder(side: BorderSide(width: 2)),
                 ),
                 child: Row(
                   spacing: 12,
                   mainAxisSize: .min,
                   children: [
                     Icon(Icons.medication),
-                    Text("What vaccines does Oliver need?"),
+                    Text(
+                      "What vaccines does Oliver need?",
+                      style: TextStyle(fontSize: 12),
+                    ),
                   ],
                 ),
               ),
               Container(
                 padding: .symmetric(horizontal: 16, vertical: 8),
                 decoration: ShapeDecoration(
-                  shape: StadiumBorder(side: BorderSide(
-                      width: 2
-                  )),
+                  shape: StadiumBorder(side: BorderSide(width: 2)),
                 ),
                 child: Row(
                   spacing: 12,
                   mainAxisSize: .min,
                   children: [
                     Icon(Icons.fastfood_outlined),
-                    Text("Can Oliver eat human food?"),
+                    Text(
+                      "Can Oliver eat human food?",
+                      style: TextStyle(fontSize: 12),
+                    ),
                   ],
                 ),
               ),
               Container(
                 padding: .symmetric(horizontal: 16, vertical: 8),
                 decoration: ShapeDecoration(
-                  shape: StadiumBorder(side: BorderSide(
-                      width: 2
-                  )),
+                  shape: StadiumBorder(side: BorderSide(width: 2)),
                 ),
                 child: Row(
                   spacing: 12,
                   mainAxisSize: .min,
-                  children: [Icon(Icons.pets), Text("Why is Oliver vomiting")],
+                  children: [
+                    Icon(Icons.pets),
+                    Text(
+                      "Why is Oliver vomiting",
+                      style: TextStyle(fontSize: 12),
+                    ),
+                  ],
                 ),
               ),
             ],
