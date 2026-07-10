@@ -18,7 +18,10 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
         ),
         Container(
           decoration: ShapeDecoration(shape: StadiumBorder()),
-          child: Row(children: []),
+          child: Row(children: [
+            Icon(Icons.pets),
+            Text("Why is Oliver scratching?")
+          ]),
         ),
       ],
     );
