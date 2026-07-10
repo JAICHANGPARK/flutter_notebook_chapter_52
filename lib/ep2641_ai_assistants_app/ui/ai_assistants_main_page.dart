@@ -23,7 +23,10 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
               child: Row(
                 spacing: 12,
                 children: [
-                  CircleAvatar(radius: 26),
+                  CircleAvatar(
+                    radius: 26,
+                    backgroundColor: Color.fromRGBO(254, 193, 2, 1),
+                  ),
                   Expanded(
                     child: Column(
                       spacing: 4,
@@ -48,8 +51,7 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                 ],
               ),
             ),
-            Expanded(child: IndexedStack(children: [AiAssistantsChatPage(),
-            ])),
+            Expanded(child: IndexedStack(children: [AiAssistantsChatPage()])),
             Divider(thickness: 2, color: Colors.black),
             Container(
               height: 90,
@@ -72,7 +74,12 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                       ],
                     ),
                   ),
-                  Expanded(child: CircleAvatar(radius: 26)),
+                  Expanded(
+                    child: CircleAvatar(
+                      radius: 26,
+                      backgroundColor: Color.fromRGBO(254, 193, 2, 1),
+                    ),
+                  ),
                   Expanded(
                     child: Column(
                       mainAxisAlignment: .center,
