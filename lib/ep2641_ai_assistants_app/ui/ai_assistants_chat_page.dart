@@ -8,6 +8,7 @@ class AiAssistantsChatPage extends StatefulWidget {
 }
 
 class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
+  
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -15,6 +16,24 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
         Text("AI Chat"),
         Text(
           "Hello dream! i'm your AI Friend Assistant. How can I help you with Oliver today?",
+        ),
+        Container(
+          padding: .all(8),
+          decoration: ShapeDecoration(shape: StadiumBorder(side: BorderSide())),
+          child: Row(
+            spacing: 12,
+            mainAxisSize: .min,
+            children: [Icon(Icons.pets), Text("Why is Oliver scratching?")],
+          ),
+        ),
+        Container(
+          padding: .all(8),
+          decoration: ShapeDecoration(shape: StadiumBorder(side: BorderSide())),
+          child: Row(
+            spacing: 12,
+            mainAxisSize: .min,
+            children: [Icon(Icons.pets), Text("Why is Oliver scratching?")],
+          ),
         ),
         Container(
           padding: .all(8),
