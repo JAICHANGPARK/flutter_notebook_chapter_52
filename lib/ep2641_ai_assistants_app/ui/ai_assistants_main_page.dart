@@ -47,7 +47,9 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
                 ],
               ),
             ),
-            Expanded(child: Stack(children: [])),
+            Expanded(child: IndexedStack(children: [
+              
+            ])),
             Divider(thickness: 2, color: Colors.black),
             Container(
               height: 90,
