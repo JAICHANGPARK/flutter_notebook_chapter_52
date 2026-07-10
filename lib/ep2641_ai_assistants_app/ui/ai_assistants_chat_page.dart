@@ -17,11 +17,12 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
         mainAxisAlignment: .center,
         spacing: 12,
         children: [
-          Text("AI Chat", style: TextStyle(fontWeight: .bold,
-          fontSize: 18)),
+          Text("AI Chat", style: TextStyle(fontWeight: .bold, fontSize: 18)),
           Gap(3),
           Text(
             "Hello dream! i'm your AI Friend Assistant. How can I help you with Oliver today?",
+            textAlign: .center,
+            style: TextStyle(fontWeight: .bold),
           ),
           Gap(8),
 
