@@ -61,7 +61,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                     Icon(Icons.medication),
                     Text(
                       "What vaccines does Oliver need?",
-                      style: TextStyle(fontSize: 12, color: Colors.black54),
+                      style: TextStyle(fontSize: 12, color: Colors.black87),
                     ),
                   ],
                 ),
@@ -79,7 +79,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                     Icon(Icons.fastfood_outlined),
                     Text(
                       "Can Oliver eat human food?",
-                      style: TextStyle(fontSize: 12, color: Colors.black54),
+                      style: TextStyle(fontSize: 12, color: Colors.black87),
                     ),
                   ],
                 ),
@@ -97,7 +97,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                     Icon(Icons.pets),
                     Text(
                       "Why is Oliver vomiting",
-                      style: TextStyle(fontSize: 12, color: Colors.black54),
+                      style: TextStyle(fontSize: 12, color: Colors.black87),
                     ),
                   ],
                 ),
