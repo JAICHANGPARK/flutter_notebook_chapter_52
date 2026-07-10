@@ -30,7 +30,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
             spacing: 12,
             children: [
               Container(
-                padding: .all(8),
+                padding: .symmetric(horizontal: 16),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(side: BorderSide(
                     width: 2
