@@ -41,7 +41,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
           child: Row(
             spacing: 12,
             mainAxisSize: .min,
-            children: [Icon(Icons.pets), Text("What vaccines does Oliver need?")],
+            children: [Icon(Icons.medication), Text("What vaccines does Oliver need?")],
           ),
         ),
       ],
