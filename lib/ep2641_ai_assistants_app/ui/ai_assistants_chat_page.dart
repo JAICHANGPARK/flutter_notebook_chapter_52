@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class AiAssistantsChatPage extends StatefulWidget {
   const AiAssistantsChatPage({super.key});
 
@@ -13,7 +12,10 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-
+        Text("AI Chat"),
+        Text(
+          "Hello dream! i'm your AI Friend Assistant. How can I help you with Oliver today?",
+        ),
       ],
     );
   }
