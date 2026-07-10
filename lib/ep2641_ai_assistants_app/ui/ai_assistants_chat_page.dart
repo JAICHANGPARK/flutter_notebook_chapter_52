@@ -51,6 +51,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
               Container(
                 padding: .symmetric(horizontal: 16, vertical: 8),
                 decoration: ShapeDecoration(
+                  color: Color.fromRGBO(250, 246, 222, 1),
                   shape: StadiumBorder(side: BorderSide(width: 2)),
                 ),
                 child: Row(
@@ -60,7 +61,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                     Icon(Icons.medication),
                     Text(
                       "What vaccines does Oliver need?",
-                      style: TextStyle(fontSize: 12),
+                      style: TextStyle(fontSize: 12, color: Colors.grey),
                     ),
                   ],
                 ),
@@ -68,6 +69,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
               Container(
                 padding: .symmetric(horizontal: 16, vertical: 8),
                 decoration: ShapeDecoration(
+                  color: Color.fromRGBO(250, 246, 222, 1),
                   shape: StadiumBorder(side: BorderSide(width: 2)),
                 ),
                 child: Row(
@@ -85,6 +87,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
               Container(
                 padding: .symmetric(horizontal: 16, vertical: 8),
                 decoration: ShapeDecoration(
+                  color: Color.fromRGBO(250, 246, 222, 1),
                   shape: StadiumBorder(side: BorderSide(width: 2)),
                 ),
                 child: Row(
