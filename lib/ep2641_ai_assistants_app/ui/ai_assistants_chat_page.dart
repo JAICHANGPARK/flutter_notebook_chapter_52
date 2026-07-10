@@ -32,7 +32,9 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
               Container(
                 padding: .all(8),
                 decoration: ShapeDecoration(
-                  shape: StadiumBorder(side: BorderSide()),
+                  shape: StadiumBorder(side: BorderSide(
+                    width: 2
+                  )),
                 ),
                 child: Row(
                   spacing: 12,
@@ -43,24 +45,13 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                   ],
                 ),
               ),
+
               Container(
                 padding: .all(8),
                 decoration: ShapeDecoration(
-                  shape: StadiumBorder(side: BorderSide()),
-                ),
-                child: Row(
-                  spacing: 12,
-                  mainAxisSize: .min,
-                  children: [
-                    Icon(Icons.pets),
-                    Text("Why is Oliver scratching?"),
-                  ],
-                ),
-              ),
-              Container(
-                padding: .all(8),
-                decoration: ShapeDecoration(
-                  shape: StadiumBorder(side: BorderSide()),
+                  shape: StadiumBorder(side: BorderSide(
+                      width: 2
+                  )),
                 ),
                 child: Row(
                   spacing: 12,
@@ -74,7 +65,9 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
               Container(
                 padding: .all(8),
                 decoration: ShapeDecoration(
-                  shape: StadiumBorder(side: BorderSide()),
+                  shape: StadiumBorder(side: BorderSide(
+                      width: 2
+                  )),
                 ),
                 child: Row(
                   spacing: 12,
@@ -88,7 +81,9 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
               Container(
                 padding: .all(8),
                 decoration: ShapeDecoration(
-                  shape: StadiumBorder(side: BorderSide()),
+                  shape: StadiumBorder(side: BorderSide(
+                      width: 2
+                  )),
                 ),
                 child: Row(
                   spacing: 12,
