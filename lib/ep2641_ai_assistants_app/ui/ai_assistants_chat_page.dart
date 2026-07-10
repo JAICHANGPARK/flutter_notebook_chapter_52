@@ -22,6 +22,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
             "Hello dream! i'm your AI Friend Assistant. How can I help you with Oliver today?",
           ),
           Column(
+            spacing: 12,
             children: [
               Container(
                 padding: .all(8),
