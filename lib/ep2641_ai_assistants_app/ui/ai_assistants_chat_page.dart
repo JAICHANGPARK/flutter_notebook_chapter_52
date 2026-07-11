@@ -130,7 +130,8 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
           ),
           child: Row(
             children: [
-              Expanded(child: Text("Ask anything about Something"))
+              Expanded(child: Text("Ask anything about Something")),
+              Icon(Icons.attach_file)
             ],
           ),
         ),
