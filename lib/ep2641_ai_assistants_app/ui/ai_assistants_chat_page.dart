@@ -123,7 +123,11 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
             ),
           ),
         ),
-        Container(decoration: ShapeDecoration(shape: StadiumBorder())),
+        Container(
+          decoration: ShapeDecoration(
+            shape: StadiumBorder(side: BorderSide(width: 2)),
+          ),
+        ),
       ],
     );
   }
