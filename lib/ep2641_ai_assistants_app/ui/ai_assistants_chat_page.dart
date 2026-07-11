@@ -124,6 +124,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
           ),
         ),
         Container(
+          margin: .symmetric(horizontal: 16, vertical: 12),
           decoration: ShapeDecoration(
             shape: StadiumBorder(side: BorderSide(width: 2)),
           ),
