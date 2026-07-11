@@ -12,6 +12,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
   @override
   Widget build(BuildContext context) {
     return Column(
+
       children: [
         Expanded(
           child: Padding(
@@ -139,6 +140,9 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                     hintStyle: TextStyle(color: Colors.grey),
                   ),
                   onChanged: (s) {
+                    debugPrint("$s");
+                  },
+                  onSubmitted: (s){
                     debugPrint("$s");
                   },
                 ),
