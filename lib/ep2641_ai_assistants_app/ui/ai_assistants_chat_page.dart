@@ -128,6 +128,11 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
           decoration: ShapeDecoration(
             shape: StadiumBorder(side: BorderSide(width: 2)),
           ),
+          child: Row(
+            children: [
+              
+            ],
+          ),
         ),
       ],
     );
