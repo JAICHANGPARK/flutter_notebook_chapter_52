@@ -31,7 +31,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                   style: TextStyle(fontWeight: .bold),
                 ),
                 Gap(8),
-          
+
                 Column(
                   spacing: 12,
                   children: [
@@ -53,7 +53,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                         ],
                       ),
                     ),
-          
+
                     Container(
                       padding: .symmetric(horizontal: 16, vertical: 8),
                       decoration: ShapeDecoration(
@@ -67,7 +67,10 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                           Icon(Icons.medication),
                           Text(
                             "What vaccines does Oliver need?",
-                            style: TextStyle(fontSize: 12, color: Colors.black87),
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.black87,
+                            ),
                           ),
                         ],
                       ),
@@ -85,7 +88,10 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                           Icon(Icons.fastfood_outlined),
                           Text(
                             "Can Oliver eat human food?",
-                            style: TextStyle(fontSize: 12, color: Colors.black87),
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.black87,
+                            ),
                           ),
                         ],
                       ),
@@ -103,7 +109,10 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                           Icon(Icons.pets),
                           Text(
                             "Why is Oliver vomiting",
-                            style: TextStyle(fontSize: 12, color: Colors.black87),
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.black87,
+                            ),
                           ),
                         ],
                       ),
@@ -114,6 +123,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
             ),
           ),
         ),
+        Container(decoration: ShapeDecoration(shape: StadiumBorder())),
       ],
     );
   }
