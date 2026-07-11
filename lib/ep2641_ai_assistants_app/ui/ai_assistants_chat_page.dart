@@ -128,6 +128,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
           decoration: ShapeDecoration(
             shape: StadiumBorder(side: BorderSide(width: 2)),
           ),
+          padding: .symmetric(horizontal: 16, vertical: 12),
           child: Row(
             children: [
               Expanded(child: Text("Ask anything about Something")),
