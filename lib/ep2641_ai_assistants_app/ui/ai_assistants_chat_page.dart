@@ -138,6 +138,9 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                     border: .none,
                     hintStyle: TextStyle(color: Colors.grey),
                   ),
+                  onChanged: (s) {
+                    debugPrint("$s");
+                  },
                 ),
               ),
               Icon(Icons.attach_file),
