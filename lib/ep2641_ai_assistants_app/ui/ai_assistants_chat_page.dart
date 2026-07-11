@@ -131,7 +131,9 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
           padding: .symmetric(horizontal: 16, vertical: 12),
           child: Row(
             children: [
-              Expanded(child: Text("Ask anything about Something")),
+              Expanded(child:  TextField(
+                
+              )),
               Icon(Icons.attach_file)
             ],
           ),
