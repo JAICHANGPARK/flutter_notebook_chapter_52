@@ -131,10 +131,14 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
           padding: .symmetric(horizontal: 16, vertical: 12),
           child: Row(
             children: [
-              Expanded(child:  TextField(
-                
-              )),
-              Icon(Icons.attach_file)
+              Expanded(
+                child: TextField(
+                  decoration: InputDecoration(
+                    hintText: "Ask anything about Something",
+                  ),
+                ),
+              ),
+              Icon(Icons.attach_file),
             ],
           ),
         ),
