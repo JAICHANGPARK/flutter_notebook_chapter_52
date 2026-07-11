@@ -14,6 +14,7 @@ class _AiAssistantsMainPageState extends State<AiAssistantsMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: Color.fromRGBO(252, 253, 232, 1),
       body: SafeArea(
         child: Column(
