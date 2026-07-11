@@ -136,6 +136,7 @@ class _AiAssistantsChatPageState extends State<AiAssistantsChatPage> {
                   decoration: InputDecoration(
                     hintText: "Ask anything about Something",
                     border: .none,
+                    hintStyle: TextStyle(color: Colors.grey),
                   ),
                 ),
               ),
