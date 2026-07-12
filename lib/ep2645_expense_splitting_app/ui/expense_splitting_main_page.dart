@@ -10,6 +10,12 @@ class ExpenseSplittingMainPage extends StatefulWidget {
 class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
