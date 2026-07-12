@@ -3,7 +3,7 @@
 ## EP2645
 
 - Split — Expense Splitting App for Roommates & Groups
-- Farhan ahmed Jibon
+- Arafat Ovi
 - https://dribbble.com/shots/27533953-AI-Assistant-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/48294644/file/9509eaa5de77909e7377df49bb0e5340.png?resize=2048x1536&vertical=center" alt=""/>
