@@ -2,7 +2,7 @@
 
 ## EP2645
 
-- AI Assistant Mobile App
+- Split — Expense Splitting App for Roommates & Groups
 - Farhan ahmed Jibon
 - https://dribbble.com/shots/27533953-AI-Assistant-Mobile-App
 
