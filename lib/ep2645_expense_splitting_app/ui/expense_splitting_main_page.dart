@@ -13,6 +13,11 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(children: []),
+      floatingActionButton: Container(
+        height: 64,
+        width: 64,
+        decoration: BoxDecoration(shape: .circle, color: Colors.black),
+      ),
       bottomNavigationBar: BottomNavigationBar(
         type: .fixed,
         items: [
