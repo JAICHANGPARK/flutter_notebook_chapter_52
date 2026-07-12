@@ -4,7 +4,7 @@
 
 - Split — Expense Splitting App for Roommates & Groups
 - Arafat Ovi
-- https://dribbble.com/shots/27533953-AI-Assistant-Mobile-App
+- https://dribbble.com/shots/27547971-Split-Expense-Splitting-App-for-Roommates-Groups
 
 <img src="https://cdn.dribbble.com/userupload/48344960/file/2fb9610d70e05aad8a39fbd379dc226e.png?resize=1905x1429&vertical=center" alt=""/>
 
