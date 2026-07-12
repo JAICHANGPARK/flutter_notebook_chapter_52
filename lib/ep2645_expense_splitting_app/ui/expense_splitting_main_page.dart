@@ -21,6 +21,8 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
         decoration: BoxDecoration(
           shape: .circle,
           color: Colors.black,
+          // gradient: RadialGradient(colors: [Colors.black, Colors.black12],
+          // ),
           gradient: LinearGradient(
             colors: [Colors.black12, Colors.black],
             begin: .topCenter,
@@ -28,18 +30,20 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
             stops: [0, .4],
           ),
         ),
-        child: Icon(Icons.add_circle_outline, color: Colors.white, size: 32,),
+        child: Icon(Icons.add_circle_outline, color: Colors.white, size: 32),
       ),
       bottomNavigationBar: SizedBox(
         height: 100,
         child: BottomNavigationBar(
           backgroundColor: Colors.white,
 
-
           type: .fixed,
           selectedItemColor: Colors.blueAccent,
           items: [
-            BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.home_filled),
+              label: "Home",
+            ),
             BottomNavigationBarItem(
               icon: Icon(Icons.add_box_outlined),
               label: "Add Expense",
