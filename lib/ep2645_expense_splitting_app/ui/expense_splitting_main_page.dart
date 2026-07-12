@@ -23,11 +23,11 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
           color: Colors.black,
           gradient: RadialGradient(
             colors: [
-              Colors.orange,
-              // Color(0xFF454545),
+              Colors.black12,
+              Color(0xFF454545),
               Color(0xFF000000)],
-            center: Alignment(0.0, -.3),
-            radius: .85,
+            center: Alignment(0.0, -1.5),
+            radius: 1,
           ),
           // gradient: LinearGradient(
           //   colors: [Colors.black12, Colors.black],
