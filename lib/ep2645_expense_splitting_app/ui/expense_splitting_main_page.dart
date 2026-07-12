@@ -25,9 +25,10 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
             colors: [Colors.black12, Colors.black],
             begin: .topCenter,
             end: .bottomCenter,
-            stops: [0, .4]
+            stops: [0, .4],
           ),
         ),
+        child: Icon(Icons.add_circle_outline, color: Colors.white),
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.white,
