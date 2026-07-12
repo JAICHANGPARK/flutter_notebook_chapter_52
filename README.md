@@ -6,7 +6,7 @@
 - Arafat Ovi
 - https://dribbble.com/shots/27533953-AI-Assistant-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/48294644/file/9509eaa5de77909e7377df49bb0e5340.png?resize=2048x1536&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/48344960/file/2fb9610d70e05aad8a39fbd379dc226e.png?resize=1905x1429&vertical=center" alt=""/>
 
 
 ## EP2641-2644
