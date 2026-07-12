@@ -18,7 +18,8 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(items: [
-        
+        BottomNavigationBarItem(icon: Icon(Icons.home_filled),label: "Home"),
+        BottomNavigationBarItem(icon: Icon(Icons.home_filled),label: "Home"),
       ],),
     );
   }
