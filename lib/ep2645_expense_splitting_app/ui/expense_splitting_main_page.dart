@@ -12,7 +12,8 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      backgroundColor: Color.fromRGBO(247, 247, 247, 1),
+
       body: Column(children: []),
       floatingActionButton: Container(
         height: 64,
