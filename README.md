@@ -2,6 +2,13 @@
 
 ## EP2645
 
+- AI Assistant Mobile App
+- Farhan ahmed Jibon
+- https://dribbble.com/shots/27533953-AI-Assistant-Mobile-App
+
+<img src="https://cdn.dribbble.com/userupload/48294644/file/9509eaa5de77909e7377df49bb0e5340.png?resize=2048x1536&vertical=center" alt=""/>
+
+
 ## EP2641-2644
 
 - AI Assistant Mobile App
