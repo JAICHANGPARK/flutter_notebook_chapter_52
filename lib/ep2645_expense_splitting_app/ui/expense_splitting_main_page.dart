@@ -19,7 +19,10 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
       ),
       bottomNavigationBar: BottomNavigationBar(items: [
         BottomNavigationBarItem(icon: Icon(Icons.home_filled),label: "Home"),
-        BottomNavigationBarItem(icon: Icon(Icons.home_filled),label: "Home"),
+        BottomNavigationBarItem(icon: Icon(Icons.add_box_outlined),label: "Add Expense"),
+        BottomNavigationBarItem(icon: Icon(Icons.wallet),label: "Balance"),
+        BottomNavigationBarItem(icon: Icon(Icons.bar_chart),label: "Statistics"),
+        BottomNavigationBarItem(icon: Icon(Icons.add_box_outlined),label: "Profile"),
       ],),
     );
   }
