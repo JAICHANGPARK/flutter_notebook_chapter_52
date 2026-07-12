@@ -16,8 +16,8 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
 
       body: Column(children: []),
       floatingActionButton: Container(
-        height: 64,
-        width: 64,
+        height: 60,
+        width: 60,
         decoration: BoxDecoration(
           shape: .circle,
           color: Colors.black,
@@ -28,7 +28,7 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
             stops: [0, .4],
           ),
         ),
-        child: Icon(Icons.add_circle_outline, color: Colors.white),
+        child: Icon(Icons.add_circle_outline, color: Colors.white, size: 32,),
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.white,
