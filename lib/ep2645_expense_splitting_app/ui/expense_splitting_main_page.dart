@@ -21,14 +21,17 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
         decoration: BoxDecoration(
           shape: .circle,
           color: Colors.black,
-          // gradient: RadialGradient(colors: [Colors.black, Colors.black12],
-          // ),
-          gradient: LinearGradient(
-            colors: [Colors.black12, Colors.black],
-            begin: .topCenter,
-            end: .bottomCenter,
-            stops: [0, .4],
+          gradient: RadialGradient(
+            colors: [Color(0xFF454545), Color(0xFF000000)],
+            center: Alignment(0.0, -.3),
+            radius: .85,
           ),
+          // gradient: LinearGradient(
+          //   colors: [Colors.black12, Colors.black],
+          //   begin: .topCenter,
+          //   end: .bottomCenter,
+          //   stops: [0, .4],
+          // ),
         ),
         child: Icon(Icons.add_circle_outline, color: Colors.white, size: 32),
       ),
