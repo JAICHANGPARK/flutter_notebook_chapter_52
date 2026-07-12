@@ -13,9 +13,13 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
     return Scaffold(
       body: Column(
         children: [
-          
+
+
         ],
       ),
+      bottomNavigationBar: BottomNavigationBar(items: [
+        
+      ],),
     );
   }
 }
