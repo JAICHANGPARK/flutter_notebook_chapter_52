@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'ui/expense_splitting_home_page.dart';
+import 'ui/expense_splitting_main_page.dart';
 
 class ExpenseSplittingApp extends StatelessWidget {
   const ExpenseSplittingApp({super.key});
@@ -8,7 +9,7 @@ class ExpenseSplittingApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ExpenseSplittingHomePage(),
+      home: ExpenseSplittingMainPage(),
     );
   }
 }
