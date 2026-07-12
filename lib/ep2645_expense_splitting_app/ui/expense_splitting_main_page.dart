@@ -12,6 +12,7 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       body: Column(children: []),
       floatingActionButton: Container(
         height: 64,
@@ -19,6 +20,8 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
         decoration: BoxDecoration(shape: .circle, color: Colors.black),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.white,
+
         type: .fixed,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
