@@ -30,26 +30,31 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
         ),
         child: Icon(Icons.add_circle_outline, color: Colors.white, size: 32,),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Colors.white,
+      bottomNavigationBar: SizedBox(
+        height: 100,
+        child: BottomNavigationBar(
+          backgroundColor: Colors.white,
 
-        type: .fixed,
-        items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.add_box_outlined),
-            label: "Add Expense",
-          ),
-          BottomNavigationBarItem(icon: Icon(Icons.wallet), label: "Balance"),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.bar_chart),
-            label: "Statistics",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.account_circle_outlined),
-            label: "Profile",
-          ),
-        ],
+
+          type: .fixed,
+          selectedItemColor: Colors.blueAccent,
+          items: [
+            BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.add_box_outlined),
+              label: "Add Expense",
+            ),
+            BottomNavigationBarItem(icon: Icon(Icons.wallet), label: "Balance"),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.bar_chart),
+              label: "Statistics",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.account_circle_outlined),
+              label: "Profile",
+            ),
+          ],
+        ),
       ),
     );
   }
