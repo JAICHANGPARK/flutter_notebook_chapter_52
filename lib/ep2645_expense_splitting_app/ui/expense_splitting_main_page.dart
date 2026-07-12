@@ -18,7 +18,15 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
       floatingActionButton: Container(
         height: 64,
         width: 64,
-        decoration: BoxDecoration(shape: .circle, color: Colors.black),
+        decoration: BoxDecoration(
+          shape: .circle,
+          color: Colors.black,
+          gradient: LinearGradient(
+            colors: [Colors.black12, Colors.black],
+            begin: .topCenter,
+            end: .bottomCenter,
+          ),
+        ),
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.white,
