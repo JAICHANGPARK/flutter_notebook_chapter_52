@@ -25,6 +25,7 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
             colors: [Colors.black12, Colors.black],
             begin: .topCenter,
             end: .bottomCenter,
+            stops: [0, .4]
           ),
         ),
       ),
