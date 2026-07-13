@@ -29,7 +29,15 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                 color: Colors.white,
                 borderRadius: .circular(6),
               ),
-              child: Column(children: []),
+              child: Column(children: [
+                Expanded(child: Column()),
+                Divider(),
+                Row(
+                  children: [
+                    
+                  ],
+                )
+              ]),
             ),
             Row(
               children: [
