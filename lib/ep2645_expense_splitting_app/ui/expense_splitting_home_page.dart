@@ -26,7 +26,7 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
               ],
             ),
             Container(
-              height: 160,
+              height: 180,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: .circular(6),
