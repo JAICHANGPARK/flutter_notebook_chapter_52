@@ -15,8 +15,10 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16),
         child: Column(
+
           children: [
             Row(
+              mainAxisAlignment: .spaceBetween,
               children: [
                 Text("Home"),
                 CircleAvatar(backgroundColor: Colors.white),
