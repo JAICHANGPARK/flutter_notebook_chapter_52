@@ -11,11 +11,10 @@ class ExpenseSplittingHomePage extends StatefulWidget {
 class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return  SafeArea(
+    return SafeArea(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16),
         child: Column(
-
           children: [
             Row(
               mainAxisAlignment: .spaceBetween,
@@ -23,6 +22,18 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                 Text("Home"),
                 CircleAvatar(backgroundColor: Colors.white),
               ],
+            ),
+            Container(
+              height: 160,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: .circular(6),
+              ),
+              child: Column(
+                children: [
+                  
+                ],
+              ),
             ),
           ],
         ),
