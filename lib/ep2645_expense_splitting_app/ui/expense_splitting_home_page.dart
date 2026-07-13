@@ -32,10 +32,15 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
               child: Column(children: [
                 Expanded(child: Column()),
                 Divider(),
-                Row(
-                  children: [
-                    
-                  ],
+                Padding(
+                  padding: const EdgeInsets.all(12.0),
+                  child: Row(
+
+                    children: [
+                      Text("Pay Bill Now"),
+                      Icon(Icons.arrow_forward_outlined),
+                    ],
+                  ),
                 )
               ]),
             ),
