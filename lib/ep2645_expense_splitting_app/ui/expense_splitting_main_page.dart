@@ -14,7 +14,11 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
     return Scaffold(
       backgroundColor: Color.fromRGBO(247, 247, 247, 1),
 
-      body: Column(children: []),
+      body: IndexedStack(
+        children: [
+          Column(children: []),
+        ],
+      ),
       floatingActionButton: Container(
         height: 60,
         width: 60,
