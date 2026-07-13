@@ -62,19 +62,27 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                 Icon(Icons.arrow_forward_outlined, color: Colors.blueAccent),
               ],
             ),
-            Expanded(child: ListView.builder(itemBuilder: (context, index) {
-              return Container(
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: .circular(6),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black12,
-                    )
-                  ],
-                ),
-              );
-            })),
+            Expanded(
+              child: ListView.builder(
+                itemBuilder: (context, index) {
+                  return Container(
+                    height: 140,
+                    margin: .only(bottom: 15),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: .circular(6),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withValues(alpha: .05),
+                          spreadRadius: 1,
+                          blurRadius: 1,
+                        ),
+                      ],
+                    ),
+                  );
+                },
+              ),
+            ),
           ],
         ),
       ),
