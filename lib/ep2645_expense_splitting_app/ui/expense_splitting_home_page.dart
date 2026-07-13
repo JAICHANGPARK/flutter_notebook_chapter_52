@@ -12,15 +12,18 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
   @override
   Widget build(BuildContext context) {
     return  SafeArea(
-      child: Column(
-        children: [
-          Row(
-            children: [
-              Text("Home"),
-              CircleAvatar(backgroundColor: Colors.white),
-            ],
-          ),
-        ],
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          children: [
+            Row(
+              children: [
+                Text("Home"),
+                CircleAvatar(backgroundColor: Colors.white),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
