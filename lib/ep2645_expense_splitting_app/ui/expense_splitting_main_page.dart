@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_52/ep2645_expense_splitting_app/ui/expense_splitting_home_page.dart';
 
 class ExpenseSplittingMainPage extends StatefulWidget {
   const ExpenseSplittingMainPage({super.key});
@@ -16,6 +17,7 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
 
       body: IndexedStack(
         children: [
+          ExpenseSplittingHomePage(),
           Column(children: []),
         ],
       ),
