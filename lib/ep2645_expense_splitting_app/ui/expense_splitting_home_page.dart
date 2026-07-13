@@ -11,17 +11,15 @@ class ExpenseSplittingHomePage extends StatefulWidget {
 class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        children: [
-          Row(
-            children: [
-              Text("Home"),
-              CircleAvatar(backgroundColor: Colors.white),
-            ],
-          ),
-        ],
-      ),
+    return  Column(
+      children: [
+        Row(
+          children: [
+            Text("Home"),
+            CircleAvatar(backgroundColor: Colors.white),
+          ],
+        ),
+      ],
     );
   }
 }
