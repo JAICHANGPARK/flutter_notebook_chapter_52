@@ -31,10 +31,18 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
               ),
               child: Column(
                 children: [
-                  
+
                 ],
               ),
             ),
+            Row(
+              children: [
+                Text("Daily Splits"),
+                Spacer(),
+                Text("See all splits"),
+                Icon(Icons.arrow_forward_outlined),
+              ],
+            )
           ],
         ),
       ),
