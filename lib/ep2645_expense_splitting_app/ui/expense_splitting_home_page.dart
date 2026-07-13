@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class ExpenseSplittingHomePage extends StatefulWidget {
   const ExpenseSplittingHomePage({super.key});
@@ -15,11 +16,12 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16),
         child: Column(
+          spacing: 24,
           children: [
             Row(
               mainAxisAlignment: .spaceBetween,
               children: [
-                Text("Home"),
+                Text("Home", style: TextStyle(fontWeight: .bold, fontSize: 24)),
                 CircleAvatar(backgroundColor: Colors.white),
               ],
             ),
@@ -29,27 +31,35 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                 color: Colors.white,
                 borderRadius: .circular(6),
               ),
-              child: Column(children: [
-                Expanded(child: Column()),
-                Divider(),
-                Padding(
-                  padding: const EdgeInsets.all(12.0),
-                  child: Row(
-
-                    children: [
-                      Text("Pay Bill Now"),
-                      Icon(Icons.arrow_forward_outlined),
-                    ],
+              child: Column(
+                children: [
+                  Expanded(child: Column()),
+                  Divider(),
+                  Padding(
+                    padding: const EdgeInsets.all(12.0),
+                    child: Row(
+                      children: [
+                        Text("Pay Bill Now"),
+                        Icon(Icons.arrow_forward_outlined),
+                      ],
+                    ),
                   ),
-                )
-              ]),
+                ],
+              ),
             ),
             Row(
+              spacing: 6,
               children: [
-                Text("Daily Splits"),
+                Text(
+                  "Daily Splits",
+                  style: TextStyle(fontSize: 22, fontWeight: .bold),
+                ),
                 Spacer(),
-                Text("See all splits"),
-                Icon(Icons.arrow_forward_outlined),
+                Text(
+                  "See all splits",
+                  style: TextStyle(color: Colors.blueAccent, fontWeight: .bold),
+                ),
+                Icon(Icons.arrow_forward_outlined, color: Colors.blueAccent),
               ],
             ),
             Expanded(child: ListView.builder(itemBuilder: (context, index) {})),
