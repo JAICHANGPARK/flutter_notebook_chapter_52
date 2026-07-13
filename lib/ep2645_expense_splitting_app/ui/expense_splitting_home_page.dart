@@ -29,11 +29,7 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                 color: Colors.white,
                 borderRadius: .circular(6),
               ),
-              child: Column(
-                children: [
-
-                ],
-              ),
+              child: Column(children: []),
             ),
             Row(
               children: [
@@ -42,7 +38,8 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                 Text("See all splits"),
                 Icon(Icons.arrow_forward_outlined),
               ],
-            )
+            ),
+            Expanded(child: ListView.builder(itemBuilder: (context, index) {})),
           ],
         ),
       ),
