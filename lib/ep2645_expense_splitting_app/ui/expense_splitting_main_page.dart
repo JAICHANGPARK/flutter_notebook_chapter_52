@@ -14,7 +14,6 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(247, 247, 247, 1),
-
       body: IndexedStack(
         children: [
           ExpenseSplittingHomePage(),
