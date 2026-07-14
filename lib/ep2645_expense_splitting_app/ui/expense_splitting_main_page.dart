@@ -54,7 +54,7 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
               icon: Icon(Icons.add_box_outlined),
               label: "Add Expense",
             ),
-            BottomNavigationBarItem(icon: Icon(Icons.wallet), label: "Balance"),
+            BottomNavigationBarItem(icon: Icon(Icons.wallet), label: "Balance",),
             BottomNavigationBarItem(
               icon: Icon(Icons.bar_chart),
               label: "Statistics",
