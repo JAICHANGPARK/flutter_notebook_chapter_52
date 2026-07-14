@@ -35,12 +35,7 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
             center: Alignment(0.0, -1.5),
             radius: 1,
           ),
-          // gradient: LinearGradient(
-          //   colors: [Colors.black12, Colors.black],
-          //   begin: .topCenter,
-          //   end: .bottomCenter,
-          //   stops: [0, .4],
-          // ),
+         ),
         ),
         child: Icon(Icons.add_circle_outline, color: Colors.white, size: 32),
       ),
