@@ -42,22 +42,21 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                       crossAxisAlignment: .start,
                       spacing: 12,
                       children: [
-                        Text("Your Splits Overview",style: TextStyle(
-                          fontWeight: .bold,
-                          fontSize: 20,
-                        ),),
+                        Text(
+                          "Your Splits Overview",
+                          style: TextStyle(fontWeight: .bold, fontSize: 20),
+                        ),
                         Row(
                           spacing: 8,
                           children: [
-                            CircleAvatar(
-                              radius: 18,
+                            CircleAvatar(radius: 18),
+                            Text(
+                              "Total balance",
+                              style: TextStyle(fontSize: 16),
                             ),
-                            Text("Total balance",style: TextStyle(
-                              fontSize: 16,
-                            ),),
                             Spacer(),
                             Container(
-                              padding: .symmetric(horizontal: 12,vertical: 6),
+                              padding: .symmetric(horizontal: 12, vertical: 6),
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
                                 color: Colors.green,
@@ -76,9 +75,19 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                   Padding(
                     padding: const EdgeInsets.all(12.0),
                     child: Row(
+                      spacing: 4,
                       children: [
-                        Text("Pay Bill Now"),
-                        Icon(Icons.arrow_forward_outlined),
+                        Text(
+                          "Pay Bill Now",
+                          style: TextStyle(
+                            fontWeight: .bold,
+                            color: Colors.blueAccent,
+                          ),
+                        ),
+                        Icon(
+                          Icons.arrow_forward_outlined,
+                          color: Colors.blueAccent,
+                        ),
                       ],
                     ),
                   ),
