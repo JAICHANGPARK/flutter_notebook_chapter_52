@@ -49,6 +49,10 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                                 shape: StadiumBorder(),
                                 color: Colors.green,
                               ),
+                              child: Text(
+                                "+\$50",
+                                style: TextStyle(color: Colors.white),
+                              ),
                             ),
                           ],
                         ),
