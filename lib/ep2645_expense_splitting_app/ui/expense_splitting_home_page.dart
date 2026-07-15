@@ -36,7 +36,11 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
               ),
               child: Column(
                 children: [
-                  Expanded(child: Column()),
+                  Expanded(child: Column(
+                    children: [
+                      Text("Your Splits Overview"),
+                    ],
+                  )),
                   Divider(),
                   Padding(
                     padding: const EdgeInsets.all(12.0),
