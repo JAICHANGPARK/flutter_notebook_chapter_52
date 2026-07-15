@@ -38,30 +38,33 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                 crossAxisAlignment: .start,
                 children: [
                   Expanded(
-                    child: Column(
-                      crossAxisAlignment: .start,
-                      children: [
-                        Text("Your Splits Overview",style: TextStyle(
-                          fontWeight: .bold,
-                          fontSize: 20,
-                        ),),
-                        Row(
-                          children: [
-                            CircleAvatar(),
-                            Text("Total balance"),
-                            Container(
-                              decoration: ShapeDecoration(
-                                shape: StadiumBorder(),
-                                color: Colors.green,
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Column(
+                        crossAxisAlignment: .start,
+                        children: [
+                          Text("Your Splits Overview",style: TextStyle(
+                            fontWeight: .bold,
+                            fontSize: 20,
+                          ),),
+                          Row(
+                            children: [
+                              CircleAvatar(),
+                              Text("Total balance"),
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Colors.green,
+                                ),
+                                child: Text(
+                                  "+\$50",
+                                  style: TextStyle(color: Colors.white),
+                                ),
                               ),
-                              child: Text(
-                                "+\$50",
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ],
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                   Divider(),
