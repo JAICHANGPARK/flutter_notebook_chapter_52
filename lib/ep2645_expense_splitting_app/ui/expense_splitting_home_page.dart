@@ -40,6 +40,7 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                     padding: const EdgeInsets.all(16.0),
                     child: Column(
                       crossAxisAlignment: .start,
+                      spacing: 12,
                       children: [
                         Text("Your Splits Overview",style: TextStyle(
                           fontWeight: .bold,
