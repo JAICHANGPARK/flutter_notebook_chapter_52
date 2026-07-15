@@ -22,7 +22,10 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
               mainAxisAlignment: .spaceBetween,
               children: [
                 Text("Home", style: TextStyle(fontWeight: .bold, fontSize: 24)),
-                CircleAvatar(backgroundColor: Colors.white),
+                CircleAvatar(
+                  backgroundColor: Colors.white,
+                  child: Icon(Icons.notifications_none),
+                ),
               ],
             ),
             Container(
