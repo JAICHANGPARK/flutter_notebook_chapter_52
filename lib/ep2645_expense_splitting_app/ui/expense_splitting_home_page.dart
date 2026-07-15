@@ -116,7 +116,7 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
               child: ListView.builder(
                 itemBuilder: (context, index) {
                   return Container(
-                    height: 140,
+                    
                     margin: .only(bottom: 15),
                     decoration: BoxDecoration(
                       color: Colors.white,
@@ -141,15 +141,20 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                               Expanded(
                                 child: Column(
                                   crossAxisAlignment: .start,
+                                  spacing: 4,
                                   children: [
-                                    Text("Roommate"),
+                                    Text(
+                                      "Roommate",
+                                      style: TextStyle(fontSize: 16),
+                                    ),
                                     Text("Sep 19, 2025"),
                                   ],
                                 ),
                               ),
-                              Text("\$180.00",style: TextStyle(
-                                fontWeight: .bold,
-                              ),)
+                              Text(
+                                "\$180.00",
+                                style: TextStyle(fontWeight: .bold),
+                              ),
                             ],
                           ),
                         ),
