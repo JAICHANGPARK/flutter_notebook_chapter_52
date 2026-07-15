@@ -164,8 +164,10 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                         Padding(
                           padding: const EdgeInsets.all(16.0),
                          child: Column(
+                           spacing: 5,
                            children: [
                              Row(
+                               spacing: 4,
                                children: [
                                  Text("Balance: You owed"),
                                  Spacer(),
@@ -174,6 +176,7 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                                ],
                              ),
                              Row(
+                               spacing: 4,
                                children: [
                                  Container(
                                    padding: .symmetric(horizontal: 12, vertical: 4),
