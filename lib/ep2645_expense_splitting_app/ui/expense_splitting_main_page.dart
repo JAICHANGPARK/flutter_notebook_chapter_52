@@ -38,7 +38,6 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
         height: 100,
         child: BottomNavigationBar(
           backgroundColor: Colors.white,
-
           type: .fixed,
           selectedItemColor: Colors.blueAccent,
           items: [
