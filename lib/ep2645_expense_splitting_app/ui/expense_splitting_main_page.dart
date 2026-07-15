@@ -36,6 +36,7 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
           ),
          ),
         ),
+
         child: Icon(Icons.add_circle_outline, color: Colors.white, size: 32),
       ),
       bottomNavigationBar: SizedBox(
