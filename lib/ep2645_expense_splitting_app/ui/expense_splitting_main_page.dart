@@ -34,11 +34,10 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
             center: Alignment(0.0, -1.5),
             radius: 1,
           ),
-         ),
         ),
-
         child: Icon(Icons.add_circle_outline, color: Colors.white, size: 32),
       ),
+
       bottomNavigationBar: SizedBox(
         height: 100,
         child: BottomNavigationBar(
@@ -55,7 +54,8 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
               icon: Icon(Icons.add_box_outlined),
               label: "Add Expense",
             ),
-            BottomNavigationBarItem(icon: Icon(Icons.wallet), label: "Balance",),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.wallet), label: "Balance",),
             BottomNavigationBarItem(
               icon: Icon(Icons.bar_chart),
               label: "Statistics",
@@ -66,7 +66,8 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
             ),
           ],
         ),
-      ),
+      )
+      ,
     );
   }
 }
