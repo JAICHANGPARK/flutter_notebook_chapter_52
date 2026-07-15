@@ -173,7 +173,27 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                                  Text("2 persons")
                                ],
                              ),
-                             
+                             Row(
+                               children: [
+                                 
+                               ],
+                             )
+                             Container(
+                               padding: .symmetric(horizontal: 12, vertical: 4),
+                               decoration: ShapeDecoration(
+                                 shape: StadiumBorder(),
+                                 color: Colors.green,
+                               ),
+                               child: Text(
+                                 "+\$50",
+                                 style: TextStyle(
+                                   color: Colors.white,
+                                   fontSize: 16,
+                                 ),
+                               ),
+                             ),
+                             Spacer()
+
                            ],
                          ),
                         ),
