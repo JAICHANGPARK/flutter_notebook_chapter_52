@@ -168,10 +168,12 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                              Row(
                                children: [
                                  Text("Balance: You owed"),
+                                 Spacer(),
                                  Text("Sharing:"),
                                  Text("2 persons")
                                ],
-                             )
+                             ),
+                             
                            ],
                          ),
                         ),
