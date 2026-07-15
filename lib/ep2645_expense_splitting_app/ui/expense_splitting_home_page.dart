@@ -116,7 +116,6 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
               child: ListView.builder(
                 itemBuilder: (context, index) {
                   return Container(
-                    
                     margin: .only(bottom: 15),
                     decoration: BoxDecoration(
                       color: Colors.white,
@@ -153,30 +152,28 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                               ),
                               Text(
                                 "\$180.00",
-                                style: TextStyle(fontWeight: .bold),
+                                style: TextStyle(
+                                  fontWeight: .bold,
+                                  fontSize: 16,
+                                ),
                               ),
                             ],
                           ),
                         ),
                         Divider(),
                         Padding(
-                          padding: const EdgeInsets.all(12.0),
-                          child: Row(
-                            spacing: 4,
-                            children: [
-                              Text(
-                                "Pay Bill Now",
-                                style: TextStyle(
-                                  fontWeight: .bold,
-                                  color: Colors.blueAccent,
-                                ),
-                              ),
-                              Icon(
-                                Icons.arrow_forward_outlined,
-                                color: Colors.blueAccent,
-                              ),
-                            ],
-                          ),
+                          padding: const EdgeInsets.all(16.0),
+                         child: Column(
+                           children: [
+                             Row(
+                               children: [
+                                 Text("Balance: You owed"),
+                                 Text("Sharing:"),
+                                 Text("2 persons")
+                               ],
+                             )
+                           ],
+                         ),
                         ),
                       ],
                     ),
