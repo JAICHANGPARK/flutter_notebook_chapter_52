@@ -29,7 +29,6 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
               ],
             ),
             Container(
-              height: 180,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: .circular(6),
@@ -37,34 +36,32 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
               child: Column(
                 crossAxisAlignment: .start,
                 children: [
-                  Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Column(
-                        crossAxisAlignment: .start,
-                        children: [
-                          Text("Your Splits Overview",style: TextStyle(
-                            fontWeight: .bold,
-                            fontSize: 20,
-                          ),),
-                          Row(
-                            children: [
-                              CircleAvatar(),
-                              Text("Total balance"),
-                              Container(
-                                decoration: ShapeDecoration(
-                                  shape: StadiumBorder(),
-                                  color: Colors.green,
-                                ),
-                                child: Text(
-                                  "+\$50",
-                                  style: TextStyle(color: Colors.white),
-                                ),
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Column(
+                      crossAxisAlignment: .start,
+                      children: [
+                        Text("Your Splits Overview",style: TextStyle(
+                          fontWeight: .bold,
+                          fontSize: 20,
+                        ),),
+                        Row(
+                          children: [
+                            CircleAvatar(),
+                            Text("Total balance"),
+                            Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Colors.green,
                               ),
-                            ],
-                          ),
-                        ],
-                      ),
+                              child: Text(
+                                "+\$50",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                   ),
                   Divider(),
