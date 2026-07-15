@@ -35,11 +35,16 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                 borderRadius: .circular(6),
               ),
               child: Column(
+                crossAxisAlignment: .start,
                 children: [
                   Expanded(
                     child: Column(
+                      crossAxisAlignment: .start,
                       children: [
-                        Text("Your Splits Overview"),
+                        Text("Your Splits Overview",style: TextStyle(
+                          fontWeight: .bold,
+                          fontSize: 20,
+                        ),),
                         Row(
                           children: [
                             CircleAvatar(),
