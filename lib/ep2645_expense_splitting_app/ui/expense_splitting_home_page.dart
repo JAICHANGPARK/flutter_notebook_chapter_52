@@ -47,7 +47,7 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                           fontSize: 20,
                         ),),
                         Row(
-                          spacing: 12,
+                          spacing: 8,
                           children: [
                             CircleAvatar(
                               radius: 18,
