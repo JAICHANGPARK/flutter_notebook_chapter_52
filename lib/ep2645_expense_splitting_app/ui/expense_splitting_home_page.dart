@@ -135,10 +135,12 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                         Padding(
                           padding: const EdgeInsets.all(16.0),
                           child: Row(
+                            spacing: 12,
                             children: [
                               CircleAvatar(),
                               Expanded(
                                 child: Column(
+                                  crossAxisAlignment: .start,
                                   children: [
                                     Text("Roommate"),
                                     Text("Sep 19, 2025"),
