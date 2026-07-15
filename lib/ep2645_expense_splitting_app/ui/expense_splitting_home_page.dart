@@ -52,7 +52,9 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                             CircleAvatar(
                               radius: 18,
                             ),
-                            Text("Total balance"),
+                            Text("Total balance",style: TextStyle(
+                              fontSize: 16,
+                            ),),
                             Spacer(),
                             Container(
                               padding: .symmetric(horizontal: 12,vertical: 6),
