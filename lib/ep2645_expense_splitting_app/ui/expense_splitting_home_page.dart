@@ -63,8 +63,10 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                               ),
                               child: Text(
                                 "+\$50",
-                                style: TextStyle(color: Colors.white,
-                                fontSize: 16,),
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                ),
                               ),
                             ),
                           ],
@@ -124,6 +126,50 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                           color: Colors.black.withValues(alpha: .05),
                           spreadRadius: 1,
                           blurRadius: 1,
+                        ),
+                      ],
+                    ),
+                    child: Column(
+                      crossAxisAlignment: .start,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Row(
+                            children: [
+                              CircleAvatar(),
+                              Expanded(
+                                child: Column(
+                                  children: [
+                                    Text("Roommate"),
+                                    Text("Sep 19, 2025"),
+                                  ],
+                                ),
+                              ),
+                              Text("\$180.00",style: TextStyle(
+                                fontWeight: .bold,
+                              ),)
+                            ],
+                          ),
+                        ),
+                        Divider(),
+                        Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: Row(
+                            spacing: 4,
+                            children: [
+                              Text(
+                                "Pay Bill Now",
+                                style: TextStyle(
+                                  fontWeight: .bold,
+                                  color: Colors.blueAccent,
+                                ),
+                              ),
+                              Icon(
+                                Icons.arrow_forward_outlined,
+                                color: Colors.blueAccent,
+                              ),
+                            ],
+                          ),
                         ),
                       ],
                     ),
