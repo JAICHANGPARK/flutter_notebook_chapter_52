@@ -55,6 +55,7 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                             Text("Total balance"),
                             Spacer(),
                             Container(
+                              padding: .symmetric(horizontal: 12,vertical: 6),
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
                                 color: Colors.green,
