@@ -47,9 +47,13 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                           fontSize: 20,
                         ),),
                         Row(
+                          spacing: 12,
                           children: [
-                            CircleAvatar(),
+                            CircleAvatar(
+                              radius: 18,
+                            ),
                             Text("Total balance"),
+                            Spacer(),
                             Container(
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
