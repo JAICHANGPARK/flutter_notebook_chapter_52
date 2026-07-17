@@ -202,7 +202,6 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
                                ],
                              )
 
-
                            ],
                          ),
                         ),
