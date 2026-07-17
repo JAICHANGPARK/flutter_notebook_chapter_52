@@ -8,7 +8,6 @@
 
 <img src="https://cdn.dribbble.com/userupload/48344960/file/2fb9610d70e05aad8a39fbd379dc226e.png?resize=1905x1429&vertical=center" alt=""/>
 
-
 ## EP2641-2644
 
 - AI Assistant Mobile App
