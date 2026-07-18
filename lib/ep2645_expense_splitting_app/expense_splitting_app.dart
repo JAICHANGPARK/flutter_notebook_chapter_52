@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'ui/expense_splitting_home_page.dart';
 import 'ui/expense_splitting_main_page.dart';
 
