@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_52/ep2645_expense_splitting_app/ui/expense_splitting_detail_page.dart';
 import 'package:gap/gap.dart';
 
 class ExpenseSplittingHomePage extends StatefulWidget {
@@ -115,97 +116,104 @@ class _ExpenseSplittingHomePageState extends State<ExpenseSplittingHomePage> {
             Expanded(
               child: ListView.builder(
                 itemBuilder: (context, index) {
-                  return Container(
-                    margin: .only(bottom: 15),
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: .circular(6),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withValues(alpha: .05),
-                          spreadRadius: 1,
-                          blurRadius: 1,
+                  return GestureDetector(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => ExpenseSplittingDetailPage(),
                         ),
-                      ],
-                    ),
-                    child: Column(
-                      crossAxisAlignment: .start,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.all(16.0),
-                          child: Row(
-                            spacing: 12,
-                            children: [
-                              CircleAvatar(),
-                              Expanded(
-                                child: Column(
-                                  crossAxisAlignment: .start,
+                      );
+                    },
+                    child: Container(
+                      margin: .only(bottom: 15),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: .circular(6),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: .05),
+                            spreadRadius: 1,
+                            blurRadius: 1,
+                          ),
+                        ],
+                      ),
+                      child: Column(
+                        crossAxisAlignment: .start,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: Row(
+                              spacing: 12,
+                              children: [
+                                CircleAvatar(),
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment: .start,
+                                    spacing: 4,
+                                    children: [
+                                      Text(
+                                        "Roommate",
+                                        style: TextStyle(fontSize: 16),
+                                      ),
+                                      Text("Sep 19, 2025"),
+                                    ],
+                                  ),
+                                ),
+                                Text(
+                                  "\$180.00",
+                                  style: TextStyle(
+                                    fontWeight: .bold,
+                                    fontSize: 16,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Divider(),
+                          Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: Column(
+                              spacing: 5,
+                              children: [
+                                Row(
                                   spacing: 4,
                                   children: [
-                                    Text(
-                                      "Roommate",
-                                      style: TextStyle(fontSize: 16),
-                                    ),
-                                    Text("Sep 19, 2025"),
+                                    Text("Balance: You owed"),
+                                    Spacer(),
+                                    Text("Sharing:"),
+                                    Text("2 persons"),
                                   ],
                                 ),
-                              ),
-                              Text(
-                                "\$180.00",
-                                style: TextStyle(
-                                  fontWeight: .bold,
-                                  fontSize: 16,
+                                Row(
+                                  spacing: 4,
+                                  children: [
+                                    Container(
+                                      padding: .symmetric(
+                                        horizontal: 12,
+                                        vertical: 4,
+                                      ),
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                        color: Colors.green,
+                                      ),
+                                      child: Text(
+                                        "+\$50",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 16,
+                                        ),
+                                      ),
+                                    ),
+                                    Spacer(),
+                                    CircleAvatar(radius: 12),
+                                    CircleAvatar(radius: 12),
+                                  ],
                                 ),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
-                        ),
-                        Divider(),
-                        Padding(
-                          padding: const EdgeInsets.all(16.0),
-                         child: Column(
-                           spacing: 5,
-                           children: [
-                             Row(
-                               spacing: 4,
-                               children: [
-                                 Text("Balance: You owed"),
-                                 Spacer(),
-                                 Text("Sharing:"),
-                                 Text("2 persons")
-                               ],
-                             ),
-                             Row(
-                               spacing: 4,
-                               children: [
-                                 Container(
-                                   padding: .symmetric(horizontal: 12, vertical: 4),
-                                   decoration: ShapeDecoration(
-                                     shape: StadiumBorder(),
-                                     color: Colors.green,
-                                   ),
-                                   child: Text(
-                                     "+\$50",
-                                     style: TextStyle(
-                                       color: Colors.white,
-                                       fontSize: 16,
-                                     ),
-                                   ),
-                                 ),
-                                 Spacer(),
-                                 CircleAvatar(
-                                   radius: 12,
-                                 ),
-                                 CircleAvatar(
-                                   radius: 12,
-                                 )
-                               ],
-                             )
-
-                           ],
-                         ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   );
                 },
