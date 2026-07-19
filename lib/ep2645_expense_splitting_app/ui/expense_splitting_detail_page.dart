@@ -124,6 +124,7 @@ class _ExpenseSplittingDetailPageState
               decoration: BoxDecoration(color: Colors.white),
               padding: .all(16),
               child: Column(
+                spacing: 16,
                 children: [
                   Container(
                     height: 80,
