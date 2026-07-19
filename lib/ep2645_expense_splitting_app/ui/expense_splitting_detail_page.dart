@@ -120,13 +120,30 @@ class _ExpenseSplittingDetailPageState
                 ],
               ),
             ),
-            Container(decoration: BoxDecoration(color: Colors.white),
-            padding: .all(16),
-            child: Column(
-              children: [
-                
-              ],
-            ),),
+            Container(
+              decoration: BoxDecoration(color: Colors.white),
+              padding: .all(16),
+              child: Column(
+                children: [
+                  Container(
+                    height: 80,
+                    decoration: BoxDecoration(border: .all()),
+                  ),
+                  Container(
+                    height: 80,
+                    decoration: BoxDecoration(border: .all()),
+                  ),
+                  Container(
+                    height: 80,
+                    decoration: BoxDecoration(border: .all()),
+                  ),
+                  Container(
+                    height: 80,
+                    decoration: BoxDecoration(border: .all()),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
