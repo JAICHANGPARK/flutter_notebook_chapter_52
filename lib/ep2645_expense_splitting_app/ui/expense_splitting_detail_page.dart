@@ -58,7 +58,7 @@ class _ExpenseSplittingDetailPageState
               ),
             ),
             Container(decoration: BoxDecoration(color: Colors.white),
-            a
+            padding: .all(16),
             child: Column(
               crossAxisAlignment: .start,
               children: [
