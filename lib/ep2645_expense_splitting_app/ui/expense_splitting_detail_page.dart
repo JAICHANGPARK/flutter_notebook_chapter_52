@@ -26,6 +26,7 @@ class _ExpenseSplittingDetailPageState
           crossAxisAlignment: .start,
           children: [
             Container(
+              padding: .all(16),
               decoration: BoxDecoration(color: Colors.white),
               child: Column(
                 crossAxisAlignment: .start,
