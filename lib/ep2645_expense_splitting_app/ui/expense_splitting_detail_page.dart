@@ -14,7 +14,7 @@ class _ExpenseSplittingDetailPageState extends State<ExpenseSplittingDetailPage>
     return Scaffold(
       body: Column(
         children: [
-          
+
         ],
       ),
     );
