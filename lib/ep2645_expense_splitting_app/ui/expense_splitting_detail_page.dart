@@ -36,7 +36,7 @@ class _ExpenseSplittingDetailPageState
                     fontWeight: .bold,
                   ),),
                   Row(
-                    spacing: 12,
+                    spacing: 8,
                     children: [
                       CircleAvatar(
                         radius: 16,
