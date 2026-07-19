@@ -22,7 +22,14 @@ class _ExpenseSplittingDetailPageState
           Container(decoration: BoxDecoration(color: Colors.white),
           child: Column(
             children: [
-              
+              Text("Balance summary"),
+              Row(
+                children: [
+                  CircleAvatar(),
+                  Text("You owed"),
+                  
+                ],
+              )
             ],
           ),),
           Container(decoration: BoxDecoration(color: Colors.white)),
