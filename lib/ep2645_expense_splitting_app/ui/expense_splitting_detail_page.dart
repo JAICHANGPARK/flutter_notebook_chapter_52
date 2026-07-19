@@ -58,9 +58,30 @@ class _ExpenseSplittingDetailPageState
               ),
             ),
             Container(decoration: BoxDecoration(color: Colors.white),
+            a
             child: Column(
+              crossAxisAlignment: .start,
               children: [
-                Text("Quick Operation")
+                Text("Quick Operation"),
+                Row(
+                  children: [
+                    Expanded(child: Column(children: [
+                      CircleAvatar(),
+                      Text("Balance"),
+
+                    ],)),
+                    Expanded(child: Column(children: [
+
+                    ],)),
+                    Expanded(child: Column(children: [
+
+                    ],)),
+                    Expanded(child: Column(children: [
+
+                    ],)),
+
+                  ],
+                )
               ],
             ),),
             Container(decoration: BoxDecoration(color: Colors.white)),
