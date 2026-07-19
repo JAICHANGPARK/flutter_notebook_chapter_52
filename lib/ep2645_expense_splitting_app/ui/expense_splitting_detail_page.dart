@@ -12,8 +12,12 @@ class _ExpenseSplittingDetailPageState extends State<ExpenseSplittingDetailPage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("Roommate"),
+      ),
       body: Column(
         children: [
+
 
         ],
       ),
