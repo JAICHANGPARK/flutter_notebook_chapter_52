@@ -68,18 +68,36 @@ class _ExpenseSplittingDetailPageState
                 spacing: 12,
                 crossAxisAlignment: .start,
                 children: [
-                  Text("Quick Operation", style: TextStyle(fontWeight: .bold,
-                  fontSize: 16,)),
+                  Text(
+                    "Quick Operation",
+                    style: TextStyle(fontWeight: .bold, fontSize: 16),
+                  ),
                   Row(
                     children: [
                       Expanded(
                         child: Column(
+                          spacing: 4,
                           children: [CircleAvatar(), Text("Balance")],
                         ),
                       ),
-                      Expanded(child: Column(children: [])),
-                      Expanded(child: Column(children: [])),
-                      Expanded(child: Column(children: [])),
+                      Expanded(
+                        child: Column(
+                          spacing: 4,
+                          children: [CircleAvatar(), Text("Balance")],
+                        ),
+                      ),
+                      Expanded(
+                        child: Column(
+                          spacing: 4,
+                          children: [CircleAvatar(), Text("Balance")],
+                        ),
+                      ),
+                      Expanded(
+                        child: Column(
+                          spacing: 4,
+                          children: [CircleAvatar(), Text("Balance")],
+                        ),
+                      ),
                     ],
                   ),
                 ],
