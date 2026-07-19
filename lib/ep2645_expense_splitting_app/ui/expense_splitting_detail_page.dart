@@ -29,13 +29,20 @@ class _ExpenseSplittingDetailPageState
               padding: .all(16),
               decoration: BoxDecoration(color: Colors.white),
               child: Column(
+                spacing: 6,
                 crossAxisAlignment: .start,
                 children: [
-                  Text("Balance summary"),
+                  Text("Balance summary",style: TextStyle(
+                    fontWeight: .bold,
+                  ),),
                   Row(
+                    spacing: 12,
                     children: [
-                      CircleAvatar(),
+                      CircleAvatar(
+                        radius: 16,
+                      ),
                       Text("You owed"),
+                      Spacer(),
                       Container(
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
