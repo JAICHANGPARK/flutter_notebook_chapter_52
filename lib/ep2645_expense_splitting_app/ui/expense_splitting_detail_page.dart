@@ -18,33 +18,39 @@ class _ExpenseSplittingDetailPageState
         title: Text("Roommate"),
         backgroundColor: Colors.transparent,
       ),
-      body: Column(
-        crossAxisAlignment: .start,
-        children: [
-          Container(
-            decoration: BoxDecoration(color: Colors.white),
-            child: Column(
-              children: [
-                Text("Balance summary"),
-                Row(
-                  children: [
-                    CircleAvatar(),
-                    Text("You owed"),
-                    Container(
-                      decoration: ShapeDecoration(
-                        shape: StadiumBorder(),
-                        color: Colors.green,
+
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          spacing: 16,
+          crossAxisAlignment: .start,
+          children: [
+            Container(
+              decoration: BoxDecoration(color: Colors.white),
+              child: Column(
+                crossAxisAlignment: .start,
+                children: [
+                  Text("Balance summary"),
+                  Row(
+                    children: [
+                      CircleAvatar(),
+                      Text("You owed"),
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.green,
+                        ),
+                        child: Text("+\$50"),
                       ),
-                      child: Text("+\$50"),
-                    ),
-                  ],
-                ),
-              ],
+                    ],
+                  ),
+                ],
+              ),
             ),
-          ),
-          Container(decoration: BoxDecoration(color: Colors.white)),
-          Container(decoration: BoxDecoration(color: Colors.white)),
-        ],
+            Container(decoration: BoxDecoration(color: Colors.white)),
+            Container(decoration: BoxDecoration(color: Colors.white)),
+          ],
+        ),
       ),
     );
   }
