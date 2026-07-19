@@ -27,12 +27,14 @@ class _ExpenseSplittingDetailPageState
           children: [
             Container(
               padding: .all(16),
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(color: Colors.white, 
+              borderRadius: .circular(12)),
               child: Column(
                 spacing: 6,
                 crossAxisAlignment: .start,
                 children: [
-                  Text("Balance summary", style: TextStyle(fontWeight: .bold)),
+                  Text("Balance summary", style: TextStyle(fontWeight: .bold,
+                  fontSize: 16)),
                   Row(
                     spacing: 8,
                     children: [
@@ -44,7 +46,7 @@ class _ExpenseSplittingDetailPageState
                           shape: StadiumBorder(),
                           color: Colors.green,
                         ),
-                        padding: .symmetric(horizontal: 14, vertical: 6),
+                        padding: .symmetric(horizontal: 14, vertical: 4),
                         child: Text(
                           "+\$50",
                           style: TextStyle(color: Colors.white),
