@@ -68,7 +68,8 @@ class _ExpenseSplittingDetailPageState
                 spacing: 12,
                 crossAxisAlignment: .start,
                 children: [
-                  Text("Quick Operation", style: TextStyle(fontWeight: .bold)),
+                  Text("Quick Operation", style: TextStyle(fontWeight: .bold,
+                  fontSize: 16,)),
                   Row(
                     children: [
                       Expanded(
