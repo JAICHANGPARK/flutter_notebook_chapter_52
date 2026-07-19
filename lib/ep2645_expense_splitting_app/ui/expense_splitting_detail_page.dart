@@ -128,19 +128,31 @@ class _ExpenseSplittingDetailPageState
                 children: [
                   Container(
                     height: 80,
-                    decoration: BoxDecoration(border: .all()),
+                    decoration: BoxDecoration(
+                      border: .all(),
+                      borderRadius: .circular(4),
+                    ),
                   ),
                   Container(
                     height: 80,
-                    decoration: BoxDecoration(border: .all()),
+                    decoration: BoxDecoration(
+                      border: .all(),
+                      borderRadius: .circular(4),
+                    ),
                   ),
                   Container(
                     height: 80,
-                    decoration: BoxDecoration(border: .all()),
+                    decoration: BoxDecoration(
+                      border: .all(),
+                      borderRadius: .circular(4),
+                    ),
                   ),
                   Container(
                     height: 80,
-                    decoration: BoxDecoration(border: .all()),
+                    decoration: BoxDecoration(
+                      border: .all(),
+                      borderRadius: .circular(4),
+                    ),
                   ),
                 ],
               ),
