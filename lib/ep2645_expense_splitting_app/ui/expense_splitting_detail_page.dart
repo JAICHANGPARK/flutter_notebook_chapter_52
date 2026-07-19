@@ -27,14 +27,18 @@ class _ExpenseSplittingDetailPageState
           children: [
             Container(
               padding: .all(16),
-              decoration: BoxDecoration(color: Colors.white, 
-              borderRadius: .circular(12)),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: .circular(12),
+              ),
               child: Column(
                 spacing: 6,
                 crossAxisAlignment: .start,
                 children: [
-                  Text("Balance summary", style: TextStyle(fontWeight: .bold,
-                  fontSize: 16)),
+                  Text(
+                    "Balance summary",
+                    style: TextStyle(fontWeight: .bold, fontSize: 16),
+                  ),
                   Row(
                     spacing: 8,
                     children: [
@@ -57,33 +61,29 @@ class _ExpenseSplittingDetailPageState
                 ],
               ),
             ),
-            Container(decoration: BoxDecoration(color: Colors.white),
-            padding: .all(16),
-            child: Column(
-              crossAxisAlignment: .start,
-              children: [
-                Text("Quick Operation"),
-                Row(
-                  children: [
-                    Expanded(child: Column(children: [
-                      CircleAvatar(),
-                      Text("Balance"),
-
-                    ],)),
-                    Expanded(child: Column(children: [
-
-                    ],)),
-                    Expanded(child: Column(children: [
-
-                    ],)),
-                    Expanded(child: Column(children: [
-
-                    ],)),
-
-                  ],
-                )
-              ],
-            ),),
+            Container(
+              decoration: BoxDecoration(color: Colors.white),
+              padding: .all(16),
+              child: Column(
+                spacing: 12,
+                crossAxisAlignment: .start,
+                children: [
+                  Text("Quick Operation", style: TextStyle(fontWeight: .bold)),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Column(
+                          children: [CircleAvatar(), Text("Balance")],
+                        ),
+                      ),
+                      Expanded(child: Column(children: [])),
+                      Expanded(child: Column(children: [])),
+                      Expanded(child: Column(children: [])),
+                    ],
+                  ),
+                ],
+              ),
+            ),
             Container(decoration: BoxDecoration(color: Colors.white)),
           ],
         ),
