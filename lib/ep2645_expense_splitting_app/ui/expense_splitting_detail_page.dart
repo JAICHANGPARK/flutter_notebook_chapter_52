@@ -14,31 +14,35 @@ class _ExpenseSplittingDetailPageState
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(247, 247, 247, 1),
-      appBar: AppBar(title: Text("Roommate"),
-      backgroundColor: Colors.transparent,),
+      appBar: AppBar(
+        title: Text("Roommate"),
+        backgroundColor: Colors.transparent,
+      ),
       body: Column(
         crossAxisAlignment: .start,
         children: [
-          Container(decoration: BoxDecoration(color: Colors.white),
-          child: Column(
-            children: [
-              Text("Balance summary"),
-              Row(
-                children: [
-                  CircleAvatar(),
-                  Text("You owed"),
-                  
-                ],
-              )
-            ],
-          ),),
-          Container(decoration: BoxDecoration(color: Colors.white)),
           Container(
-            decoration: BoxDecoration(
-              color: Colors.white,
+            decoration: BoxDecoration(color: Colors.white),
+            child: Column(
+              children: [
+                Text("Balance summary"),
+                Row(
+                  children: [
+                    CircleAvatar(),
+                    Text("You owed"),
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.green,
+                      ),
+                    ),
+                  ],
+                ),
+              ],
             ),
           ),
-
+          Container(decoration: BoxDecoration(color: Colors.white)),
+          Container(decoration: BoxDecoration(color: Colors.white)),
         ],
       ),
     );
