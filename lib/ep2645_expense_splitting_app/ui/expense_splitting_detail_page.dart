@@ -79,25 +79,31 @@ class _ExpenseSplittingDetailPageState
                           mainAxisAlignment: .center,
                           crossAxisAlignment: .center,
                           spacing: 4,
-                          children: [CircleAvatar(), Text("Balance")],
+                          children: [CircleAvatar(), Text("Balance",style: TextStyle(
+                            fontSize: 12,
+                          ),)],
                         ),
                       ),
                       Expanded(
                         child: Column(
                           spacing: 4,
-                          children: [CircleAvatar(), Text("Add Expense")],
+                          children: [CircleAvatar(), Text("Add Expense",style: TextStyle(
+                            fontSize: 12,
+                          ),)],
                         ),
                       ),
                       Expanded(
                         child: Column(
                           spacing: 4,
-                          children: [CircleAvatar(), Text("Scan Receipt")],
+                          children: [CircleAvatar(), Text("Scan Receipt",style: TextStyle(
+                            fontSize: 12,
+                          ),)],
                         ),
                       ),
                       Expanded(
                         child: Column(
                           spacing: 4,
-                          children: [CircleAvatar(), Text("Balance")],
+                          children: [CircleAvatar(), Text("View Stats")],
                         ),
                       ),
                     ],
