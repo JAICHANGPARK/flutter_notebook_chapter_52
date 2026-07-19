@@ -57,7 +57,12 @@ class _ExpenseSplittingDetailPageState
                 ],
               ),
             ),
-            Container(decoration: BoxDecoration(color: Colors.white)),
+            Container(decoration: BoxDecoration(color: Colors.white),
+            child: Column(
+              children: [
+                Text("Quick Operation")
+              ],
+            ),),
             Container(decoration: BoxDecoration(color: Colors.white)),
           ],
         ),
