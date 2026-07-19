@@ -35,6 +35,7 @@ class _ExpenseSplittingDetailPageState
                         shape: StadiumBorder(),
                         color: Colors.green,
                       ),
+                      child: Text("+\$50"),
                     ),
                   ],
                 ),
