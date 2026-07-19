@@ -32,15 +32,11 @@ class _ExpenseSplittingDetailPageState
                 spacing: 6,
                 crossAxisAlignment: .start,
                 children: [
-                  Text("Balance summary",style: TextStyle(
-                    fontWeight: .bold,
-                  ),),
+                  Text("Balance summary", style: TextStyle(fontWeight: .bold)),
                   Row(
                     spacing: 8,
                     children: [
-                      CircleAvatar(
-                        radius: 16,
-                      ),
+                      CircleAvatar(radius: 16),
                       Text("You owed"),
                       Spacer(),
                       Container(
@@ -48,7 +44,11 @@ class _ExpenseSplittingDetailPageState
                           shape: StadiumBorder(),
                           color: Colors.green,
                         ),
-                        child: Text("+\$50"),
+                        padding: .symmetric(horizontal: 14, vertical: 6),
+                        child: Text(
+                          "+\$50",
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ),
                     ],
                   ),
