@@ -62,7 +62,9 @@ class _ExpenseSplittingDetailPageState
               ),
             ),
             Container(
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(color: Colors.white,
+                borderRadius: .circular(6),
+              ),
               padding: .all(16),
               child: Column(
                 spacing: 12,
@@ -121,7 +123,10 @@ class _ExpenseSplittingDetailPageState
               ),
             ),
             Container(
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: .circular(6),
+              ),
               padding: .all(16),
               child: Column(
                 spacing: 16,
