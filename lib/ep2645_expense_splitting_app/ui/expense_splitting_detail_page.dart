@@ -19,13 +19,19 @@ class _ExpenseSplittingDetailPageState
       body: Column(
         crossAxisAlignment: .start,
         children: [
-          Container(decoration: BoxDecoration(color: Colors.white)),
+          Container(decoration: BoxDecoration(color: Colors.white),
+          child: Column(
+            children: [
+              
+            ],
+          ),),
           Container(decoration: BoxDecoration(color: Colors.white)),
           Container(
             decoration: BoxDecoration(
               color: Colors.white,
             ),
-          )
+          ),
+
         ],
       ),
     );
