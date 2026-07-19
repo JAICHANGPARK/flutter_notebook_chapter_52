@@ -79,31 +79,40 @@ class _ExpenseSplittingDetailPageState
                           mainAxisAlignment: .center,
                           crossAxisAlignment: .center,
                           spacing: 4,
-                          children: [CircleAvatar(), Text("Balance",style: TextStyle(
-                            fontSize: 12,
-                          ),)],
+                          children: [
+                            CircleAvatar(),
+                            Text("Balance", style: TextStyle(fontSize: 12)),
+                          ],
                         ),
                       ),
                       Expanded(
                         child: Column(
                           spacing: 4,
-                          children: [CircleAvatar(), Text("Add Expense",style: TextStyle(
-                            fontSize: 12,
-                          ),)],
+                          children: [
+                            CircleAvatar(),
+                            Text("Add Expense", style: TextStyle(fontSize: 12)),
+                          ],
                         ),
                       ),
                       Expanded(
                         child: Column(
                           spacing: 4,
-                          children: [CircleAvatar(), Text("Scan Receipt",style: TextStyle(
-                            fontSize: 12,
-                          ),)],
+                          children: [
+                            CircleAvatar(),
+                            Text(
+                              "Scan Receipt",
+                              style: TextStyle(fontSize: 12),
+                            ),
+                          ],
                         ),
                       ),
                       Expanded(
                         child: Column(
                           spacing: 4,
-                          children: [CircleAvatar(), Text("View Stats")],
+                          children: [
+                            CircleAvatar(),
+                            Text("View Stats", style: TextStyle(fontSize: 12)),
+                          ],
                         ),
                       ),
                     ],
@@ -111,7 +120,13 @@ class _ExpenseSplittingDetailPageState
                 ],
               ),
             ),
-            Container(decoration: BoxDecoration(color: Colors.white)),
+            Container(decoration: BoxDecoration(color: Colors.white),
+            padding: .all(16),
+            child: Column(
+              children: [
+                
+              ],
+            ),),
           ],
         ),
       ),
