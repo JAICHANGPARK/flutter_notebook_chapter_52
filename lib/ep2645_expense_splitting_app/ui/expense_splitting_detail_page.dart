@@ -43,7 +43,9 @@ class _ExpenseSplittingDetailPageState
                     spacing: 8,
                     children: [
                       CircleAvatar(radius: 18),
-                      Text("You owed"),
+                      Text("You owed",style: TextStyle(
+                        fontSize: 18,
+                      ),),
                       Spacer(),
                       Container(
                         decoration: ShapeDecoration(
