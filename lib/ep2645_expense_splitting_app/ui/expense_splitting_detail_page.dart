@@ -43,9 +43,7 @@ class _ExpenseSplittingDetailPageState
                     spacing: 8,
                     children: [
                       CircleAvatar(radius: 18),
-                      Text("You owed",style: TextStyle(
-                        fontSize: 18,
-                      ),),
+                      Text("You owed", style: TextStyle(fontSize: 18)),
                       Spacer(),
                       Container(
                         decoration: ShapeDecoration(
@@ -64,7 +62,8 @@ class _ExpenseSplittingDetailPageState
               ),
             ),
             Container(
-              decoration: BoxDecoration(color: Colors.white,
+              decoration: BoxDecoration(
+                color: Colors.white,
                 borderRadius: .circular(6),
               ),
               padding: .all(16),
@@ -89,7 +88,14 @@ class _ExpenseSplittingDetailPageState
                               backgroundColor: Colors.blue[100],
                               radius: 22,
                             ),
-                            Text("Balance", style: TextStyle(fontSize: 12)),
+                            Text(
+                              "Balance",
+                              style: TextStyle(
+                                fontSize: 12,
+                                color: Colors.blueAccent,
+                                fontWeight: .bold,
+                              ),
+                            ),
                           ],
                         ),
                       ),
