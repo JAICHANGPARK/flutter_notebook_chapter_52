@@ -171,20 +171,19 @@ class _ExpenseSplittingDetailPageState
                 spacing: 16,
                 children: [
                   Container(
-                    height: 80,
                     decoration: BoxDecoration(
                       border: .all(),
                       borderRadius: .circular(4),
                     ),
+                    padding: .all(12),
                     child: Column(
                       children: [
                         Row(
                           children: [
-                            CircleAvatar(
-                              backgroundColor: Colors.grey[300],
-                            )
+                            CircleAvatar(backgroundColor: Colors.grey[300]),
                           ],
-                        )
+                        ),
+                        Row(children: [Text("03/10/2025 * 20:40")]),
                       ],
                     ),
                   ),
