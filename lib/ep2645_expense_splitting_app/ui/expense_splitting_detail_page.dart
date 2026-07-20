@@ -75,6 +75,7 @@ class _ExpenseSplittingDetailPageState
                     style: TextStyle(fontWeight: .bold, fontSize: 16),
                   ),
                   Row(
+                    spacing: 12,
                     children: [
                       Expanded(
                         child: Column(
