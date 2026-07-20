@@ -42,7 +42,7 @@ class _ExpenseSplittingDetailPageState
                   Row(
                     spacing: 8,
                     children: [
-                      CircleAvatar(radius: 16),
+                      CircleAvatar(radius: 18),
                       Text("You owed"),
                       Spacer(),
                       Container(
