@@ -14,6 +14,7 @@ dependencies:
   gap: ^3.0.1
   percent_indicator: ^4.2.5
   dotted_border: ^3.1.0
+  avatar_stack: ^3.0.0
 
 dev_dependencies:
   flutter_test:
