@@ -103,8 +103,13 @@ class _ExpenseSplittingDetailPageState
                         child: Column(
                           spacing: 4,
                           children: [
-                            CircleAvatar(),
-                            Text("Add Expense", style: TextStyle(fontSize: 12)),
+                            CircleAvatar(
+                              backgroundColor: Colors.blue[100],
+                              radius: 22,
+                            ),
+                            Text("Add Expense", style: TextStyle(fontSize: 12,
+                              color: Colors.blueAccent,
+                              fontWeight: .bold,)),
                           ],
                         ),
                       ),
