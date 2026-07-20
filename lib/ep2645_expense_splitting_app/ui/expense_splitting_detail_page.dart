@@ -32,12 +32,12 @@ class _ExpenseSplittingDetailPageState
                 borderRadius: .circular(12),
               ),
               child: Column(
-                spacing: 6,
+                spacing: 12,
                 crossAxisAlignment: .start,
                 children: [
                   Text(
                     "Balance summary",
-                    style: TextStyle(fontWeight: .bold, fontSize: 16),
+                    style: TextStyle(fontWeight: .bold, fontSize: 18),
                   ),
                   Row(
                     spacing: 8,
