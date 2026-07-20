@@ -218,10 +218,49 @@ class _ExpenseSplittingDetailPageState
                     ),
                   ),
                   Container(
-                    height: 80,
                     decoration: BoxDecoration(
-                      border: .all(),
+                      border: .all(color: Colors.grey[400]!),
                       borderRadius: .circular(4),
+                    ),
+                    padding: .all(12),
+                    child: Column(
+                      spacing: 6,
+                      children: [
+                        Row(
+                          spacing: 12,
+                          children: [
+                            CircleAvatar(backgroundColor: Colors.grey[300]),
+                            Text("Groceries"),
+                            Spacer(),
+                            Text(
+                              "\$60",
+                              style: TextStyle(fontWeight: .w900, fontSize: 15),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              "03/10/2025 * 20:40",
+                              style: TextStyle(fontSize: 13),
+                            ),
+                            Spacer(),
+                            SizedBox(
+                              height: 32,
+                              child: AvatarStack(
+                                height: 32,
+                                width: 100,
+                                avatars: [
+                                  for (var n = 0; n < 5; n++)
+                                    NetworkImage(
+                                      'https://i.pravatar.cc/150?img=$n',
+                                    ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                   ),
                   Container(
