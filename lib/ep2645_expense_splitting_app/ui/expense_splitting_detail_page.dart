@@ -85,7 +85,10 @@ class _ExpenseSplittingDetailPageState
                           crossAxisAlignment: .center,
                           spacing: 4,
                           children: [
-                            CircleAvatar(),
+                            CircleAvatar(
+                              backgroundColor: Colors.blue[100],
+                              radius: 22,
+                            ),
                             Text("Balance", style: TextStyle(fontSize: 12)),
                           ],
                         ),
