@@ -176,6 +176,17 @@ class _ExpenseSplittingDetailPageState
                       border: .all(),
                       borderRadius: .circular(4),
                     ),
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            CircleAvatar(
+                              backgroundColor: Colors.grey[300],
+                            )
+                          ],
+                        )
+                      ],
+                    ),
                   ),
                   Container(
                     height: 80,
