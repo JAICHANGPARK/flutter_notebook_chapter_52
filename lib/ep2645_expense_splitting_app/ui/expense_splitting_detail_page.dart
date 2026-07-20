@@ -132,7 +132,10 @@ class _ExpenseSplittingDetailPageState
                         child: Column(
                           spacing: 4,
                           children: [
-                            CircleAvatar(),
+                            CircleAvatar(
+                              backgroundColor: Colors.blue[100],
+                              radius: 22,
+                            ),
                             Text("View Stats", style: TextStyle(fontSize: 12)),
                           ],
                         ),
