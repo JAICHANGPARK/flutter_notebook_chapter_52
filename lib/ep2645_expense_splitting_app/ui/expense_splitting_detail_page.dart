@@ -166,17 +166,18 @@ class _ExpenseSplittingDetailPageState
                 color: Colors.white,
                 borderRadius: .circular(6),
               ),
-              padding: .all(16),
+              padding: .all(18),
               child: Column(
                 spacing: 16,
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      border: .all(),
+                      border: .all(color: Colors.grey[400]!),
                       borderRadius: .circular(4),
                     ),
                     padding: .all(12),
                     child: Column(
+                      spacing: 12,
                       children: [
                         Row(
                           children: [
