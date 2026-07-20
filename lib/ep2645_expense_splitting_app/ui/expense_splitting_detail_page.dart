@@ -197,6 +197,11 @@ class _ExpenseSplittingDetailPageState
                               "03/10/2025 * 20:40",
                               style: TextStyle(fontSize: 13),
                             ),
+                            CircleAvatar(
+                              radius: 12,
+
+                            ),
+
                           ],
                         ),
                       ],
