@@ -198,11 +198,11 @@ class _ExpenseSplittingDetailPageState
                               "03/10/2025 * 20:40",
                               style: TextStyle(fontSize: 13),
                             ),
-                                
+
                             SizedBox(
                               height: 32,
                               child: AvatarStack(avatars: [
-                                for (var n = 0; n < 15; n++) NetworkImage('https://i.pravatar.cc/150?img=$n'),
+                                for (var n = 0; n < 5; n++) NetworkImage('https://i.pravatar.cc/150?img=$n'),
                               ]),
                             ),
                           ],
