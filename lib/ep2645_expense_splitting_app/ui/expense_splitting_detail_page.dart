@@ -107,9 +107,14 @@ class _ExpenseSplittingDetailPageState
                               backgroundColor: Colors.blue[100],
                               radius: 22,
                             ),
-                            Text("Add Expense", style: TextStyle(fontSize: 12,
-                              color: Colors.blueAccent,
-                              fontWeight: .bold,)),
+                            Text(
+                              "Add Expense",
+                              style: TextStyle(
+                                fontSize: 12,
+                                color: Colors.blueAccent,
+                                fontWeight: .bold,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -123,9 +128,11 @@ class _ExpenseSplittingDetailPageState
                             ),
                             Text(
                               "Scan Receipt",
-                              style: TextStyle(fontSize: 12,
+                              style: TextStyle(
+                                fontSize: 12,
                                 color: Colors.blueAccent,
-                                fontWeight: .bold,),
+                                fontWeight: .bold,
+                              ),
                             ),
                           ],
                         ),
@@ -138,7 +145,14 @@ class _ExpenseSplittingDetailPageState
                               backgroundColor: Colors.blue[100],
                               radius: 22,
                             ),
-                            Text("View Stats", style: TextStyle(fontSize: 12)),
+                            Text(
+                              "View Stats",
+                              style: TextStyle(
+                                fontSize: 12,
+                                color: Colors.blueAccent,
+                                fontWeight: .bold,
+                              ),
+                            ),
                           ],
                         ),
                       ),
