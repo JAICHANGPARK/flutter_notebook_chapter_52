@@ -177,17 +177,23 @@ class _ExpenseSplittingDetailPageState
                     ),
                     padding: .all(12),
                     child: Column(
-                      spacing: 12,
+                      spacing: 16,
                       children: [
                         Row(
+                          spacing: 12,
                           children: [
                             CircleAvatar(backgroundColor: Colors.grey[300]),
                             Text("Groceries"),
                             Spacer(),
-                            Text("\$60"),
+                            Text("\$60", style: TextStyle(
+                              fontWeight: .w900,
+                              fontSize: 15
+                            ),),
                           ],
                         ),
-                        Row(children: [Text("03/10/2025 * 20:40")]),
+                        Row(children: [Text("03/10/2025 * 20:40",style: TextStyle(
+                          fontSize: 13,
+                        ),)]),
                       ],
                     ),
                   ),
