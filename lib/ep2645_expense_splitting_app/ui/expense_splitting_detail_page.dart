@@ -182,6 +182,9 @@ class _ExpenseSplittingDetailPageState
                         Row(
                           children: [
                             CircleAvatar(backgroundColor: Colors.grey[300]),
+                            Text("Groceries"),
+                            Spacer(),
+                            Text("\$60"),
                           ],
                         ),
                         Row(children: [Text("03/10/2025 * 20:40")]),
