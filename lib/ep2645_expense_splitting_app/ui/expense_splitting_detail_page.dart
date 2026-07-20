@@ -123,7 +123,9 @@ class _ExpenseSplittingDetailPageState
                             ),
                             Text(
                               "Scan Receipt",
-                              style: TextStyle(fontSize: 12),
+                              style: TextStyle(fontSize: 12,
+                                color: Colors.blueAccent,
+                                fontWeight: .bold,),
                             ),
                           ],
                         ),
