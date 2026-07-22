@@ -74,7 +74,7 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                   child: DropdownButton<String>(
                       value: "Grocery",
                       items: [
-                    DropdownMenuItem(child: Text("Grocery")),
+                    DropdownMenuItem<String>(child: Text("Grocery"), value: "Grocery",),
                     DropdownMenuItem(child: Text("Grocery")),
                   ], onChanged: (i){}),
                   )
