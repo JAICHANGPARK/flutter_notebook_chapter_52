@@ -28,10 +28,13 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
               child: Column(
                 children: [
                   Row(
+                    mainAxisAlignment: .spaceBetween,
                     children: [
-                      
+                      Text("Split name"),
+                      Text("Roommate"),
                     ],
-                  )
+                  ),
+                  Divider(),
                 ],
               ),
             ),
