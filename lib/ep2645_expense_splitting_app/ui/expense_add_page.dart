@@ -120,9 +120,24 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                           ),
                           child: Row(
                             children: [
-                              
+
                             ],
                           )
+                        ),
+                        Text("Split between"),
+                        Container(
+                            padding: .symmetric(horizontal: 12),
+                            decoration: BoxDecoration(
+                              border: .all(
+                                color: Colors.grey[400]!,
+                              ),
+                              borderRadius: .circular(4),
+                            ),
+                            child: Row(
+                              children: [
+
+                              ],
+                            )
                         ),
                       ],
                     ),
