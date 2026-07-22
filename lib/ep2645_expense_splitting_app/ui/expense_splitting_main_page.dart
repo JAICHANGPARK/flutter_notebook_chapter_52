@@ -13,6 +13,7 @@ class ExpenseSplittingMainPage extends StatefulWidget {
 
 class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
   int pageNum = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,6 +47,11 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
           backgroundColor: Colors.white,
           type: .fixed,
           selectedItemColor: Colors.blueAccent,
+          onTap: (idx) {
+            setState(() {
+              pageNum = idx;
+            });
+          },
           items: [
             BottomNavigationBarItem(
               icon: Icon(Icons.home_filled),
