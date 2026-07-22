@@ -86,6 +86,7 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                         ),
                         Text("Chose category"),
                         Container(
+                          padding: .symmetric(horizontal: 12),
                           decoration: BoxDecoration(
                             border: .all(),
                             borderRadius: .circular(4),
