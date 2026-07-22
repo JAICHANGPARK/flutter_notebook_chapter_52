@@ -54,7 +54,7 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                       Expanded(
                         child: Column(
                           children: [
-                            Text("Amount(\$)"),
+                            Text("Date of Execution"),
                             TextField(
                               decoration: InputDecoration(
                                 border: OutlineInputBorder(),
@@ -65,6 +65,14 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                       ),
                     ],
                   ),
+                  Text("Chose category"),
+                  Container(decoration: BoxDecoration(
+                    border: .all(),
+                    borderRadius: .circular(4),
+                    
+                  ),
+                  child: DropdownButton(items: [], onChanged: (i){}),
+                  )
                 ],
               ),
             ),
