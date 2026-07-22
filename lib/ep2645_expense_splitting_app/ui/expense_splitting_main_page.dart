@@ -18,6 +18,7 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
     return Scaffold(
       backgroundColor: Color.fromRGBO(247, 247, 247, 1),
       body: IndexedStack(
+        index: pageNum,
         children: [
           ExpenseSplittingHomePage(),
           ExpenseAddPage(),
@@ -41,6 +42,7 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
       bottomNavigationBar: SizedBox(
         height: 100,
         child: BottomNavigationBar(
+          currentIndex: pageNum,
           backgroundColor: Colors.white,
           type: .fixed,
           selectedItemColor: Colors.blueAccent,
