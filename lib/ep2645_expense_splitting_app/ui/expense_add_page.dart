@@ -88,7 +88,9 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                         Container(
                           padding: .symmetric(horizontal: 12),
                           decoration: BoxDecoration(
-                            border: .all(),
+                            border: .all(
+                              color: Colors.grey[300]!,
+                            ),
                             borderRadius: .circular(4),
                           ),
                           child: DropdownButton<String>(
