@@ -51,6 +51,18 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                           ],
                         ),
                       ),
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Text("Amount(\$)"),
+                            TextField(
+                              decoration: InputDecoration(
+                                border: OutlineInputBorder(),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 ],
