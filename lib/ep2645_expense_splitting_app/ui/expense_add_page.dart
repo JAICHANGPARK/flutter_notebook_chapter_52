@@ -35,6 +35,18 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                     ],
                   ),
                   Divider(),
+                  Text("Expense form"),
+                  Text("Expense title"),
+                  TextField(
+                    decoration: InputDecoration(
+                      border: OutlineInputBorder(),
+                    ),
+                  ),
+                  Row(
+                    children: [
+                      Expanded(child: Column())
+                    ],
+                  )
                 ],
               ),
             ),
