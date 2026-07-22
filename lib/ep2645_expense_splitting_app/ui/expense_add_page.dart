@@ -10,8 +10,19 @@ class ExpenseAddPage extends StatefulWidget {
 class _ExpenseAddPageState extends State<ExpenseAddPage> {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [Text("Add Expense", style: TextStyle(fontWeight: .bold))],
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: .start,
+          children: [
+            Text(
+              "Add Expense",
+              style: TextStyle(fontWeight: .bold, fontSize: 24),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
