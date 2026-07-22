@@ -20,6 +20,21 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
               "Add Expense",
               style: TextStyle(fontWeight: .bold, fontSize: 24),
             ),
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: .circular(4),
+              ),
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      
+                    ],
+                  )
+                ],
+              ),
+            ),
           ],
         ),
       ),
