@@ -26,13 +26,19 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                 borderRadius: .circular(4),
               ),
               child: Column(
+                spacing: 16,
                 crossAxisAlignment: .start,
                 children: [
-                  Row(
-                    mainAxisAlignment: .spaceBetween,
-                    children: [Text("Split name"), Text("Roommate")],
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      mainAxisAlignment: .spaceBetween,
+                      children: [Text("Split name"), Text("Roommate")],
+                    ),
                   ),
-                  Divider(),
+                  Divider(
+                    height: 0,
+                  ),
                   Center(child: Text("Expense form")),
                   Text("Expense title"),
                   TextField(
