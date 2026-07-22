@@ -46,6 +46,7 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                     decoration: InputDecoration(border: OutlineInputBorder()),
                   ),
                   Row(
+                    spacing: 8,
                     children: [
                       Expanded(
                         child: Column(
