@@ -45,13 +45,14 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                     padding: const EdgeInsets.all(16.0),
                     child: Column(
                       spacing: 12,
+                      crossAxisAlignment: .start,
                       children: [
                         Text("Expense title"),
                         TextField(
                           decoration: InputDecoration(border: OutlineInputBorder()),
                         ),
                         Row(
-                          spacing: 8,
+                          spacing: 12,
                           children: [
                             Expanded(
                               child: Column(
