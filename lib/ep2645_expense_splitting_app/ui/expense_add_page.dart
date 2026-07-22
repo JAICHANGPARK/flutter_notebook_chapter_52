@@ -29,24 +29,30 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                 children: [
                   Row(
                     mainAxisAlignment: .spaceBetween,
-                    children: [
-                      Text("Split name"),
-                      Text("Roommate"),
-                    ],
+                    children: [Text("Split name"), Text("Roommate")],
                   ),
                   Divider(),
                   Text("Expense form"),
                   Text("Expense title"),
                   TextField(
-                    decoration: InputDecoration(
-                      border: OutlineInputBorder(),
-                    ),
+                    decoration: InputDecoration(border: OutlineInputBorder()),
                   ),
                   Row(
                     children: [
-                      Expanded(child: Column())
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Text("Amount(\$)"),
+                            TextField(
+                              decoration: InputDecoration(
+                                border: OutlineInputBorder(),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
                     ],
-                  )
+                  ),
                 ],
               ),
             ),
