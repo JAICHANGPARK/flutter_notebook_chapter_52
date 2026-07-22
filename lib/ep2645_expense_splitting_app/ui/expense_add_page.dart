@@ -66,18 +66,28 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                     ],
                   ),
                   Text("Chose category"),
-                  Container(decoration: BoxDecoration(
-                    border: .all(),
-                    borderRadius: .circular(4),
-                    
-                  ),
-                  child: DropdownButton<String>(
+                  Container(
+                    decoration: BoxDecoration(
+                      border: .all(),
+                      borderRadius: .circular(4),
+                    ),
+                    child: DropdownButton<String>(
+                      isExpanded: true,
+
                       value: "Grocery",
                       items: [
-                    DropdownMenuItem<String>(child: Text("Grocery"), value: "Grocery",),
-                    DropdownMenuItem(child: Text("Grocery")),
-                  ], onChanged: (i){}),
-                  )
+                        DropdownMenuItem<String>(
+                          child: Text("Grocery"),
+                          value: "Grocery",
+                        ),
+                        DropdownMenuItem<String>(
+                          child: Text("Grocery2"),
+                          value: "Grocery2",
+                        ),
+                      ],
+                      onChanged: (i) {},
+                    ),
+                  ),
                 ],
               ),
             ),
