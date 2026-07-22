@@ -31,7 +31,7 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                 crossAxisAlignment: .start,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(16.0),
+                    padding: const EdgeInsets.only(top: 16, left: 16, right: 16),
                     child: Row(
                       mainAxisAlignment: .spaceBetween,
                       children: [Text("Split name"), Text("Roommate")],
