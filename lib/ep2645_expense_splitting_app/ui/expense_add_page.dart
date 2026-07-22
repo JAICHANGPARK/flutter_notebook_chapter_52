@@ -14,6 +14,7 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
+          spacing: 24,
           crossAxisAlignment: .start,
           children: [
             Text(
