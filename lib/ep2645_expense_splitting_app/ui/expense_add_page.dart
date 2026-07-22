@@ -71,7 +71,12 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                     borderRadius: .circular(4),
                     
                   ),
-                  child: DropdownButton(items: [], onChanged: (i){}),
+                  child: DropdownButton<String>(
+                      value: "Grocery",
+                      items: [
+                    DropdownMenuItem(child: Text("Grocery")),
+                    DropdownMenuItem(child: Text("Grocery")),
+                  ], onChanged: (i){}),
                   )
                 ],
               ),
