@@ -17,6 +17,7 @@ class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
       body: IndexedStack(
         children: [
           ExpenseSplittingHomePage(),
+          ExpenseAddPage(),
           Column(children: []),
         ],
       ),
