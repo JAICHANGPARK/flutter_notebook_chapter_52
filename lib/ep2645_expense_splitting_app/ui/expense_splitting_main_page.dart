@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_52/ep2645_expense_splitting_app/ui/expense_splitting_home_page.dart';
 
+import 'expense_add_page.dart';
+
 class ExpenseSplittingMainPage extends StatefulWidget {
   const ExpenseSplittingMainPage({super.key});
 
@@ -10,6 +12,7 @@ class ExpenseSplittingMainPage extends StatefulWidget {
 }
 
 class _ExpenseSplittingMainPageState extends State<ExpenseSplittingMainPage> {
+  int pageNum = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
