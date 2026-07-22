@@ -89,13 +89,12 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                           padding: .symmetric(horizontal: 12),
                           decoration: BoxDecoration(
                             border: .all(
-                              color: Colors.grey[300]!,
+                              color: Colors.grey[400]!,
                             ),
                             borderRadius: .circular(4),
                           ),
                           child: DropdownButton<String>(
                             isExpanded: true,
-
                             value: "Grocery",
                             items: [
                               DropdownMenuItem<String>(
@@ -109,6 +108,21 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                             ],
                             onChanged: (i) {},
                           ),
+                        ),
+                        Text("Payer"),
+                        Container(
+                          padding: .symmetric(horizontal: 12),
+                          decoration: BoxDecoration(
+                            border: .all(
+                              color: Colors.grey[400]!,
+                            ),
+                            borderRadius: .circular(4),
+                          ),
+                          child: Row(
+                            children: [
+                              
+                            ],
+                          )
                         ),
                       ],
                     ),
