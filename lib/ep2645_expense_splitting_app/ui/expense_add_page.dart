@@ -49,6 +49,8 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                     children: [
                       Expanded(
                         child: Column(
+                          spacing: 4,
+                          crossAxisAlignment: .start,
                           children: [
                             Text("Amount(\$)"),
                             TextField(
@@ -61,6 +63,8 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                       ),
                       Expanded(
                         child: Column(
+                          spacing: 4,
+                          crossAxisAlignment: .start,
                           children: [
                             Text("Date of Execution"),
                             TextField(
