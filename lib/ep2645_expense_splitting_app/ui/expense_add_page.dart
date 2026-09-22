@@ -106,7 +106,8 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                                 value: "Grocery2",
                               ),
                             ],
-                            onChanged: (i) {},
+                            onChanged: (i) {
+														},
                           ),
                         ),
                         Text("Payer"),
