@@ -143,7 +143,6 @@ class _ExpenseAddPageState extends State<ExpenseAddPage> {
                       ],
                     ),
                   )
-
                 ],
               ),
             ),
